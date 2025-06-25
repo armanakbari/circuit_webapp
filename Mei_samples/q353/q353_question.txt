@@ -1,0 +1,1 @@
+Determine $V_2$ using Kirchhoff's voltage law In the provided circuit image

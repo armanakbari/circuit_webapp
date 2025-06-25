@@ -1,0 +1,5 @@
+Applying KCL to node $a$, we obtain
+
+$$
+3+0.5 i_o=i_o \quad \Rightarrow \quad i_o=6 \mathrm{~A}
+$$

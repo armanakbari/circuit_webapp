@@ -1,0 +1,1 @@
+$\left(16 e^{-t}-20\right) \mathrm{V}$

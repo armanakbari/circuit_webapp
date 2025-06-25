@@ -1,0 +1,1 @@
+the low-frequency gain from the gate to the source is equal to $\left(1 / g_{m b}\right) /\left[\left(1 / g_m\right)+\right.$ $\left.\left(1 / g_{m b}\right)\right]=g_m /\left(g_m+g_{m b}\right)$. The Miller multiplication of $C_{G S}$ at the input is thus equal to $C_{G S}\left[1-g_m /\left(g_m+g_{m b}\right)\right]=$ $C_{G S} g_{m b} /\left(g_m+g_{m b}\right)$

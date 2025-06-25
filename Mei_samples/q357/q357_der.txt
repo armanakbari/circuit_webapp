@@ -1,0 +1,7 @@
+$$
+\begin{aligned}
+R_T & =(2)(4 \Omega)+7 \Omega=15 \Omega \\
+I & =\frac{E}{R_T}=\frac{37.5 \mathrm{~V}}{15 \Omega}=\mathbf{2 . 5} \mathbf{~ A} \\
+V_{7 \Omega} & =I R=(2.5 \mathrm{~A})(7 \Omega)=\mathbf{1 7 . 5} \mathbf{V}
+\end{aligned}
+$$

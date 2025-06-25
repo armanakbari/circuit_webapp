@@ -1,0 +1,5 @@
+1. -1A
+2. 1A
+3. 10A
+4. 5A
+5. None of the above

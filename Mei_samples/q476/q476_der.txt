@@ -1,0 +1,10 @@
+t now we must be careful to "hold" onto the terminals $a$ and $b$ as the Thévenin resistance and voltage are determined. In Fig. 9.40, all the remaining elements turn out to be in parallel, and the network can be redrawn as shown.
+
+$$
+R_{T h}=R_1 \| R_2=\frac{(6 \Omega)(4 \Omega)}{6 \Omega+4 \Omega}=\frac{24 \Omega}{10}=\mathbf{2 . 4 \Omega}
+$$
+Step 4: See Fig. 9.41. In this case, the network can be redrawn as shown in Fig. 9.42, and since the voltage is the same across parallel elements, the voltage across the series resistors $R_1$ and $R_2$ is $E_1$, or 8 V . Applying the voltage divider rule,
+
+$$
+E_{T h}=\frac{R_1 E_1}{R_1+R_2}=\frac{(6 \Omega)(8 \mathrm{~V})}{6 \Omega+4 \Omega}=\frac{48 \mathrm{~V}}{10}=4.8 \mathrm{~V}
+$$

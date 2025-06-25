@@ -1,0 +1,5 @@
+1. 4.00 \mathrm{~mA} e^{-t / 11.22 \mathrm{~ms}}
+2. 5.88 \mathrm{~mA} e^{-t / 6.28 \mathrm{~ms}}
+3. 5.88 \mathrm{~mA} e^{-t / 11.22 \mathrm{~ms}}
+4. 9.88 \mathrm{~mA} e^{-t / 11.22 \mathrm{~ms}}
+5. None of the above

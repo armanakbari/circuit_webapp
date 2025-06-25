@@ -1,0 +1,43 @@
+Applying KCL at the node $x$ yields,
+
+$$
+I_1=4+I_2
+$$
+
+
+The circuit for the supermesh is shown in Fig. 3.14. Applying KVL to the circuit in Fig. 3.14 yields,
+
+
+$$
+-16+6 I_1+10 I_2+1.5 V_x=0
+$$
+
+
+According to the given circuit,
+
+$$
+V_x=4 I_1
+$$
+Substituting Eqs. (3.67) and (3.69) into Eq. (3.68) yields,
+
+$$
+\begin{gathered}
+-16+6 I_1+10 I_2+1.5 \times 4 I_1=0 \\
+12\left(4+I_2\right)+10 I_2=16 \\
+I_2=\frac{-32}{22}=-1.45 \mathrm{~A}
+\end{gathered}
+$$
+
+
+Substituting Eq. (3.72) into Eq. (3.67) yields,
+
+$$
+I_1=4-1.45=2.55 \mathrm{~A}
+$$
+
+
+The voltage drop across the $2 \Omega$ resistor is,
+
+$$
+V_{2 \Omega}=2 \times 2.3=4.6 \mathrm{~V}
+$$

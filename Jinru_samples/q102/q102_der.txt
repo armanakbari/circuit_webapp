@@ -1,0 +1,42 @@
+First note that the circuit is not amenable to scries or parallel simplification as it now stands. A $\Delta$-to-Y impedance transformation allows us to solve for all the branch currents without resorting to either the node-voltage or the mesh-current method. If we replace either the upper delta (abc) or the lower delta (bcd) with its Y equivalent, we can further simplify the resulting circuit by series-parallel combinations. In deciding which delta to replace, the sum of the impedances around each delta is worth checking because this quantity forms the denominator for the equivalent Y impedances. The sum around the lower delta is $30+j 40$, so we choose to eliminate it from the circuit. The Y impedance connecting to terminal $b$ is
+
+$$
+Z_1=\frac{(20+j 60)(10)}{30+j 40}=12+j 4 \Omega,
+$$
+
+the Y impedance connecting to terminal c is
+
+$$
+Z_2=\frac{10(-j 20)}{30+j 40}=-3.2-j 2.4 \Omega
+$$
+
+and the Y impedance connecting to terminal d is
+
+$$
+Z_3=\frac{(20+j 60)(-j 20)}{30+j 40}=8-j 24 \Omega .
+$$
+
+Inserting the Y-equivalent impedances into the circuit, we get the circuit which we can now simplify by scries-parallel reductions. The impedence of the abn branch is
+
+$$
+Z_{\mathrm{a}+\mathrm{m}}=12+j 4-j 4=12 \Omega,
+$$
+
+and the impedance of the acn branch is
+
+$$
+Z_{\text {acn }}=63.2+j 2.4-j 2.4-3.2=60 \Omega .
+$$
+
+Note that the abn branch is in parallel with the acn branch. Therefore we may replace these two branches with a single branch having an impedance of
+
+$$
+Z_{\mathrm{an}}=\frac{(60)(12)}{72}=10 \Omega
+$$
+
+
+Combining this $10 \Omega$ resistor with the impedance between n and d reduces the circuit. From the latter circuit,
+
+$$
+\mathbf{I}_0=\frac{120 \angle 0^{\circ}}{18-j 24}=4 \angle 53.13^{\circ}=2.4+j 3.2 \mathrm{~A} .
+$$

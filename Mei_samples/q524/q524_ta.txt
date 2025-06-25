@@ -1,0 +1,1 @@
+\mathbf{8 0} \mathbf{V}-\mathbf{4 0} \mathbf{V} e^{-t / 0.44 \mathrm{~s}}

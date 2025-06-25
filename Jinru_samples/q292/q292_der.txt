@@ -1,0 +1,5 @@
+Power supplied by the source is
+
+$$
+p_o=v_o i_o=180(30) \mathrm{mW}=5.4 \mathrm{~W}
+$$

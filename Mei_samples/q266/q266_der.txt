@@ -1,0 +1,96 @@
+The initial power factor is,
+
+
+
+$$
+
+\begin{aligned}
+
+& \cos \theta_1=0.8 \\
+
+& \theta_1=36.87^{\circ}
+
+\end{aligned}
+
+$$
+
+
+
+
+
+The final power factor is,
+
+
+
+$$
+
+\begin{aligned}
+
+& \cos \theta_2=0.9 \\
+
+& \theta_2=25.84^{\circ}
+
+\end{aligned}
+
+$$
+
+
+
+
+
+The power of the load is calculated as,
+
+
+
+$$
+
+P=10 \times 0.8=8 \mathrm{~kW}
+
+$$
+
+
+
+
+
+The capacitor is calculated as,
+
+
+
+$$
+
+C=\frac{8 \times 1000\left(\tan 36.87^{\circ}-\tan 25.84^{\circ}\right)}{2 \pi \times 50 \times 120^2}=0.47 \mathrm{mF}
+
+$$
+The line current before adding capacitor is,
+
+$$
+I_1=\frac{8000}{0.8 \times 120}=83.33 \mathrm{~A}
+$$
+
+
+The power loss in the line before adding capacitor is,
+
+$$
+P_1=83.33^2 \times 0.02=138.88 \mathrm{~W}
+$$
+
+
+The apparent power with a power factor of 0.9 lagging is,
+
+$$
+S=\frac{8000}{0.9}=8888.89 \mathrm{VA}
+$$
+
+
+The line current after adding capacitor is,
+
+$$
+I_2=\frac{8888.89}{120}=74.07 \mathrm{~A}
+$$
+
+
+The power loss in the line after adding capacitor is,
+
+$$
+P_2=74.07^2 \times 0.02=109.73 \mathrm{~W}
+$$

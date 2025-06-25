@@ -1,0 +1,11 @@
+Solve two different versions of the invertingamplifier equation for $v_s$-first using $v_o=+15 \mathrm{~V}$ and then using $v_o=-15 \mathrm{~V}$ :
+
+$$
+\begin{aligned}
+15 & =-12 v_s \text { so } \quad v_s=-1.25 \mathrm{~V} \\
+-15 & =-12 v_s \text { so } \quad v_s=1.25 \mathrm{~V}
+\end{aligned}
+$$
+
+
+Thus, if the input voltage is greater than or equal to -1.25 V and less than or equal to +1.25 V , the op amp in the inverting-amplifier will remain in its linear operating region.

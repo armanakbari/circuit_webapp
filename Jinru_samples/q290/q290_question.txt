@@ -1,0 +1,1 @@
+Calculate the power dissipated in the $3-\Omega$ resistor.

@@ -1,0 +1,8 @@
+Open the load resistance and redraw the circuit as shown in Fig. 4.73. Find the Thevenin's resistance by opening the current source.
+The Thevenin's resistance is calculated as,
+
+$$
+R_{\mathrm{Th}}=4+\frac{(2+1) \times 8}{3+8}=6.18 \Omega =R_L
+$$
+
+&P_{\mathrm{mxm}}=\frac{V_{\mathrm{Th}}^2}{4 R_L}=\frac{5.84^2}{4 \times 6.18}=1.38 \mathrm{~W}

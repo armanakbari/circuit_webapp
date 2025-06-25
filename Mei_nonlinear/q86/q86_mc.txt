@@ -1,0 +1,5 @@
+1. \frac{A_1 g_m}{1+A_1 g_m r_M} V_b
+2. \frac{A_1 g_m}{1 - A_1 g_m r_M} V_b
+3. \frac{g_m}{1 + A_1 g_m r_M} V_b
+4. \frac{A_1 g_m}{1 + g_m r_M} V_b
+5. None of the above

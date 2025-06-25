@@ -1,0 +1,1 @@
+A balanced three-phase wye-connected load receives supply from a source as shown In the provided circuit image. Calculate the line current I_c.

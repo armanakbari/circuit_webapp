@@ -1,0 +1,1 @@
+\mathbf{7 . 5} \sin \left(\omega t+\mathbf{9 0}^{\circ}\right)

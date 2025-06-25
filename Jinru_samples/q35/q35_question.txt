@@ -1,0 +1,1 @@
+The switch in the circuit shown in the provided circuit image has been open for a long time. The initial charge on the capacitor is zero. At $t=0$, the switch is closed. Find the expression for v(t) \text { when } t \geq 0^{+} .

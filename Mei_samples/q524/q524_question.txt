@@ -1,0 +1,1 @@
+The capacitor in the provided circuit image is initially charged to 40 V . Find the mathematical expression for $\boldsymbol{V}_C$ after the closing of the switch.

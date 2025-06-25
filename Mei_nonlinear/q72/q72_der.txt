@@ -1,0 +1,9 @@
+Solution
+The gain in this case is defined as $G_m=I_{\text {out }} / V_{\text {in }}$. That is
+
+$$
+\begin{aligned}
+G_m & =\frac{V_X}{V_{\text {in }}} \cdot \frac{I_{\text {out }}}{V_X} \\
+& =-g_{m 1}\left(r_{O 1} \| R_D\right) \cdot g_{m 2}
+\end{aligned}
+$$

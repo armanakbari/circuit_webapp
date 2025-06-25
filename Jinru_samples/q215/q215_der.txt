@@ -1,0 +1,12 @@
+The load impedance for maximum power transfer equals the conjugate of the Thévenin impedance seen looking into port 2. 
+
+$$
+\begin{aligned}
+Z_{\mathrm{Th}} & =\frac{b_{11} Z_g+b_{12}}{b_{21} Z_g+b_{22}} \\
+& =\frac{(-20)(500)-3000}{\left(-2 \times 10^{-3}\right)(500)-0.2} \\
+& =\frac{13,000}{1.2}=10,833.33 \Omega
+\end{aligned}
+$$
+
+
+Therefore $Z_L=Z_{\mathrm{Th}}^*=10,833.33 \Omega$.

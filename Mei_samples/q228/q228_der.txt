@@ -1,0 +1,39 @@
+At $t=0^{-}$, the circuit is shown in Fig. 5.50. The source and branch currents are calculated as,
+
+$$
+i=\frac{24}{4+\frac{3 \times 6}{9}}=4 \mathrm{~A}
+$$
+$$
+i_{6 \Omega}=4 \times \frac{3}{3+6}=1.33 \mathrm{~A}
+$$
+
+
+The voltage across the capacitor is,
+
+$$
+\begin{aligned}
+& v_c\left(0^{-}\right)=6 \times 1.33=7.98 \mathrm{~V} \\
+& v_c\left(0^{-}\right)=v_c\left(0^{+}\right)=7.98 \mathrm{~V}
+\end{aligned}
+$$
+
+
+At $t>0$, the circuit is shown in Fig. 5.51 and the steady-state voltage across the capacitor is,
+
+$$
+V_{s s}=0
+$$
+
+
+Thevenin resistance and time constant are,
+
+$$
+\begin{gathered}
+R_{\mathrm{Th}}=\frac{3 \times 6}{3+6}=2 \Omega \\
+R_{\mathrm{Th}} C=5 \times 2=10 \mathrm{~s}
+\end{gathered}
+$$
+
+
+At $t>0$, the voltage across the capacitor is,
+v_c(t)=V_{s s}+\left[v_c\left(0^{+}\right)-V_{s s}\right] \mathrm{e}^{\frac{-t}{R_{\mathrm{Th}} c}}=0+[7.98-0] \mathrm{e}^{\frac{-t}{10}}=7.98 \mathrm{e}^{-0.1 t} \mathrm{~V}

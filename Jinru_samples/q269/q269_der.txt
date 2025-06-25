@@ -1,0 +1,1 @@
+$I=8-2=\mathbf{6} \mathbf{A}$

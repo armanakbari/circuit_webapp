@@ -1,0 +1,5 @@
+1. $\mathbf{0 . 0 8 7 S}+\boldsymbol{j} \mathbf{0 . 0 3 4 S}$
+2. $\mathbf{0 . 0 3 4 S}-\boldsymbol{j} \mathbf{0 . 0 8 7 S}$
+3. \mathbf{0 . 0 8 7 S}-\boldsymbol{j} \mathbf{0 . 0 3 4 S}
+4. $\mathbf{10 . 0 S}+\boldsymbol{j} \mathbf{3 . 9 S}$
+5. None of the above

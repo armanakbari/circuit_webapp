@@ -1,0 +1,15 @@
+Applying KCL at node $a$,
+
+$$
+\begin{gathered}
+\frac{v_a-v_o}{40 \mathrm{k} \Omega}=\frac{6-v_a}{20 \mathrm{k} \Omega} \\
+v_a-v_o=12-2 v_a \quad \Rightarrow \quad v_o=3 v_a-12
+\end{gathered}
+$$
+
+
+But $v_a=v_b=2 \mathrm{~V}$ for an ideal op amp, because of the zero voltage drop across the input terminals of the op amp. Hence,
+
+$$
+v_o=6-12=-6 \mathrm{~V}
+$$

@@ -1,0 +1,9 @@
+Solution
+The transconductance and output resistance of the stage are given by Eqs. (3.61) and (3.66), respectively. Thus,
+
+$$
+\begin{aligned}
+A_v & =-\frac{g_m r_O}{R_S+\left[1+\left(g_m+g_{m b}\right) R_S\right] r_O}\left\{\left[1+\left(g_m+g_{m b}\right) r_O\right] R_S+r_O\right\} \\
+& =-g_m r_O
+\end{aligned}
+$$

@@ -1,0 +1,16 @@
+The closed-loop gain is obtained from Chapter 8 as
+
+$$
+\begin{aligned}
+\frac{V_{\text {out }}}{V_{\text {in }}} & =\frac{A_1}{1+\frac{R_2}{R_1+R_2} A_1} \\
+& =\frac{R_1+R_2}{R_2} \frac{A_1}{\frac{R_1+R_2}{R_2}+A_1}
+\end{aligned}
+$$
+Predicting that $A_1 \gg 10$, we approximate (9.2) as
+
+$$
+\frac{V_{\text {out }}}{V_{\text {in }}} \approx\left(1+\frac{R_1}{R_2}\right)\left(1-\frac{R_1+R_2}{R_2} \frac{1}{A_1}\right)
+$$
+
+
+The term $\left(R_1+R_2\right) /\left(R_2 A_1\right)=\left(1+R_1 / R_2\right) / A_1$ represents the relative gain error. To achieve a gain error less than $1 \%$, we must have $A_1>1000$.

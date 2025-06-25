@@ -1,0 +1,1 @@
+Use the concept of source transformation to find the phasor voltage $V_0$ in the circuit shown in the provided circuit image.

@@ -1,0 +1,8 @@
+The average power delivered to the load can be computed. Therefore
+
+$$
+\begin{aligned}
+S & =\mathbf{V}_{\mathrm{L}} \mathbf{I}_{\mathrm{L}}^*=(234-j 13)(4+j 3) \\
+& =975+j 650 \mathrm{VA} .
+\end{aligned}
+$$

@@ -1,0 +1,1 @@
+Use the node-voltage method to find the branch currents $\mathbf{I}_x in the circuit shown in the provided circuit image

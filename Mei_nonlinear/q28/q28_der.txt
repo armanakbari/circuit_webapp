@@ -1,0 +1,14 @@
+Since $I_{D 1}=I_{D 2}=0.5 \mathrm{~mA}$, we have
+
+$$
+\begin{aligned}
+V_{G S 1}=V_{G S 2} & =\sqrt{\frac{2 I_{D 1}}{\mu_n C_{o x} \frac{W}{L}}}+V_{T H} \\
+& =1.23 \mathrm{~V}
+\end{aligned}
+$$
+
+
+Thus, $V_{\text {in,CM }}=V_{G S 1}+0.5 \mathrm{~V}=1.73 \mathrm{~V}$. Note that $R_{S S}=500 \Omega$.
+(b) The transconductance of each device is $g_m=\sqrt{2 \mu_n C_{o x}(W / L) I_{D 1}}=1 /(632 \Omega)$, requiring $R_D=3.16 \mathrm{k} \Omega$ for a gain of 5 .
+
+Note that the output bias level is equal to $V_{D D}-I_{D 1} R_D=1.42 \mathrm{~V}$. Since $V_{i n, C M}=1.73 \mathrm{~V}$ and $V_{T H}=0.6 \mathrm{~V}$, the transistors are 290 mV away from the triode region.

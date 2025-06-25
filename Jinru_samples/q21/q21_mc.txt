@@ -1,0 +1,5 @@
+1. e^{-25000 t} \mathrm{~mA}
+2. 2 e^{-25 t} \mathrm{~mA}
+3. e^{-25 t} \mathrm{~mA}
+4. 2 e^{-6250 t} \mathrm{~mA}
+5. None of the above

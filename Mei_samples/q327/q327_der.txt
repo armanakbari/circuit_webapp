@@ -1,0 +1,5 @@
+The resonant frequency is calculated as,
+
+$$
+f_0=\frac{1}{2 \pi} \sqrt{\frac{1}{0.8 \times 0.9 \times 10^{-6}}-\frac{5^2}{0.8^2}}=187.56 \mathrm{~Hz}
+$$

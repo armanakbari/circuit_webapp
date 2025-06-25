@@ -1,0 +1,47 @@
+In this case, we have three sources. Let
+
+$$
+i=i_1+i_2+i_3
+$$
+
+where $i_1, i_2$, and $i_3$ are due to the $12-\mathrm{V}, 24-\mathrm{V}$, and 3-A sources respectively. To get $i_1$, consider the circuit. Combining $4 \Omega$ (on the right-hand side) in series with $8 \Omega$ gives $12 \Omega$. The $12 \Omega$ in parallel with $4 \Omega$ gives $12 \times 4 / 16=3 \Omega$. Thus,
+
+$$
+i_1=\frac{12}{6}=2 \mathrm{~A}
+$$
+
+
+To get $i_2$, consider the circuit . Applying mesh analysis gives
+
+$$
+\begin{aligned}
+16 i_a-4 i_b+24=0 & \Rightarrow \quad 4 i_a-i_b=-6 \\
+7 i_b-4 i_a=0 & \Rightarrow \quad i_a=\frac{7}{4} i_b
+\end{aligned}
+$$
+
+$$
+i_2=i_b=-1
+$$
+
+
+To get $i_3$,using nodal analysis gives
+
+$$
+\begin{gathered}
+3=\frac{v_2}{8}+\frac{v_2-v_1}{4} \quad \Rightarrow \quad 24=3 v_2-2 v_1 \\
+\frac{v_2-v_1}{4}=\frac{v_1}{4}+\frac{v_1}{3} \quad \Rightarrow \quad v_2=\frac{10}{3} v_1
+\end{gathered}
+$$
+
+so:
+$$
+i_3=\frac{v_1}{3}=1 \mathrm{~A}
+$$
+
+
+Thus,
+
+$$
+i=i_1+i_2+i_3=2-1+1=2 \mathrm{~A}
+$$

@@ -1,0 +1,5 @@
+1. 0
+2. $100 \text{ k}\Omega$
+3. \infty
+4. $10 \text{ k}\Omega$
+5. None of the above

@@ -1,0 +1,5 @@
+1. \left(1+g_m r A_1\right)r_O
+2. \left(1+g_m r A_1\right)\left(r_O+r\right)
+3. \left(1+g_m r\right)\left(r_O+r\right)
+4. \frac{r_O+r}{1+g_m r A_1}
+5. None of the above

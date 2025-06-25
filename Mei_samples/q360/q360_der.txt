@@ -1,0 +1,10 @@
+Solution:
+
+$$
+\begin{aligned}
+V_1 & =\frac{R_1 E}{R_T}=\frac{(2 \mathrm{k} \Omega)(45 \mathrm{~V})}{2 \mathrm{k} \Omega+5 \mathrm{k} \Omega+8 \mathrm{k} \Omega}=\frac{(2 \mathrm{k} \Omega)(45 \mathrm{~V})}{15 \mathrm{k} \Omega} \\
+& =\frac{\left(2 \times 10^3 \Omega\right)(45 \mathrm{~V})}{15 \times 10^3 \Omega}=\frac{90 \mathrm{~V}}{15}=6 \mathrm{~V} \\
+V_3 & =\frac{R_3 E}{R_T}=\frac{(8 \mathrm{k} \Omega)(45 \mathrm{~V})}{15 \mathrm{k} \Omega}=\frac{\left(8 \times 10^3 \Omega\right)(45 \mathrm{~V})}{15 \times 10^3 \Omega} \\
+& =\frac{360 \mathrm{~V}}{15}=24 \mathrm{~V}
+\end{aligned}
+$$

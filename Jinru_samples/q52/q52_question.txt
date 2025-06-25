@@ -1,0 +1,1 @@
+The two switches in the provided circuit image have been closed for a long time. At $t=0$, switch 1 is opened. Then, 35 ms later, switch 2 is opened. What percentage of the initial energy stored in the 150 mH inductor is dissipated in the $18 \Omega$ resistor?

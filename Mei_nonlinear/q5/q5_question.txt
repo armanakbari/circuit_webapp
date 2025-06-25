@@ -1,0 +1,1 @@
+Calculate the voltage gain of the circuit shown in Fig. 3.33. Assume that $I_0$ is ideal.

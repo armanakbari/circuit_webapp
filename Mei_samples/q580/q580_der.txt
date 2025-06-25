@@ -1,0 +1,13 @@
+Solution: Note Fig. 15.17:
+
+$$
+\begin{aligned}
+& \qquad \begin{aligned}
+i & =6 \sin \left(\omega t-60^{\circ}\right) \Rightarrow \text { phasor notation } \mathbf{I}=4.242 \mathrm{~A} \angle-60^{\circ} \\
+\mathbf{V} & =\mathbf{I Z}_C=(I \angle \theta)\left(X_C \angle-90^{\circ}\right)=\left(4.242 \mathrm{~A} \angle-60^{\circ}\right)\left(0.5 \Omega \angle-90^{\circ}\right) \\
+& =2.121 \mathrm{~V} \angle-150^{\circ}
+\end{aligned} \\
+& \text { and } \\
+& \quad \boldsymbol{V}=\sqrt{2}(2.121) \sin \left(\omega t-150^{\circ}\right)=\mathbf{3 . 0} \sin \left(\omega \boldsymbol{t}-\mathbf{1 5 0}^{\circ}\right)
+\end{aligned}
+$$

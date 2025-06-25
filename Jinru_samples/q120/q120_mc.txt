@@ -1,0 +1,5 @@
+1. $242.71 \cos \left(400 t-32.59^{\circ}\right) \mathrm{V}$
+2. $422.82 \cos \left(400 t-32.59^{\circ}\right) \mathrm{V}$
+3. $242.71 \cos \left(400 t+4.37^{\circ}\right) \mathrm{V}$
+4. 242.71 \cos \left(400 t-4.37^{\circ}\right) \mathrm{V}
+5. None of the above

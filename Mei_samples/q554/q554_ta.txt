@@ -1,0 +1,1 @@
+\mathbf{2 5} \times \mathbf{1 0}^{-\mathbf{3}}\left(\mathbf{1}-\mathbf{e}^{-t / 2 \times \mathbf{1 0}^{-\mathbf{3}}}\right)

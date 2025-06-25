@@ -1,0 +1,6 @@
+Apply KVL,
+
+$$
+-10+(16+14) \mathrm{I}+25=0 \text { or } 30 \mathrm{I}=10-25=- \text { or } \mathrm{I}=-15 / 30=-500 \mathrm{~mA}
+$$
+$-10+16 \mathrm{I}+\boldsymbol{V}_o=0$ or $\boldsymbol{V}_o=10-16(-0.5)=10+8=\mathbf{1 8} \mathbf{~ V}$

@@ -1,0 +1,19 @@
+Begin by computing the frequency scale factor that will shift the center frequency from $1 \mathrm{rad} / \mathrm{s}$ to 500 Hz . The unprimed variables represent values before scaling, whereas the primed variables represent values after scaling.
+
+$$
+k_f=\frac{\omega_o^{\prime}}{\omega_e}=\frac{2 \pi(500)}{1}=3141.59
+$$
+
+
+Now, to compute the magnitude scale factor that, together with the frequency scale factor, will yield a capacitor value of $2 \mu \mathrm{~F}$ :
+
+$$
+k_m=\frac{1}{k_f} \frac{C}{C^{\prime}}=\frac{1}{(3141.59)\left(2 \times 10^{-6}\right)}=159.155
+$$
+
+
+to compute the magnitude- and frequency-scaled values of $R$ and $L$ :
+
+$$
+R^{\prime}=k_m R=159.155 \Omega
+$$

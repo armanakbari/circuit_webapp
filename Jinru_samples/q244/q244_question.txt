@@ -1,0 +1,1 @@
+Use the mesh-current method to determine the power associated with 40V source in the provided circuit image.

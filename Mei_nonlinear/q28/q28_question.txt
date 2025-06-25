@@ -1,0 +1,2 @@
+The circuit in the provided circuit image uses a resistor rather than a current source to define a tail current of 1 mA . Assume that $(W / L)_{1,2}=25 / 0.5, \mu_n C_{o x}=50 \mu \mathrm{~A} / \mathrm{V}^2, V_{T H}=0.6 \mathrm{~V}, \lambda=\gamma=0$, and $V_{D D}=3 \mathrm{~V}$.
+Calculate $R_D$ for a differential gain of 5 .

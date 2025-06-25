@@ -1,0 +1,31 @@
+Solution:
+The initial power factor is,
+
+$$
+\begin{gathered}
+\cos \theta_1=0.75 \\
+\theta_1=41.41^{\circ}
+\end{gathered}
+$$
+
+
+The highest power factor is,
+
+$$
+\begin{gathered}
+\cos \theta_2=0.95 \\
+\theta_2=18.19^{\circ}
+\end{gathered}
+$$
+The real power is,
+
+$$
+P=6 \times 0.75=4.5 \mathrm{~kW}
+$$
+
+
+The value of the parallel capacitance can be calculated as,
+
+$$
+C=\frac{4.5 \times 1000\left(\tan 41.41^{\circ}-\tan 18.19^{\circ}\right)}{2 \pi \times 50 \times 120^2}=0.55 \mathrm{mF}
+$$

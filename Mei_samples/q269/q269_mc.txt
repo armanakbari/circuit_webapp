@@ -1,0 +1,5 @@
+1. $16.21\angle{-74.14}^{\circ} \Omega$
+2. 16.21\angle{-15.87}^{\circ} \Omega
+3. $16.21\angle{15.87}^{\circ} \Omega$
+4. $15.59\angle{0}^{\circ} \Omega$
+5. None of the above

@@ -1,0 +1,1 @@
+24 \mathrm{~V}-20 \mathrm{~V} e^{-t^{\prime} 111.22 \mathrm{~ms}}

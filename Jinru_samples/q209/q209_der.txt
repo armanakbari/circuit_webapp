@@ -1,0 +1,5 @@
+The circuit is purely resistive, so the $s$-domain circuit is also purely resistive. With port 2 open, that is, $I_2=0$, the resistance seen looking into port 1 is the $20 \Omega$ resistor in parallel with the series combination of the 5 and $15 \Omega$ resistors. Therefore
+
+$$
+z_{11}=\left.\frac{V_1}{I_1}\right|_{J_1=0}=\frac{(20)(20)}{40}=10 \Omega
+$$

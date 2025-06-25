@@ -1,0 +1,1 @@
+An electrical circuit is shown In the provided circuit image. Use Norton's theorem to find the current in the $6 \Omega$ resistor.

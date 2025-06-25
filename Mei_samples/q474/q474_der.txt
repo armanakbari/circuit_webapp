@@ -1,0 +1,8 @@
+Solution:
+The current source has been replaced with an open-circuit equivalent, and the resistance determined between terminals $a$ and $b$.
+
+In this case an ohmmeter connected between terminals $a$ and $b$ would send out a sensing current that would flow directly through $R_1$ and $R_2$ (at the same level). The result is that $R_1$ and $R_2$ are in series and the Thévenin resistance is the sum of the two.
+
+$$
+R_{T h}=R_1+R_2=4 \Omega+2 \Omega=6 \Omega
+$$

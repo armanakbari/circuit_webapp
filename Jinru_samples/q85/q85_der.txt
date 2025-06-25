@@ -1,0 +1,48 @@
+The roots of the characteristic equation are
+
+$$
+\begin{aligned}
+s_1 & =-\frac{280}{0.2}+\sqrt{\left(\frac{280}{0.2}\right)^2-\frac{10^6}{(0.1)(0.4)}} \\
+& =(-1400+j 4800) \mathrm{rad} / \mathrm{s}, \\
+s_2 & =(-1400-j 4800) \mathrm{rad} / \mathrm{s} .
+\end{aligned}
+$$
+
+The roots are complex, so the voltage response is underdamped. Thus
+
+$$
+\begin{aligned}
+v_C(t)= & 48+B_1^{\prime} e^{-1400 t} \cos 4800 t \\
+& +B_2^{\prime} e^{-1400 t} \sin 4800 t, \quad t \geq 0
+\end{aligned}
+$$
+
+
+No energy is stored in the circuit initially, so both $v_C(0)$ and $d v_C\left(0^{+}\right) / d t$ are zero. Then,
+
+$$
+\begin{aligned}
+v_C(0) & =0=48+B_1^{\prime} \\
+\frac{d v_C\left(0^{+}\right)}{d t} & =0=4800 B_2^{\prime}-1400 B_1^{\prime}
+\end{aligned}
+$$
+
+
+Solving for $B_1^{\prime}$ and $B_2^{\prime}$ yields
+
+$$
+\begin{aligned}
+& B_1^{\prime}=-48 \mathrm{~V}, \\
+& B_2^{\prime}=-14 \mathrm{~V} .
+\end{aligned}
+$$
+
+
+Therefore, the solution for $v_C(t)$ is
+
+$$
+\begin{aligned}
+v_C(t)= & \left(48-48 e^{-1400 t} \cos 4800 t\right. \\
+& \left.-14 e^{-1400 t} \sin 4800 t\right) \mathrm{V}, \quad t \geq 0 .
+\end{aligned}
+$$

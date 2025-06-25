@@ -1,0 +1,28 @@
+Step 1: As indicated in Fig. 8.36, each assigned loop current has a clockwise direction.
+
+Steps 2 to 4:
+and
+
+$$
+\begin{array}{cc}
+I_1: & (8 \Omega+6 \Omega+2 \Omega) I_1-(2 \Omega) I_2=4 \mathrm{~V} \\
+I_2: & \frac{(7 \Omega+2 \Omega) I_2-(2 \Omega) I_1=-9 \mathrm{~V}}{16 I_1-2 I_2=4} \\
+& 9 I_2-2 I_1=-9
+\end{array}
+$$
+
+which, for determinants, are
+and
+
+$$
+\begin{aligned}
+I_2=I_{7 \Omega} & =\frac{\left|\begin{array}{rr}
+16 & 4 \\
+-2 & -9
+\end{array}\right|}{\left|\begin{array}{rr}
+16 & -2 \\
+-2 & 9
+\end{array}\right|}=\frac{-144+8}{144-4}=\frac{-136}{140} \\
+& =-0.971 \mathrm{~A}
+\end{aligned}
+$$

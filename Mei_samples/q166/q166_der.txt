@@ -1,0 +1,20 @@
+Open the load resistance and redraw the circuit as shown in Fig. 4.73. Find the Thevenin's resistance by opening the current source.
+The Thevenin's resistance is calculated as,
+
+$$
+R_{\mathrm{Th}}=4+\frac{(2+1) \times 8}{3+8}=6.18 \Omega
+$$
+
+
+Thevenin's voltage can be determined from the circuit in Fig. 4.75 as,
+
+$$
+\begin{gathered}
+I_{8 \Omega}=8 \times \frac{1}{8+2+1}=0.73 \mathrm{~A} \\
+V_{\mathrm{Th}}=I_{8 \Omega} \times 8=0.73 \times 8=5.84 \mathrm{~V}
+\end{gathered}
+$$
+\begin{aligned}
+&\text { The maximum power is, }\\
+&P_{\mathrm{mxm}}=\frac{V_{\mathrm{Th}}^2}{4 R_L}=\frac{5.84^2}{4 \times 6.18}=1.38 \mathrm{~W}
+\end{aligned}

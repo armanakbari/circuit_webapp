@@ -1,0 +1,32 @@
+It would indeed be difficult to analyze the network in the form of Fig. 7.18 with the symbolic notation for the sources and the reference or ground connection in the upper left-hand corner of the diagram. However, when the network is redrawn as shown in Fig. 7.19, the unknowns and the relationship between branches become significantly clearer. Note the common connection of the grounds and the replacing of the terminal notation by actual supplies.
+
+It is now obvious that
+
+$$
+V_2=-E_1=-6 \mathrm{~V}
+$$
+
+
+The minus sign simply indicates that the chosen polarity for $V_2$ in Fig. 7.18 is opposite to that of the actual voltage. Applying Kirchhoff's voltage law to the loop indicated, we obtain
+
+$$
+-E_1+V_1-E_2=0
+$$
+and
+
+$$
+V_1=E_2+E_1=18 \mathrm{~V}+6 \mathrm{~V}=\mathbf{2 4} \mathbf{V}
+$$
+
+
+Applying Kirchhoff's current law to node $a$ yields
+
+$$
+\begin{aligned}
+I & =I_1+I_2+I_3 \\
+& =\frac{V_1}{R_1}+\frac{E_1}{R_4}+\frac{E_1}{R_2+R_3} \\
+& =\frac{24 \mathrm{~V}}{6 \Omega}+\frac{6 \mathrm{~V}}{6 \Omega}+\frac{6 \mathrm{~V}}{12 \Omega} \\
+& =4 \mathrm{~A}+1 \mathrm{~A}+0.5 \mathrm{~A} \\
+I & =5.5 \mathrm{~A}
+\end{aligned}
+$$

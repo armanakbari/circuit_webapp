@@ -1,0 +1,12 @@
+The power dissipated in the $60 \mathrm{k} \Omega$ resistor is
+
+$$
+p_{601 \mathrm{k} \Omega}(t)=i_0^2(t)\left(60 \times 10^3\right)=60 e^{-50 t} \mathrm{~mW}, \quad t \geq 0^{+} .
+$$
+
+
+The total energy dissipated is
+
+$$
+w_{601 \mathrm{k} \Omega}=\int_0^{\infty} i_\rho^2(t)\left(60 \times 10^3\right) d t=1.2 \mathrm{~mJ}
+$$

@@ -1,0 +1,5 @@
+1. 40 \mathrm{k} \Omega
+2. $20 \mathrm{k} \Omega$
+3. $80 \mathrm{k} \Omega$
+4. $10 \mathrm{k} \Omega$
+5. None of the above

@@ -1,0 +1,5 @@
+1. $1920 - j1440 \Omega$
+2. 4000-j 3000 \Omega
+3. $3000 - j4000 \Omega$
+4. $1920 + j1440 \Omega$
+5. None of the above

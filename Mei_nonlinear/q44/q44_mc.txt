@@ -1,0 +1,5 @@
+1. \frac{1+g_m r_O}{r_O C_L C_{\text {in }} R_S s^2+\left[R_S C_{\text {in }}+r_O C_L\left(1+g_m R_S\right)\right] s+1+g_m R_S}
+2. \frac{g_m r_O}{r_O C_L C_{\text {in }} R_S s^2+\left[r_O C_L+C_{\text {in }} R_S+C_L R_S\right] s+1}
+3. \frac{1+g_m r_O}{r_O C_L C_{\text {in }} R_S s^2+\left[r_O C_L+C_{\text {in }} R_S - \left(1+g_m r_O\right) C_L R_S\right] s+1}
+4. \frac{1+g_m r_O}{r_O C_L C_{\text {in }} R_S s^2+\left[r_O C_L+C_{\text {in }} R_S+\left(1+g_m r_O\right) C_L R_S\right] s+1}
+5. None of the above

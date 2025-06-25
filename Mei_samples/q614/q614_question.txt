@@ -1,0 +1,1 @@
+Find $\mathbf{E}$  in the provided circuit image.

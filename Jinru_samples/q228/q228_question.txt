@@ -1,0 +1,1 @@
+Predict the power this device will deliver to a $10 \Omega$ resistor.

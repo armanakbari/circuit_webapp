@@ -1,0 +1,3 @@
+Introductory Circuit Analysis
+P485
+Example12.5

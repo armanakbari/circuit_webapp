@@ -1,0 +1,1 @@
+Find the charge on capacitor C2 of the network in the provided circuit image after each has charged up to its final value.

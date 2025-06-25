@@ -1,0 +1,5 @@
+1. 106.10 \mathrm{kHz}
+2. 5.31 \mathrm{kHz}
+3. 53.05 \mathrm{kHz}
+4. 333.33 \mathrm{kHz}
+5. None of the above

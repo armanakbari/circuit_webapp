@@ -1,0 +1,1 @@
+Determine Z_T in the equivalent series circuit in the provided circuit image.

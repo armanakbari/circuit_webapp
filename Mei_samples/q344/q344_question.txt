@@ -1,0 +1,1 @@
+Determine the unknown voltage V_x In the provided circuit image

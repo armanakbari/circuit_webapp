@@ -1,0 +1,38 @@
+We can replace the series combination of the voltage source ( $40 \angle 0^{\circ}$ ) and the impedance of $1+j 3 \Omega$ with the parallel combination of a current source and the $1+j 3 \Omega$ impedance. The source current is
+
+$$
+\mathbf{I}=\frac{40}{1+j 3}=\frac{40}{10}(1-j 3)=4-j 12 \mathrm{~A} .
+$$
+
+
+Thus we can modify the circuit. Note that the polarity reference of the 40 V source determines the reference direction for $\mathbf{I}$.
+
+Next, we combine the two parallel branches into a single impedance,
+
+$$
+Z=\frac{(1+j 3)(9-j 3)}{10}=1.8+j 2.4 \Omega,
+$$
+
+which is in parallel with the current source of $4-j 12 \mathrm{~A}$. Another source transformation converts this parallel combination to a series combination consisting of a voltage source in series with the impedance of $1.8+j 2.4 \Omega$. The voltage of the voltage source is
+
+$$
+\mathbf{V}=(4-j 12)(1.8+j 2.4)=36-j 12 \mathrm{~V}
+$$
+
+Using this source transformation, we redraw the circuit. Note the polarity of the voltage source. We added the current $\mathbf{I}_0$ to the circuit to expedite the solution for $\mathbf{V}_0$.
+
+Also note that we have reduced the circuit to a simple series circuit. We calculate the current $\mathbf{I}_0$ by dividing the voltage of the source by the total series impedance:
+
+$$
+\begin{aligned}
+\mathbf{I}_0 & =\frac{36-j 12}{12-j 16}=\frac{12(3-j 1)}{4(3-j 4)} \\
+& =\frac{39+j 27}{25}=1.56+j 1.08 \mathrm{~A}
+\end{aligned}
+$$
+
+
+We now obtain the value of $\mathbf{V}_0$ by multiplying $\mathbf{I}_0$ by the impedance $10-j 19$ :
+
+$$
+\mathbf{V}_0=(1.56+j 1.08)(10-j 19)=36.12-j 18.84 \mathrm{~V}
+$$

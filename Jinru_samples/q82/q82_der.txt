@@ -1,0 +1,11 @@
+We can get the expression for $v(t), t \geq 0$ by using the relationship between the voltage and current in an inductor:
+
+$$
+\begin{aligned}
+v(t)= & L \frac{d i_L}{d t} \\
+= & \left(25 \times 10^{-3}\right)\left[\left(2.2 \times 10^6\right)(-40,000) t e^{-40,000 t t}\right. \\
+& +2.2 \times 10^6 e^{-40,000 t} \\
+& \left.+(5)(-40,000) e^{-40,000 t}\right] \times 10^{-3} \\
+= & -2.2 \times 10^6 t e^{-40,000 t}+50 e^{-40,000 t} \mathrm{~V}, t \geq 0 .
+\end{aligned}
+$$

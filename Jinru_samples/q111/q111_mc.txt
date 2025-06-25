@@ -1,0 +1,5 @@
+1. 700+j 3700 \Omega
+2. 700+j3500 \Omega
+3. 1500+j4500 \Omega
+4. 200+j3600 \Omega
+5. None of the above

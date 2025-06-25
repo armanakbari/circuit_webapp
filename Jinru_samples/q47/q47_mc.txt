@@ -1,0 +1,5 @@
+1. $-8 + 8 e^{-2.5 t} \mathrm{~A}$
+2. $-8 - 8 e^{-5 t} \mathrm{~A}$
+3. $8 - 8 e^{-5 t} \mathrm{~A}$
+4. -8+8 e^{-5 t} \mathrm{~A}
+5. None of the above

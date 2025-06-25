@@ -1,0 +1,1 @@
+Determine the current in the $10 \Omega$ resistor of the circuit In the provided circuit image using Thevenin's theorem.

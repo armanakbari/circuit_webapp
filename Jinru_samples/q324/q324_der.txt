@@ -1,0 +1,5 @@
+Applying KVL around the loop containing $v_3$ and the 10 -volt source we get,
+
+$$
+-\mathrm{v}_3+10=0 \text { or } \mathrm{v}_3=\mathbf{1 0 V}
+$$

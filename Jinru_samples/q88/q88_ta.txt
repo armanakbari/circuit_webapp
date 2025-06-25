@@ -1,0 +1,1 @@
+\left(5-10 e^{-10 t}+5 e^{-20 t}\right) \mathrm{V}

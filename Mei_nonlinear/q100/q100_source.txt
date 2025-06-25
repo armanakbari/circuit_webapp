@@ -1,0 +1,3 @@
+Design of analog CMOS integrated circuits
+P327
+Example8.27

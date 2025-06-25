@@ -1,0 +1,33 @@
+At node 2,
+
+$$
+3+7+I_2=0 \quad \longrightarrow \quad I_2=-10 \mathrm{~A}
+$$
+
+
+At node 1,
+
+$$
+I_I+I_2=2 \quad \longrightarrow \quad I_I=2-I_2=12 \mathrm{~A}
+$$
+
+
+At node 4,
+
+$$
+2=I_4+4 \quad \longrightarrow \quad I_4=2-4=-2 \mathrm{~A}
+$$
+
+
+At node 3,
+
+$$
+7+I_4=I_3 \quad \longrightarrow \quad I_3=7-2=5 \mathrm{~A}
+$$
+
+
+Hence,
+
+$$
+I_1=12 \mathrm{~A}, \quad I_2=-10 \mathrm{~A}, \quad I_3=5 \mathrm{~A}, \quad I_4=-2 \mathrm{~A}
+$$

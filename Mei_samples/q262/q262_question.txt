@@ -1,0 +1,1 @@
+A series AC circuit is shown In the provided circuit image. Calculate the source current. The expression of the alternating voltage source is $v(t)=16 \sin \left(10 t+25^{\circ}\right) \mathrm{V}$.

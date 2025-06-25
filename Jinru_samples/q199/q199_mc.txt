@@ -1,0 +1,5 @@
+1. \sqrt{R^2 LC}
+2. \sqrt{\frac{L}{R^2 C}}
+3. \sqrt{\frac{R^2 L}{C}}
+4. \sqrt{\frac{R^2 C}{L}}
+5. None of the above

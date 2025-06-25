@@ -1,0 +1,1 @@
+No energy is stored in the circuit prior to the application of the dc current source, so the initial current in the inductor is zero. The inductor prohibits an instantaneous change in inductor current; therefore $i_L(0)=0$ immediately after the switch has been opened.

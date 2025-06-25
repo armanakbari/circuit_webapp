@@ -1,0 +1,5 @@
+1. 16V
+2. 8V
+3. 24V
+4. 12V
+5. None of the above

@@ -1,0 +1,1 @@
+Find the mathematical expression for current $i_C$ as a function of time if the switch is thrown into position 2 at $t=$ 9 ms.

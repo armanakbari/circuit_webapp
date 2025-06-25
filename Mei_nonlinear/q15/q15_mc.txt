@@ -1,0 +1,5 @@
+1. \frac{\left(g_m+g_{m b}\right) r_O+1}{r_O+\left(g_m+g_{m b}\right) r_O R_P+R_P+R_D} R_D R_P
+2. \frac{r_O+R_D}{R_P r_O+R_P R_D+\left(g_m+g_{m b}\right) r_O+1} R_D R_P
+3. \frac{\left(g_m+g_{m b}\right) r_O+1}{r_O+R_D+R_P+\left(g_m+g_{m b}\right) r_O} R_D R_P
+4. \frac{\left(g_m+g_{m b}\right) r_O+1}{r_O+R_D+\left(g_m+g_{m b}\right) r_O R_P} R_D R_P
+5. None of the above

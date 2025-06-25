@@ -1,0 +1,5 @@
+1. \left[g_{m 1}+\left(W_4 / W_8\right) g_{m 5}\right]\left(r_{O 3} \| r_{O 4}\right)
+2. g_{m 1} g_{m 5}\left(r_{O 3} \| r_{O 4}\right)\left(r_{O 6} \| r_{O 9}\right)
+3. \left[g_{m 1}-\left(W_4 / W_8\right) g_{m 5}\right]\left(r_{O 3} \| r_{O 4}\right)
+4. \left[g_{m 1}+\left(W_4 / W_8\right) g_{m 5}\right]\left(r_{O 6} \| r_{O 9}\right)
+5. None of the above

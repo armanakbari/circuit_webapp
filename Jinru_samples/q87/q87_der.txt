@@ -1,0 +1,14 @@
+The second integrating amplifier saturates when $v_o$ reaches 9 V or $t=3 \mathrm{~s}$. But it is possible that the first integrating amplifier saturates before $t=3 \mathrm{~s}$. To explore this possibility to find $d v_{o 1} / d t$ :
+
+$$
+\frac{d v_{o 1}}{d t}=-40(25) \times 10^{-3}=-1
+
+Solving for $v_{o 1}$ yields
+
+$$
+v_{t 1}=-t .
+$$
+
+
+Thus, at $t=3 \mathrm{~s}, v_{t 1}=-3 \mathrm{~V}$, and, because the power supply voltage on the first integrating amplifier is $\pm 5 \mathrm{~V}$, the circuit reaches saturation when the second amplifier saturates. When one of the op amps saturates, we no longer can use the linear model to predict the behavior of the circuit.
+$$

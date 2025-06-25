@@ -1,0 +1,6 @@
+Solution
+Breaking the loop as depicted in Fig. 8.29(b), we recognize that the open-loop input resistance is equal to ( $g_{m 1}+$ $\left.g_{m b 1}\right)^{-1}$. To find the loop gain, we set the input to zero and inject a test signal in to the loop [Fig. 8.29(c)], obtaining $V_F / V_t=-g_{m 1} R_D C_1 /\left(C_1+C_2\right)$. The closed-loop input impedance is then equal to
+
+$$
+R_{i n, \text { closed }}=\frac{1}{g_{m 1}+g_{m b 1}}\left(1+\frac{C_1}{C_1+C_2} g_{m 1} R_D\right)
+$$

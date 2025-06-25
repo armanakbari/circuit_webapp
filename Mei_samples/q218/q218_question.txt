@@ -1,0 +1,1 @@
+A current of $i=6\left(3-\mathrm{e}^{-2 t}\right) \mathrm{A}$ flows in the circuit as shown In the provided circuit image. Given, $i_2(0)=4 \mathrm{~A}$, calculate $i_1(0).

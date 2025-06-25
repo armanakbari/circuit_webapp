@@ -1,0 +1,23 @@
+To find $\mathbf{V}_2$, we have two choices from the entries in Table 18.2. We may choose to find $\mathbf{I}_2$ and then find $\mathbf{V}_2$ from the relationship $\mathbf{V}_2=-\mathbf{I}_2 Z_L$, or we may find the voltage gain $\mathbf{V}_2 / \mathbf{V}_g$ and calculate $\mathbf{V}_2$ from the gain. Let's use the latter approach. For the $b$-parameter values given, we have
+
+$$
+\begin{gathered}
+\Delta b=(-20)(-0.2)-(-3000)\left(-2 \times 10^{-3}\right) \\
+=4-6=-2
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+\frac{\mathbf{V}_2}{\mathbf{V}_g}=\frac{\Delta b Z_L}{b_{12}+b_{11} Z_g+b_{22} Z_L+b_{21} Z_g Z_L} \\
+=\frac{(-2)(5000)}{-3000+(-20) 500+(-0.2) 5000+\left[-2 \times 10^{-3}(500)(5000)\right.} \\
+=\frac{10}{19}
+\end{gathered}
+$$
+
+
+Then,
+
+$$
+\mathbf{V}_2=\left(\frac{10}{19}\right) 500=263.16 \angle 0^{\circ} \mathrm{V}
+$$

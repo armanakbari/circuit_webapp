@@ -1,0 +1,13 @@
+The current through the system is zero amperes due to the open circuit, resulting in a $0-\mathrm{V}$ drop across each resistor. Both resistors can therefore be replaced by short circuits, as shown in Fig. 6.47. The voltage $V_{a b}$ is then directly across the $10-\mathrm{V}$ battery, and
+
+$$
+V_{a b}=E_1=10 \mathrm{~V}
+$$
+
+
+The voltage $V_{c d}$ requires an application of Kirchhoff's voltage law:
+or
+
+$$
+V_{c d}=E_1-E_2=10 \mathrm{~V}-30 \mathrm{~V}=\mathbf{- 2 0 ~ V}
+$$

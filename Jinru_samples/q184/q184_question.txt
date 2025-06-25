@@ -1,0 +1,1 @@
+Calculate the reading of of $W_1$ in the circuit in the provided circuit image if the phase voltage at the load is 120 V and $Z_\phi=10 \angle-75^{\circ} \Omega$

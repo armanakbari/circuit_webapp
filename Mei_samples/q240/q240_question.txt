@@ -1,0 +1,1 @@
+Calculate the voltage across the capacitor with a capacitive reactance of $8 \Omega$ for the circuit shown In the provided circuit image.

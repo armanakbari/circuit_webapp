@@ -1,0 +1,1 @@
+Suppose we wish to amplify a voltage $v_g$, such that $-1.5 \mathrm{~V} \leq v_g \leq+1.5 \mathrm{~V}$. What are the smallest power supply voltages that could be used with the resistors selected and still have the op amp in this design remain in its linear operating region?

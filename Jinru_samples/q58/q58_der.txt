@@ -1,0 +1,14 @@
+The plot reveals that the capacitor voltage will equal 200 V at two different times: once in the interval between 0 and 15 ms and once after 15 ms . We find the first time by solving the expression
+
+$$
+200=400-400 e^{-100 t_1}
+$$
+
+which yields $t_1=6.93 \mathrm{~ms}$. We find the second time by solving the expression
+
+$$
+200=310.75 e^{-200\left(t_2-0.015\right)}
+$$
+
+
+In this case, $t_2=17.20 \mathrm{~ms}$.

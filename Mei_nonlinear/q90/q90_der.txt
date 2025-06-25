@@ -1,0 +1,16 @@
+Solution
+What type of feedback is used in this circuit? Resistor $R_F$ senses the output voltage and returns a proportional current to node $X$. Thus, the feedback can be considered as the voltage-current type. However, in the general representation of Fig. 8.60(a), the input signal is a current quantity, whereas in this example, it is a voltage quantity. For this reason, we replace $V_{\text {in }}$ and $R_S$ by a Norton equivalent [Fig. 8.63(b)] and view $R_S$ as the input resistance of the main amplifier. Opening the loop according to Fig. 8.61 and neglecting channel-length modulation, we write the open-loop gain
+from Fig. 8.63(c) as
+
+$$
+\begin{aligned}
+R_{0, \text { open }} & =\left.\frac{V_{\text {out }}}{I_N}\right|_{\text {open }} \\
+& =-\left(R_S \| R_F\right) g_m\left(R_F \| R_D\right)
+\end{aligned}
+$$
+
+where $I_N=V_{\text {in }} / R_S$. We also calculate the loop gain as $y_{21} R_{0, \text { open }}$. Thus, the circuit of Fig. 8.63(a) exhibits a voltage gain of
+
+$$
+\frac{V_{\text {out }}}{V_{\text {in }}}=\frac{1}{R_S} \cdot \frac{-\left(R_S \| R_F\right) g_m\left(R_F \| R_D\right)}{1+g_m\left(R_F \| R_D\right) R_S /\left(R_S+R_F\right)}
+$$

@@ -1,0 +1,3 @@
+Introductory Circuit Analysis
+P270
+Example8.12

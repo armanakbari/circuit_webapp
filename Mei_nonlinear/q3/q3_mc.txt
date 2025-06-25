@@ -1,0 +1,7 @@
+1. \frac{1}{g_m-g_{mb}}
+2. \frac{1}{g_m+g_{m b}}
+
+$$
+3. g_m+g_{mb}
+4. \frac{1}{g_m}
+5. None of the above

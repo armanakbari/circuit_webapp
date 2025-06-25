@@ -1,0 +1,8 @@
+Solution: Note the current direction as established by the battery and the polarity of the voltage drops across $R_2$ as determined by the current direction. Since $R_1=R_3=R_4$,
+
+$$
+\begin{aligned}
+R_T & =N R_1+R_2=(3)(7 \Omega)+4 \Omega=21 \Omega+4 \Omega=\mathbf{2 5} \Omega \\
+
+\end{aligned}
+$$

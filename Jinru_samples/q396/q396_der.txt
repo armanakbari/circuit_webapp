@@ -1,0 +1,19 @@
+At node 1,
+
+$$
+\frac{-v_1}{10}-\frac{v_1}{5}=6+\frac{v_1-v_2}{2} \longrightarrow 60=-8 v_1+5 v_2
+$$
+
+
+At node 2,
+
+$$
+\frac{v_2}{4}=3+6+\frac{v_1-v_2}{2} \longrightarrow 36=-2 v_1+3 v_2
+$$
+
+
+Thus:
+
+$$
+\mathrm{v}_1=0 \mathrm{~V}, \mathrm{v}_2=12 \mathrm{~V}
+$$

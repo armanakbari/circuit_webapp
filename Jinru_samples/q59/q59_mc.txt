@@ -1,0 +1,5 @@
+1. 10 e^{-20 t} \mathrm{~V}
+2. 20 e^{40 t} \mathrm{~V}
+3. 10 e^{-40 t} \mathrm{~V}
+4. 10 e^{40 t} \mathrm{~V}
+5. None of the above

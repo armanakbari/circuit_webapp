@@ -1,0 +1,5 @@
+In this circuit, $R_S$ and $R_F$ sense the output current and return a fraction thereof to the input. Breaking the loop according to Fig. 8.65, we arrive at the circuit in Fig. 8.66(b), where we have
+
+$$
+A_{I, \text { open }}=-\left(R_F+R_S\right) g_{m 1} R_D \frac{1}{R_S \| R_F+1 / g_{m 2}}
+$$

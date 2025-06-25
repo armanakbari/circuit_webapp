@@ -1,0 +1,5 @@
+1. 300 \mathrm{~s}
+2. 30 \mathrm{~s}
+3. 3 \mathrm{~s}
+4. 0.003 \mathrm{~s}
+5. None of the above

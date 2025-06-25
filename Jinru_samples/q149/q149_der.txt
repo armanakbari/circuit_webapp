@@ -1,0 +1,18 @@
+If there are no restrictions on $R_{\mathrm{L}}$ and $X_{\mathrm{L}}$, the load impedance is set equal to the conjugate of the output or the Thévenin impedance. Therefore we set
+
+$$
+R_{\mathrm{L}}=3000 \Omega \quad \text { and } \quad X_L=-4000 \Omega,
+$$
+
+or
+
+$$
+Z_{\mathrm{L}}=3000-j 4000 \Omega .
+$$
+
+
+Because the source voltage is given in terms of its rms value, the average power delivered to $Z_{\mathrm{L}}$ is
+
+$$
+P=\frac{1}{4} \frac{10^2}{3000}=\frac{25}{3} \mathrm{~mW}=8.33 \mathrm{~mW}
+$$

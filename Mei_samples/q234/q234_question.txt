@@ -1,0 +1,1 @@
+Calculate the source current of the circuit shown In the provided circuit image.

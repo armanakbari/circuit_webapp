@@ -1,0 +1,18 @@
+We can view the feedback resistor, $R_F$, as a network that senses the output voltage, converts it to current, and returns the result to the input. Following Figure 8.61, we construct the loaded open-loop amplifier as shown in Fig. 8.62(b), and express the open-loop gain as
+
+$$
+R_{0, \text { open }}=-R_F g_m\left(R_F \| R_D\right)
+$$
+
+
+The feedback factor, $y_{21}\left(=I_2 / V_1\right.$ with $\left.V_2=0\right)$ is equal to $-1 / R_F$. It follows that the closed-loop gain is equal to
+
+$$
+\frac{V_{\text {out }}}{I_{\text {in }}}=\frac{-R_F g_m\left(R_F \| R_D\right)}{1+g_m\left(R_F \| R_D\right)}
+$$
+
+which, if $g_m\left(R_F \| R_D\right) \gg 1$, reduces to $-R_F$, an expected result (why?). The closed-loop input impedance is
+
+$$
+R_{i n}=\frac{R_F}{1+g_m\left(R_F \| R_D\right)}
+$$

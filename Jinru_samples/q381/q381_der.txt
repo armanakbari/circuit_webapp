@@ -1,0 +1,1 @@
+$\begin{array}{r}V_0=\frac{(1-\alpha) R}{R+(1-\alpha) R} V_S=\frac{1-\alpha}{2-\alpha} V_S \\ \frac{V_0}{V_S}=\frac{1-\alpha}{2-\alpha}\end{array}$

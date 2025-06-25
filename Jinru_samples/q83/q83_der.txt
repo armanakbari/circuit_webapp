@@ -1,0 +1,73 @@
+The first step to finding $i(t)$ is to calculate the roots of the characteristic equation. For the given element values,
+
+$$
+\begin{aligned}
+\omega_0^2 & =\frac{1}{L C} \\
+& =\frac{\left(10^3\right)\left(10^6\right)}{(100)(0.1)}=10^8, \\
+\alpha & =\frac{R}{2 L} \\
+& =\frac{560}{2(100)} \times 10^3 \\
+& =2800 \mathrm{rad} / \mathrm{s} .
+\end{aligned}
+$$
+
+Next, we compare $\omega_0^2$ to $\alpha^2$ and note that $\omega_0^2>\alpha^2$, because
+
+$$
+\begin{aligned}
+\alpha^2 & =7.84 \times 10^6 \\
+& =0.0784 \times 10^8
+\end{aligned}
+$$
+
+
+At this point, we know that the response is underdamped and that the solution for $i(t)$ is of the form
+
+$$
+i(t)=B_1 e^{-\alpha t} \cos \omega_d t+B_2 e^{-\alpha t} \sin \omega_d t
+$$
+
+where $\alpha=2800 \mathrm{rad} / \mathrm{s}$ and $\omega_d=9600 \mathrm{rad} / \mathrm{s}$. The numerical values of $B_1$ and $B_2$ come from the initial conditions. The inductor current is zero before the switch has been closed, and hence it is zero immediately after. Therefore
+
+$$
+i(0)=0=B_1
+$$
+
+
+To find $B_2$, we evaluate $d i\left(0^{+}\right) / d t$. From the circuit, we note that, because $i(0)=0$ immediately after the switch has been closed, there will be no voltage drop across the resistor. Thus the initial voltage on the capacitor appears across the terminals of the inductor, which leads to the expression,
+
+$$
+L \frac{d i\left(0^{+}\right)}{d t}=V_0
+$$
+
+or
+
+$$
+\begin{aligned}
+\frac{d i\left(0^{+}\right)}{d t}=\frac{V_0}{L} & =\frac{100}{100} \times 10^3 \\
+& =1000 \mathrm{~A} / \mathrm{s}
+\end{aligned}
+$$
+
+
+Because $B_1=0$,
+
+$$
+\frac{d i}{d t}=400 B_2 e^{-2800 t}(24 \cos 9600 t-7 \sin 9600 t)
+$$
+
+
+Thus
+
+$$
+\begin{aligned}
+\frac{d i\left(0^{+}\right)}{d t} & =9600 B_2 \\
+B_2 & =\frac{1000}{9600} \approx 0.1042 \mathrm{~A}
+\end{aligned}
+$$
+
+
+The solution for $i(t)$ is
+
+$$
+i(t)=0.1042 e^{-2800 t} \sin 9600 t \mathrm{~A}, \quad t \geq 0
+$$

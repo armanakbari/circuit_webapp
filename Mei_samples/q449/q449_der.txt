@@ -1,0 +1,17 @@
+Although it might appear that the network cannot be solved using methods introduced thus far, one source conversion as shown in Fig. 8.17 will result in a simple series circuit:
+
+$$
+E_s=I_1 R_1=(4 \mathrm{~A})(3 \Omega)=12 \mathrm{~V}
+$$
+
+and
+
+$$
+R_s=R_1=3 \Omega
+$$
+
+and
+
+$$
+I_2=\frac{E_s+E_2}{R_s+R_2}=\frac{12 \mathrm{~V}+5 \mathrm{~V}}{3 \Omega+2 \Omega}=\frac{17 \mathrm{~V}}{5 \Omega}=3.4 \mathrm{~A}
+$$

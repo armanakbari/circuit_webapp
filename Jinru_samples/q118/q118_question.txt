@@ -1,0 +1,1 @@
+The load impedance connected to the secondary winding of the ideal transformer in the provided circuit image consists of a $237.5 \mathrm{~m} \Omega$ resistor in series with a $125 \mu \mathrm{H}$ inductor. If the sinusoidal voltage source $\left(v_g\right)$ is generating the voltage $2500 \cos 400 t \mathrm{~V}$, find the steadystate expressions for $v_1$

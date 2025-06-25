@@ -1,0 +1,8 @@
+The phase voltage at the A terminal of the load is
+
+$$
+\begin{aligned}
+\mathbf{V}_{\mathrm{AN}} & =(39+j 28)\left(2.4 \angle-36.87^{\circ}\right) \\
+& =115.22 \angle-1.19^{\circ} \mathrm{V} .
+\end{aligned}
+$$

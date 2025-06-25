@@ -1,0 +1,1 @@
+For the transistor circuit shown in the provided circuit image, find $V_{C E}$ . Let $\beta=100$, and $V_{B E}=0.7 \mathrm{~V}$.

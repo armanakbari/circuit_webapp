@@ -1,0 +1,1 @@
+$I_s=\frac{E}{R_T}=\frac{20 \mathrm{~V}}{8 \Omega}=\mathbf{2 . 5 ~ A}$

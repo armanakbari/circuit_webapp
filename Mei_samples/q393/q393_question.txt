@@ -1,0 +1,1 @@
+Find the magnitude of the currents $I_6$ for the network In the provided circuit image.

@@ -1,0 +1,1 @@
+EXAMPLE 8.24 Find the voltage across the $3-\Omega$ resistor in the provided circuit image by nodal analysis.

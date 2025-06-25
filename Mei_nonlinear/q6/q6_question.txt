@@ -1,0 +1,2 @@
+Suppose that in the source follower in the provided circuit image, $(W / L)_1=20 / 0.5, I_1=200 \mu \mathrm{~A}, V_{T H 0}=0.6 \mathrm{~V}, 2 \Phi_F=0.7 \mathrm{~V}$, $V_{D D}=1.2 \mathrm{~V}, \mu_n C_{o x}=50 \mu \mathrm{~A} / \mathrm{V}^2$, and $\gamma=0.4 \mathrm{~V}^{1 / 2}$.
+Calculate $V_{\text {out }}$ for $V_{\text {in }}=1.2 \mathrm{~V}$.

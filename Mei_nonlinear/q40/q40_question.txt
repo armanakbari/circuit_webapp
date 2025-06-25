@@ -1,0 +1,1 @@
+Determine input capacitance shown in the provided circuit image

@@ -1,0 +1,44 @@
+We can describe the circuit in terms of two node voltages because it contains three essential nodes. Four branches terminate at the essential node that stretches across the bottom, so we use it as the reference node. The remaining two essential nodes are labeled 1 and 2, and the appropriate node voltages are designated $\mathbf{V}_1$ and $\mathbf{V}_2$. 
+Summing the currents away from node 1 yields
+
+$$
+-10.6+\frac{\mathbf{V}_1}{10}+\frac{\mathbf{V}_1-\mathbf{V}_2}{1+j 2}=0
+$$
+
+Multiplying by $1+j 2$ and collecting the coefficients of $\mathbf{V}_1$ and $\mathbf{V}_2$ generates the expression
+
+$$
+\mathbf{V}_1(1.1+j 0.2)-\mathbf{V}_2=10.6+j 21.2
+$$
+
+Summing the currents away from node 2 gives
+
+$$
+\frac{\mathbf{V}_2-\mathbf{V}_1}{1+j 2}+\frac{\mathbf{V}_2}{-j 5}+\frac{\mathbf{V}_2-20 \mathbf{I}_x}{5}=0
+$$
+
+
+The controlling current $\mathbf{I}_x$ is
+
+$$
+\mathbf{I}_x=\frac{\mathbf{V}_1-\mathbf{V}_2}{1+j 2}
+$$
+
+
+Substituting this expression for $\mathbf{I}_x$ into the node 2 equation, multiplying by $1+j 2$, and collecting coefficients of $\mathbf{V}_1$ and $\mathbf{V}_2$ produces the equation
+
+$$
+-5 \mathbf{V}_1+(4.8+j 0.6) \mathbf{V}_2=0
+$$
+
+
+The solutions for $\mathbf{V}_1$ and $\mathbf{V}_2$ are
+
+$$
+\begin{aligned}
+& \mathbf{V}_1=68.40-j 16.80 \mathrm{~V}, \\
+& \mathbf{V}_2=68-j 26 \mathrm{~V} .
+\end{aligned}
+$$
+
+$\mathbf{I}_{\mathrm{a}}=\frac{\mathbf{V}_1}{10}=6.84-j 1.68 \mathrm{~A}$

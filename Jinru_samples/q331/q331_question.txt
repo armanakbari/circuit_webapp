@@ -1,0 +1,1 @@
+From the circuit, find the power supplied by the 10V source.

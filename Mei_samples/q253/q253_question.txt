@@ -1,0 +1,1 @@
+Calculate the mesh current I_3 for the circuit shown In the provided circuit image.

@@ -1,0 +1,5 @@
+Because the switch has been in position $x$ for a long time, the 0.5 mF capacitor will charge to 100 V and be positive at the upper terminal. We can replace the resistive network connected to the capacitor at $t=0^{+}$with an equivalent resistance of $80 \mathrm{k} \Omega$. Hence the time constant of the circuit is $\left(0.5 \times 10^{-6}\right)\left(80 \times 10^3\right)$ or 40 ms . Then,
+
+$$
+v_C(t)=100 e^{-25 t} \mathrm{~V}, \quad t \geq 0
+$$

@@ -1,0 +1,1 @@
+$R_T=\frac{R_1 R_2}{R_1+R_2}=\frac{(9 \Omega)(18 \Omega)}{9 \Omega+18 \Omega}=\frac{162 \Omega}{27}=6 \Omega$

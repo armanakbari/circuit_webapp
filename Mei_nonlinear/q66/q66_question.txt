@@ -1,0 +1,1 @@
+Calculate the the overall input-referred noise voltage including input-referred $1 / f$ and thermal noise voltage of the CS stage depicted in the provided circuit image, assuming $M_1$ and $M_2$ are in saturation.

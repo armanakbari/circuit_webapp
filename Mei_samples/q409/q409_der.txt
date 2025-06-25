@@ -1,0 +1,32 @@
+$$
+\begin{aligned}
+& R_B=R_3+R_{4 \| 5}=4 \Omega+\frac{(6 \Omega)(3 \Omega)}{6 \Omega+3 \Omega}=4 \Omega+2 \Omega=6 \Omega \\
+& R_C=3 \Omega
+\end{aligned}
+$$
+
+
+The network of Fig. 7.8 can then be redrawn in reduced form, as shown in Fig. 7.9. Note the similarities between this circuit and the circuits of Figs. 7.3 and 7.7.
+
+$$
+\begin{aligned}
+R_T & =R_A+R_{B \| C}=3.6 \Omega+\frac{(6 \Omega)(3 \Omega)}{6 \Omega+3 \Omega} \\
+& =3.6 \Omega+2 \Omega=\mathbf{5 . 6} \Omega \\
+I_s & =\frac{E}{R_T}=\frac{16.8 \mathrm{~V}}{5.6 \Omega}=\mathbf{3} \mathbf{A} \\
+I_A & =I_s=\mathbf{3} \mathbf{A}
+\end{aligned}
+$$
+
+
+Applying the current divider rule yields
+
+$$
+I_B=\frac{R_C I_A}{R_C+R_B}=\frac{(3 \Omega)(3 \mathrm{~A})}{3 \Omega+6 \Omega}=\frac{9 \mathrm{~A}}{9}=\mathbf{1} \mathbf{A}
+$$
+
+
+By Kirchhoff's current law,
+
+$$
+I_C=I_A-I_B=3 \mathrm{~A}-1 \mathrm{~A}=\mathbf{2} \mathbf{A}
+$$

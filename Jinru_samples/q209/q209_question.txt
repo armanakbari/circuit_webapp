@@ -1,0 +1,1 @@
+Find the $z_{11}$ parameters for the circuit shown in the provided circuit image.

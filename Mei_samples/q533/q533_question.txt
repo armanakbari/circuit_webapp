@@ -1,0 +1,1 @@
+Find the voltage across capacitor C3 for the network in the provided circuit image

@@ -1,0 +1,1 @@
+Find $v_o$  in the transistor circuit of the provided circuit image. Assume that the transistor operates in the active mode and that $\beta=50$.

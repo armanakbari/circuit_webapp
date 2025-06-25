@@ -1,0 +1,3 @@
+$$
+I_5=\frac{E}{R_{(1,2,3) \| 4}+R_5}=\frac{72 \mathrm{~V}}{12 \mathrm{k} \Omega+12 \mathrm{k} \Omega}=\frac{72 \mathrm{~V}}{24 \mathrm{k} \Omega}=\mathbf{3} \mathbf{~ m A}
+$$

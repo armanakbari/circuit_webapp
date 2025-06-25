@@ -1,0 +1,15 @@
+The Thévenin voltage for the circuit to the left of the terminals $a, b$ is
+
+$$
+V_{\mathrm{Th}}=\frac{150}{180}(360)=300 \mathrm{~V} .
+$$
+
+
+The Thévenin resistance is
+
+$$
+R_{\mathrm{Th}}=\frac{(150)(30)}{180}=25 \Omega
+$$
+
+
+Replacing the circuit to the left of the terminals $a, b$ with its Thévenin equivalent gives us the circuit shown in the provided circuit image, which indicates that $R_L$ must equal $25 \Omega$ for maximum power transfer.

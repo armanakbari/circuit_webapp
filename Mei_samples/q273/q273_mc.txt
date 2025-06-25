@@ -1,0 +1,5 @@
+1. 311.77 \angle-30^{\circ} \mathrm{V}
+2. 311.77 \angle0^{\circ} \mathrm{V}
+3. 180 \angle30^{\circ} \mathrm{V}
+4. 311.77 \angle30^{\circ} \mathrm{V}
+5. None of the above

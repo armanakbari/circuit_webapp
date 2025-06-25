@@ -1,0 +1,41 @@
+$$
+H(s)=\frac{1000(s+5000)}{s^2+6000 s+25 \times 10^6}
+$$
+
+
+The transform of the driving voltage is $50 / \mathrm{s}^2$; therefore, the $s$-domain expression for the output voltage is
+
+$$
+V_\rho=\frac{1000(s+5000)}{\left(s^2+6000 s+25 \times 10^6\right)} \frac{50}{s^2}
+$$
+
+
+The partial fraction expansion of $V_o$ is
+
+$$
+\begin{aligned}
+V_o= & \frac{K_1}{s+3000-j 4000} \\
+& +\frac{K_1}{s+3000+j 4000}+\frac{K_2}{s^2}+\frac{K_3}{s} .
+\end{aligned}
+$$
+
+
+We evaluate the coefficients $K_1, K_2$, and $K_3$ by using the techniques described:
+
+$$
+\begin{aligned}
+& K_1=5 \sqrt{5} \times 10^{-4} \angle 79.70^{\circ} ; \\
+& K_1^*=5 \sqrt{5} \times 10^{-4} \angle-79.70^{\circ} \\
+& K_2=10 \\
+& K_3=-4 \times 10^{-4}
+\end{aligned}
+$$
+
+The time-domain expression for $v_o$ is
+
+$$
+\begin{aligned}
+v_o= & {\left[10 \sqrt{5} \times 10^{-4} e^{-3(t)(t)} \cos \left(4000 t+79.70^{\circ}\right)\right.} \\
+& \left.+10 t-4 \times 10^{-4}\right] u(t) \mathrm{V}
+\end{aligned}
+$$

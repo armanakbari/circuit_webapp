@@ -1,0 +1,19 @@
+$$
+\beta A_0=\frac{C_1}{C_1+C_2} g_{m 1}\left(r_{O 2} \| r_{O 4}\right)
+$$
+
+
+
+and hence
+
+$$
+A_{\text {closed }}=\frac{g_{m 1}\left(r_{O 2} \| r_{O 4}\right)}{1+\frac{C_1}{C_1+C_2} g_{m 1}\left(r_{O 2} \| r_{O 4}\right)}
+$$
+
+
+As expected, if $\beta A_0 \gg 1$, then $A_{\text {closed }} \approx 1+C_2 / C_1$.
+The open-loop output resistance of the circuit is equal to $r_{O 2} \| r_{O 4}$ (Chapter 5). It follows that
+
+$$
+R_{\text {out }, \text { closed }}=\frac{r_{O 2} \| r_{O 4}}{1+\frac{C_1}{C_1+C_2} g_{m 1}\left(r_{O 2} \| r_{O 4}\right)}
+$$

@@ -1,0 +1,8 @@
+To calculate the line voltage at the terminals of the source, we first calculate $\mathbf{V}_{\text {an }}$. $\mathbf{V}_{\text {an }}$ is the voltage drop across the line impedance plus the load impedance, so
+
+$$
+\begin{aligned}
+\mathbf{V}_{\mathrm{an}} & =(39.8+j 29.5)\left(2.4 \angle-36.87^{\circ}\right) \\
+& =118.90 \angle-0.32^{\circ} \mathrm{V} .
+\end{aligned}
+$$

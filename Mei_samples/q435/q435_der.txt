@@ -1,0 +1,17 @@
+$$
+\begin{gathered}
+E_1-V_1-E_3=0 \\
+V_1=E_1-E_3=20 \mathrm{~V}-8 \mathrm{~V}=\mathbf{1 2} \mathbf{V}
+\end{gathered}
+$$
+
+
+For path 2,
+and
+
+$$
+\begin{gathered}
+E_2-V_1-V_2=0 \\
+V_2=E_2-V_1=5 \mathrm{~V}-12 \mathrm{~V}=-7 \mathrm{~V}
+\end{gathered}
+$$

@@ -1,0 +1,2 @@
+In the provided circuit image, transistor $M_1$ senses $\Delta V$ and delivers a proportional current to a $50-\Omega$ transmission line. Assume $\lambda=\gamma=0$.
+Calculate $V_{\text {out }} / V_{\text {in }}$ at low frequencies for both arrangements.

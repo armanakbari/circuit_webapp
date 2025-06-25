@@ -1,0 +1,35 @@
+From the foregoing analysis, we may surmise that a change $\Delta V$ in $V_{D D}$ appears unattenuated at the output. But, we should note that if $V_{\text {out }}$ changes, so do $V_P$ and $I_{D 2}$, thereby opposing the change. Using Fig. 9.82(b) and neglecting channel-length modulation in $M_1-M_3$ for simplicity, we can write
+
+$$
+V_{\text {out }} \frac{C_1}{C_1+C_2}-V_2=-V_1
+$$
+
+and $g_{m 1} V_1+g_{m 2} V_2=0$. Thus, if the circuit is symmetric,
+
+$$
+V_2=\frac{V_{\text {out }}}{2} \frac{C_1}{C_1+C_2}
+$$
+
+
+We also have
+
+$$
+-\frac{g_{m 1} V_1}{g_{m 3}} g_{m 4}-\frac{V_{D D}-V_{\text {out }}}{r_{O 4}}+g_{m 2} V_2=0
+$$
+
+
+It follows that
+
+$$
+\frac{V_{\text {out }}}{V_{D D}}=\frac{1}{g_{m 2} r_{O 4} \frac{C_1}{C_1+C_2}+1}
+$$
+
+
+Thus,
+
+$$
+\begin{aligned}
+\mathrm{PSRR} & \approx\left(1+\frac{C_2}{C_1}\right)\left(g_{m 2} r_{O 4} \frac{C_1}{C_1+C_2}+1\right) \\
+& \approx g_{m 2} r_{O 4}
+\end{aligned}
+$$

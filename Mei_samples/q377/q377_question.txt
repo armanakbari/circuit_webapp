@@ -1,0 +1,1 @@
+Determine the value of $R_2$ In the provided circuit image to establish a total resistance of $9 \mathrm{k} \Omega$.

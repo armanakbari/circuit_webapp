@@ -1,0 +1,1 @@
+Find the total resistance of the network in the provided circuit image, where $R_A=3 \Omega, R_B=3 \Omega$, and $R_C=6 \Omega$.

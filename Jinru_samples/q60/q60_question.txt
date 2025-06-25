@@ -1,0 +1,1 @@
+Assume that the capacitor short-circuits when its terminal voltage reaches 150 V . How many milliseconds elapse before the capacitor shortcircuits?

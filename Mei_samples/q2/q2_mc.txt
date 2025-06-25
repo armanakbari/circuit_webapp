@@ -1,0 +1,5 @@
+1. V_2=40 \mathrm{~V}
+2. V_2=25 \mathrm{~V}
+3. V_2=60 \mathrm{~V}
+4. V_2=35 \mathrm{~V}
+5. None of the above

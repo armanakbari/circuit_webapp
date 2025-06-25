@@ -1,0 +1,5 @@
+1. 18669.21+j 4668.60 \mathrm{VA}
+2. 4668.60+j 18669.21 \mathrm{VA}
+3. 1556.20+j 6223.07 \mathrm{VA}
+4. 4668.60-j 18669.21 \mathrm{VA}
+5. None of the above

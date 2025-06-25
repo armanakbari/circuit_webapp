@@ -1,0 +1,39 @@
+The first step in finding $V_2 / V_g$ is to convert from $h$ parameters to a parameters. The amplifiers are identical, so one set of a parameters describes the amplifiers:
+
+$$
+\begin{aligned}
+& a_{11}^{\prime}=\frac{-\Delta h}{h_{21}}=\frac{+0.05}{100}=5 \times 10^{-4}, \\
+& a_{12}^{\prime}=\frac{-h_{11}}{h_{21}}=\frac{-1000}{100}=-10 \Omega, \\
+& a_{21}^{\prime}=\frac{-h_{22}}{h_{21}}=\frac{-100 \times 10^{-6}}{100}=-10^{-6} \mathrm{~S}, \\
+& a_{22}^{\prime}=\frac{-1}{h_{21}}=\frac{-1}{100}=-10^{-2} .
+\end{aligned}
+$$
+
+compute the a parameters of the cascaded amplifiers:
+
+$$
+\begin{aligned}
+a_{11} & =a_{11}^{\prime} a_{11}^{\prime}+a_{12}^{\prime} a_{21}^{\prime} \\
+& =25 \times 10^{-8}+(-10)\left(-10^{-6}\right)
+\end{aligned}
+$$
+$$
+\begin{aligned}
+& =10.25 \times 10^{-6}, \\
+a_{12} & =a_{11}^{\prime} a_{12}^{\prime}+a_{12}^{\prime} a_{22}^{\prime} \\
+& =\left(5 \times 10^{-4}\right)(-10)+(-10)\left(-10^{-2}\right) \\
+& =0.095 \Omega, \\
+a_{21} & =a_{21}^{\prime} a_{11}^{\prime}+a_{22}^{\prime} a_{21}^{\prime} \\
+& =\left(-10^{-6}\right)\left(5 \times 10^{-4}\right)+(-0.01)\left(-10^{-6}\right) \\
+& =9.5 \times 10^{-9} \mathrm{~S}, \\
+a_{22} & =a_{21}^{\prime} a_{12}^{\prime}+a_{22}^{\prime} a_{22}^{\prime} \\
+& =\left(-10^{-6}\right)(-10)+\left(-10^{-2}\right)^2 \\
+& =1.1 \times 10^{-4} .
+\end{aligned}
+$$
+&\frac{V_2}{V_g}=\frac{Z_L}{\left(a_{11}+a_{21} Z_g\right) Z_L+a_{12}+a_{22} Z_g}
+& =\frac{10^4}{\left[10.25 \times 10^{-6}+9.5 \times 10^{-9}(500)\right] 10^4+0.095+1.1 \times 10^{-4}(500)} & \\
+& =\frac{10^4}{0.15+0.095+0.055} \\
+& =\frac{10^5}{3} \\
+& =33,333.33 .
+$$

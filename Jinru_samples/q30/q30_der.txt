@@ -1,0 +1,16 @@
+The voltage across the inductor is
+
+$$
+\begin{aligned}
+v & =L \frac{d i}{d t} \\
+& =0.2\left(200 e^{-10 t}\right) \\
+& =40 e^{-10 t} \mathrm{~V}, \quad t \geq 0^{+}
+\end{aligned}
+$$
+
+
+The initial inductor voltage is
+
+$$
+v\left(0^{+}\right)=40 \mathrm{~V}
+$$

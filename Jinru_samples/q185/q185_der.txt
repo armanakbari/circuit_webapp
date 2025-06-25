@@ -1,0 +1,1 @@
+$\begin{aligned} & \text { d) } Z_\phi=10 \angle-75^{\circ} \Omega, V_{\mathrm{L}}=120 \sqrt{3} \mathrm{~V}, \text { and } \\ & I_{\mathrm{L}}=12 \mathrm{~A} . \\ & W_1=(120 \sqrt{3})(12) \cos \left(-75^{\circ}+30^{\circ}\right)=1763.63 \mathrm{~W}, \\ & W_2=(120 \sqrt{3})(12) \cos \left(-75^{\circ}-30^{\circ}\right)=-645.53 \mathrm{~W} .\end{aligned}$

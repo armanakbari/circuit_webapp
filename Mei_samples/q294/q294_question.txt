@@ -1,0 +1,1 @@
+A balanced three-phase delta-connected generator delivers power to a balanced three-phase delta-connected load as shown In the provided circuit image. Per phase load impedance and generator voltage are $1635^{\circ} \Omega$ and $23015^{\circ} \mathrm{V} \mathrm{rms}$, respectively. For ABC phase sequence, find the line current I_{\mathrm{Aa}}.

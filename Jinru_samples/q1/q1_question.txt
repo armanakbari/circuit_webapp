@@ -1,0 +1,1 @@
+What range of input voltages, $v_s$, allows the op amp in this design to remain in its linear operating region?

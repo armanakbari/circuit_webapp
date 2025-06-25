@@ -1,0 +1,22 @@
+The parallel combination of $R_B$ and $R_C$ results in
+
+$$
+R_{B \| C}=R_B \| R_C=\frac{(12 \mathrm{k} \Omega)(6 \mathrm{k} \Omega)}{12 \mathrm{k} \Omega+6 \mathrm{k} \Omega}=4 \mathrm{k} \Omega
+$$
+
+
+The equivalent resistance $R_{B \| C}$ is then in series with $R_A$, and the total resistance "seen" by the source is
+
+$$
+\begin{aligned}
+R_T & =R_A+R_{B \| C} \\
+& =2 \mathrm{k} \Omega+4 \mathrm{k} \Omega=\mathbf{6} \mathbf{k} \Omega
+\end{aligned}
+$$
+
+
+The result is an equivalent network, as shown in Fig. 7.4, permitting the determination of the source current $I_s$.
+
+$$
+I_s=\frac{E}{R_T}=\frac{54 \mathrm{~V}}{6 \mathrm{k} \Omega}=9 \mathrm{~mA}
+$$

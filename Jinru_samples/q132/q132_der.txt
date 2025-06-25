@@ -1,0 +1,5 @@
+The average power lost in the line results from the current flowing through the line resistance:
+
+$$
+P_{\text {line }}=\left|\mathbf{I}_s\right|^2 R=(89.44)^2(0.05)=400 \mathrm{~W}
+$$

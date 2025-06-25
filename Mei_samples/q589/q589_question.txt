@@ -1,0 +1,1 @@
+Calculate $\mathbf{I} in phasor form in the provided circuit image

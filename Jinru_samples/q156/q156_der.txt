@@ -1,0 +1,1 @@
+$\begin{aligned} \mathbf{I}_{\mathrm{aA}} & =\frac{120 \angle 0^{\circ}}{(0.2+0.8+39)+j(0.5+1.5+28)} \\ & =\frac{120 \angle 0^{\circ}}{40+j 30} \\ & =2.4 \angle-36.87^{\circ} \mathrm{A} .\end{aligned}$

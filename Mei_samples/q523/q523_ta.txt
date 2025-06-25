@@ -1,0 +1,1 @@
+-\left(\mathbf{0 . 5 4} \times \mathbf{1 0}^{-\mathbf{3}}\right) e^{-t / 2 \mathrm{~ms}}

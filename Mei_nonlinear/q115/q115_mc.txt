@@ -1,0 +1,5 @@
+1. $g_{m 11} r_{O 11} r_{O 13} g_{m 5}\left[g_{m 7} r_{O 7} (r_{O 9} \| r_{O 5})\right] \| (g_{m 3} r_{O 3} r_{O 1})$
+2. $\left[g_{m 3} r_{O 3} r_{O 1}\right] \left[g_{m 5} r_{O 5}\right] \left[g_{m 7} (r_{O 7} \| r_{O 9})\right] \| (g_{m 11} r_{O 11} r_{O 13})$
+3. g_{m 3} r_{O 3} r_{O 1} g_{m 5}\left[g_{m 7} r_{O 7}\right.$ $\left(r_{O 9} \| r_{O 5}\right)\left\|\|\left(g_{m 11} r_{O 11} r_{O 13}\right)\right
+4. $g_{m 3} r_{O 3} r_{O 1} g_{m 5}\left[g_{m 7} r_{O 7} (r_{O 9} + r_{O 5})\right] \| \left[g_{m 11} (r_{O 11} \| r_{O 13})\right]$
+5. None of the above

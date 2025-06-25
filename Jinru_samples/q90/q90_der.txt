@@ -1,0 +1,22 @@
+We compute the phasor current simply by dividing the voltage of the voltage source by the equivalent impedance between the terminals $\mathrm{a}, \mathrm{b}$. 
+
+$$
+\begin{aligned}
+Z_{\mathrm{ab}} & =90+j 160-j 40 \\
+& =90+j 120=150 \angle 53.13^{\circ} \Omega
+\end{aligned}
+$$
+
+
+Thus
+
+$$
+\mathbf{I}=\frac{750 \angle 30^{\circ}}{150 \angle 53.13^{\circ}}=5 \angle-23.13^{\circ} \mathrm{A}
+$$
+
+
+We may now write the steady-state expression for $i$ directly:
+
+$$
+i=5 \cos \left(5000 t-23.13^{\circ}\right) \mathrm{A}
+$$

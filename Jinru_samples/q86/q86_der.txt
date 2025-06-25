@@ -1,0 +1,58 @@
+$$
+\begin{aligned}
+& \frac{1}{R_1 C_1}=\frac{1000}{(250)(0.1)}=40 \\
+& \frac{1}{R_2 C_2}=\frac{1000}{(500)(1)}=2
+\end{aligned}
+$$
+
+
+Now, because $v_g=25 \mathrm{mV}$ for $t>0$, 
+
+$$
+\frac{d^2 v_o}{d t^2}=(40)(2)\left(25 \times 10^{-3}\right)=2
+$$
+
+
+To solve for $v_o$, we let
+
+$$
+g(t)=\frac{d v_o}{d t}
+$$
+
+then,
+
+$$
+\frac{d g(t)}{d t}=2, \quad \text { and } \quad d g(t)=2 d t
+$$
+
+Hence
+
+$$
+\int_{g(0)}^{g(t)} d y=2 \int_0^t d x
+$$
+
+from which
+
+$$
+g(t)-g(0)=2 t
+$$
+
+
+However,
+
+$$
+g(0)=\frac{d v_o(0)}{d t}=0
+$$
+
+because the energy stored in the circuit initially is zero, and the op amps are ideal. Then,
+
+$$
+\frac{d v_o}{d t}=2 t, \quad \text { and } \quad v_o=t^2+v_o(0)
+$$
+
+
+But $v_o(0)=0$, so the experssion for $v_o$, becomes
+
+$$
+v_o=t^2, \quad 0 \leq t \leq t_{\text {sat }} .
+$$

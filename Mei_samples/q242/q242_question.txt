@@ -1,0 +1,1 @@
+Calculate the non-references node voltages V_2 for the circuit shown In the provided circuit image.

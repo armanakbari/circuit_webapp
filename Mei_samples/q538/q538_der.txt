@@ -1,0 +1,1 @@
+& Q_1=C_1 E=\left(800 \times 10^{-6} \mathrm{~F}\right)(48 \mathrm{~V})=\mathbf{3 8 . 4} \mathbf{~ m C} \\

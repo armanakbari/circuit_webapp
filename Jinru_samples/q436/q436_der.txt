@@ -1,0 +1,18 @@
+We first transform the current and voltage sources to obtain the circuit. Combining the $4-\Omega$ and $2-\Omega$ resistors in series and transforming the $12-\mathrm{V}$ voltage source . We now combine the $3-\Omega$ and $6-\Omega$ resistors in parallel to get $2-\Omega$. We also combine the $2-\mathrm{A}$ and $4-\mathrm{A}$ current sources to get a $2-\mathrm{A}$ source. Thus, by repeatedly applying source transformations, we obtain the circuit.We use current division to get
+
+$$
+i=\frac{2}{2+8}(2)=0.4 \mathrm{~A}
+$$
+
+and
+
+$$
+v_o=8 i=8(0.4)=3.2 \mathrm{~V}
+$$
+
+
+Alternatively, since the $8-\Omega$ and $2-\Omega$ resistors are in parallel, they have the same voltage $v_o$ across them. Hence,
+
+$$
+v_o=(8 \| 2)(2 \mathrm{~A})=\frac{8 \times 2}{10}(2)=3.2 \mathrm{~V}
+$$

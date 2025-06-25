@@ -1,0 +1,1 @@
+Estimate the $-3-\mathrm{dB}$ bandwidth of a resistively-degenerated common-source stage with small signal model in the provided circuit image. Assume $\lambda=\gamma=0$.

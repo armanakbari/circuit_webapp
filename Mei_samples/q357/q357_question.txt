@@ -1,0 +1,1 @@
+Determine voltage across the $7-\Omega$ resistor for the network In the provided circuit image.

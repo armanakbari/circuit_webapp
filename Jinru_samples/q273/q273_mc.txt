@@ -1,0 +1,5 @@
+1. 180 \mathrm{~mW}
+2. 48 \mathrm{~mW}
+3. 108 \mathrm{~mW}
+4. 72 \mathrm{~mW}
+5. None of the above

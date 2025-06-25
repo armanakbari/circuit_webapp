@@ -1,0 +1,5 @@
+1. 1000 \cos \left(400 t-16.26^{\circ}\right) \mathrm{A}
+2. 1030 \cos \left(400 t-11.89^{\circ}\right) \mathrm{A}
+3. 707 \cos \left(400 t-16.26^{\circ}\right) \mathrm{A}
+4. 1000 \cos \left(400 t+16.26^{\circ}\right) \mathrm{A}
+5. None of the above

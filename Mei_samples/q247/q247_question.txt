@@ -1,0 +1,1 @@
+Determine the mesh currents I_1 for the circuit shown In the provided circuit image.

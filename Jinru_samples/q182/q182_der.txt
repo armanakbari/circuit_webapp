@@ -1,0 +1,1 @@
+$\begin{aligned} & Z_\phi=5(1+j \sqrt{3})=10 \angle 60^{\circ} \Omega, V_{\mathrm{L}}=120 \sqrt{3} \mathrm{~V}, \\ & \text { and } I_{\mathrm{L}}=12 \mathrm{~A} . \\ & W_1=(120 \sqrt{3})(12) \cos \left(60^{\circ}+30^{\circ}\right)=0, \\ & \begin{aligned} W_2 & =(120 \sqrt{3})(12) \cos \left(60^{\circ}-30^{\circ}\right) \\ & =2160 \mathrm{~W} .\end{aligned}\end{aligned}$

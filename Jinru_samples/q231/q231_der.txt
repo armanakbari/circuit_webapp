@@ -1,0 +1,14 @@
+We begin by noting that the $3 \Omega$ resistor is in series with the $6 \Omega$ resistor. We therefore replace this series combination with a $9 \Omega$ resistor, reducing the circuit to the one shown then we now can replace the parallel combination of the $9 \Omega$ and $18 \Omega$ resistors with a single resistance of $(18 \times 9) /(18+9)$, or $6 \Omega$. Then you can verify that $i_s$ equals $120 / 10$, or 12 A . 
+
+We added the voltage $v_1$ between nodes $x$ and $y$ to help clarify the subsequent discussion. Using Ohm's law we compute the value of $v_1$ :
+
+$$
+v_1=(12)(6)=72 \mathrm{~V}
+$$
+
+
+But $v_1$ is the voltage drop from node x to node y , so we can return to the circuit and again use Ohm's law to calculate $i_1$. Thus,
+
+$$
+i_1=\frac{v_1}{18}=\frac{72}{18}=4 \mathrm{~A},
+$$

@@ -1,0 +1,1 @@
+Calculate the cutoff frequencies, $\omega_{c 2}$

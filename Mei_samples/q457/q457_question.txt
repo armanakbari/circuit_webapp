@@ -1,0 +1,1 @@
+Using mesh analysis in the provided circuit image, find the current through the $7-\Omega$ resistor.

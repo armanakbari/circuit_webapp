@@ -1,0 +1,1 @@
+Find the power dissipated in the $300 \Omega$ resistor in the provided circuit image.

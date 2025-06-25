@@ -1,0 +1,1 @@
+\text { Calculate the low-frequency PSRR of the feedback circuit shown in the provided circuit image. }

@@ -1,0 +1,4 @@
+\begin{aligned}
+I_L & =\frac{E}{R_1+R_2}=\frac{10 \mathrm{~V}}{5 \Omega}=\mathbf{2} \mathbf{A} \\
+V_C & =\frac{R_2 E}{R_2+R_1}=\frac{(3 \Omega)(10 \mathrm{~V})}{3 \Omega+2 \Omega}=\mathbf{6} \mathbf{V}
+\end{aligned}

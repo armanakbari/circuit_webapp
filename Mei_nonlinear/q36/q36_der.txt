@@ -1,0 +1,19 @@
+In this circuit, the capacitances contributed by $M_1$ are connected from the input and output nodes to ground [Fig. 6.12(b)]. At node $X, C_S=C_{G S}+C_{S B}$, giving a pole frequency
+
+$$
+\omega_{i n}=\left[\left(C_{G S}+C_{S B}\right)\left(R_S \| \frac{1}{g_m+g_{m b}}\right)\right]^{-1}
+$$
+
+
+Similarly, at node $Y, C_D=C_{D G}+C_{D B}$, yielding a pole frequency
+
+$$
+\omega_{o u t}=\left[\left(C_{D G}+C_{D B}\right) R_D\right]^{-1}
+$$
+
+
+The overall transfer function is thus given by
+
+$$
+\frac{V_{\text {out }}}{V_{\text {in }}}(s)=\frac{\left(g_m+g_{m b}\right) R_D}{1+\left(g_m+g_{m b}\right) R_S} \cdot \frac{1}{\left(1+\frac{s}{\omega_{\text {in }}}\right)\left(1+\frac{s}{\omega_{\text {out }}}\right)}
+$$

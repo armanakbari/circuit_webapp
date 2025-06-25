@@ -1,0 +1,14 @@
+With $Z_{\mathrm{L}}$ set equal to $4000-j 3000 \Omega$, the load current is
+
+$$
+\mathbf{I}_{\mathrm{cff}}=\frac{10}{7000+j 1000}=1.4142 \angle-8.13^{\circ} \mathrm{mA}
+$$
+
+and the average power delivered to the load is
+
+$$
+P=\left(1.4142 \times 10^{-3}\right)^2(4000)=8 \mathrm{~mW}
+$$
+
+
+This quantity is the maximum power that can be delivered by this circuit to a load impedance whose angle is constant at $-36.87^{\circ}$. Again, this quantity is less than the maximum power that can be delivered if there are no restrictions on $Z_{\mathrm{L}}$.

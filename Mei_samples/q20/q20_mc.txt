@@ -1,0 +1,5 @@
+1. I_1=20 \mathrm{~A}
+2. I_1=26 \mathrm{~A}
+3. I_1=10 \mathrm{~A}
+4. I_1=16 \mathrm{~A}
+5. None of the above

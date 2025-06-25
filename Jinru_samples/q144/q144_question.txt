@@ -1,0 +1,1 @@
+Calculate the reactive powers associated with the independent voltage source in the circuit.

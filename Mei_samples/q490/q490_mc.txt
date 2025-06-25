@@ -1,0 +1,5 @@
+1. \mathbf{1 2 0} \Omega
+2. \mathbf{40} \Omega
+3. \mathbf{160} \Omega
+4. \mathbf{30} \Omega
+5. None of the above

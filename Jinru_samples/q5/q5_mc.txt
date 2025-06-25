@@ -1,0 +1,5 @@
+1. 0.50 \mathrm{~s}
+2. 0.33 \mathrm{~s}
+3. 0.2 \mathrm{~s}
+4. 0.54 \mathrm{~s}
+5. None of the above

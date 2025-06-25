@@ -1,0 +1,1 @@
+Determine the power to {R_2} In the provided circuit image.

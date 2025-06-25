@@ -1,0 +1,1 @@
+\text { Assuming that } M_1 in the provided circuit image is biased in saturation, calculate the small-signal voltage gain of the circuit.

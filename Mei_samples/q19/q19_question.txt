@@ -1,0 +1,1 @@
+A series circuit is shown In the provided circuit image. Calculate the voltage V_{8 \Omega} using voltage divider rule.

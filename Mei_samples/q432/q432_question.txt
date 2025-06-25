@@ -1,0 +1,1 @@
+Calculate the indicated current I_s in the provided circuit image

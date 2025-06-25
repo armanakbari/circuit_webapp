@@ -1,0 +1,1 @@
+Calculate the complex power associated with the current-controlled voltage source in the circuit.

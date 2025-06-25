@@ -1,0 +1,1 @@
+Find the voltage drop across the $1 \Omega$ resistor using mesh analysis for the circuit In the provided circuit image.

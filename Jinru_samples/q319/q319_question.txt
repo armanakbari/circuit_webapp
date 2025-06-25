@@ -1,0 +1,1 @@
+Calculate $v$ in the circuit

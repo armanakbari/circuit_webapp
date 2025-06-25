@@ -1,0 +1,1 @@
+the input signal of a common-gate stage may be a current rather than a voltage. Shown in the provided circuit image is such an arrangement. Calculate the output impedance of the circuit if the input current source exhibits an output impedance equal to $R_P$.

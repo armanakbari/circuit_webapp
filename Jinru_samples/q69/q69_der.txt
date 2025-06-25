@@ -1,0 +1,5 @@
+Because $v\left(0^{+}\right)=0$, the current in the resistive branch is zero at $t=0^{+}$. Hence the current in the capacitor at $t=0^{+}$is the negative of the inductor current:
+
+$$
+i_C\left(0^{+}\right)=-(-12.25)=12.25 \mathrm{~mA}
+$$

@@ -1,0 +1,1 @@
+15.42 \mathrm{e}^{-2 t} \mathrm{~V}

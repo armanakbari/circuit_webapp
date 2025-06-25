@@ -1,0 +1,5 @@
+1. \mathbf{2 5} \times \mathbf{1 0}^{-\mathbf{3}}\left(\mathbf{1}-\mathbf{e}^{-t / 2 \times \mathbf{1 0}^{-\mathbf{3}}}\right)
+2. \mathbf{25} \times \mathbf{10}^{-\mathbf{3}}\left(\mathbf{1}-\mathbf{e}^{-t / 5 \times \mathbf{10}^{-\mathbf{3}}}\right)
+3. $\mathbf{50} \times \mathbf{10}^{-\mathbf{3}}\left(\mathbf{1}-\mathbf{e}^{-t / 2 \times \mathbf{10}^{-\mathbf{3}}}\right)
+4. \mathbf{25} \times \mathbf{10}^{-\mathbf{3}} \mathbf{e}^{-t / 2 \times \mathbf{10}^{-\mathbf{3}}}$
+5. None of the above

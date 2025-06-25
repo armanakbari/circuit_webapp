@@ -1,0 +1,5 @@
+1. $5 \cos \left(5000 t-53.13^{\circ}\right) \mathrm{A}$
+2. $5 \cos \left(5000 t+83.13^{\circ}\right) \mathrm{A}$
+3. 5 \cos \left(5000 t-23.13^{\circ}\right) \mathrm{A}
+4. $3.54 \cos \left(5000 t-23.13^{\circ}\right) \mathrm{A}$
+5. None of the above

@@ -1,0 +1,40 @@
+The total impedance is defined by
+
+$$
+\mathbf{Z}_T=\mathbf{Z}_1+\mathbf{Z}_2
+$$
+
+with
+
+$$
+\begin{aligned}
+\mathbf{Z}_1=R \angle 0^{\circ} & =1 \Omega \angle 0^{\circ} \\
+\mathbf{Z}_2=\mathbf{Z}_C \| \mathbf{Z}_L & =\frac{\left(X_C \angle-90^{\circ}\right)\left(X_L \angle 90^{\circ}\right)}{-j X_C+j X_L}=\frac{\left(2 \Omega \angle-90^{\circ}\right)\left(3 \Omega \angle 90^{\circ}\right)}{-j 2 \Omega+j 3 \Omega} \\
+& =\frac{6 \Omega \angle 0^{\circ}}{j 1}=\frac{6 \Omega \angle 0^{\circ}}{1 \angle 90^{\circ}}=6 \Omega \angle-90^{\circ}
+\end{aligned}
+$$
+
+and
+
+$$
+\mathbf{Z}_T=\mathbf{Z}_1+\mathbf{Z}_2=1 \Omega-j 6 \Omega=\mathbf{6 . 0 8} \Omega \angle-\mathbf{8 0 . 5 4 ^ { \circ }}
+$$
+
+b. $\mathbf{I}_s=\frac{\mathbf{E}}{\mathbf{Z}_T}=\frac{120 \mathrm{~V} \angle 0^{\circ}}{6.08 \Omega \angle-80.54^{\circ}}=\mathbf{1 9 . 7 4} \mathbf{A} \angle \mathbf{8 0 . 5 4}{ }^{\circ}$
+c. Referring to Fig. 16.2, we find that $\mathbf{V}_R$ and $\mathbf{V}_C$ can be found by a direct application of Ohm's law:
+
+$$
+\begin{aligned}
+\mathbf{V}_R=\mathbf{I}_s \mathbf{Z}_1 & =\left(19.74 \mathrm{~A} \angle 80.54^{\circ}\right)\left(1 \Omega \angle 0^{\circ}\right)=\mathbf{1 9 . 7 4} \mathrm{V} \angle \mathbf{8 0 . 5} 4^{\circ} \\
+\mathbf{V}_C=\mathbf{I}_s \mathbf{Z}_2 & =\left(19.74 \mathrm{~A} \angle 80.54^{\circ}\right)\left(6 \Omega \angle-90^{\circ}\right) \\
+& =\mathbf{1 1 8 . 4 4} \mathrm{V} \angle-\mathbf{9 . 4 6 ^ { \circ }}
+\end{aligned}
+$$
+
+d. Now that $\mathbf{V}_C$ is known, the current $\mathbf{I}_C$ can also be found using Ohm's law.
+
+$$
+\mathbf{I}_C=\frac{\mathbf{V}_C}{\mathbf{Z}_C}=\frac{118.44 \mathrm{~V} \angle-9.46^{\circ}}{2 \Omega \angle-90^{\circ}}=\mathbf{5 9 . 2 2} \mathrm{A} \angle \mathbf{8 0 . 5 4 ^ { \circ }}
+$$
+
+e. $P_{\text {del }}=I_s^2 R=(19.74 \mathrm{~A})^2(1 \Omega)=389.67 \mathrm{~W}$

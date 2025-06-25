@@ -1,0 +1,11 @@
+Solve two different versions of the simplified difference-amplifier equation for $v_o$ in terms of $v_{\mathrm{b}}$-first using $v_o=+8 \mathrm{~V}$ and then using $v_o=-8 \mathrm{~V}$ :
+
+$$
+\begin{aligned}
+& v_o=8\left(v_{\mathrm{b}}-1\right)=8 \mathrm{~V} \quad \text { so } v_{\mathrm{b}}=2 \mathrm{~V} \\
+& v_o=8\left(v_{\mathrm{b}}-1\right)=-8 \mathrm{~V} \quad \text { so } v_{\mathrm{b}}=0 \mathrm{~V}
+\end{aligned}
+$$
+
+
+Thus, if $v_{\mathrm{a}}=1 \mathrm{~V}$ in the difference amplifier, the op amp will remain in its linear region of operation if $0 \mathrm{~V} \leq v_{\mathrm{b}} \leq+2 \mathrm{~V}$.

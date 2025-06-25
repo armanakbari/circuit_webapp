@@ -1,0 +1,5 @@
+1. 4 \mathbf{A}
+2. 12 \mathbf{A}
+3. 6 \mathbf{A}
+4. 3 \mathbf{A}
+5. None of the above

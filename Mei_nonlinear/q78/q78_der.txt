@@ -1,0 +1,1 @@
+With a high loop gain, the output voltage of $A_1$ is approximately equal to $V_{\text {REF }}$, and hence $I_{\text {out }}=\left(V_{\text {REF }} / A_1\right) / r$.

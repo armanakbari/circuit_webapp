@@ -1,0 +1,1 @@
+Not all fully differential circuits are free from mirror poles. The provided circuit image illustrates an example where current mirrors $M_3-M_5$ and $M_4-M_6$ "fold" the signal current. Estimate the low-frequency gain of this circuit.

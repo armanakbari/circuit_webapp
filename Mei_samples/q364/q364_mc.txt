@@ -1,0 +1,5 @@
+1. 24V
+2. -24V
+3. -21V
+4. -17V
+5. None of the above

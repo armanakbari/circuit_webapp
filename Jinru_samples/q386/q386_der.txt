@@ -1,0 +1,51 @@
+Note that meshes 1 and 2 form a supermesh since they have an independent current source in common. Also, meshes 2 and 3 form another supermesh because they have a dependent current source in common. The two supermeshes intersect and form a larger supermesh as shown. Applying KVL to the larger supermesh,
+
+$$
+2 i_1+4 i_3+8\left(i_3-i_4\right)+6 i_2=0
+$$
+
+or
+
+$$
+i_1+3 i_2+6 i_3-4 i_4=0
+$$
+
+
+For the independent current source, we apply KCL to node $P$ :
+
+$$
+i_2=i_1+5
+$$
+
+
+For the dependent current source, we apply KCL to node $Q$ :
+
+$$
+i_2=i_3+3 I_o
+$$
+
+But $I_o=-i_4$, hence,
+
+$$
+i_2=i_3-3 i_4
+$$
+
+
+Applying KVL in mesh 4,
+
+$$
+2 i_4+8\left(i_4-i_3\right)+10=0
+$$
+
+or
+
+$$
+5 i_4-4 i_3=-5
+$$
+
+
+Thus:
+
+$$
+i_1=-7.5 \mathrm{~A}, \quad i_2=-2.5 \mathrm{~A}, \quad i_3=3.93 \mathrm{~A}, \quad i_4=2.143 \mathrm{~A}
+$$

@@ -1,0 +1,1 @@
+1000 \cos \left(400 t-16.26^{\circ}\right) \mathrm{A}

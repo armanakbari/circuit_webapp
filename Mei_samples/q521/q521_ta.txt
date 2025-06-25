@@ -1,0 +1,1 @@
+\left(0.233 \times \mathbf{1 0}^{-\mathbf{3}}\right) e^{-t / 6 \mathrm{~ms}}

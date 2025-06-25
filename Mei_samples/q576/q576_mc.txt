@@ -1,0 +1,5 @@
+1. $\mathbf{8 . 0} \sin \left(\omega t-60^{\circ}\right)$
+2. $\mathbf{11 . 3} \sin \left(\omega t+30^{\circ}\right)$
+3. \mathbf{8 . 0} \sin \left(\omega t+30^{\circ}\right)
+4. $\mathbf{8 . 0} \sin \left(\omega t-30^{\circ}\right)$
+5. None of the above

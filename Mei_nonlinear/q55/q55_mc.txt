@@ -1,0 +1,5 @@
+1. \left(4 k T \gamma g_m^2\right) r_O
+2. 4 k T r_O
+3. \frac{4 k T \gamma}{g_m}
+4. \left(4 k T \gamma g_m\right) r_O^2
+5. None of the above

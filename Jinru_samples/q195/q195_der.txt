@@ -1,0 +1,21 @@
+To find the center frequency, we need to calculate where the transfer function magnitude is maximum. Substituting $s=j \omega$ in $H(s)$,
+
+$$
+\begin{aligned}
+|H(j \omega)| & =\frac{\frac{\omega}{R C}}{\sqrt{\left(\frac{1}{L C}-\omega^2\right)^2+\left(\frac{\omega}{R C}\right)^2}} \\
+& =\frac{1}{\sqrt{1+\left(\omega R C-\frac{1}{\omega \frac{L}{R}}\right)^2}}
+\end{aligned}
+$$
+
+
+The magnitude of this transfer function is maximum when the term
+
+$$
+\left(\frac{1}{L C}-\omega^2\right)^2
+$$
+
+is zero. Thus,
+
+$$
+\omega_o=\sqrt{\frac{1}{L C}}
+$$

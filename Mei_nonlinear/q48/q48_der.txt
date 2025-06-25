@@ -1,0 +1,22 @@
+Since we have already obtained the transfer function with $C_F$ present, we must seek the $Z_{\text {out }, 0}$ and $Z_{\text {in }, 0}$ corresponding to $C_B$. The arrangement depicted in Fig. 6.48(a) suggests that $Z_{\text {out }, 0}=0$ because the drain voltage must be zero while $V_1$ is not, requiring an infinite current to flow through $V_1$.
+
+For $Z_{\text {in }, 0}, we note from Fig. 6.48(b) that $V_{G S}=V_1 R_S C_F s /\left(R_S C_F s+1\right)$ and the current flowing through $C_F$ is equal to $V_1 /\left[\left(C_F s\right)^{-1}+R_S\right]$. A KCL at the drain node gives
+
+$$
+\frac{V_1}{R_D}+\frac{V_1 C_F s}{R_S C_F s+1}+g_m V_1 \frac{R_S C_F s}{R_S C_F s+1}=I_1
+$$
+Thus,
+
+$$
+Z_{i n, 0}=\frac{R_D\left(R_S C_F s+1\right)}{\left[R_S\left(1+g_m R_D\right)+R_D\right] C_F s+1}
+$$
+
+
+Using Eq. (6.111), we write the new transfer function as
+
+$$
+\begin{aligned}
+G(s) & =-g_m\left(R_D \| r_O\right) \frac{1-\frac{C_F}{g_m} s}{1+\left[\left(1+g_m R_D\right) R_S+R_D\right] C_F s} \frac{1}{1+\frac{R_D\left(R_S C_F s+1\right) C_B s}{\left[R_S\left(1+g_m R_D\right)+R_D\right] C_F s+1}} \\
+& =-g_m\left(R_D \| r_O\right) \frac{1-\frac{C_F}{g_m} s}{\left[R_S\left(1+g_m R_D\right)+R_D\right] C_F s+R_D\left(R_S C_F s+1\right) C_B s+1}
+\end{aligned}
+$$

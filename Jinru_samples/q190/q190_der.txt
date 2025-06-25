@@ -1,0 +1,9 @@
+From the results in (b), we see that the cutoff frequency is determined by the values of $R$ and $C$. Because $R$ and $C$ cannot be computed independently, let's choose $C=1 \mu \mathrm{~F}$. Given a choice, we will usually specify a value for $C$ first, rather than for $R$ or $L$, because the number of available capacitor values is much smaller than the number of resistor or inductor values. Remember that we have to convert the specified cutoff frequency from 3 kHz to $(2 \pi)(3) \mathrm{krad} / \mathrm{s}$ :
+
+$$
+\begin{aligned}
+R & =\frac{1}{\omega_c C} \\
+& =\frac{1}{(2 \pi)\left(3 \times 10^3\right)\left(1 \times 10^{-6}\right)} \\
+& =53.05 \Omega
+\end{aligned}
+$$

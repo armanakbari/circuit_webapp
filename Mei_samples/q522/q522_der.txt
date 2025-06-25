@@ -1,0 +1,48 @@
+At $t=9 \mathrm{~ms}$,
+and
+
+$$
+\begin{aligned}
+v_C & =E_{T h}\left(1-e^{-t / \tau}\right)=7\left(1-e^{-\left(9 \times 10^{-3}\right) /\left(6 \times 10^{-3}\right)}\right) \\
+& =7\left(1-e^{-1.5}\right)=7(1-0.223) \\
+v_C & =7(0.777)=5.44 \mathrm{~V} \\
+i_C & =\frac{E_{T h}}{R} e^{-t / \tau}=\left(0.233 \times 10^{-3}\right) e^{-1.5} \\
+& =\left(0.233 \times 10^{-3}\right)(0.223) \\
+i_C & =0.052 \times 10^{-3}=0.052 \mathrm{~mA}
+\end{aligned}
+$$
+
+
+Using Eq. (10.23) with $V_f=0 \mathrm{~V}$ and $V_i=5.44 \mathrm{~V}$, we find that
+becomes
+
+$$
+\begin{aligned}
+V_C & =V_f+\left(V_i-V_f\right) e^{-t / \tau^{\prime}} \\
+V_C & =0 \mathrm{~V}+(5.44 \mathrm{~V}-0 \mathrm{~V}) e^{-t / \tau^{\prime}} \\
+& =5.44 e^{-t / \tau^{\prime}}
+\end{aligned}
+$$
+
+with
+
+$$
+\tau^{\prime}=R_4 C=(10 \mathrm{k} \Omega)(0.2 \mu \mathrm{~F})=2 \mathrm{~ms}
+$$
+
+and
+
+$$
+V_C=5.44 e^{-t / 2 \mathrm{~ms}}
+$$
+
+
+By Eq. (10.22),
+and
+
+$$
+\begin{aligned}
+I_i & =\frac{5.44 \mathrm{~V}}{10 \mathrm{k} \Omega}=0.054 \mathrm{~mA} \\
+i_C & =I_i e^{-t / \tau}=-\left(\mathbf{0 . 5 4} \times \mathbf{1 0}^{-\mathbf{3}}\right) e^{-t / 2 \mathrm{~ms}}
+\end{aligned}
+$$

@@ -1,0 +1,30 @@
+For loop 1,
+
+$$
+80=70 \mathrm{i}_1-20 \mathrm{i}_2-30 \mathrm{i}_3 \quad \longrightarrow \quad 8=7 \mathrm{i}_1-2 \mathrm{i}_2-3 \mathrm{i}_3
+$$
+
+
+For loop 2,
+
+$$
+80=70 \mathrm{i}_2-20 \mathrm{i}_1-30 \mathrm{i}_3 \longrightarrow 8=-2 \mathrm{i}_1+7 \mathrm{i}_2-3 \mathrm{i}_3
+$$
+
+
+For loop 3,
+
+$$
+0=-30 \mathrm{i}_1-30 \mathrm{i}_2+90 \mathrm{i}_3 \longrightarrow 0=\mathrm{i}_1+\mathrm{i}_2-3 \mathrm{i}_3
+$$
+
+(3)
+
+So we obtain $\mathrm{i}_3=16 / 9$
+
+$$
+\begin{gathered}
+I_o=i_3=16 / 9=1.7778 \mathrm{~A} \\
+V_{a b}=30 i_3=53.33 \mathrm{~V}
+\end{gathered}
+$$

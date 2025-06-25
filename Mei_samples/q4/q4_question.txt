@@ -1,0 +1,1 @@
+The voltage distribution of a circuit is shown In the provided circuit image . Determine the resistance $R_3$

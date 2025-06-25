@@ -1,0 +1,23 @@
+The total impedance is defined by
+
+$$
+\mathbf{Z}_T=\mathbf{Z}_1+\mathbf{Z}_2
+$$
+
+with
+
+$$
+\begin{aligned}
+\mathbf{Z}_1=R \angle 0^{\circ} & =1 \Omega \angle 0^{\circ} \\
+\mathbf{Z}_2=\mathbf{Z}_C \| \mathbf{Z}_L & =\frac{\left(X_C \angle-90^{\circ}\right)\left(X_L \angle 90^{\circ}\right)}{-j X_C+j X_L}=\frac{\left(2 \Omega \angle-90^{\circ}\right)\left(3 \Omega \angle 90^{\circ}\right)}{-j 2 \Omega+j 3 \Omega} \\
+& =\frac{6 \Omega \angle 0^{\circ}}{j 1}=\frac{6 \Omega \angle 0^{\circ}}{1 \angle 90^{\circ}}=6 \Omega \angle-90^{\circ}
+\end{aligned}
+$$
+
+and
+
+$$
+\mathbf{Z}_T=\mathbf{Z}_1+\mathbf{Z}_2=1 \Omega-j 6 \Omega=\mathbf{6 . 0 8} \Omega \angle-\mathbf{8 0 . 5 4 ^ { \circ }}
+$$
+
+b. $\mathbf{I}_s=\frac{\mathbf{E}}{\mathbf{Z}_T}=\frac{120 \mathrm{~V} \angle 0^{\circ}}{6.08 \Omega \angle-80.54^{\circ}}=\mathbf{1 9 . 7 4} \mathbf{A} \angle \mathbf{8 0 . 5 4}{ }^{\circ}$

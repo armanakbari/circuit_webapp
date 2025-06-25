@@ -1,0 +1,1 @@
+A CG stage contains a resistance $R_G$ in series with the gate in the provided circuit image. If only $C_{G D}$ is considered, determine the pole frequency.

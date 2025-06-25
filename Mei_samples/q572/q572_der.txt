@@ -1,0 +1,5 @@
+\begin{aligned}
+I_m & =\frac{E}{R_1+R_2}=\frac{15 \mathrm{~V}}{3 \Omega+2 \Omega}=\frac{15 \mathrm{~V}}{5 \Omega}=3 \mathrm{~A} \\
+W_{\text {stored }} & =\frac{1}{2} L I_m^2=\frac{1}{2}\left(6 \times 10^{-3} \mathrm{H}\right)(3 \mathrm{~A})^2=\frac{54}{2} \times 10^{-3} \mathrm{~J} \\
+& =\mathbf{2 7} \mathbf{~ m J}
+\end{aligned}

@@ -1,0 +1,6 @@
+\frac{V_{\text {out }}}{V_{\text {in }}}=\frac{\left(g_m+g_{m b}\right) r_O+1}{r_O+\left(g_m+g_{m b}\right) r_O R_S+R_S+R_D} R_D
+To find $V_{\text {out }} / I_{\text {in }}$, we replace $I_{\text {in }}$ and $R_P$ with a Thevenin equivalent and use above equation to write
+
+$$
+\frac{V_{\text {out }}}{I_{\text {in }}}=\frac{\left(g_m+g_{m b}\right) r_O+1}{r_O+\left(g_m+g_{m b}\right) r_O R_P+R_P+R_D} R_D R_P
+$$

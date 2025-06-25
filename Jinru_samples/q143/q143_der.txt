@@ -1,0 +1,9 @@
+The complex power associated with the independent voltage source is
+
+$$
+\begin{aligned}
+S_s & =-\frac{1}{2} \mathbf{V}_s \mathbf{I}_1^*=P_s+j Q_s \\
+& =-\frac{1}{2}(150)(-26+j 52) \\
+& =1950-j 3900 \mathrm{VA}
+\end{aligned}
+$$

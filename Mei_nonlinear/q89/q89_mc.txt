@@ -1,0 +1,5 @@
+1. \frac{R_F \| R_D}{1+g_m R_F}
+2. \frac{R_F}{1+g_m R_D}
+3. \frac{R_F}{1-g_m\left(R_F \| R_D\right)}
+4. \frac{R_F}{1+g_m\left(R_F \| R_D\right)}
+5. None of the above

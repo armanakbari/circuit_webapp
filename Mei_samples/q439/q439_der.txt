@@ -1,0 +1,4 @@
+$\quad R_3$ :
+$$
+\begin{aligned}
+R_3 & =\frac{V_{R_3}}{I_{R_3}}=\frac{V_{R_3}}{I_s}=\frac{12 \mathrm{~V}}{50 \mathrm{~mA}}=\mathbf{2 4 0} \boldsymbol{\Omega} \\

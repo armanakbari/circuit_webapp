@@ -1,0 +1,1 @@
+Show that the $R L C$ circuit in the provided circuit image is also a bandpass filter by deriving an expression for the transfer function $H(s)$.

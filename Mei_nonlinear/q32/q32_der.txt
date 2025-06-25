@@ -1,0 +1,3 @@
+Using Miller's theorem to convert the circuit to that shown in Fig. 6.3(b), we have $Z=1 /\left(C_F s\right)$ and $Z_1=$ $\left[1 /\left(C_F s\right)\right] /(1+A)$. That is, the input capacitance is equal to $C_F(1+A)$. We call this effect "Miller multiplication" of the capacitor.
+
+Why is $C_F$ multiplied by $1+A$ ? Suppose, as depicted in Fig. 6.3(c), we measure the input capacitance by applying a voltage step at the input and calculating the charge supplied by the voltage source. A step equal to $\Delta V$ at $X$ results in a change of $-A \Delta V$ at $Y$, yielding a total change of $(1+A) \Delta V$ in the voltage across $C_F$. Thus, the charge drawn by $C_F$ from $V_{i n}$ is equal to $(1+A) C_F \Delta V$ and the equivalent input capacitance equal to $(1+A) C_F$.

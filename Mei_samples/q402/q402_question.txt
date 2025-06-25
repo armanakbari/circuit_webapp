@@ -1,0 +1,1 @@
+Calculate the current $I$ for the network In the provided circuit image

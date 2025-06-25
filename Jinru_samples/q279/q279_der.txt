@@ -1,0 +1,12 @@
+Applying KCL to node $a$, we obtain
+
+$$
+3+0.5 i_o=i_o \quad \Rightarrow \quad i_o=6 \mathrm{~A}
+$$
+
+
+For the $4-\Omega$ resistor, Ohm's law gives
+
+$$
+v_o=4 i_o=24 \mathrm{~V}
+$$

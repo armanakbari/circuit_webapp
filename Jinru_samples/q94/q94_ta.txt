@@ -1,0 +1,1 @@
+8 \cos \left(200,000 t+53.13^{\circ}\right) \mathrm{A}

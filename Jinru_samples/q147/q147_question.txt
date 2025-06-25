@@ -1,0 +1,1 @@
+What is the maximum average power transferred to the load impedance determined when Z_L=5.76+j 1.68 \Omega ?

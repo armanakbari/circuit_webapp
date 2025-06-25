@@ -1,0 +1,5 @@
+1. $15\Omega$
+2. $20\Omega$
+3. $5\Omega$
+4. 10{\Omega}
+5. None of the above

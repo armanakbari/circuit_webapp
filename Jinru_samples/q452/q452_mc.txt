@@ -1,0 +1,5 @@
+1. \mathbf{-8.667} \mathbf{V}
+2. \mathbf{8 . 6 6 7} \mathbf{V}
+3. \mathbf{-5.667} \mathbf{V}
+4. \mathbf{6.667} \mathbf{V}
+5. None of the above

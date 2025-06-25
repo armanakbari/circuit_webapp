@@ -1,0 +1,5 @@
+1. $-8 + 20 e^{-10 t} \mathrm{~A}$
+2. $12 - 20 e^{-15 t} \mathrm{~A}$
+3. $12 + 20 e^{-10 t} \mathrm{~A}$
+4. 12-20 e^{-10 t} \mathrm{~A}
+5. None of the above

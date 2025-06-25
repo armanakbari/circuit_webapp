@@ -1,0 +1,46 @@
+The first step in analyzing the circuit to recognize that the current labeled $i_x$ must be zero. (Note the absence of a return path for $i_x$ to enter the left-hand portion of the circuit.) The open-circuit, or Thévenin, voltage will be the voltage across the $25 \Omega$ resistor. With $i_x=0$,
+
+$$
+V_{\mathrm{Th}}=v_{\mathrm{ab}}=(-20 i)(25)=-500 i .
+$$
+
+
+The current $i$ is
+
+$$
+i=\frac{5-3 v}{2000}=\frac{5-3 V_{\mathrm{Th}}}{2000}
+$$
+
+
+In writing the equation for $i$, we recognize that the Thévenin voltage is identical to the control voltage. When we combine these two equations, we obtain
+
+$$
+V_{\mathrm{Th}}=-5 \mathrm{~V} .
+$$
+
+
+To calculate the short-circuit current, we place a short circuit across $\mathrm{a}, \mathrm{b}$. When the terminals $\mathrm{a}, \mathrm{b}$ are shorted together, the control voltage $v$ is reduced to zero. With the short circuit shunting the $25 \Omega$ resistor, all the current from the dependent current source appears in the short, so
+
+$$
+i_{\mathrm{sc}}=-20 i
+$$
+
+As the voltage controlling the dependent voltage source has been reduced to zero, the current controlling the dependent current source is
+
+$$
+i=\frac{5}{2000}=2.5 \mathrm{~mA}
+$$
+
+
+Combining these two equations yields a short-circuit current of
+
+$$
+i_{\mathrm{sc}}=-20(2.5)=-50 \mathrm{~mA}
+$$
+
+
+From $i_{\mathrm{sc}}$ and $V_{\text {Th }}$ we get
+
+$$
+R_{\mathrm{Th}}=\frac{V_{\mathrm{Th}}}{i_{\mathrm{sc}}}=\frac{-5}{-50} \times 10^3=100 \Omega
+$$

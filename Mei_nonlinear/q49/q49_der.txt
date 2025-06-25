@@ -1,0 +1,21 @@
+we remove $C_{G D}$, set $V_{i n}$ to zero, and apply a voltage (or current) source to measure the resistance seen by this capacitor. The voltage across $R_S$ is equal to $g_m V_1 R_S$, yielding
+
+$$
+g_m V_1 R_S+V_1=-I_X R_G
+$$
+
+and hence $V_1=-I_X R_G /\left(1+g_m R_S\right)$. Since the current flowing through $R_D$ is equal to $I_X-g_m V_1$, we have
+
+$$
+-I_X R_G+V_X=\left(I_X-g_m V_1\right) R_D
+$$
+
+
+Substituting for $V_1$, we obtain
+
+$$
+\frac{V_X}{I_X}=R_D+\left(\frac{g_m R_D}{1+g_m R_S}+1\right) R_G=R_{e q}
+$$
+
+
+The pole is given by $1 /\left(R_{e q} C_{G D}\right)$. The reader is encouraged to determine the circuit's transfer function directly and compare the mathematical labor.

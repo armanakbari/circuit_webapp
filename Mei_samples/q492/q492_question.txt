@@ -1,0 +1,1 @@
+Analysis of a transistor network resulted in the reduced configuration in the provided circuit image. Determine the $R_L$ necessary to transfer maximum power to $R_L$

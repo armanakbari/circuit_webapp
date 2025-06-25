@@ -1,0 +1,5 @@
+1. \frac{1}{g_m+g_{m b}} + \frac{1}{C_L s}
+2. \frac{1}{g_m+g_{m b}}+\frac{1}{C_L s} \cdot \frac{1}{\left(g_m+g_{m b}\right) r_O}
+3. \frac{1}{g_m+g_{m b}}+\frac{1}{C_L s} \cdot (g_m+g_{m b}) r_O
+4. \frac{1}{g_m+g_{m b}}-\frac{1}{C_L s} \cdot \frac{1}{\left(g_m+g_{m b}\right) r_O}
+5. None of the above

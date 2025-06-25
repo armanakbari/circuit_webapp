@@ -1,0 +1,10 @@
+$$
+\tau=32 \mathrm{~ms}
+$$
+
+
+By Eq. (10.18),
+
+$$
+v_C=E e^{-t / \tau}=\mathbf{4 0} e^{-t /\left(32 \times 10^{-3}\right)}
+$$

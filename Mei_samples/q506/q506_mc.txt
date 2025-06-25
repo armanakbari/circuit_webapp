@@ -1,0 +1,5 @@
+1. \mathbf{4 0} e^{-t /\left(32 \times 10^{-3}\right)}
+2. 40(1 - e^{-t /\left(32 \times 10^{-3}\right)})
+3. -40 e^{-t /\left(32 \times 10^{-3}\right)}
+4. 1250 e^{-t /\left(32 \times 10^{-3}\right)}
+5. None of the above

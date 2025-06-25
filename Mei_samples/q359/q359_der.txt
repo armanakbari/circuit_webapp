@@ -1,0 +1,5 @@
+Solution: Eq. (5.10):
+
+$$
+V_1=\frac{R_1 E}{R_T}=\frac{R_1 E}{R_1+R_2}=\frac{(20 \Omega)(64 \mathrm{~V})}{20 \Omega+60 \Omega}=\frac{1280 \mathrm{~V}}{80}=\mathbf{1 6} \mathbf{V}
+$$

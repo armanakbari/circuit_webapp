@@ -1,0 +1,47 @@
+First, the mesh currents for the network are defined. Then the current source is mentally removed, and Kirchhoff's voltage law is applied to the resulting network. The single path now including the effects of two mesh currents is referred to as the path of a supermesh current.
+Applying Kirchhoff's law:
+
+$$
+20 \mathrm{~V}-I_1(6 \Omega)-I_1(4 \Omega)-I_2(2 \Omega)+12 \mathrm{~V}=0
+$$
+
+or
+
+$$
+10 I_1+2 I_2=32
+$$
+Node $a$ is then used to relate the mesh currents and the current source using Kirchhoff's current law:
+
+$$
+I_1=I+I_2
+$$
+
+
+The result is two equations and two unknowns:
+
+$$
+\begin{aligned}
+& 10 I_1+2 I_2=32 \\
+& I_1-I_2=4 \\
+& \hline
+\end{aligned}
+$$
+
+
+Applying determinants:
+
+$$
+I_1=\frac{\left|\begin{array}{rr}
+32 & 2 \\
+4 & -1
+\end{array}\right|}{\left|\begin{array}{rr}
+10 & 2 \\
+1 & -1
+\end{array}\right|}=\frac{(32)(-1)-(2)(4)}{(10)(-1)-(2)(1)}=\frac{40}{12}=3.33 \mathbf{A}
+$$
+
+and
+
+$$
+I_2=I_1-I=3.33 \mathrm{~A}-4 \mathrm{~A}=-\mathbf{0 . 6 7 A}
+$$

@@ -1,0 +1,1 @@
+Find the energy stored by the inductor in the circuit in the provided circuit image when the current through it has reached its final value.

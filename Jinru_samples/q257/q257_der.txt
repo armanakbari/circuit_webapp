@@ -1,0 +1,22 @@
+The externally applied test voltage source is denoted $v_T$, and the current that it delivers to the circuit is labeled $i_T$. To find the Thévenin resistance, we simply solve the circuit shown in the provided circuit image for the ratio of the voltage to the current at the test source; that is, $R_{\mathrm{Th}}=v_T / i_T$. From the provided circuit image,
+
+$$
+\begin{aligned}
+i_T & =\frac{v_T}{25}+20 i \\
+i & =\frac{-3 v_T}{2} \mathrm{~mA}
+\end{aligned}
+$$
+
+
+We then substitute and solve the resulting equation for the ratio $v_T / i_T$ :
+
+$$
+\begin{gathered}
+i_T=\frac{v_T}{25}-\frac{60 v_T}{2000}, \\
+\frac{i_T}{v_T}=\frac{1}{25}-\frac{6}{200}=\frac{50}{5000}=\frac{1}{100} .
+\end{gathered}
+$$
+
+$$
+R_{\mathrm{Th}}=\frac{v_T}{i_T}=100 \Omega .
+$$

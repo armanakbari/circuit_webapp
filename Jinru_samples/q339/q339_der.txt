@@ -1,0 +1,7 @@
+If $\mathrm{i}_{16}=\boldsymbol{i}_o=3 \mathrm{~A}$, then $\mathrm{v}=16 \times 3=48 \mathrm{~V}$ and $\mathrm{i}_8=48 / 8=6 \mathrm{~A} ; \mathrm{i}_4=48 / 4=12 \mathrm{~A} ;$ and $\mathrm{i}_2=48 / 2=24 \mathrm{~A}$.
+
+Thus,
+
+$$
+\boldsymbol{i}_{\boldsymbol{x}}=\mathrm{i}_8+\mathrm{i}_4+\mathrm{i}_2+\mathrm{i}_{16}=6+12+24+3=\mathbf{4 5} \mathbf{A}
+$$

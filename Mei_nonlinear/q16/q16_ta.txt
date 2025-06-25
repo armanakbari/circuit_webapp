@@ -1,0 +1,1 @@
+left\{\left[1+\left(g_m+g_{m b}\right) r_O\right] R_P+r_O\right\} \| R_D

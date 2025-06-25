@@ -1,0 +1,48 @@
+The mesh currents are assigned as shown in Fig. 4.9. The mesh equations can be written as
+
+$$
+\begin{gathered}
+-V_s+2 I_1+6\left(I_1-I_2\right)=0 \\
+V_s=8 I_1-6 I_2 \\
+18 I_2-3 V_x=0
+\end{gathered}
+$$
+According to the given circuit,
+
+$$
+V_x=2 I_1
+$$
+
+
+Substituting Eq. (4.20) into Eq. (4.19) yields,
+
+$$
+\begin{gathered}
+18 I_2-6 I_1=0 \\
+I_1=3 I_2
+\end{gathered}
+$$
+
+
+Substituting Eq. (4.22) into Eq. (4.18) yields,
+
+$$
+\begin{gathered}
+V_s=24 I_1-6 I_2 \\
+I_2=\frac{V_s}{18}
+\end{gathered}
+$$
+
+
+When $V_s=18 \mathrm{~V}$, the current is,
+
+$$
+I_0=I_2=\frac{18}{18}=1 \mathrm{~A}
+$$
+
+
+When $V_s=36 \mathrm{~V}$, the current is,
+
+$$
+I_0=I_2=\frac{36}{18}=2 \mathrm{~A}
+$$

@@ -1,0 +1,12 @@
+$B_1=0$ and
+
+$$
+B_2=\frac{98,000}{\omega_d} \approx 100 \mathrm{~V}
+$$
+
+
+Substituting the numerical values of $\alpha, \omega_d, B_1$. and $B_2$ into the expression for $v(t)$ gives
+
+$$
+v(t)=100 e^{-200 t} \sin 979.80 t \mathrm{~V}, \quad t \geq 0
+$$

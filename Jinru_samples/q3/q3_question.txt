@@ -1,0 +1,1 @@
+Suppose $v_{\mathrm{a}}=1 \mathrm{~V}$ in the difference amplifier designed. What range of input voltages for $v_{\mathrm{b}}$ will allow the op amp to remain in its linear operating region?

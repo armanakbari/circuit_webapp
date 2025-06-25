@@ -1,0 +1,5 @@
+The average power lost in the line is thus reduced to
+
+$$
+P_{\text {line }}=\left|\mathbf{I}_s\right|^2 R=(80)^2(0.05)=320 \mathrm{~W} .
+$$

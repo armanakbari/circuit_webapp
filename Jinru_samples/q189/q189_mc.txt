@@ -1,0 +1,5 @@
+1. 62.8 \Omega
+2. 6.28 \Omega
+3. 1.00 \Omega
+4. 0.159 \Omega
+5. None of the above

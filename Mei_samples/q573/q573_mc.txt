@@ -1,0 +1,5 @@
+1. $77.43 \sin \left(377 t-48.83^{\circ}\right)$
+2. $80 \sin \left(377 t+45^{\circ}\right)$
+3. 77.43 \sin \left(\mathbf{3 7 7 t}+\mathbf{4 1 . 1 7 ^ { \circ }}\right)
+4. $28.31 \sin \left(377 t-1.98^{\circ}\right)$
+5. None of the above

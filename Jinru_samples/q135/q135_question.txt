@@ -1,0 +1,1 @@
+The two loads in the circuit shown in the provided circuit image can be described as follows: Load 1 absorbs an average power of 8 kW at a leading power factor of 0.8 . Load 2 absorbs 20 kVA at a lagging power factor of 0.6 . Given that the frequency of the source is 60 Hz , compute the magnitude of the current

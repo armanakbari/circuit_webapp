@@ -1,0 +1,5 @@
+1. -1.25+1.25 e^{-100 t} \mathrm{~V}
+2. -1.25+1.25 e^{-20 t} \mathrm{~V}
+3. 1.25-1.25 e^{-20 t} \mathrm{~V}
+4. -0.25+0.25 e^{-10 t} \mathrm{~V}
+5. None of the above

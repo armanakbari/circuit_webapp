@@ -1,0 +1,17 @@
+Because $R_{\mathrm{L}}$ and $X_{\mathrm{L}}$ are restricted, we first set $X_I$. as close to $-4000 \Omega$ as possible; thus $X_L=-2000 \Omega$. Next, we set $R_{\mathrm{L}}$ as close to $\sqrt{R_{\mathrm{Th}}^2+\left(X_{\mathrm{L}}+X_{\mathrm{Th}}\right)^2}$ as possible. Thus
+
+$$
+R_{\mathrm{L}}=\sqrt{3000^2+(-2000+4000)^2}=3605.55 \Omega
+$$
+
+Now, because $R_{\mathrm{L}}$ can be varied from 0 to $4000 \Omega$, we can set $R_{\mathrm{L}}$ to $3605.55 \Omega$. Therefore, the load impedance is adjusted to a value of
+
+$$
+Z_{\mathrm{L}}=3605.55-j 2000 \Omega
+$$
+
+The average power delivered to the load is
+
+$$
+P=\left(1.4489 \times 10^{-3}\right)^2(3605.55)=7.57 \mathrm{~mW}
+$$

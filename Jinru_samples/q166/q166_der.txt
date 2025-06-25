@@ -1,0 +1,2 @@
+For a positive phase sequence,
+$\mathbf{V}_{\mathrm{bn}}=118.90 \angle-120.32^{\circ} \mathrm{V}$,

@@ -1,0 +1,1 @@
+Neglecting channel-length modulation, compute the transfer function of the common-gate stage shown in the provided circuit image.

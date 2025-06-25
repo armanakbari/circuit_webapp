@@ -1,0 +1,5 @@
+1. 320 \mathrm{VAR}
+2. -320 \mathrm{VAR}
+3. 400 \mathrm{VAR}
+4. 240 \mathrm{VAR}
+5. None of the above

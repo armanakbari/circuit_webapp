@@ -1,0 +1,10 @@
+Solution
+To determine $R_X$, we set all independent sources to zero, draw the small-signal model, and apply a voltage source as shown in Fig. 3.12(b). Since $V_1=-V_X$ and $V_{b s}=-V_X$, we have
+
+$$
+\left(g_m+g_{m b}\right) V_X=I_X
+$$
+
+$$
+\frac{V_X}{I_X}=\frac{1}{g_m+g_{m b}}
+$$

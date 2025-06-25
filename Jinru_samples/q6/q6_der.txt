@@ -1,0 +1,1 @@
+An increasing energy curve indicates that energy is being stored. Thus energy is being stored in the time interval 0 to 0.2 s . Note that this corresponds to the interval when $p>0$.

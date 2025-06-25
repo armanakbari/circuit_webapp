@@ -1,0 +1,3 @@
+Design of analog CMOS integrated circuits
+P230
+Example7.4

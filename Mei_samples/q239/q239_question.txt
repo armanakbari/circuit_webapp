@@ -1,0 +1,1 @@
+Determine the non-reference node voltages V_3 for the circuit shown In the provided circuit image.

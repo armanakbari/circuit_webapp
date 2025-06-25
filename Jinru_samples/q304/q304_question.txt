@@ -1,0 +1,1 @@
+Determine $i_1$ in the circuit

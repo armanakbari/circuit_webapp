@@ -1,0 +1,43 @@
+At $t=0$, the current in the circuit is,
+
+$$
+\begin{aligned}
+& 2 i+4 \frac{\mathrm{~d} i}{\mathrm{~d} t}=\mathrm{e}^{-2 t} \\
+& \frac{1}{4} i+\frac{\mathrm{d} i}{\mathrm{~d} t}=\frac{1}{4} \mathrm{e}^{-2 t}
+\end{aligned}
+$$
+
+
+The auxiliary solution is,
+
+$$
+i_a=k_1 \mathrm{e}^{-0.25 t}
+$$
+
+
+Considering the particular solution $i_p=A \mathrm{e}^{-2 t}$ and Eq. (5.284) becomes,
+
+$$
+\begin{gathered}
+\frac{1}{4} A \mathrm{e}^{-2 t}+A(-2) \mathrm{e}^{-2 t}=\frac{1}{4} \mathrm{e}^{-2 t} \\
+A=-\frac{1}{7}
+\end{gathered}
+$$
+
+
+The complete solution is,
+
+$$
+i(t)=k_1 \mathrm{e}^{-0.25 t}-\frac{1}{7} \mathrm{e}^{-2 t}
+$$
+
+
+At $t=0$, the initial current in an inductor is zero, i.e. $i(0)=0$ and Eq. (5.288) becomes,
+\begin{aligned}
+&\begin{gathered}
+i(0)=0=k_1-\frac{1}{7} \\
+k_1=\frac{1}{7}
+\end{gathered}\\
+&\text { The final expression of the current is, }\\
+&i(t)=\frac{1}{7}\left(\mathrm{e}^{-0.25 t}-\mathrm{e}^{-2 t}\right) \mathrm{A}
+\end{aligned}

@@ -1,0 +1,35 @@
+To find the Thévenin equivalent resistance with respect to the capacitor terminals, we use the testsource method, where $v_T$ is the test voltage and $i_T$ is the test current. For $v_T$ expressed in volts, we obtain
+
+$$
+i_T=\frac{v_T}{10}-7\left(\frac{v_T}{20}\right)+\frac{v_T}{20} \mathrm{~mA} .
+$$
+
+
+Solving for the ratio $v_T / i_T$ yields the Thévenin resistance:
+
+$$
+R_{\mathrm{Th}}=\frac{v_T}{i_T}=-5 \mathrm{k} \Omega
+$$
+
+
+With this Thévenin resistance, we can simplify the circuit.
+
+For $t \geq 0$, the differential equation describing the circuit is
+
+$$
+\left(5 \times 10^{-6}\right) \frac{d v_o}{d t}-\frac{v_o}{5} \times 10^{-3}=0
+$$
+
+
+Dividing by the coefficient of the first derivative yields
+
+$$
+\frac{d v_o}{d t}-40 v_o=0
+$$
+
+
+We now use the separation of variables technique to find $v_c(t)$ :
+
+$$
+v_o(t)=10 e^{40 t} \mathrm{~V}, \quad t \geq 0
+$$

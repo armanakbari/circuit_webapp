@@ -1,0 +1,1 @@
+-\mathbf{3 . 1 6} \times \mathbf{1 0}^{-\mathbf{3}} e^{-t /\left(\mathbf{4 0} \times \mathbf{1 0}^{-3}\right)}

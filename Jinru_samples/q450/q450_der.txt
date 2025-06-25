@@ -1,0 +1,12 @@
+This circuit consists of two noninverting amplifiers cascaded. At the output of the first op amp,
+
+$$
+v_a=\left(1+\frac{12}{3}\right)(20)=100 \mathrm{mV}
+$$
+
+
+At the output of the second op amp,
+
+$$
+v_o=\left(1+\frac{10}{4}\right) v_a=(1+2.5) 100=350 \mathrm{mV}
+$$

@@ -1,0 +1,8 @@
+\begin{aligned}
+&\text { and }\\
+&\begin{aligned}
+-6 \mathrm{~V}- & 14 \mathrm{~V}-V_x+2 \mathrm{~V}=0 \\
+V_x & =-20 \mathrm{~V}+2 \mathrm{~V} \\
+& =-\mathbf{1 8} \mathbf{V}
+\end{aligned}
+\end{aligned}

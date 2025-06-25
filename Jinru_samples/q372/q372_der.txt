@@ -1,0 +1,1 @@
+$\begin{aligned} & \quad p_A=110 \times 8=880 \mathrm{~W}, \quad p_B=110 \times 2=220 \mathrm{~W} \\ & \text { Energy cost }=\$ 0.06 \times 365 \times 10 \times(880+220) / 1000=\$ \mathbf{2 4 0 . 9 0}\end{aligned}$

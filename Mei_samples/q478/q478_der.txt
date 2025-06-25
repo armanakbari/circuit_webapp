@@ -1,0 +1,29 @@
+Step 3: See Fig. 9.46. In this case, the short-circuit replacement of the voltage source $E$ provides a direct connection between $c$ and $c^{\prime}$ of Fig. 9.46(a), permitting a "folding" of the network around the horizontal line of $a-b$ to produce the configuration of Fig. 9.46(b).
+
+$$
+\begin{aligned}
+R_{T h}=R_{a-b} & =R_1\left\|R_3+R_2\right\| R_4 \\
+& =6 \Omega\|3 \Omega+4 \Omega\| 12 \Omega \\
+& =2 \Omega+3 \Omega=\mathbf{5} \Omega
+\end{aligned}
+$$
+
+Step 4: The circuit is redrawn in Fig. 9.47. The absence of a direct connection between $a$ and $b$ results in a network with three parallel branches. The voltages $V_1$ and $V_2$ can therefore be determined using the voltage divider rule:
+
+$$
+\begin{aligned}
+& V_1=\frac{R_1 E}{R_1+R_3}=\frac{(6 \Omega)(72 \mathrm{~V})}{6 \Omega+3 \Omega}=\frac{432 \mathrm{~V}}{9}=48 \mathrm{~V} \\
+& V_2=\frac{R_2 E}{R_2+R_4}=\frac{(12 \Omega)(72 \mathrm{~V})}{12 \Omega+4 \Omega}=\frac{864 \mathrm{~V}}{16}=54 \mathrm{~V}
+\end{aligned}
+$$
+Assuming the polarity shown for $E_{T h}$ and applying Kirchhoff's voltage law to the top loop in the clockwise direction will result in
+
+$$
+\Sigma_C V=+E_{T h}+V_1-V_2=0
+$$
+
+and
+
+$$
+E_{T h}=V_2-V_1=54 \mathrm{~V}-48 \mathrm{~V}=6 \mathbf{V}
+$$

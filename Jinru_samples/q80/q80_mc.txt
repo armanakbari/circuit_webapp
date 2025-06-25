@@ -1,0 +1,5 @@
+1. -2000 \mathrm{~A} / \mathrm{s}
+2. 2 \mathrm{~A} / \mathrm{s}
+3. 2000 \mathrm{~A} / \mathrm{s}
+4. -2580 \mathrm{~A} / \mathrm{s}
+5. None of the above

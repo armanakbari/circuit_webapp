@@ -1,0 +1,5 @@
+1. (48-48 e^{-1400 t} \cos 5000 t-14 e^{-1400 t} \sin 5000 t) \mathrm{V}
+2. (48-48 e^{-4800 t} \cos 1400 t-14 e^{-4800 t} \sin 1400 t) \mathrm{V}
+3. (48-48 e^{-1400 t} \cos 4800 t+14 e^{-1400 t} \sin 4800 t) \mathrm{V}
+4. (48-48 e^{-1400 t} \cos 4800 t-14 e^{-1400 t} \sin 4800 t) \mathrm{V}
+5. None of the above

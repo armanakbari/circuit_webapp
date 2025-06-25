@@ -1,0 +1,21 @@
+To find $v(t)$, we note from the circuit that it equals the sum of the voltage across the capacitor and the voltage across the $30 \mathrm{k} \Omega$ resistor. To find the capacitor voltage (which is a drop in the direction of the current), we note that its initial value is zero and its final value is (7.5)(20), or 150 V . The time constant is the same as before, or 5 ms . Therefore we use Eq. 7.60 to write
+
+$$
+\begin{aligned}
+v_C(t) & =150+(0-150) e^{-200 t} \\
+& =\left(150-150 e^{-200 t}\right) \mathrm{V}, \quad t \geq 0 .
+\end{aligned}
+$$
+
+
+Hence the expression for the voltage $v(t)$ is
+
+$$
+\begin{aligned}
+v(t) & =150-150 e^{-200 t}+(30)(3) e^{-200 t} \\
+& =\left(150-60 e^{-200 t}\right) \mathrm{V}, \quad t \geq 0^{+}
+\end{aligned}
+$$
+
+
+As one check on this expression, note that it predicts the initial value of the voltage across the $20 \Omega$ resistor as $150-60$, or 90 V . The instant the switch is closed, the current in the $20 \mathrm{k} \Omega$ resistor is $(7.5)(30 / 50)$, or 4.5 mA . This current produces a 90 V drop across the $20 \mathrm{k} \Omega$ resistor, confirming the value predicted by the solution.

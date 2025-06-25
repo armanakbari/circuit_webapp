@@ -1,0 +1,1 @@
+$\begin{aligned} & {\left[10 \sqrt{5} \times 10^{-4} e^{-31000 t} \cos \left(4000 t+79.70^{\circ}\right)\right.} \\ & \left.+10 t-4 \times 10^{-4}\right] u(t) \mathrm{V} .\end{aligned}$

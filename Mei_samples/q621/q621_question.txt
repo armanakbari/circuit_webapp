@@ -1,0 +1,1 @@
+Calculate $\mathbf{Z}_T$ in the provided circuit image.

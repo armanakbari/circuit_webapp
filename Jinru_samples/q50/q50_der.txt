@@ -1,0 +1,5 @@
+For $t<0$ both switches are closed, causing the 150 mH inductor to short-circuit the $18 \Omega$ resistor. We determine the initial current in the inductor by solving for $i_L\left(0^{-}\right)$in the circuit. After making several source transformations, we find $i_L\left(0^{-}\right)$to be 6 A . For $0 \leq t \leq 35 \mathrm{~ms}$, switch 1 is open (switch 2 is closed), which disconnects the 60 V voltage source and the $4 \Omega$ and $12 \Omega$ resistors from the circuit. The inductor is no longer behaving as a short circuit (because the dc source is no longer in the circuit), so the $18 \Omega$ resistor is no longer short-circuited. Note that the equivalent resistance across the terminals of the inductor is the parallel combination of $9 \Omega$ and $18 \Omega$, or $6 \Omega$. The time constant of the circuit is $(150 / 6) \times 10^{-3}$, or 25 ms . Therefore the expression for $i_L$ is
+
+$$
+i_L(t)=6 e^{-40 t} \mathrm{~A}, \quad 0 \leq t \leq 35 \mathrm{~ms}
+$$

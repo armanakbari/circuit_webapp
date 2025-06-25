@@ -1,0 +1,5 @@
+Because $i_C=C(d v / d t)$,
+
+$$
+\frac{d v\left(0^{+}\right)}{d t}=\frac{-90 \times 10^{-3}}{0.2 \times 10^{-6}}=-450 \mathrm{kV} / \mathrm{s}
+$$

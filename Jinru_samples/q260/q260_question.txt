@@ -1,0 +1,1 @@
+When $R_t$ is adjusted for maximum power transfer, what percentage of the power delivered by the 360 V source reaches $R_L$ ?

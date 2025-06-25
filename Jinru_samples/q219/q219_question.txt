@@ -1,0 +1,1 @@
+Determine the power dissipated in the resistor in the provided circuit image.

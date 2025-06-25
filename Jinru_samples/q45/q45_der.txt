@@ -1,0 +1,8 @@
+The voltage $v_o$ follows from Kirchhoff's voltage law. Thus,
+
+$$
+\begin{aligned}
+v_o & =120-7.5 i_o \\
+& =120 e^{-5 t} \mathrm{~V}, \quad t \geq 0^{+}
+\end{aligned}
+$$

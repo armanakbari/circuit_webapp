@@ -1,0 +1,23 @@
+The difficulty with this circuit is that it does not map into one of the four canonical topologies: amplifier $A_1$ senses the voltage at the source of $M_1$ whereas the output is taken at the drain. Fortunately, Blackman's theorem is impervious to such departures. Again, we proceed in three steps. With the transistor disabled,
+
+$$
+A=r_O+R_S
+$$
+
+
+If the output is left open [Fig. 8.78(b)], no current flows through $R_S$, and hence $T_{o c}=0$. With the output shorted [Fig. 8.78(c)],
+
+$$
+T_{s c}=g_m\left(R_S \| r_O\right) A_1
+$$
+
+
+Thus,
+
+$$
+\begin{aligned}
+Z_{\text {out }} & =\left(r_O+R_S\right)\left[1+g_m\left(R_S \| r_O\right) A_1\right] \\
+& =r_O+R_S+g_m r_O R_S A_1 \\
+& =\left(1+g_m r_O\right) A_1 R_S+r_O
+\end{aligned}
+$$

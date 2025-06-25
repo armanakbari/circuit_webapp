@@ -1,0 +1,21 @@
+We begin by determining the Thévenin equivalent with respect to the load terminals a, b. After two source transformations involving the 20 V source, the $5 \Omega$ resistor, and the $20 \Omega$ resistor, we simplify the circuit. Then,
+
+$$
+\begin{aligned}
+\mathbf{V}_{\mathrm{Th}} & =\frac{16 \angle 0^{\circ}}{4+j 3-j 6}(-j 6) \\
+& =19.2 \angle-53.13^{\circ}=11.52-j 15.36 \mathrm{~V} .
+\end{aligned}
+$$
+
+We find the Thévenin impedance by deactivating the independent source and calculating the impedance seen looking into the terminals a and b. Thus,
+
+$$
+Z_{\mathrm{Th}}=\frac{(-j 6)(4+j 3)}{4+j 3-j 6}=5.76-j 1.68 \Omega
+$$
+
+
+For maximum average power transfer, the load impedance must be the conjugate of $Z_{\mathrm{Th}}$, so
+
+$$
+Z_L=5.76+j 1.68 \Omega
+$$

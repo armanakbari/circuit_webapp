@@ -1,0 +1,1 @@
+After $v_C$ in Example 10.5 has reached its final value of 40 V , the switch is thrown into position 2, as shown in the provided circuit image. Find the mathematical expressions for the transient behavior of $v_C after the closing of the switch. Assume that $t=0$ when the switch is moved to position 2.

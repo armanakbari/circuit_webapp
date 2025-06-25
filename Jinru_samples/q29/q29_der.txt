@@ -1,0 +1,8 @@
+The switch has been in position a for a long time, so the 200 mH inductor is a short circuit across the 8 A current source. Therefore, the inductor carries an initial current of 8 A . This current is oriented opposite to the reference direction for $i$; thus $I_0$ is -8 A . When the switch is in position b, the final value of $i$ will be $24 / 2$, or 12 A . The time constant of the circuit is $200 / 2$, or 100 ms . Substituting these values into Eq. 7.35 gives
+
+$$
+\begin{aligned}
+i & =12+(-8-12) e^{-t / 0.1} \\
+& =12-20 e^{-10 t} \mathrm{~A}, \quad t \geq 0
+\end{aligned}
+$$

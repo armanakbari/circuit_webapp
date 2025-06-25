@@ -1,0 +1,8 @@
+\begin{aligned}
+&\text { and }\\
+&\begin{aligned}
+& \quad+E_1-V_1-V_2-E_2=0 \\
+V_1= & E_1-V_2-E_2=16 \mathrm{~V}-4.2 \mathrm{~V}-9 \mathrm{~V} \\
+= & \mathbf{2 . 8} \mathbf{V}
+\end{aligned}
+\end{aligned}

@@ -1,0 +1,13 @@
+Replace the voltage source with a current source as,
+
+$$
+I_s=\frac{3010^{\circ}}{2}=15 \angle10^{\circ} \mathrm{A}
+$$
+
+
+The circuit with a current source is shown in Fig. 7.42. In this case, the parallel impedance is,
+\begin{aligned}
+&Z_1=\frac{2 \times(6+j 8)}{8+j 8}=1.77 \angle8 .13^{\circ} \mathrm{A}\\
+&\text { The current can be determined as, }\\
+&I_x=\frac{1510^{\circ} \times 1.778 .13^{\circ}}{3-j 5+1.778 .13^{\circ}}=3.95 \angle63 .11^{\circ} \mathrm{A}
+\end{aligned}

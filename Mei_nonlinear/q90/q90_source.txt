@@ -1,0 +1,3 @@
+Design of analog CMOS integrated circuits
+P312
+Example8.16

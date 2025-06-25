@@ -1,0 +1,1 @@
+Find the value of the load resistance R_L if the circuit In the provided circuit image transfers maximum power.

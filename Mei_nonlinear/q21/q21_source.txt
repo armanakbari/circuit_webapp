@@ -1,0 +1,3 @@
+Design of analog CMOS integrated circuits
+P91
+Example3.25

@@ -1,0 +1,1 @@
+A series-parallel circuit with two voltage sources is shownIn the provided circuit image. Calculate the power absorbed by $10 \Omega$ resistor.

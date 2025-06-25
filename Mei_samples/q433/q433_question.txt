@@ -1,0 +1,1 @@
+Calculate the indicated voltage V_7 in the provided circuit image

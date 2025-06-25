@@ -1,0 +1,12 @@
+For $R R_2$, the arrangement in Fig. 8.83 (c) yields $I_{D 1}=-I_2 R_S /\left(R_S+1 / g_{m 1}\right)=-I_2 g_{m 1} R_S /\left(1+g_{m 1} R_S\right)$. Adding the voltage drops across $R_D$ and $R_S$ to $V_2$, we obtain
+
+$$
+-\frac{I_2 g_{m 1} R_S}{1+g_{m 1} R_S} R_D+V_2+I_2 \frac{1 / g_{m 1}}{R_S+1 / g_{m 1}} R_S=0
+$$
+
+
+It follows that
+
+$$
+R R_2=\frac{1-g_{m 1} R_D}{1+g_{m 1} R_S} g_{m 2} R_S
+$$

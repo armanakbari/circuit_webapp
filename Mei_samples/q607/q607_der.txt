@@ -1,0 +1,10 @@
+a. $\mathbf{Z}=R-j X_C=6 \Omega-j 8 \Omega$
+
+Eq. (15.27):
+
+$$
+\begin{aligned}
+\mathbf{Y} & =\frac{1}{6 \Omega-j 8 \Omega}=\frac{6}{(6)^2+(8)^2}+j \frac{8}{(6)^2+(8)^2} \\
+& =\frac{\mathbf{6}}{\mathbf{1 0 0}} \mathbf{S}+\boldsymbol{j} \frac{\mathbf{8}}{\mathbf{1 0 0}} \mathbf{S}
+\end{aligned}
+$$

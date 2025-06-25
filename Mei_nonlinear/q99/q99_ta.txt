@@ -1,0 +1,1 @@
+\left(1+g_m r_O\right) A_1 R_S+r_O

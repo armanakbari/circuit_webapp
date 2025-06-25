@@ -1,0 +1,5 @@
+In this circuit, $R_F$ senses the output voltage and returns a current to the input. Breaking the loop as depicted in Fig. 8.39(b), we calculate the loop gain as $g_m R_D$. Thus, the open-loop input impedance, $R_F$, is divided by $1+g_m R_D$ :
+
+$$
+R_{i n, \text { closed }}=\frac{R_F}{1+g_m R_D}
+$$

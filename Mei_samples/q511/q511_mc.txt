@@ -1,0 +1,5 @@
+1. \mathbf{10\cos(500(t-0.03))} \textbf{ mA}
+2. \mathbf{0} \mathbf{A}
+3. \mathbf{25e^{-100(t-0.03)}} \textbf{ mA}
+4. \mathbf{-15} \textbf{ mA}
+5. None of the above

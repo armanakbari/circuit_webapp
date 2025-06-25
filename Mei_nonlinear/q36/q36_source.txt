@@ -1,0 +1,3 @@
+Design of analog CMOS integrated circuits
+P179
+Example6.5

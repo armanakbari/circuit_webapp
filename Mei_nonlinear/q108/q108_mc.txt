@@ -1,0 +1,5 @@
+1. \frac{r_O}{1+\left(A_1+1\right) g_m r_O}
+2. \frac{R_D+r_O}{1+A_1 g_m r_O}
+3. \frac{R_D+r_O}{1+\left(A_1+1\right) g_m r_O}
+4. \frac{R_D+r_O}{1+\left(A_1-1\right) g_m r_O}
+5. None of the above

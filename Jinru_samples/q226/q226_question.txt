@@ -1,0 +1,1 @@
+Use Kirchhoff's laws and Ohm's law to find $i_o$ in the circuit shown in the provided circuit image.

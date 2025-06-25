@@ -1,0 +1,9 @@
+\begin{aligned}
+&\begin{aligned}
+\frac{1}{R_T} & =\frac{1}{R_1}+\frac{1}{R_2}+\frac{1}{R_3} \\
+& =\frac{1}{2 \Omega}+\frac{1}{4 \Omega}+\frac{1}{5 \Omega}=0.5 \mathrm{~S}+0.25 \mathrm{~S}+0.2 \mathrm{~S} \\
+& =0.95 \mathrm{~S}
+\end{aligned}\\
+&\text { and }\\
+&R_T=\frac{1}{0.95 \mathrm{~S}}=\mathbf{1 . 0 5 3} \mathbf{\Omega}
+\end{aligned}

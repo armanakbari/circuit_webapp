@@ -1,0 +1,15 @@
+By Eq. (6.10), the current divider rule,
+
+$$
+I_1=\frac{R_2 I}{R_1+R_2}=\frac{(4 \Omega)(12 \mathrm{~A})}{2 \Omega+4 \Omega}=\mathbf{8} \mathbf{A}
+$$
+
+
+Applying Kirchhoff's current law, and
+
+$$
+\begin{gathered}
+I=I_1+I_2 \\
+I_2=I-I_1=12 \mathrm{~A}-8 \mathrm{~A}=\mathbf{4} \mathbf{A}
+\end{gathered}
+$$

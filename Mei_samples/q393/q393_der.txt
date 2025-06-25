@@ -1,0 +1,43 @@
+Considering the overall system, we know that the current entering must equal that leaving. Therefore,
+
+$$
+I_7=I_1=\mathbf{1 0 ~ A}
+$$
+
+
+Since 10 A are entering node $a$ and 12 A are leaving, $I_3$ must be supplying current to the node.
+
+Applying Kirchhoff's current law at node $a$,
+and
+
+$$
+\begin{gathered}
+I_1+I_3=I_2 \\
+10 \mathrm{~A}+I_3=12 \mathrm{~A} \\
+I_3=12 \mathrm{~A}-10 \mathrm{~A}=\mathbf{2} \mathbf{A}
+\end{gathered}
+$$
+
+
+At node $b$, since 12 A are entering and 8 A are leaving, $I_4$ must be leaving. Therefore,
+and
+
+$$
+\begin{gathered}
+I_2=I_4+I_5 \\
+12 \mathrm{~A}=I_4+8 \mathrm{~A} \\
+I_4=12 \mathrm{~A}-8 \mathrm{~A}=4 \mathrm{~A}
+\end{gathered}
+$$
+
+
+At node $c, I_3$ is leaving at 2 A and $I_4$ is entering at 4 A , requiring that $I_6$ be leaving. Applying Kirchhoff's current law at node $c$,
+and
+
+$$
+\begin{gathered}
+I_4=I_3+I_6 \\
+4 \mathrm{~A}=2 \mathrm{~A}+I_6 \\
+I_6=4 \mathrm{~A}-2 \mathrm{~A}=2 \mathrm{~A}
+\end{gathered}
+$$

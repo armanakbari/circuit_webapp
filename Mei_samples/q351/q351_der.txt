@@ -1,0 +1,16 @@
+c.
+
+$$
+\begin{aligned}
+& V_1=I R_1=(2 \mathrm{~A})(4 \Omega)=\mathbf{8} \mathbf{~ V} \\
+& V_2=I R_2=(2 \mathrm{~A})(6 \Omega)=\mathbf{1 2} \mathbf{V}
+\end{aligned}
+$$
+
+d.
+
+$$
+\begin{aligned}
+& P_{4 \Omega}=\frac{V_1^2}{R_1}=\frac{(8 \mathrm{~V})^2}{4}=\frac{64}{4}=16 \mathbf{W} \\
+
+$$

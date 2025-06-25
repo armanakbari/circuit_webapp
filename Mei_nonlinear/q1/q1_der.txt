@@ -1,0 +1,4 @@
+\begin{aligned}
+&\text { Since } I_1 \text { introduces an infinite impedance ( } R_D=\infty \text { ), the gain is limited by the output resistance of } M_1 \text { : }\\
+&A_v=-g_m r_O
+\end{aligned}

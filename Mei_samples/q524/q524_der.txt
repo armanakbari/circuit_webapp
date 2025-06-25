@@ -1,0 +1,32 @@
+$E_{T h}:$
+
+$$
+\begin{aligned}
+E_{T h} & =\frac{R_3 E}{R_3+R_1+R_4}=\frac{18 \mathrm{k} \Omega(120 \mathrm{~V})}{18 \mathrm{k} \Omega+7 \mathrm{k} \Omega+2 \mathrm{k} \Omega} \\
+& =80 \mathrm{~V}
+\end{aligned}
+$$
+
+$R_{T h}:$
+
+$$
+\begin{aligned}
+R_{T h} & =5 \mathrm{k} \Omega+18 \mathrm{k} \Omega \|(7 \mathrm{k} \Omega+2 \mathrm{k} \Omega) \\
+& =5 \mathrm{k} \Omega+6 \mathrm{k} \Omega \\
+& =11 \mathrm{k} \Omega
+\end{aligned}
+$$
+
+
+Therefore, $\quad V_i=40 \mathrm{~V}$ and $V_f=80 \mathrm{~V}$ and $\quad \tau=R_{T h} C=(11 \mathrm{k} \Omega)(40 \mu \mathrm{~F})=0.44 \mathrm{~s}$
+Eq. (10.23):
+
+$$
+\begin{aligned}
+V_C & =V_f+\left(V_i-V_f\right) e^{-t / \tau} \\
+& =80 \mathrm{~V}+(40 \mathrm{~V}-80 \mathrm{~V}) e^{-t / 0.44 \mathrm{~s}} \\
+V_C & =\mathbf{8 0} \mathbf{V}-\mathbf{4 0} \mathbf{V} e^{-t / 0.44 \mathrm{~s}}
+\end{aligned}
+$$
+
+and

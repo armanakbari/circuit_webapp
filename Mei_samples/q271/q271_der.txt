@@ -1,0 +1,6 @@
+The phase voltages are,
+
+$$
+\begin{gathered}
+
+V_{\mathrm{bn}}=180\angle-120^{\circ} \mathrm{V} \\

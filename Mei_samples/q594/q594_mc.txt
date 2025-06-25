@@ -1,0 +1,5 @@
+1. 31.25 \mathbf{~ W}
+2. 17.74 \mathbf{~ W}
+3. 25.00 \mathbf{~ W}
+4. 50.00 \mathbf{~ W}
+5. None of the above

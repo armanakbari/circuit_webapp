@@ -1,0 +1,1 @@
+Using the equivalent circuit,calculate $\mathbf{E}$ in the provided circuit image.

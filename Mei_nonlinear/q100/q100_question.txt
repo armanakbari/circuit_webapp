@@ -1,0 +1,1 @@
+\text { Determine the output impedance of the source follower shown in Fig. 8.79(a). Assume that } \lambda=\gamma=0 \text {. }

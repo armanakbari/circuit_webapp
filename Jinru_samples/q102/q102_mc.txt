@@ -1,0 +1,5 @@
+1. 2.4+j 3.2 \mathrm{~A}
+2. 2.4 - j3.2 \mathrm{~A}
+3. 3.2 + j2.4 \mathrm{~A}
+4. -2.4 + j3.2 \mathrm{~A}
+5. None of the above

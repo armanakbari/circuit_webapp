@@ -1,0 +1,18 @@
+R_N=R_1\left\|R_2=4 \Omega\right\| 6 \Omega=\frac{(4 \Omega)(6 \Omega)}{4 \Omega+6 \Omega}=\frac{24 \Omega}{10}=2.4 \Omega
+$$
+I_N^{\prime}=\frac{E_1}{R_1}=\frac{7 \mathrm{~V}}{4 \Omega}=1.75 \mathrm{~A}
+$$
+
+
+For the 8-A source (Fig. 9.75), we find that both $R_1$ and $R_2$ have been "short circuited" by the direct connection between $a$ and $b$, and
+
+$$
+I_N^{\prime \prime}=I=8 \mathrm{~A}
+$$
+
+
+The result is
+
+$$
+I_N=I_N^{\prime \prime}-I_N^{\prime}=8 \mathrm{~A}-1.75 \mathrm{~A}=6.25 \mathrm{~A}
+$$

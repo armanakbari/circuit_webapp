@@ -1,0 +1,5 @@
+\begin{aligned}
+i_C & =\frac{E}{R_1+R_3} e^{-t / \tau_1} \\
+& =\frac{20 \mathrm{~V}}{8 \mathrm{k} \Omega} e^{-t /\left(80 \times 10^{-3}\right)} \\
+i_C & =\left(\mathbf{2 . 5} \times \mathbf{1 0}^{-\mathbf{3}}\right) e^{-t /\left(80 \times 10^{-3}\right)}
+\end{aligned}

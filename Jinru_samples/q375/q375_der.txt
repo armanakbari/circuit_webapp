@@ -1,0 +1,9 @@
+Using voltage division,
+
+$$
+\begin{gathered}
+v_a=\frac{12}{12+8}(25)=\underline{15 \mathrm{~V}} \\
+v_b=\frac{10}{10+15}(25)=\underline{10 \mathrm{~V}} \\
+v_{a b}=v_a-v_b=15-10=\underline{5 \mathrm{~V}}
+\end{gathered}
+$$

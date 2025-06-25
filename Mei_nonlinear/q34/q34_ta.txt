@@ -1,0 +1,1 @@
+\frac{R_{\text {out }} C_F s-A}{\left[(A+1) R_S+R_{\text {out }}\right] C_F s+1}

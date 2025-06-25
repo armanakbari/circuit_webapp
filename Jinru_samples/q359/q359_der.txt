@@ -1,0 +1,17 @@
+$$
+\begin{aligned}
+& 20 / /(30+50)=16,24+16=40,60 / / 20=15 \\
+& \mathrm{R}_{\text {eq }}=80+(15+25) 40=80+20=100 \Omega \\
+& \mathrm{i}=20 / 100=0.2 \mathrm{~A}
+\end{aligned}
+$$
+
+
+If $i_1$ is the current through the $24-\Omega$ resistor and $i_0$ is the current through the $50-\Omega$ resistor, using current division gives
+
+$$
+\begin{gathered}
+\mathrm{i}_1=[40 /(40+40)] 0.2=0.1 \text { and } \mathrm{i}_{\mathrm{o}}=[20 /(20+80)] 0.1=0.02 \mathrm{~A} \text { or } \\
+\mathrm{v}_{\mathrm{o}}=30 \mathrm{i}_{\mathrm{o}}=30 \times 0.02=\mathbf{6 0 0 ~ m V}
+\end{gathered}
+$$

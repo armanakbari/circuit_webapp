@@ -1,0 +1,13 @@
+$\tau=R C=\left(8 \times 10^3 \Omega\right)\left(4 \times 10^{-6} \mathrm{~F}\right)=32 \times 10^{-3} \mathrm{~s}=32 \mathrm{~ms}$ By Eq. (10.15),
+
+$$
+V_C=E\left(1-e^{-t / \tau}\right)=\mathbf{4 0}\left(1-e^{-t /\left(32 \times 10^{-3}\right)}\right)
+$$
+By Eq. (10.13),
+
+$$
+\begin{aligned}
+i_C=\frac{E}{R} e^{-t / \tau} & =\frac{40 \mathrm{~V}}{8 \mathrm{k} \Omega} e^{-t /\left(32 \times 10^{-3}\right)} \\
+& =\left(\mathbf{5} \times \mathbf{1 0}^{-\mathbf{3}}\right) e^{-t /\left(\mathbf{3 2} \times \mathbf{1 0}^{-\mathbf{3}}\right)}
+\end{aligned}
+$$

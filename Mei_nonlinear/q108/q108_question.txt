@@ -1,0 +1,1 @@
+Determine the resistance seen at the source of $M_2$ in Fig. 9.28(a) if $\gamma=0$.

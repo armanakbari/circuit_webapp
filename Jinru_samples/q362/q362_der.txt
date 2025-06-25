@@ -1,0 +1,1 @@
+$\begin{gathered}(4+16) / / 60=20 \times 60 / 80=15 \\ \mathrm{R}_{\mathrm{eq}}=2.5+15 \| 15=2.5+7.5=\mathbf{1 0} \mathbf{\Omega} \text { and } \\ \mathrm{i}_{\mathrm{o}}=35 / 10=\mathbf{3 . 5} \mathbf{~ A} .\end{gathered}$

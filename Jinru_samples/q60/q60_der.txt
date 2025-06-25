@@ -1,0 +1,1 @@
+$v_o=150 \mathrm{~V}$ when $e^{40 t}=15$. Therefore, $40 t=\ln 15$, and $t=67.70 \mathrm{~ms}$.

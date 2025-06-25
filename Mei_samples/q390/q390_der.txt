@@ -1,0 +1,4 @@
+Considering the overall system, we know that the current entering must equal that leaving. Therefore,
+
+$$
+I_7=I_1=\mathbf{1 0 ~ A}

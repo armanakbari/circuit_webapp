@@ -1,0 +1,5 @@
+1. $8 k T \gamma\left(g_{m 1}+g_{m 3}\right) \frac{1}{g_{m 3}^2}+\frac{2 K}{(W L)_1 C_{o x}} \frac{1}{f}\left(\frac{g_{m 1}}{g_{m 3}}\right)^2+\frac{2 K}{(W L)_3 C_{o x}} \frac{1}{f}$
+2. $4 k T \gamma\left(g_{m 1}+g_{m 3}\right) \frac{1}{g_{m 1}^2}+\frac{K}{(W L)_1 C_{o x}} \frac{1}{f}+\frac{K}{(W L)_3 C_{o x}} \frac{1}{f}\left(\frac{g_{m 3}}{g_{m 1}}\right)^2$
+3. 8 k T \gamma\left(g_{m 1}+g_{m 3}\right) \frac{1}{g_{m 1}^2}+\frac{2 K}{(W L)_1 C_{o x}} \frac{1}{f}+\frac{2 K}{(W L)_3 C_{o x}} \frac{1}{f}\left(\frac{g_{m 3}}{g_{m 1}}\right)^2
+4. $8 k T \gamma \frac{1}{g_{m 1}}+\frac{2 K}{(W L)_1 C_{o x}} \frac{1}{f}+\frac{2 K}{(W L)_3 C_{o x}} \frac{1}{f}$
+5. None of the above

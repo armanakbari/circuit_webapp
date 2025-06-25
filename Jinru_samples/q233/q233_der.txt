@@ -1,0 +1,5 @@
+The maximum value of $v_o$ occurs when $R_2$ is $10 \%$ high and $R_1$ is $10 \%$ low. Therefore
+
+$$
+v_o(\max )=\frac{(100)(110)}{110+22.5}=83.02 \mathrm{~V}
+$$

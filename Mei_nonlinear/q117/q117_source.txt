@@ -1,0 +1,3 @@
+Design of analog CMOS integrated circuits
+P398
+Example9.24

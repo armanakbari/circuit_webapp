@@ -1,0 +1,35 @@
+We first obtain the mesh currents using KVL. For mesh 1 ,
+
+$$
+-15+5 i_1+10\left(i_1-i_2\right)+10=0
+$$
+
+or
+
+$$
+3 i_1-2 i_2=1
+$$
+
+
+For mesh 2,
+
+$$
+6 i_2+4 i_2+10\left(i_2-i_1\right)-10=0
+$$
+
+or
+
+$$
+i_1=2 i_2-1
+$$
+
+$$
+6 i_2-3-2 i_2=1 \quad \Rightarrow \quad i_2=1 \mathrm{~A}
+$$
+
+
+$i_1=2 i_2-1=2-1=1 \mathrm{~A}$. Thus,
+
+$$
+I_1=i_1=1 \mathrm{~A}, \quad I_2=i_2=1 \mathrm{~A}, \quad I_3=i_1-i_2=0
+$$

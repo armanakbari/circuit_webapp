@@ -1,0 +1,9 @@
+The complex power delivered to the $(12-j 16) \Omega$ impedance is
+
+$$
+\begin{aligned}
+S_2 & =\frac{1}{2} \mathbf{V}_2 \mathbf{I}_x^*=P_2+j Q_2 \\
+& =\frac{1}{2}(72+j 104)(-2-j 6) \\
+& =240-j 320 \mathrm{VA}
+\end{aligned}
+$$

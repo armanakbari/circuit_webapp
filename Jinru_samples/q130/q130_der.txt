@@ -1,0 +1,5 @@
+The apparent power which must be supplied to these loads is
+
+$$
+|S|=|20+j 10|=22.36 \mathrm{kVA} .
+$$

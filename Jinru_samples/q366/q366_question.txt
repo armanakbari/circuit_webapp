@@ -1,0 +1,1 @@
+Find the equivalent resistance $R_{a b}$ in the circuit

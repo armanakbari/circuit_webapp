@@ -1,0 +1,1 @@
+Compute the center frequency, $\omega_o$.

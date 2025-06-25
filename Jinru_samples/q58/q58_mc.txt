@@ -1,0 +1,5 @@
+1. 21.46 \mathrm{~ms}
+2. 16.09 \mathrm{~ms}
+3. 17.20 \mathrm{~ms}
+4. 15.98 \mathrm{~ms}
+5. None of the above

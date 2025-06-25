@@ -1,0 +1,1 @@
+\frac{\left(g_{m 2}+g_{m b 2}\right) r_{O 2}+1}{r_{O 2}+\left[1+\left(g_{m 2}+g_{m b 2}\right) r_{O 2}\right]\left(r_{O 1}\left\|\frac{1}{g_{m b 1}}\right\| \frac{1}{g_{m 1}}\right)+R_D} R_D \frac{r_{O 1} \| \frac{1}{g_{m b 1}}}{r_{O 1} \| \frac{1}{g_{m b 1}}+\frac{1}{g_{m 1}}}

@@ -1,0 +1,22 @@
+(b) Applying Miller's approximation, we decompose $C_F$ into $(1+A) C_F$ at the input and $C_F /\left(1+A^{-1}\right)$ at the output [Fig. 6.9(c)]. Since $V_{\text {out }} / V_{\text {in }}=\left(V_X / V_{\text {in }}\right)\left(V_{\text {out }} / V_X\right)$, we first write $V_X / V_{\text {in }}$ by considering $R_S$ and $(1+A) C_F$ as a voltage divider:
+
+$$
+\begin{aligned}
+\frac{V_X}{V_{i n}} & =\frac{\frac{1}{(1+A) C_F s}}{\frac{1}{(1+A) C_F s}+R_S} \\
+& =\frac{1}{(1+A) R_S C_F s+1}
+\end{aligned}
+$$
+
+
+As for $V_{\text {out }} / V_X$, we first amplify $V_X$ by $-A$ and subject the result to the output voltage divider,
+
+$$
+\frac{V_{\text {out }}}{V_X}=\frac{-A}{\frac{1}{1+A^{-1}} C_F R_{\text {out }} s+1}
+$$
+
+
+That is
+
+$$
+\frac{V_{\text {out }}}{V_{\text {in }}}(s)=\frac{-A}{\left[(1+A) R_S C_F s+1\right]\left(\frac{1}{1+A^{-1}} C_F R_{\text {out }} s+1\right)}
+$$

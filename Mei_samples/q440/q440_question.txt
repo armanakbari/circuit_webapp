@@ -1,0 +1,1 @@
+Find the voltages $V_1$ for the loaded potentiometer in the provided circuit image.

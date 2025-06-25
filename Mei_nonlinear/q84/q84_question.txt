@@ -1,0 +1,1 @@
+\text { For the circuit shown in the provided circuit image, calculate closed-loop gains( in terms of the open-loop gain) assusinguming } \lambda=\gamma=0 \text {. }

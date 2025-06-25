@@ -1,0 +1,5 @@
+Applying KVL around the loop, we obtain
+
+$$
+-(-8)-12+10+3 \mathrm{i}=0 \longrightarrow \mathbf{i}=-\mathbf{2 A}
+$$

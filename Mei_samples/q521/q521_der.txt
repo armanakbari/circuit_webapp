@@ -1,0 +1,32 @@
+Applying Thévenin's theorem to the $0.2-\mu \mathrm{F}$ capacitor, we obtain Fig. 10.53:
+
+$$
+\begin{aligned}
+R_{T h} & =R_1 \| R_2+R_3=\frac{(60 \mathrm{k} \Omega)(30 \mathrm{k} \Omega)}{90 \mathrm{k} \Omega}+10 \mathrm{k} \Omega \\
+& =20 \mathrm{k} \Omega+10 \mathrm{k} \Omega \\
+R_{T h} & =30 \mathrm{k} \Omega \\
+E_{T h} & =\frac{R_2 E}{R_2+R_1}=\frac{(30 \mathrm{k} \Omega)(21 \mathrm{~V})}{30 \mathrm{k} \Omega+60 \mathrm{k} \Omega}=\frac{1}{3}(21 \mathrm{~V})=7 \mathrm{~V}
+\end{aligned}
+$$
+
+
+The resultant Thévenin equivalent circuit with the capacitor replaced is shown in Fig. 10.54. Using Eq. (10.23) with $V_f=E_{T h}$ and $V_i=0 \mathrm{~V}$, we find that
+
+$$
+\begin{aligned}
+& \qquad V_C=V_f+\left(V_i-V_f\right) e^{-t / \tau} \\
+& \text { becomes } \\
+& \text { or } \\
+& \text { with } \\
+& \text { so that } \\
+& \qquad \begin{aligned}
+V_C & =E_{T h}+\left(0 \mathrm{~V}-E_{T h}\right) e^{-t / \tau} \\
+V_C & =E_{T h}\left(1-e^{-t / \tau}\right) \\
+\tau & =R C=(30 \mathrm{k} \Omega)(0.2 \mu \mathrm{~F})=6 \mathrm{~ms} \\
+V_C & =7\left(1-e^{-t / 6 \mathrm{~ms}}\right) \\
+\text { For the current: } & i_C=\frac{E_{T h}}{R} e^{-t / R C} \\
+& =\frac{7 \mathrm{~V}}{30 \mathrm{k} \Omega} e^{-t / 6 \mathrm{~ms}} \\
+i_C & =\left(0.233 \times \mathbf{1 0}^{-\mathbf{3}}\right) e^{-t / 6 \mathrm{~ms}}
+\end{aligned}
+\end{aligned}
+$$

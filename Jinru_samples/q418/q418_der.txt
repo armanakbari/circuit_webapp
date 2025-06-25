@@ -1,0 +1,36 @@
+$$
+\begin{aligned}
+& I_1=-5 \mathrm{~A} \\
+& 1\left(I_2-I_1\right)+2\left(I_2-I_4\right)+22.5+4 I_2=0 \\
+& 7 I_2-I_4=-27.5 \\
+& -60+4 I_3+3 I_4+1 I_4+2\left(I_4-I_2\right)+2\left(I_3-I_1\right)=0 \text { (super mesh) } \\
+& -2 I_2+6 I_3+6 I_4=+60-10=50
+\end{aligned}
+$$
+
+
+But, we need one more equation, so we use the constraint equation $-\mathrm{I}_3+\mathrm{I}_4=10$. This now gives us three equations with three unknowns.
+
+$$
+\left[\begin{array}{ccc}
+7 & 0 & -1 \\
+-2 & 6 & 6 \\
+0 & -1 & 1
+\end{array}\right]\left[\begin{array}{l}
+I_2 \\
+I_3 \\
+I_4
+\end{array}\right]=\left[\begin{array}{c}
+-27.5 \\
+50 \\
+10
+\end{array}\right]
+$$
+
+
+We can now use MATLAB to solve the problem.
+
+$$
+\gg \mathrm{Z}=[7,0,-1 ;-2,6,6 ; 0,-1,0]
+$$
+$\begin{gathered}\mathrm{Z}= \\ \begin{array}{rrr}7 & 0 & -1 \\ -2 & 6 & 6 \\ 0 & -1 & 0 \\ \gg \mathrm{~V}=[-27.5,50,10]^{\prime} \\ \mathrm{V}= \\ -27.5 \\ 50 \\ 10 \\ \gg \mathrm{I}=\operatorname{inv}(\mathrm{Z}) * \mathrm{~V} \\ \mathrm{I}= \\ -1.3750 \\ -10.0000 \\ 17.8750 \\ \mathrm{I}_{\mathrm{o}}=\mathrm{I}_1-\mathrm{I}_2=-5-1.375=-\mathbf{6 . 3 7 5} \mathbf{~ A .}\end{array}\end{gathered}$

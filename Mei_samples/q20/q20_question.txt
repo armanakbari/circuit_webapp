@@ -1,0 +1,1 @@
+A series-parallel circuit is shown In the provided circuit image. Calculate the branch current I_1.

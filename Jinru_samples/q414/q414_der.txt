@@ -1,0 +1,79 @@
+At node 1,
+$2=2 v_1+v_1-v_2+\left(v_1-v_3\right) 4+3 i_0, \quad i_0=4 v_2$. Hence,
+
+$$
+2=7 v_1+11 v_2-4 v_3
+$$
+
+
+At node 2,
+
+$$
+v_1-v_2=4 v_2+v_2-v_3 \quad \longrightarrow \quad 0=-v_1+6 v_2-v_3
+$$
+
+
+At node 3,
+or
+
+$$
+-4=4 v_1+13 v_2-7 v_3
+$$
+
+
+In matrix form,
+
+$$
+\left[\begin{array}{ccc}
+7 & 11 & -4 \\
+1 & -6 & 1 \\
+4 & 13 & -7
+\end{array}\right]\left[\begin{array}{l}
+v_1 \\
+v_2 \\
+v_3
+\end{array}\right]=\left[\begin{array}{c}
+2 \\
+0 \\
+-4
+\end{array}\right]
+$$
+
+
+$$
+\Delta=\left|\begin{array}{ccc}
+7 & 11 & -4 \\
+1 & -6 & 1 \\
+4 & 13 & -7
+\end{array}\right|=176, \quad \Delta_1=\left|\begin{array}{ccc}
+2 & 11 & -4 \\
+0 & -6 & 1 \\
+-4 & 13 & -7
+\end{array}\right|=110
+$$
+
+
+$$
+\Delta_2=\left|\begin{array}{ccc}
+7 & 2 & -4 \\
+1 & 0 & 1 \\
+4 & -4 & -7
+\end{array}\right|=66, \quad \Delta_3=\left|\begin{array}{ccc}
+7 & 11 & 2 \\
+1 & -6 & 0 \\
+4 & 13 & -4
+\end{array}\right|=286
+$$
+
+
+$$
+\mathrm{v}_1=\frac{\Delta_1}{\Delta}=\frac{110}{176}=0.625 \mathrm{~V}, \quad \mathrm{v}_2=\frac{\Delta_2}{\Delta}=\frac{66}{176}=0.375 \mathrm{~V}
+$$
+
+
+$$
+\begin{gathered}
+\mathrm{v}_3=\frac{\Delta_3}{\Delta}=\frac{286}{176}=1.625 \mathrm{~V} \\
+\mathrm{v}_1=\mathbf{6 2 5 ~ m V}, \mathrm{v}_2=\mathbf{3 7 5 ~ m V}, \mathrm{v}_3=\mathbf{1 . 6 2 5 ~ V}
+\end{gathered}
+$$

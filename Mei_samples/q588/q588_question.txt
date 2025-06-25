@@ -1,0 +1,1 @@
+Using the voltage divider rule, find the unknown voltage $\mathbf{V}_1$ for the circuit in the provided circuit image

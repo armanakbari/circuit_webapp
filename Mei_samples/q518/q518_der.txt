@@ -1,0 +1,28 @@
+Substituting the open-circuit equivalent for the capacitor will result in a final or steady-state voltage $v_C$ of 24 V .
+
+The time constant is determined by
+
+$$
+\begin{aligned}
+\tau & =\left(R_1+R_2\right) C \\
+& =(2.2 \mathrm{k} \Omega+1.2 \mathrm{k} \Omega)(3.3 \mu \mathrm{~F}) \\
+& =11.22 \mathrm{~ms} \\
+5 \tau & =56.1 \mathrm{~ms}
+\end{aligned}
+$$
+
+with
+Applying Eq. (10.23):
+and
+
+$$
+\begin{aligned}
+V_C & =V_f+\left(V_i-V_f\right) e^{-t / \tau} \\
+& =24 \mathrm{~V}+(4 \mathrm{~V}-24 \mathrm{~V}) e^{-t / 11.22 \mathrm{~ms}}
+\end{aligned}
+$$
+
+
+$$
+V_C=24 \mathrm{~V}-20 \mathrm{~V} e^{-t^{\prime} 111.22 \mathrm{~ms}}
+$$

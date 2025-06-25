@@ -1,0 +1,3 @@
+Design of analog CMOS integrated circuits
+P310
+Example8.14

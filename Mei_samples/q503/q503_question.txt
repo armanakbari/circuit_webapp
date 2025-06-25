@@ -1,0 +1,1 @@
+How much time must pass before it can be assumed, for all practical purposes, that $i_C \cong 0 \mathrm{~A}$ and $v_C \cong E$ volts?

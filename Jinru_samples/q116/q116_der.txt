@@ -1,0 +1,27 @@
+The Thévenin voltage will equal the open circuit value of $\mathbf{V}_{\text {cd }}$. The open circuit value of $\mathbf{V}_{\text {cd }}$ will equal $j 1200$ times the open circuit value of $\mathbf{I}_1$. The open circuit value of $\mathbf{I}_1$ is
+
+$$
+\begin{aligned}
+\mathbf{I}_1 & =\frac{300 \angle 0^{\circ}}{700+j 3700} \\
+& =79.67 \angle-79.29^{\circ} \mathrm{mA} .
+\end{aligned}
+$$
+
+
+Therefore
+
+$$
+\begin{aligned}
+\mathbf{V}_{\mathrm{Th}} & =j 1200\left(79.67 \angle-79.29^{\circ}\right) \times 10^{-3} \\
+& =95.60 \angle 10.71^{\circ} \mathrm{V} .
+\end{aligned}
+$$
+
+The Thévenin impedance will be equal to the impedance of the secondary winding plus the impedance reflected from the primary when the voltage source is replaced by a short-circuit. Thus
+
+$$
+\begin{aligned}
+Z_{\mathrm{Th}} & =100+j 1600+\left(\frac{1200}{|700+j 3700|}\right)^2(700-j 3700) \\
+& =171.09+j 1224.26 \Omega .
+\end{aligned}
+$$

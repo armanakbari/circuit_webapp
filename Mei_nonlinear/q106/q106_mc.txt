@@ -1,0 +1,5 @@
+1. 13.8 Grad/s (2.20 GHz)
+2. 1.02 Grad/s (0.163 GHz)
+3. 9.21$ Grad/s (1.47 GHz)
+4. 0.921 Grad/s (0.147 GHz)
+5. None of the above

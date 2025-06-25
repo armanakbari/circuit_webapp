@@ -1,0 +1,5 @@
+1. 40 \cos \left(200,000 t-53.13^{\circ}\right) \mathrm{V}
+2. 40 \cos \left(200,000 t-36.87^{\circ}\right) \mathrm{V}
+3. 28.57 \cos \left(200,000 t-36.87^{\circ}\right) \mathrm{V}
+4. 40 \cos \left(200,000 t+36.87^{\circ}\right) \mathrm{V}
+5. None of the above

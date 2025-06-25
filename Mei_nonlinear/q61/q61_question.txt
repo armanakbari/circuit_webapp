@@ -1,0 +1,1 @@
+Determine the input-referred noise current for the amplifier shown in the provided circuit image. Assume that $I_1$ is noiseless and $\lambda=0$.

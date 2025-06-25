@@ -1,0 +1,1 @@
+Apply mesh analysis to the circuit to obtain $I_o$.

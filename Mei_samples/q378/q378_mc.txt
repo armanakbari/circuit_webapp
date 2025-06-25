@@ -1,0 +1,5 @@
+1. 8k\Omega
+2. 28k{\Omega}
+3. 4k\Omega
+4. 16k\Omega
+5. None of the above

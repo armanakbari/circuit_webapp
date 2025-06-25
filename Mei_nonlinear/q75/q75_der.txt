@@ -1,0 +1,5 @@
+\begin{aligned}
+&V_F=-V_t \frac{C_1}{C_1+C_2} g_{m 1}\left(r_{O 2} \| r_{O 4}\right)\\
+&\text { That is }\\
+&\beta A_0=\frac{C_1}{C_1+C_2} g_{m 1}\left(r_{O 2} \| r_{O 4}\right)
+\end{aligned}

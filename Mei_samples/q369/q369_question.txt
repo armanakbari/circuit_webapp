@@ -1,0 +1,1 @@
+Determine $V_b$ In the provided circuit image

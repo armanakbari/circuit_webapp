@@ -1,0 +1,25 @@
+For positive phase sequence, the line currents can be determined as,
+
+$$
+\begin{gathered}
+I_a=\frac{110}{15\angle10^{\circ}}=7.33 \angle{10^{\circ}} \mathrm{A} \\
+I_b=\frac{110\angle-120^{\circ}}{15 \angle10^{\circ}}=7.33\angle-130^{\circ} \mathrm{A} \\
+I_c=\frac{110\angle120^{\circ}}{15\angle10^{\circ}}=7.33\angle{110^{\circ}} \mathrm{A}
+\end{gathered}
+$$
+
+
+Wattmeter readings can be calculated as,
+
+$$
+P_1=\operatorname{Re}\left(V_{\mathrm{an}} I_a^*\right)=V_{\mathrm{an}} I_a \cos \left(\theta_v-\theta_i\right)=110 \times 7.33 \cos \left(0^{\circ}-10^{\circ}\right)=794.05 \mathrm{~W}
+$$
+
+
+$$
+P_2=\operatorname{Re}\left(V_{\mathrm{cn}} I_c^*\right)=V_{\mathrm{cn}} I_c \cos \left(\theta_v-\theta_i\right)=110 \times 7.33 \cos \left(120^{\circ}-110^{\circ}\right)=794.05 \mathrm{~W}
+$$
+\begin{aligned}
+&\text { Total power absorbed by the load is, }\\
+&P_t=2 P_1=1588.10 \mathrm{~W}
+\end{aligned}

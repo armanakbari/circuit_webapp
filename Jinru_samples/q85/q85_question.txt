@@ -1,0 +1,1 @@
+No energy is stored in the 100 mH inductor or the $0.4 \mu \mathrm{~F}$ capacitor when the switch in the provided circuit is closed. Find $v_C(t)$ for $t \geq 0$.

@@ -1,0 +1,5 @@
+\begin{aligned}
+\mathbf{I}_C & =\frac{\mathbf{Z}_{R-L} \mathbf{I}_T}{\mathbf{Z}_{R-L}+\mathbf{Z}_C}=\frac{(1 \Omega+j 8 \Omega)\left(5 \mathrm{~A} \angle 30^{\circ}\right)}{6.08 \Omega \angle 80.54^{\circ}} \\
+& =\frac{\left(8.06 \angle 82.87^{\circ}\right)\left(5 \mathrm{~A} \angle 30^{\circ}\right)}{6.08 \angle 80.54^{\circ}}=\frac{40.30 \mathrm{~A} \angle 112.87^{\circ}}{6.083 \angle 80.54^{\circ}} \\
+& =\mathbf{6 . 6 2 5} \mathbf{A} \angle \mathbf{3 2 . 3 3 ^ { \circ }}
+\end{aligned}

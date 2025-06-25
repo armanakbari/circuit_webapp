@@ -1,0 +1,1 @@
+40 \cos \left(200,000 t-36.87^{\circ}\right) \mathrm{V}

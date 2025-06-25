@@ -1,0 +1,10 @@
+Solution
+The small-signal drain current of $M_1, g_{m 1} V_{i n}$, is divided between $R_P$ and the impedance seen looking into the source of $M_2, 1 /\left(g_{m 2}+g_{m b 2}\right)$. Thus, the current flowing through $M_2$ is
+
+$$
+I_{D 2}=g_{m 1} V_{i n} \frac{\left(g_{m 2}+g_{m b 2}\right) R_P}{1+\left(g_{m 2}+g_{m b 2}\right) R_P}
+$$
+\begin{aligned}
+&\text { The voltage gain is therefore given by }\\
+&A_v=-\frac{g_{m 1}\left(g_{m 2}+g_{m b 2}\right) R_P R_D}{1+\left(g_{m 2}+g_{m b 2}\right) R_P}
+\end{aligned}

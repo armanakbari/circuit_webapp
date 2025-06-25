@@ -1,0 +1,5 @@
+1. I_s=7 \mathrm{~A}
+2. I_s=5.25 \mathrm{~A}
+3. I_s=3.5 \mathrm{~A}
+4. I_s=10.5 \mathrm{~A}
+5. None of the above

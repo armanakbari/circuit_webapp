@@ -1,0 +1,6 @@
+$$
+\begin{gathered}
+R_{T h}=R_1+R_2+R_3=3 \Omega+10 \Omega+2 \Omega=15 \Omega \\
+R_L=R_{T h}=\mathbf{1 5} \Omega
+\end{gathered}
+$$

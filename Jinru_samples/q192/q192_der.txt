@@ -1,0 +1,16 @@
+We need to compute values for $R$, $L$ that produce a bandpass filter with cutoff frequencies of 1 kHz and 10 kHz . There are many possible approaches to a solution. For instance, the specify $\omega_{c 1}$ and $\omega_{c 2}$ in terms of $R, L$, and $C$. Because of the form of these equations, the algebraic manipulations might get complicated. Instead, we will use the fact that the center frequency is the geometric mean of the cutoff frequencies to compute $\omega_o$, and we will then use it to compute $L$ and $C$ from $\omega_o$. Next we will use the definition of quality factor to compute $Q$, and last we will use it to compute $R$. Even though this approach involves more individual computational steps, each calculation is fairly simple.
+
+Any approach we choose will provide only two equations-insufficient to solve for the three unknowns-because of the dependencies among the bandpass filter characteristics. Thus, we need to select a value for either $R, L$, or $C$ and use the two equations we've chosen to calculate the remaining component values. Here, we choose $1 \mu \mathrm{~F}$ as the capacitor value, because there are stricter limitations on commercially available capacitors than on inductors or resistors.
+
+We compute the center frequency as the geometric mean of the cutoff frequencies:
+
+$$
+f_o=\sqrt{f_{c 1} f_{c 2}}=\sqrt{(1000)(10,000)}=3162.28 \mathrm{~Hz}
+$$
+
+
+Next, compute the value of $L$ using the computed center frequency and the selected value for $C$. We must remember to convert the center frequency to radians per second:
+
+$$
+L=\frac{1}{\omega_o^2 C}=\frac{1}{[2 \pi(3162.28)]^2\left(10^{-6}\right)}=2.533 \mathrm{mH}
+$$

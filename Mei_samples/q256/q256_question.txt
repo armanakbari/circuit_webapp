@@ -1,0 +1,1 @@
+Determine the current in the $9 \Omega$ resistor for the circuit shown In the provided circuit image using Thevenin's and Norton's theorems.

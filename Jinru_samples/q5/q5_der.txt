@@ -1,0 +1,1 @@
+At 0.2 s , which corresponds to the moment when $d i / d t$ is passing through zero and changing sign.

@@ -1,0 +1,5 @@
+1. -20V
+2. 16V
+3. 20V
+4. -32V
+5. None of the above

@@ -1,0 +1,5 @@
+1. g_{m 1} K R_D
+2. 2 g_{m1} K R_D
+3. g_{m1} R_D
+4. \frac{1}{2} g_{m1} K R_D
+5. None of the above

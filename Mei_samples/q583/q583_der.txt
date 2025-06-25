@@ -1,0 +1,10 @@
+Solution:
+
+$$
+\begin{aligned}
+\mathbf{V}_C=\frac{\mathbf{Z}_C \mathbf{E}}{\mathbf{Z}_C+\mathbf{Z}_R} & =\frac{\left(4 \Omega \angle-90^{\circ}\right)\left(100 \mathrm{~V} \angle 0^{\circ}\right)}{4 \Omega \angle-90^{\circ}+3 \Omega \angle 0^{\circ}}=\frac{400 \angle-90^{\circ}}{3-j 4} \\
+& =\frac{400 \angle-90^{\circ}}{5 \angle-53.13^{\circ}}=\mathbf{8 0} \mathrm{V} \angle-\mathbf{3 6 . 8 7 ^ { \circ }} \\
+\mathbf{V}_R=\frac{\mathbf{Z}_R \mathbf{E}}{\mathbf{Z}_C+\mathbf{Z}_R} & =\frac{\left(3 \Omega \angle 0^{\circ}\right)\left(100 \mathrm{~V} \angle 0^{\circ}\right)}{5 \Omega \angle-53.13^{\circ}}=\frac{300 \angle 0^{\circ}}{5 \angle-53.13^{\circ}} \\
+& =\mathbf{6 0} \mathrm{V} \angle+\mathbf{5 3 . 1 3 ^ { \circ }}
+\end{aligned}
+$$

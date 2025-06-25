@@ -1,0 +1,1 @@
+Find the value of the maximum power absorbed by the load, if the circuit In the provided circuit image transfers maximum power.

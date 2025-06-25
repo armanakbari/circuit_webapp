@@ -1,0 +1,22 @@
+Kirchhoff's voltage law (clockwise direction):
+or
+
+$$
+-E+V_3+V_2+V_1=0
+$$
+
+and
+
+$$
+V_2=E-V_1-V_3=54 \mathrm{~V}-18 \mathrm{~V}-15 \mathrm{~V}=\mathbf{2 1} \mathbf{V}
+$$
+
+b. $I=\frac{V_2}{R_2}=\frac{21 \mathrm{~V}}{7 \Omega}=3 \mathbf{A}$
+c.
+
+$$
+\begin{aligned}
+& R_1=\frac{V_1}{I}=\frac{18 \mathrm{~V}}{3 \mathrm{~A}}=\mathbf{6} \Omega \\
+& R_3=\frac{V_3}{I}=\frac{15 \mathrm{~V}}{3 \mathrm{~A}}=\mathbf{5} \Omega
+\end{aligned}
+$$

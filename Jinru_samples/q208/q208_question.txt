@@ -1,0 +1,5 @@
+Parseval's theorem makes it possible to calculate the energy available at the output of the filter even if we don't know the time-domain expression for $v_o(t)$. Suppose the input voltage to the low-pass $R C$ filter circuit shown in the provided circuit image is
+$$
+v_i(t)=15 e^{-5 t} u(t) \mathrm{V}
+$$
+What percentage of the output energy is associated with the frequency range $0 \leq \omega \leq 10 \mathrm{rad} / \mathrm{s}$ ?

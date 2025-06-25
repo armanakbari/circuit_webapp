@@ -1,0 +1,1 @@
+An unbalanced three-phase wye-connected load is connected to a balanced three-phase wye-connected generator as shown In the provided circuit image. The generator voltage is $22010^{\circ} \mathrm{V} \mathrm{rms}$. For ABC phase sequence, find the line current I_{\mathrm{Aa}}.

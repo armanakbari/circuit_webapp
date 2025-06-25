@@ -1,0 +1,1 @@
+Solve for the current flowing through the $8-\Omega$ resistor

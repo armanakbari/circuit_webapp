@@ -1,0 +1,3 @@
+Design of analog CMOS integrated circuits
+P74
+Example3.15

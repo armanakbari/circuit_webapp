@@ -1,0 +1,26 @@
+Consider that the terminals $a$ and $b$ are short circuited. Then, the resistances $6 \Omega$ and $4 \Omega$ are in parallel, and then in series with $10 \Omega$ resistance. The value of the resistance is,
+
+$$
+R_1=\frac{4 \times 6}{4+6}+10=12.4 \Omega
+$$
+
+
+Again, $12.4 \Omega$ and $3 \Omega$ are in parallel. In this case, the value of the resistance is,
+
+$$
+R_2=\frac{12.4 \times 3}{12.4+3}=2.42 \Omega
+$$
+
+
+The total circuit resistance is,
+
+$$
+R_{\mathrm{ts}}=5+2.42=7.42 \Omega
+$$
+
+
+The value of the source current is,
+
+$$
+I_{\mathrm{ss}}=\frac{40}{7.42}=5.39 \mathrm{~A}
+$$

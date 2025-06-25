@@ -1,0 +1,20 @@
+$$
+\begin{aligned}
+& \mathrm{R}_{\mathrm{ab}}=\frac{6 \times 12+12 \times 8+8 \times 6}{12}=\frac{216}{12}=18 \Omega \\
+& \mathrm{R}_{\mathrm{ac}}=216 /(8)=27 \Omega, \mathrm{R}_{\mathrm{bc}}=36 \Omega \\
+& \mathrm{R}_{\mathrm{de}}=\frac{4 \times 2+2 \times 8+8 \times 4}{8}=\frac{56}{8} 7 \Omega \\
+& \mathrm{R}_{\mathrm{ef}}=56 /(4)=14 \Omega, \mathrm{R}_{\mathrm{df}}=56 /(2)=28 \Omega
+\end{aligned}
+$$
+
+
+Combining resistors in parallel,
+
+$$
+\begin{aligned}
+& 10\left\|28=\frac{280}{38}=7.368 \Omega, 36\right\| 7=\frac{36 \times 7}{43}=5.868 \Omega \\
+& 27 \| 3=\frac{27 \times 3}{30}=2.7 \Omega
+\end{aligned}
+$$
+$\begin{aligned} & \mathrm{R}_{\mathrm{an}}=\frac{18 \times 2.7}{18+2.7+5.867}=\frac{18 \times 2.7}{26.567}=1.829 \Omega \\ & \mathrm{R}_{\mathrm{bn}}=\frac{18 \times 5.868}{26.567}=3.977 \Omega \\ & \mathrm{R}_{\mathrm{cn}}=\frac{5.868 \times 2.7}{26.567}=0.5904 \Omega\end{aligned}$
+$\begin{aligned} & \mathrm{R}_{\mathrm{eq}}=4+1.829+(3.977+7.368) \|(0.5964+14) \\ & \quad=5.829+11.346 \| 14.5964=\mathbf{1 2 . 2 1} \Omega \\ & \mathrm{i}=20 /\left(\mathrm{R}_{\mathrm{eq}}\right)=\mathbf{1 . 6 4} \mathbf{~ A}\end{aligned}$

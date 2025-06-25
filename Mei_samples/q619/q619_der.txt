@@ -1,0 +1,53 @@
+Combining common elements and finding the reactance of the inductor and capacitor, we obtain
+
+$$
+\begin{aligned}
+& R_T=10 \Omega \| 40 \Omega=8 \Omega \\
+& L_T=6 \mathrm{mH} \| 12 \mathrm{mH}=4 \mathrm{mH} \\
+& C_T=80 \mu \mathrm{~F}+20 \mu \mathrm{~F}=100 \mu \mathrm{~F}
+\end{aligned}
+$$
+$$
+\begin{aligned}
+& X_L=\omega L=(1000 \mathrm{rad} / \mathrm{s})(4 \mathrm{mH})=4 \Omega \\
+& X_C=\frac{1}{\omega C}=\frac{1}{(1000 \mathrm{rad} / \mathrm{s})(100 \mu \mathrm{~F})}=10 \Omega
+\end{aligned}
+$$
+
+
+The network is redrawn in Fig. 15.93 with phasor notation. The total admittance is
+
+$$
+\begin{aligned}
+\mathbf{Y}_T & =\mathbf{Y}_R+\mathbf{Y}_L+\mathbf{Y}_C \\
+& =G \angle 0^{\circ}+B_L \angle-90^{\circ}+B_C \angle+90^{\circ} \\
+& =\frac{1}{8 \Omega} \angle 0^{\circ}+\frac{1}{4 \Omega} \angle-90^{\circ}+\frac{1}{10 \Omega} \angle+90^{\circ} \\
+& =0.125 \mathrm{~S} \angle 0^{\circ}+0.25 \mathrm{~S} \angle-90^{\circ}+0.1 \mathrm{~S} \angle+90^{\circ} \\
+& =0.125 \mathrm{~S}-j 0.25 \mathrm{~S}+j 0.1 \mathrm{~S} \\
+& =0.125 \mathrm{~S}-j 0.15 \mathrm{~S}=\mathbf{0 . 1 9 5} \angle-\mathbf{5 0 . 1 9 4 ^ { \circ }}
+\end{aligned}
+$$
+\begin{aligned}
+& \mathbf{E}=\mathbf{I} \mathbf{Z}_T=\frac{\mathbf{I}}{\mathbf{Y}_T}=\frac{12 \mathrm{~A} \angle 0^{\circ}}{0.195 \mathrm{~S} \angle-50.194^{\circ}}=\mathbf{6 1 . 5 3 8} \mathbf{V} \angle \mathbf{5 0 . 1 9 4 ^ { \circ }} \\
+& \mathbf{I}_L=\frac{\mathbf{V}_L}{\mathbf{Z}_L}=\frac{\mathbf{E}}{\mathbf{Z}_L}=\frac{61.538 \mathrm{~V} \angle 50.194^{\circ}}{4 \Omega \angle 90^{\circ}}=\mathbf{1 5 . 3 8 5} \mathbf{A} \angle \mathbf{- 3 9 . 8 1 ^ { \circ }}
+\end{aligned}
+\begin{aligned}
+& F_p=\cos \theta=\frac{G}{Y_T}=\frac{0.125 \mathrm{~S}}{0.195 \mathrm{~S}}=\mathbf{0 . 6 4 1} \text { lagging }(\mathbf{E} \text { leads } \mathbf{I}) \\
+& \begin{aligned}
+P=E I \cos \theta & =(61.538 \mathrm{~V})(12 \mathrm{~A}) \cos 50.194^{\circ} \\
+& =\mathbf{4 7 2 . 7 5 ~ W}
+\end{aligned}
+\end{aligned}
+
+\begin{aligned}
+\mathbf{Z}_T=\frac{1}{\mathbf{Y}_T}=\frac{1}{0.195 \mathrm{~S} \angle-50.194^{\circ}} & =5.128 \Omega \angle+50.194^{\circ} \\
+& =3.283 \Omega+j 3.939 \Omega
+\end{aligned}
+f.
+
+$$
+\begin{aligned}
+\mathbf{E}=\mathbf{I} \mathbf{Z}_T & =\left(12 \mathrm{~A} \angle 0^{\circ}\right)\left(5.128 \Omega \angle 50.194^{\circ}\right) \\
+& =\mathbf{6 1 . 5 3 6} \mathbf{V} \angle \mathbf{5 0 . 1 9 4 ^ { \circ }}  
+\end{aligned}
+$$

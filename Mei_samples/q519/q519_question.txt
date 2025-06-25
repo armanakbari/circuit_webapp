@@ -1,0 +1,1 @@
+The capacitor in the provided circuit image has an initial voltage of 4 V. Find the mathematical expression for the current during the transient period.

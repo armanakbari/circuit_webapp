@@ -1,0 +1,8 @@
+\begin{aligned}
+& V_C=E\left(1-e^{-t / \tau_1}\right) \\
+& \begin{aligned}
+\tau_1=\left(R_1+R_3\right) C & =(5 \mathrm{k} \Omega+3 \mathrm{k} \Omega)\left(10 \times 10^{-6} \mathrm{~F}\right) \\
+& =80 \mathrm{~ms}
+\end{aligned} \\
+& V_C=\mathbf{2 0 ( 1 - e ^ { - t / ( 8 0 \times 1 0 ^ { - 3 } ) } )}
+\end{aligned}

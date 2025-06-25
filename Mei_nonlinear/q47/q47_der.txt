@@ -1,0 +1,12 @@
+Solution
+We first consider the circuit without $C_F$ and write $H(s)=-g_m\left(R_D \| r_O\right)$. Next, we find $Z_{\text {out }, 0}$ using the setup shown in Fig. 6.47(b), exploiting the condition that $V_{\text {out }}$ is zero and so is the current through $R_D$. Since $V_{\text {out }}=0$, we have $V_{G S}=V_1$ and $I_1=-g_m V_{G S}=-g_m V_1$. That is, $Z_{\text {out }, 0}=-1 / g_m$. Note that we resisted the temptation to
+write equations involving $V_{i n}$. Also, the negative sign of $Z_{o u t, 0}$ does not imply a negative impedance between $A$ and $B$ because $V_{\text {in }} \neq 0$.
+
+For $Z_{\text {in }, 0}$, we have from Fig. 6.47(c), $V_A=I_1 R_S=V_{G S}$. A KCL at node $B$ gives the current through $R_D$ as $g_m I_1 R_S+I_1$, and a KVL across $R_D, V_1$, and $R_S$ leads to $I_1 R_D\left(1+g_m R_S\right)-V_1+I_1 R_S=0$. It follows that $Z_{i n, 0}=\left(1+g_m R_S\right) R_D+R_S=\left(1+g_m R_D\right) R_S+R_D$ and
+
+$$
+G(s)=-g_m\left(R_D \| r_O\right) \frac{1-\frac{1}{g_m} C_F s}{1+\left[\left(1+g_m R_D\right) R_S+R_D\right] C_F s}
+$$
+
+
+We see that the EET beautifully predicts the zero and the pole produced by $C_F$.

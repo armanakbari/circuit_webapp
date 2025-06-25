@@ -1,0 +1,14 @@
+We know from our analysis of Fig. 9.27(b) that
+
+$$
+V_X=\left[r_O+\left(A_1+1\right) g_m r_O R_S+R_S\right] I_X
+$$
+
+and hence
+
+$$
+\begin{aligned}
+V_P & =I_X R_S \\
+& =\frac{R_S}{r_O+\left(A_1+1\right) g_m r_O R_S+R_S} V_X
+\end{aligned}
+$$.

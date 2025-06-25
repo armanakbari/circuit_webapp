@@ -1,0 +1,1 @@
+Find $\mathbf{I}_L$  in the provided circuit image.

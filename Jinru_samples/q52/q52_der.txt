@@ -1,0 +1,36 @@
+The $18 \Omega$ resistor is in the circuit only during the first 35 ms of the switching sequence. During this interval, the voltage across the resistor is
+
+$$
+\begin{aligned}
+v_l & =0.15 \frac{d}{d t}\left(6 e^{-40 t}\right) \\
+& =-36 e^{-40 t} \mathrm{~V}, \quad 0<t<35 \mathrm{~ms} .
+\end{aligned}
+$$
+
+The power dissipated in the $18 \Omega$ resistor is
+
+$$
+p=\frac{v_L^2}{18}=72 e^{-80 t} \mathrm{~W}, \quad 0<t<35 \mathrm{~ms} .
+$$
+
+
+Hence the energy dissipated is
+
+$$
+\begin{aligned}
+w & =\int_0^{0.035} 72 e^{-80 t} d t \\
+& =\left.\frac{72}{-80} e^{-80 t}\right|_0 ^{0.0135} \\
+& =0.9\left(1-e^{-2.5}\right) \\
+& =845.27 \mathrm{~mJ}
+\end{aligned}
+$$
+
+
+The initial energy stored in the 150 mH inductor is
+
+$$
+w_i=\frac{1}{2}(0.15)(36)=2.7 \mathrm{~J}=2700 \mathrm{~mJ} .
+$$
+
+
+Therefore $(845.27 / 2700) \times 100$, or $31.31 \%$ of the initial energy stored in the 150 mH inductor is dissipated in the $18 \Omega$ resistor.

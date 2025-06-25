@@ -1,0 +1,5 @@
+Power absorbed by the $9-\mathrm{k} \Omega$ resistor is
+
+$$
+p=\frac{v_o^2}{R}=\frac{(180)^2}{9,000}=3.6 \mathrm{~W}
+$$

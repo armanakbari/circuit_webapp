@@ -1,0 +1,24 @@
+At $t=1 \tau_1, v_C=0.632 E=0.632(20 \mathrm{~V})=12.64 \mathrm{~V}$, resulting in the network of Fig. 10.46. Then $v_C=V_i e^{-t / \tau_2}$ with
+$$
+\begin{aligned}
+\tau_2=\left(R_2+R_3\right) C & =(1 \mathrm{k} \Omega+3 \mathrm{k} \Omega)\left(10 \times 10^{-6} \mathrm{~F}\right) \\
+& =40 \mathrm{~ms}
+\end{aligned}
+$$
+
+and
+
+$$
+V_C=12.64 e^{-t /\left(40 \times 10^{-3}\right)}
+$$
+
+
+At $t=1 \tau_1, i_C$ drops to $(0.368)(2.5 \mathrm{~mA})=0.92 \mathrm{~mA}$. Then it switches to
+
+$$
+\begin{aligned}
+i_C & =-I_i e^{-t / \tau_2} \\
+& =-\frac{V_i}{R_2+R_3} e^{-t / \tau_2}=-\frac{12.64 \mathrm{~V}}{1 \mathrm{k} \Omega+3 \mathrm{k} \Omega} e^{-t /\left(40 \times 10^{-3}\right)} \\
+i_C & =-\mathbf{3 . 1 6} \times \mathbf{1 0}^{-\mathbf{3}} e^{-t /\left(\mathbf{4 0} \times \mathbf{1 0}^{-3}\right)}
+\end{aligned}
+$$

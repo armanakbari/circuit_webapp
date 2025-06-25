@@ -1,0 +1,5 @@
+Noting that the source of $M_1$ is at ac ground, we write the gain as
+
+$$
+A_v=-g_{m 1}\left[r_{O 1}\left\|r_{O 2}\right\|\left(1 / g_{m 2}\right)\right]
+$$

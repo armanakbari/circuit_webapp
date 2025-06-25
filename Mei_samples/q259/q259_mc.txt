@@ -1,0 +1,5 @@
+1. -14.38 Var
+2. 20.34 Var
+3. 28.76 Var
+4. 14.38 \mathrm{Var}
+5. None of the above

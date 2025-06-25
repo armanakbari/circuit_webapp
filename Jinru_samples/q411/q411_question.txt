@@ -1,0 +1,1 @@
+Using nodal analysis, find current $i_o$ in the circuit

@@ -1,0 +1,20 @@
+Because the initial voltage on the capacitor is zero, at the instant when the switch is closed the current in the $30 \mathrm{k} \Omega$ branch will be
+
+$$
+\begin{aligned}
+i\left(0^{+}\right) & =\frac{(7.5)(20)}{50} \\
+& =3 \mathrm{~mA}
+\end{aligned}
+$$
+
+
+The final value of the capacitor current will be zero because the capacitor eventually will appear as an open circuit in terms of dc current. Thus $i_f=0$. The time constant of the circuit will equal the product of the Thévenin resistance (as seen from the capacitor) and the capacitance.
+
+Therefore $\tau=(20+30) 10^3(0.1) \times 10^{-6}=5 \mathrm{~ms}$. Substituting these values into generates the expression
+
+$$
+\begin{aligned}
+i(t) & =0+(3-0) e^{-t / 5 \times 10^{-3}} \\
+& =3 e^{-200 t} \mathrm{~mA}, \quad t \geq 0^{+} .
+\end{aligned}
+$$

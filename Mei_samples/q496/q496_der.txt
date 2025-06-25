@@ -1,0 +1,33 @@
+\begin{aligned}
+&\text { and }\\
+&\begin{gathered}
+R_{T h}=R_1+R_2+R_3=3 \Omega+10 \Omega+2 \Omega=15 \Omega \\
+R_L=R_{T h}=\mathbf{1 5} \Omega
+\end{gathered}
+\end{aligned}
+and
+
+$$
+\begin{gathered}
+V_1=V_3=0 \mathrm{~V} \\
+V_2=I_2 R_2=I R_2=(6 \mathrm{~A})(10 \Omega)=60 \mathrm{~V}
+\end{gathered}
+$$
+
+
+Applying Kirchhoff's voltage law,
+and
+
+$$
+\Sigma_C V=-V_2-E_1+E_{T h}=0
+$$
+
+
+Thus,
+
+$$
+\begin{aligned}
+& E_{T h}=V_2+E_1=60 \mathrm{~V}+68 \mathrm{~V}=128 \mathrm{~V} \\
+& P_{L_{\max }}=\frac{E_{T h}^2}{4 R_{T h}}=\frac{(128 \mathrm{~V})^2}{4(15 \Omega)}=\mathbf{2 7 3 . 0 7} \mathbf{~ W}
+\end{aligned}
+$$

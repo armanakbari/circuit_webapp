@@ -1,0 +1,62 @@
+The circuit impedance is,
+
+$$
+Z_t=2+\frac{(4+j 9)(3-j 8)}{4+j 9+3-j 8}=13.87\angle-9.88^{\circ} \Omega
+$$
+The source current is,
+
+$$
+I=\frac{60}{13.87\angle{-9.88^{\circ}}}=4.33\angle9 .88^{\circ} \mathrm{A}
+$$
+
+
+The branch currents are,
+
+$$
+\begin{aligned}
+& I_1=4.33\angle9 .88^{\circ} \times \frac{4+j 9}{7+j 1}=6.03\angle67 .79^{\circ} \mathrm{A} \\
+& I_2=4.33\angle9 .88^{\circ} \times \frac{3-j 8}{7+j 1}=5.23\angle67 .79^{\circ} \mathrm{A}
+\end{aligned}
+$$
+
+
+The voltage across the parallel branches is,
+
+$$
+V_p=60-2 \times 4.33\angle9 .88^{\circ}=51.49\angle-1.65^{\circ} \mathrm{V}
+$$
+
+
+The complex power in the branches are,
+
+$$
+\begin{gathered}
+S_1=51.49\angle-1.65^{\circ} \times 6.03\angle-67.79^{\circ}=310.48\angle-69.44^{\circ} \mathrm{VA} \\
+S_2=51.49-1.65^{\circ} \times 5.23\angle67 .69^{\circ}=269.29\angle66 .04^{\circ} \mathrm{VA}
+\end{gathered}\angle
+$$
+
+
+The voltage drop across the $2 \Omega$ resistor is,
+
+$$
+V_{2 \Omega}=2 \times 4.33\angle9 .88^{\circ}=8.66\angle9 .88^{\circ} \mathrm{V}
+$$
+
+
+The complex power for $2 \Omega$ resistor is,
+
+$$
+S_{2 \Omega}=8.669 .88^{\circ} \times 4.33\angle-9.88^{\circ}=37.50 \mathrm{VA}
+$$
+
+
+The total complex power is calculated as,
+
+$$
+S_t=310.48-69.44^{\circ}+269.2966 .04^{\circ}+37.50=259.76-9.89^{\circ} \mathrm{VA}
+$$
+\begin{aligned}
+&\text { Alternatively, the total complex power can be calculated as, }\\
+&S=60 \times 4.33 \vdash 9.88^{\circ}=259.8-9.88^{\circ} \mathrm{VA}
+\end{aligned}

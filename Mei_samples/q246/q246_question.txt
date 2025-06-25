@@ -1,0 +1,1 @@
+Determine the voltage drop across the capacitor with a capacitive reactance of $5 \Omega$ for the circuit shown In the provided circuit image.

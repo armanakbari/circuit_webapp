@@ -1,0 +1,5 @@
+The current through the $1.2-\Omega$ resistor is $0.5 \mathrm{i}_{\mathrm{x}}=3.333 \mathrm{~A}$. The voltage across the $12-\Omega$ resistor is $3.333 \times 4.8=16 \mathrm{~V}$. Hence the power absorbed by the 12 -ohm resistor is equal to
+
+$$
+(16)^2 / 12=21.33 \mathrm{~W}
+$$

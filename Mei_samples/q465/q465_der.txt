@@ -1,0 +1,25 @@
+$$
+\begin{aligned}
+& V_1: \quad\left(\frac{1}{12 \Omega}+\frac{1}{6 \Omega}+\frac{1}{4 \Omega}\right) V_1-\left(\frac{1}{4 \Omega}\right) V_2+\quad 0 \quad=20 \mathrm{~V} \\
+& V_2: \quad\left(\frac{1}{4 \Omega}+\frac{1}{6 \Omega}+\frac{1}{1 \Omega}\right) V_2-\left(\frac{1}{4 \Omega}\right) V_1-\left(\frac{1}{1 \Omega}\right) V_3=0 \\
+& V_3: \quad\left(\frac{1}{1 \Omega}+\frac{1}{2 \Omega}\right) V_3-\left(\frac{1}{1 \Omega}\right) V_2+0=0 \\
+& \hline
+\end{aligned}
+$$
+
+and
+
+$$
+\begin{aligned}
+0.5 V_1-0.25 V_2+0 & =20 \\
+-0.25 V_1+\frac{17}{12} V_2-1 V_3 & =0 \\
+0-1 V_2+1.5 V_3 & =0
+\end{aligned}
+$$
+
+
+Note the symmetry present about the major axis. Application of determinants reveals that
+
+$$
+V_3=V_{2 \Omega}=10.667 \mathrm{~V}
+$$

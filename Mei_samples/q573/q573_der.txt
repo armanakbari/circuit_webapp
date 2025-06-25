@@ -1,0 +1,52 @@
+Solution: Applying Kirchhoff's voltage law, we have
+
+$$
+e_{\text {in }}=v_a+v_b
+$$
+
+
+Converting from the time to the phasor domain yields
+
+$$
+\begin{aligned}
+& V_a=50 \sin \left(377 t+30^{\circ}\right) \Rightarrow \mathbf{V}_a=35.35 \mathrm{~V} \angle 30^{\circ} \\
+& V_b=30 \sin \left(377 t+60^{\circ}\right) \Rightarrow \mathbf{V}_b=21.21 \mathrm{~V} \angle 60^{\circ}
+\end{aligned}
+$$
+
+
+Converting from polar to rectangular form for addition yields
+
+$$
+\begin{aligned}
+& \mathbf{V}_a=35.35 \mathrm{~V} \angle 30^{\circ}=30.61 \mathrm{~V}+j 17.68 \mathrm{~V} \\
+& \mathbf{V}_b=21.21 \mathrm{~V} \angle 60^{\circ}=10.61 \mathrm{~V}+j 18.37 \mathrm{~V}
+\end{aligned}
+$$
+
+
+Then
+
+$$
+\begin{aligned}
+\mathbf{E}_{\text {in }}=\mathbf{V}_a+\mathbf{V}_b & =(30.61 \mathrm{~V}+j 17.68 \mathrm{~V})+(10.61 \mathrm{~V}+j 18.37 \mathrm{~V}) \\
+& =41.22 \mathrm{~V}+j 36.05 \mathrm{~V}
+\end{aligned}
+$$
+
+
+Converting from rectangular to polar form, we have
+
+$$
+\mathbf{E}_{\text {in }}=41.22 \mathrm{~V}+j 36.05 \mathrm{~V}=54.76 \mathrm{~V} \angle 41.17^{\circ}
+$$
+
+
+Converting from the phasor to the time domain, we obtain
+
+$$
+\begin{aligned}
+& \quad \mathbf{E}_{\text {in }}=54.76 \mathrm{~V} \angle 41.17^{\circ} \Rightarrow e_{\text {in }}=\sqrt{2}(54.76) \sin \left(377 t+41.17^{\circ}\right) \\
+& \text { and } \quad e_{\text {in }}=77.43 \sin \left(\mathbf{3 7 7 t}+\mathbf{4 1 . 1 7 ^ { \circ }}\right)
+\end{aligned}
+$$

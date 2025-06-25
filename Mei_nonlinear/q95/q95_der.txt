@@ -1,0 +1,22 @@
+Figure 8.73(b) depicts the small-signal model. To compute the $A$ and $C$ coefficients, Fig. 8.70 suggests setting $g_m$ to zero, which results in
+
+$$
+\begin{aligned}
+& A=\frac{V_{\text {out }}}{V_{\text {in }}}=0 \\
+& C=\frac{V_1}{V_{\text {in }}}=1
+\end{aligned}
+$$
+
+
+For the $B$ and and $D$ coefficients, we set $V_{\text {in }}$ to zero and apply a current source $I_1$ in lieu of $g_m V_1$ :
+
+$$
+\begin{aligned}
+B & =\frac{V_{\text {out }}}{I_1}=R_S \\
+D & =\frac{V_1}{I_1}=-R_S
+\end{aligned}
+$$
+\begin{aligned}
+&\text { From (8.140) or (8.141), we have }\\
+&\frac{V_{\text {out }}}{V_{\text {in }}}=\frac{g_m R_S}{1+g_m R_S}
+\end{aligned}

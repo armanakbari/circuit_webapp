@@ -1,0 +1,14 @@
+Applying Kirchhoff's voltage law to the network  in the clockwise direction will result in
+
+$$
+60 \mathrm{~V}-40 \mathrm{~V}-V_x+30 \mathrm{~V}=0
+$$
+
+and
+
+$$
+\begin{aligned}
+V_x & =60 \mathrm{~V}+30 \mathrm{~V}-40 \mathrm{~V}=90 \mathrm{~V}-40 \mathrm{~V} \\
+& =\mathbf{5 0} \mathbf{V}
+\end{aligned}
+$$

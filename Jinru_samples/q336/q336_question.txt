@@ -1,0 +1,1 @@
+For the network in the provided circuit image, find the current with the $20-\mathrm{k} \Omega$ resistor.

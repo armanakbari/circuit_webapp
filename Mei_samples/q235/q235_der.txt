@@ -1,0 +1,29 @@
+The inductive and capacitive reactances are,
+
+$$
+\begin{aligned}
+X_{\mathrm{L}} & =314 \times 16 \times 10^{-3}=5.02 \Omega \\
+X_{\mathrm{C}} & =\frac{1}{314 \times 0.3 \times 10^{-3}}=10.62 \Omega
+\end{aligned}
+$$
+
+
+The delta-to-wye converted impedances are,
+
+$$
+\begin{aligned}
+Z_1 & =\frac{5 \times(4+j 5.02)}{12+j 5.02}=2.4728 .75^{\circ} \Omega \\
+Z_2 & \left.=\frac{3 \times(4+j 5.02)}{12+j 5.02}=1.48 \right\rvert\, 28.75^{\circ} \Omega \\
+Z_3 & \left.=\frac{5 \times 3}{12+j 5.02}=1.15 \right\rvert\,-22.7^{\circ} \Omega
+\end{aligned}
+$$
+
+
+The equivalent impedance of the circuit is calculated as,
+
+$$
+\begin{aligned}
+Z_t & =2+2.47 \left\lvert\, 28.75^{\circ}+\frac{\left(1.48 \mid 28.75^{\circ}+6\right)\left(1.15 \mid-22.7^{\circ}-j 10.62\right)}{1.48\left|28.75^{\circ}+6+1.15\right|-22.7^{\circ}-j 10.62}\right. \\
+& =9.73 \mid-9.91^{\circ} \Omega
+\end{aligned}
+$$

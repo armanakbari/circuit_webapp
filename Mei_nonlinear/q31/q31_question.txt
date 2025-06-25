@@ -1,0 +1,1 @@
+Calculate the small-signal voltage gain of the circuit shown in the provided circuit image.

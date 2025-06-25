@@ -1,0 +1,2 @@
+For a positive phase sequence,
+$\mathbf{V}_{\mathrm{cn}}=118.90 \angle 119.68^{\circ} \mathrm{V}$.

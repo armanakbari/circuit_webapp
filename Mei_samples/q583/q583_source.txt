@@ -1,0 +1,3 @@
+Introductory Circuit Analysis
+P644
+Example15.9

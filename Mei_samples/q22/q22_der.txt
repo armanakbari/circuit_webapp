@@ -1,0 +1,32 @@
+Convert the wye connection to a delta connection as shown in Fig. 2.29. The values of the resistances are,
+
+$$
+R_1=\frac{7 \times 10+10 \times 3+3 \times 7}{3}=40.33 \Omega
+$$
+$$
+\begin{aligned}
+& R_2=\frac{7 \times 10+10 \times 3+3 \times 7}{7}=17.29 \Omega \\
+& R_3=\frac{7 \times 10+10 \times 3+3 \times 7}{10}=12.1 \Omega
+\end{aligned}
+$$
+
+
+From Fig. 2.30, it is seen that $R_1$ and $6 \Omega$ are in parallel, and $R_2$ and $4 \Omega$ are in parallel, and then they are in series. The value of the equivalent resistance $R_4$ is,
+
+$$
+R_4=\frac{R_1 \times 6}{R_1+6}+\frac{R_2 \times 4}{R_2+4}=\frac{40.33 \times 6}{40.33+6}+\frac{17.29 \times 4}{17.29+4}=8.47 \Omega
+$$
+
+
+The $R_3$ and $R_4(8.47 \Omega)$ resistors are in parallel, then in series with $5 \Omega$ and $8 \Omega$ resistors as shown in Fig. 2.31. Finally, the equivalent circuit resistance is,
+
+$$
+R_t=\frac{12.1 \times 8.47}{12.1+8.47}+5+8=17.98 \Omega
+$$
+
+
+The value of the source current can be determined as,
+
+$$
+I_s=\frac{45}{17.98}=2.5 \mathrm{~A}
+$$

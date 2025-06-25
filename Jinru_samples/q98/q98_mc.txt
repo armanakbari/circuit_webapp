@@ -1,0 +1,5 @@
+1. -\frac{2}{3}+j 1.6 \mathrm{~A}
+2. \frac{2}{3}-j 1.6 \mathrm{~A}
+3. 1.6-j \frac{2}{3} \mathrm{~A}
+4. \frac{2}{3}+j 1.6 \mathrm{~A}
+5. None of the above

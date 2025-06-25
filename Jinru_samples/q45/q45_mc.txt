@@ -1,0 +1,5 @@
+1. 120 e^{-10 t} \mathrm{~V}
+2. 120 e^{-5 t} \mathrm{~V}
+3. 120 (1 - e^{-5 t}) \mathrm{~V}
+4. 60 e^{-2.5 t} \mathrm{~V}
+5. None of the above

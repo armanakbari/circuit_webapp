@@ -1,0 +1,5 @@
+1. \mathbf{6 . 325} \boldsymbol{\Omega} \angle \mathbf{18 . 43 ^ { \circ }}
+2. \mathbf{6 . 3 2 5} \boldsymbol{\Omega} \angle-\mathbf{1 8 . 4 3 ^ { \circ }}
+3. \mathbf{8 . 000} \boldsymbol{\Omega} \angle-\mathbf{18 . 43 ^ { \circ }}
+4. \mathbf{6 . 325} \boldsymbol{\Omega} \angle-\mathbf{71 . 57 ^ { \circ }}
+5. None of the above

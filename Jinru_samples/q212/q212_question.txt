@@ -1,0 +1,8 @@
+The two-port circuit shown in the provided circuit image is described in terms of its $b$ parameters, the values of which are
+$$
+\begin{aligned}
+b_{11} & =-20, & b_{12} & =-3000 \Omega \\
+b_{21} & =-2 \mathrm{mS}, & b_{22} & =-0.2
+\end{aligned}
+$$
+Find the phasor voltage $\mathbf{V}_2$.

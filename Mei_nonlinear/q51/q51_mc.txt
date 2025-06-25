@@ -1,0 +1,5 @@
+1. \left(R_G+\frac{R_S}{1+g_m R_S}\right) C_{G S}+\left[R_D+\left(\frac{g_m R_D}{1+g_m R_S}+1\right) R_G\right] C_{G D}+R_D C_L
+2. \frac{R_G+R_S}{1+g_m R_S} C_{G S}+\left[R_D+\left(1+g_m R_D\right) R_G\right] C_{G D}+R_D C_L
+3. \frac{R_G+R_S}{1+g_m R_S} C_{G S}+\left[R_D+\left(\frac{g_m R_D}{1+g_m R_S}+1\right) R_G\right] C_{G D}+R_D C_L
+4. \frac{R_S}{1+g_m R_S} C_{G S}+R_D C_{G D}+R_D C_L
+5. None of the above

@@ -1,0 +1,5 @@
+For differential outputs, $V_N$ does not change (why?) and can be considered ac ground. Shown in Fig. 4.38(b), the half-circuit yields
+
+$$
+\left|A_v\right|=g_{m 1}\left(r_{O 1}\left\|R_1\right\| r_{O 3}\right)
+$$

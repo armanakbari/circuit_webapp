@@ -1,0 +1,51 @@
+We begin by noting that the circuit has three essential nodes. Hence we need two node-voltage equations to describe the circuit. Four branches terminate on the lower node, so we select it as the reference node. Summing the currents away from node 1 generates the equation
+
+$$
+\frac{v_1-20}{2}+\frac{v_1}{20}+\frac{v_1-v_2}{5}=0
+$$
+
+
+Summing the currents away from node 2 yields
+
+$$
+\frac{v_2-v_1}{5}+\frac{v_2}{10}+\frac{v_2-8 i_\phi}{2}=0
+$$
+
+
+As written, these two node-voltage equations contain three unknowns, namely, $v_1, v_2$, and $i_\phi$. To eliminate $i_\phi$ we must express this controlling current in terms of the node voltages, or
+
+$$
+i_\phi=\frac{v_1-v_2}{5}
+$$
+
+Substituting this relationship into the node 2 equation simplifies the two node-voltage equations to
+
+$$
+\begin{aligned}
+0.75 v_1-0.2 v_2 & =10 \\
+-v_1+1.6 v_2 & =0
+\end{aligned}
+$$
+
+
+Solving for $v_1$ and $v_2$ gives
+
+$$
+v_1=16 \mathrm{~V}
+$$
+
+and
+
+$$
+v_2=10 \mathrm{~V}
+$$
+
+
+Then,
+
+$$
+\begin{aligned}
+i_\phi & =\frac{16-10}{5}=1.2 \mathrm{~A}, \\
+p_{5 \Omega} & =(1.44)(5)=7.2 \mathrm{~W} .
+\end{aligned}
+$$

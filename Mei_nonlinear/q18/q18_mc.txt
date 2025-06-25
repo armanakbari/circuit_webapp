@@ -1,0 +1,5 @@
+1. g_{m 1} r_{O 1} + \left(g_{m 2}+g_{m b 2}\right) r_{O 2}
+2. g_{m 1} r_{O 1}\left(g_{m 2}+g_{m b 2}\right) r_{O 2}
+3. g_{m 1} r_{O 1}\left[\left(g_{m 2}+g_{m b 2}\right) r_{O 2}+1\right]
+4. g_{m 2} r_{O 2}\left(g_{m 1} r_{O 1}+1\right)
+5. None of the above

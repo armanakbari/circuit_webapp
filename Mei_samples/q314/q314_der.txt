@@ -1,0 +1,18 @@
+The output current can be determined as,
+
+$$
+\begin{gathered}
+I_0(\omega)=I_i(\omega) \times \frac{(1+j 2 \omega)}{1+j 2 \omega+2+\frac{1}{j 0.5 \omega}} \\
+\frac{I_0(\omega)}{I_i(\omega)}=\frac{j 0.5 \omega(1+j 2 \omega)}{(1+j 2 \omega+2) j 0.5 \omega+1}
+\end{gathered}
+$$
+
+
+Considering $s=j \omega$, Eq. (10.13) can be modified as,
+
+$$
+\begin{gathered}
+\frac{I_0(\omega)}{I_i(\omega)}=\frac{0.5 s(1+2 s)}{(1+2 s+2) 0.5 s+1} \\
+\frac{I_0(\omega)}{I_i(\omega)}=\frac{s(s+0.5)}{s^2+1.5 s+1}
+\end{gathered}
+$$

@@ -1,0 +1,66 @@
+Now use voltage division to construct the transfer function:
+
+$$
+H(s)=\frac{\frac{R}{L} s}{s^2+\left(\frac{R+R_i}{L}\right) s+\frac{1}{L C}}
+$$
+Substitute $s=j \omega$ and calculate the transfer function magnitude:
+
+$$
+|H(j \omega)|=\frac{\frac{R}{L} \omega}{\sqrt{\left(\frac{1}{L C}-\omega^2\right)^2+\left(\omega \frac{R+R_i}{L}\right)^2}}
+$$
+
+
+The center frequency, $\omega_o$, is the frequency at which this transfer function magnitude is maximum, which is
+
+$$
+\omega_o=\sqrt{\frac{1}{L C}}
+$$
+At the center frequency, the maximum magnitude is
+
+$$
+H_{\max }=\left|H\left(j \omega_o\right)\right|=\frac{R}{R_i+R}
+$$
+
+
+The cutoff frequencies can be computed by setting the transfer function magnitude equal to $(1 / \sqrt{2}) H_{\max }$ :
+
+$$
+\begin{aligned}
+& \omega_{c 1}=-\frac{R+R_i}{2 L}+\sqrt{\left(\frac{R+R_i}{2 L}\right)^2+\frac{1}{L C}}, \\
+& \omega_{c 2}=\frac{R+R_i}{2 L}+\sqrt{\left(\frac{R+R_i}{2 L}\right)^2+\frac{1}{L C}} .
+\end{aligned}
+$$
+
+
+The bandwidth is calculated from the cutoff frequencies:
+
+$$
+\beta=\frac{R+R_i}{L} .
+$$
+
+
+Finally, the quality factor is computed from the center frequency and the bandwidth:
+
+$$
+Q=\frac{\sqrt{L / C}}{R+R_i}
+$$
+
+
+From this analysis, note that we can write the transfer function of the series $R L C$ bandpass filter with nonzero source resistance as
+
+$$
+H(s)=\frac{K \beta s}{s^2+\beta s+\omega_o^2},
+$$
+
+where
+
+$$
+K=\frac{R}{R+R_i}
+$$
+
+
+Note that when $R_i=0, K=1$ and the transfer function is
+
+$$
+H(s)=\frac{\beta s}{s^2+\beta s+\omega_o^2}
+$$

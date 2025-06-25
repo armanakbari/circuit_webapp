@@ -1,0 +1,1 @@
+In the provided circuit image, the initial currents in inductors $L_1$ and $L_2$ have been established by sources not shown. The switch is opened at $t=0$. Find $i_1for $t \geq 0$.

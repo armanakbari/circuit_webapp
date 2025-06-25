@@ -1,0 +1,5 @@
+1. 4 k T\left(R_1+R_2\right)
+2. 4 k T\left(R_1 \| R_2\right)
+3. 2 k T\left(R_1 \| R_2\right)
+4. 4 k T\left(\frac{R_1+R_2}{2}\right)
+5. None of the above

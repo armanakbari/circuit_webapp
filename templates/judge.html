@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Judge Evaluation Results</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            svg: {
+                fontCache: 'global'
+            }
+        };
+    </script>
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .container-fluid {
+            max-width: 95%;
+        }
+        .question-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1.5rem;
+            border-radius: 10px 10px 0 0;
+            margin-bottom: 0;
+        }
+        .question-content {
+            background: white;
+            padding: 2rem;
+            border-radius: 0 0 10px 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+        }
+        .comparison-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+            overflow: hidden;
+        }
+        .comparison-header {
+            padding: 1rem 1.5rem;
+            font-weight: 600;
+            border-bottom: 2px solid #f1f3f4;
+        }
+        .solver-header {
+            background-color: #e3f2fd;
+            color: #1976d2;
+        }
+        .judge-header {
+            background-color: #f3e5f5;
+            color: #7b1fa2;
+        }
+        .ground-truth-header {
+            background-color: #e8f5e8;
+            color: #388e3c;
+        }
+        .comparison-content {
+            padding: 1.5rem;
+        }
+        .correct-answer {
+            background-color: #d4edda;
+            border-left: 4px solid #28a745;
+            padding: 1rem;
+            border-radius: 0 5px 5px 0;
+        }
+        .incorrect-answer {
+            background-color: #f8d7da;
+            border-left: 4px solid #dc3545;
+            padding: 1rem;
+            border-radius: 0 5px 5px 0;
+        }
+        .navigation {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+        .badge-large {
+            font-size: 0.9rem;
+            padding: 0.5rem 1rem;
+        }
+        .source-badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+        .text-content {
+            line-height: 1.6;
+            font-size: 1rem;
+        }
+        .judgment-badge {
+            font-size: 1.1rem;
+            padding: 0.6rem 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="navigation">
+        <div class="btn-group" role="group">
+            <a href="{{ url_for('index') }}" class="btn btn-outline-secondary">
+                <i class="fas fa-home"></i> Home
+            </a>
+            {% if idx > 0 %}
+                {% if view_type == 'correct' %}
+                    <a href="{{ url_for('view_judge_correct', idx=idx-1) }}" class="btn btn-outline-primary">
+                        <i class="fas fa-chevron-left"></i> Previous
+                    </a>
+                {% elif view_type == 'incorrect' %}
+                    <a href="{{ url_for('view_judge_incorrect', idx=idx-1) }}" class="btn btn-outline-primary">
+                        <i class="fas fa-chevron-left"></i> Previous
+                    </a>
+                {% else %}
+                    <a href="{{ url_for('view_judge', idx=idx-1) }}" class="btn btn-outline-primary">
+                        <i class="fas fa-chevron-left"></i> Previous
+                    </a>
+                {% endif %}
+            {% endif %}
+            {% if idx < total - 1 %}
+                {% if view_type == 'correct' %}
+                    <a href="{{ url_for('view_judge_correct', idx=idx+1) }}" class="btn btn-outline-primary">
+                        Next <i class="fas fa-chevron-right"></i>
+                    </a>
+                {% elif view_type == 'incorrect' %}
+                    <a href="{{ url_for('view_judge_incorrect', idx=idx+1) }}" class="btn btn-outline-primary">
+                        Next <i class="fas fa-chevron-right"></i>
+                    </a>
+                {% else %}
+                    <a href="{{ url_for('view_judge', idx=idx+1) }}" class="btn btn-outline-primary">
+                        Next <i class="fas fa-chevron-right"></i>
+                    </a>
+                {% endif %}
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="container-fluid mt-4">
+        <!-- Question Header -->
+        <div class="question-header position-relative">
+            <div class="source-badge">
+                <span class="badge bg-light text-dark">{{ row.source_file.replace('.csv', '') }}</span>
+            </div>
+            <h2 class="mb-2">
+                <i class="fas fa-gavel me-2"></i>Question {{ qid }}
+                <span class="badge bg-light text-dark ms-2">{{ idx + 1 }} / {{ total }}</span>
+            </h2>
+            <div class="d-flex align-items-center">
+                <span class="badge judgment-badge {% if row.judge_is_correct|lower == 'true' %}bg-success{% else %}bg-danger{% endif %} me-3">
+                    Judge: {{ row.judge_judgment|upper }}
+                </span>
+                <span class="badge bg-light text-dark">
+                    {% if row.judge_is_correct|lower == 'true' %}✓ Correct{% else %}✗ Incorrect{% endif %}
+                </span>
+            </div>
+        </div>
+
+        <!-- Question Content -->
+        <div class="question-content">
+            <h4 class="text-primary mb-3">Question</h4>
+            <div class="text-content">
+                {{ row.question_text|safe }}
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Solver Response -->
+            <div class="col-lg-4">
+                <div class="comparison-card">
+                    <div class="comparison-header solver-header">
+                        <i class="fas fa-robot me-2"></i>Solver Response
+                    </div>
+                    <div class="comparison-content">
+                        <h6 class="text-primary">Final Answer:</h6>
+                        <div class="{% if row.judge_is_correct|lower == 'true' %}correct-answer{% else %}incorrect-answer{% endif %} mb-3">
+                            {{ row.solver_final_answer|safe }}
+                        </div>
+                        
+                        {% if row.solver_explanation %}
+                        <h6 class="text-primary">Explanation:</h6>
+                        <div class="text-content mb-3">
+                            {{ row.solver_explanation|safe }}
+                        </div>
+                        {% endif %}
+                        
+                        {% if row.solver_full_response %}
+                        <details class="mt-3">
+                            <summary class="text-muted" style="cursor: pointer;">
+                                <small>View Full Response</small>
+                            </summary>
+                            <div class="mt-2 p-2 bg-light rounded">
+                                <small>{{ row.solver_full_response|safe }}</small>
+                            </div>
+                        </details>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+
+            <!-- Judge Evaluation -->
+            <div class="col-lg-4">
+                <div class="comparison-card">
+                    <div class="comparison-header judge-header">
+                        <i class="fas fa-gavel me-2"></i>Judge Evaluation
+                    </div>
+                    <div class="comparison-content">
+                        <h6 class="text-primary">Judgment:</h6>
+                        <div class="mb-3">
+                            <span class="badge {% if row.judge_judgment|upper == 'YES' %}bg-success{% else %}bg-danger{% endif %} judgment-badge">
+                                {{ row.judge_judgment|upper }}
+                            </span>
+                        </div>
+                        
+                        {% if row.judge_reasoning %}
+                        <h6 class="text-primary">Reasoning:</h6>
+                        <div class="text-content mb-3">
+                            {{ row.judge_reasoning|safe }}
+                        </div>
+                        {% endif %}
+                        
+                        {% if row.judge_full_response %}
+                        <details class="mt-3">
+                            <summary class="text-muted" style="cursor: pointer;">
+                                <small>View Full Judge Response</small>
+                            </summary>
+                            <div class="mt-2 p-2 bg-light rounded">
+                                <small>{{ row.judge_full_response|safe }}</small>
+                            </div>
+                        </details>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ground Truth -->
+            <div class="col-lg-4">
+                <div class="comparison-card">
+                    <div class="comparison-header ground-truth-header">
+                        <i class="fas fa-check-circle me-2"></i>Ground Truth
+                    </div>
+                    <div class="comparison-content">
+                        {% if row.ground_truth_answer %}
+                        <h6 class="text-success">Correct Answer:</h6>
+                        <div class="correct-answer mb-3">
+                            {{ row.ground_truth_answer|safe }}
+                        </div>
+                        {% endif %}
+                        
+                        {% if row.ground_truth_explanation %}
+                        <h6 class="text-success">Explanation:</h6>
+                        <div class="text-content">
+                            {{ row.ground_truth_explanation|safe }}
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Keyboard navigation -->
+    <script>
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'ArrowLeft') {
+                const prevBtn = document.querySelector('.btn-outline-primary[href*="previous"], .btn-outline-primary:has(.fa-chevron-left)');
+                if (prevBtn) prevBtn.click();
+            } else if (e.key === 'ArrowRight') {
+                const nextBtn = document.querySelector('.btn-outline-primary[href*="next"], .btn-outline-primary:has(.fa-chevron-right)');
+                if (nextBtn) nextBtn.click();
+            } else if (e.key === 'Escape') {
+                window.location.href = "{{ url_for('index') }}";
+            }
+        });
+    </script>
+</body>
+</html> 

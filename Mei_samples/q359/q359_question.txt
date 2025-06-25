@@ -1,0 +1,1 @@
+Determine the voltage $V_1$ for the network In the provided circuit image.

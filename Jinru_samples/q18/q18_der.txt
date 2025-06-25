@@ -1,0 +1,5 @@
+As $t \rightarrow \infty, \quad i_1 \rightarrow 1.6 \mathrm{~A} \quad$ and $\quad i_2 \rightarrow-1.6 \mathrm{~A}$. Therefore, a long time after the switch has been opened, the energy stored in the two inductors is
+
+$$
+w=\frac{1}{2}(5)(1.6)^2+\frac{1}{2}(20)(-1.6)^2=32 \mathrm{~J} .
+$$

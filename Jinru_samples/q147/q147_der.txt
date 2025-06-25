@@ -1,0 +1,8 @@
+We calculate the maximum average power delivered to $Z_{\mathrm{L}}$ from the circuit, in which we replaced the original network with its Thévenin equivalent. The rms magnitude of the load current $\mathbf{I}$ is
+
+$$
+I_{\mathrm{eff}}=\frac{19.2 / \sqrt{2}}{2(5.76)}=1.1785 \mathrm{~A}
+$$
+
+The average power delivered to the load is:
+P=I_{\mathrm{eff}}^2(5.76)=8 \mathrm{~W} .

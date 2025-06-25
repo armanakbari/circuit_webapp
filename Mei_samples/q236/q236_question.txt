@@ -1,0 +1,1 @@
+Determine the voltage across the inductor with an inductive reactance of $6 \Omega$ for the circuit shown In the provided circuit image.

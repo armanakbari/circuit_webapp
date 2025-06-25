@@ -1,0 +1,1 @@
+For the circuit shown in the provided circuit image, determine the impedance $Z_{\mathrm{L}}$ that results in maximum average power transferred to $Z_{\mathrm{L}}$.

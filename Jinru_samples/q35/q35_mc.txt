@@ -1,0 +1,5 @@
+1. \left(150-60 e^{-500 t}\right) \mathrm{V}
+2. \left(150-60 e^{-200 t}\right) \mathrm{V}
+3. \left(150-150 e^{-200 t}\right) \mathrm{V}
+4. \left(90-90 e^{-833 t}\right) \mathrm{V}
+5. None of the above

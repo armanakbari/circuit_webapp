@@ -1,0 +1,10 @@
+The phase voltage at the a terminal of the source is
+
+$$
+\begin{aligned}
+\mathbf{V}_{\text {an }} & =120-(0.2+j 0.5)\left(2.4 \angle-36.87^{\circ}\right) \\
+& =120-1.29 \angle 31.33^{\circ} \\
+& =118.90-j 0.67 \\
+& =118.90 /-0.32^{\circ} \mathrm{V} .
+\end{aligned}
+$$

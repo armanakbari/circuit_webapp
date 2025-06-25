@@ -1,0 +1,5 @@
+The maximum power that can be delivered to $R_L$ is
+
+$$
+p_{\max }=\left(\frac{300}{50}\right)^2(25)=900 \mathrm{~W} .
+$$

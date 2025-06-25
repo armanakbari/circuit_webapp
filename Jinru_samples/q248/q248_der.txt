@@ -1,0 +1,26 @@
+To find the power dissipated in the $300 \Omega$ resistor, we need to find either the current in the resistor or the voltage across it. The mesh-current method yields the current in the resistor; this approach requires solving five simultaneous mesh equations. In writing the five equations, we must include the constraint $i_{\Delta}=-i_b$.
+
+Before going further, let's also look at the circuit in terms of the node-voltage method. Note that, once we know the node voltages, we can calculate either the current in the $300 \Omega$ resistor or the voltage across it. The circuit has four essential nodes, and therefore only three node-voltage equations are required to describe the circuit. Because of the dependent voltage source between two essential nodes, we have to sum the currents at only two nodes. Hence the problem is reduced to writing two node-voltage equations and a constraint equation. Because the node-voltage method requires only three simultaneous equations, it is the more attractive approach.
+
+Once the decision to use the node-voltage method has been made, the next step is to select reference node, v_{\mathrm{a}, v_{\mathrm{b} and v_{\mathrm{c} as shown in the provided circuit image. 
+
+$$
+\frac{v_{\mathrm{a}}}{200}+\frac{v_{\mathrm{a}}-256}{150}+\frac{v_{\mathrm{a}}-v_{\mathrm{b}}}{100}+\frac{v_{\mathrm{a}}-v_{\mathrm{c}}}{300}=0
+$$
+
+
+At $v_{\mathrm{c}}$,
+
+$$
+\frac{v_{\mathrm{c}}}{400}+\frac{v_{\mathrm{c}}+128}{500}+\frac{v_{\mathrm{c}}-v_{\mathrm{b}}}{250}+\frac{v_{\mathrm{c}}-v_{\mathrm{a}}}{300}=0
+$$
+
+
+From the supernode, the constraint equation is
+
+$$
+v_{\mathrm{b}}=50 i_{\Delta}=\frac{50\left(v_{\mathrm{c}}-v_{\mathrm{a}}\right)}{300}=\frac{v_{\mathrm{c}}-v_{\mathrm{a}}}{6}
+$$
+
+
+You should verify that the solution of either set leads to a power calculation of 16.57 \mathrm{~W} dissipated in the $300 \Omega$ resistor.

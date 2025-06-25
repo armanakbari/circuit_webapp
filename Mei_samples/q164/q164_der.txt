@@ -1,0 +1,59 @@
+Open the $1 \Omega$ resistance and redraw the circuit as shown in Fig. 4.58. To calculate the Norton's resistance, open the current source and short circuit the voltage source as shown in Fig. 4.59.
+The Norton's resistance can be determined as,
+
+$$
+R_N=4+\frac{2 \times 10}{2+10}=5.67 \Omega
+$$
+
+
+First, consider that the voltage source is in active condition and the current source is open circuited (turned off) to find the short-circuit current as shown in Fig. 4.60.
+
+The total circuit resistance is,
+
+$$
+R_t=2+\frac{4 \times 10}{4+10}=4.86 \Omega
+$$
+
+
+The source current is,
+
+$$
+I_s=\frac{24}{4.86}=4.94 \mathrm{~A}
+$$
+
+
+With the active voltage source, the value of the short-circuit current is,
+
+$$
+I_{N 1}=4.94 \times \frac{10}{10+4}=3.53 \mathrm{~A}
+$$
+
+
+Again, considering the current source is in active condition and voltage source is short circuited (turned off) to find the short-circuit current
+The following current can be calculated:
+
+$$
+I_{4 \Omega, 10 \Omega}=8 \times \frac{2}{2+\frac{4 \times 10}{4+10}}=3.29 \Omega
+$$
+
+
+With the active current source, the value of the Norton's current is,
+
+$$
+I_{N 2}=3.29 \times \frac{10}{10+4}=2.35 \Omega
+$$
+
+
+Finally, the Norton's current for both active sources can be calculated as,
+
+$$
+I_N=I_{N 1}+I_{N 2}=3.53+2.35=5.88 \mathrm{~A}
+$$
+
+
+The Norton's equivalent circuit is shown in Fig. 4.62.
+The current in the $1 \Omega$ resistor is,
+
+$$
+I_{1 \Omega}=5.88 \times \frac{5.67}{5.67+1}=5 \mathrm{~A}
+$$

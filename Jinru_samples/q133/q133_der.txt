@@ -1,0 +1,16 @@
+As we can see from the power triande, we can correct the power factor to 1 if we place a capacitor in parallel with the existing loads such that the capacitor supplies 10 kVAR of magnetizing reactive power. The value of the capacitor is calculated as follows. First, find the capacitive reactance:
+
+$$
+\begin{aligned}
+X & =\frac{\left|V_{\text {eff }}\right|^2}{Q} \\
+& =\frac{(250)^2}{-10,000} \\
+& =-6.25 \Omega
+\end{aligned}
+$$
+
+
+Recall that the reactive impedance of a capacitor is $-1 / \omega C$, and $\omega=2 \pi(60)=376.99 \mathrm{rad} / \mathrm{s}$, if the source frequency is 60 Hz . Thus,
+
+$$
+C=\frac{-1}{\omega X}=\frac{-1}{(376.99)(-6.25)}=424.4 \mu \mathrm{~F} .
+$$

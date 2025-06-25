@@ -1,0 +1,5 @@
+1. $\frac{5 \times 10^6}{s^2+6000 s+25 \times 10^6}$
+2. $\frac{1000(s+5000)}{s^2+5000 s+25 \times 10^6}$
+3. $\frac{1000(s+5000)}{s^2+6000 s+25 \times 10^6}$
+4. $\frac{1000s}{s^2+6000 s+25 \times 10^6}$
+5. None of the above

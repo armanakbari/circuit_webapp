@@ -1,0 +1,1 @@
+Replace the $4-\Omega$ load with a $1-\mathrm{k} \Omega$ load in the provided circuit image, and calculate the current $I_L$ for the voltage source.

@@ -1,0 +1,5 @@
+Using the equation for $\omega_c$, we recognize that it is not possible to specify values for $R$ and $L$ independently. Therefore, let's arbitrarily select a value of $500 \Omega$ for $R$. Remember to convert the cutoff frequency to radians per second:
+
+$$
+L=\frac{R}{\omega_c}=\frac{500}{(2 \pi)(15,000)}=5.31 \mathrm{mH} .
+$$

@@ -1,0 +1,1 @@
+Find the branch current  I_2 of the network in the provided circuit image.

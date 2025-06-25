@@ -1,0 +1,5 @@
+1. 100 e^{-50 t} \mathrm{~V}
+2. 100 e^{-0.04 t} \mathrm{~V}
+3. 100 e^{-25 t} \mathrm{~V}
+4. 50 e^{-25 t} \mathrm{~V}
+5. None of the above

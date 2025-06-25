@@ -1,0 +1,5 @@
+1. 3.0V
+2. 1.5V
+3. 2.4V
+4. 7.2V
+5. None of the above

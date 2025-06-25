@@ -1,0 +1,1 @@
+From the small-signal MOS model developed, we recall that the drain current is given by $g_{m b} V_{i n}$. Thus, $A_v=-g_{m b} R_D$.

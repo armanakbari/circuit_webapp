@@ -1,0 +1,1 @@
+Determine the current i2 for the network in the provided circuit image

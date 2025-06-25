@@ -1,0 +1,1 @@
+Determine $R_1 for the voltage divider supply in the provided circuit image

@@ -1,0 +1,5 @@
+1. $4 k T \frac{\gamma}{g_m}+4 k T R_D$
+2. $4 k T \gamma g_m+\frac{4 k T}{g_m^2 R_D}$
+3. $4 k T \frac{\gamma}{g_m}+\frac{4 k T}{g_m}$
+4. 4 k T \frac{\gamma}{g_m}+\frac{4 k T}{g_m^2 R_D
+5. None of the above

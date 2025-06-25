@@ -1,0 +1,1 @@
+Determine voltage drop across the $4 \Omega$ resistor using mesh analysis for the circuit In the provided circuit image.

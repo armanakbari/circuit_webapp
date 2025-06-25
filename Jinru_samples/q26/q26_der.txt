@@ -1,0 +1,5 @@
+The initial energy stored in $C_2$ is
+
+$$
+w_2=\frac{1}{2}\left(20 \times 10^{-6}\right)(576)=5760 \mu \mathrm{~J} .
+$$

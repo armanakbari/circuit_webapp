@@ -1,0 +1,1 @@
+Three light bulbs are connected to a 9-V battery as shown in the provided circuit image. Calculate the total current supplied by the battery.

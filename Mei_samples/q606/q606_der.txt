@@ -1,0 +1,24 @@
+\begin{aligned}
+\mathbf{Y}_R & =G \angle 0^{\circ}=\frac{1}{R} \angle 0^{\circ}=\frac{1}{5 \Omega} \angle 0^{\circ} \\
+& =\mathbf{0 . 2 S} \angle \mathbf{0}^{\circ}=\mathbf{0 . 2 S}+\boldsymbol{j} \mathbf{0}
+\end{aligned}
+$$
+\begin{aligned}
+\mathbf{Y}_L & =B_L \angle-90^{\circ}=\frac{1}{X_L} \angle-90^{\circ}=\frac{1}{8 \Omega} \angle-90^{\circ} \\
+& =\mathbf{0 . 1 2 5 ~ S} \angle-\mathbf{9 0}^{\circ}=\mathbf{0}-\boldsymbol{j} \mathbf{0 . 1 2 5 ~ S} \\
+\mathbf{Y}_C & =B_C \angle 90^{\circ}=\frac{1}{X_C} \angle 90^{\circ}=\frac{1}{20 \Omega} \angle 90^{\circ} \\
+& =\mathbf{0 . 0 5 0 ~ S} \angle+\mathbf{9 0}^{\circ}=\mathbf{0}+\boldsymbol{j} \mathbf{0 . 0 5 0 ~ S}
+\end{aligned}
+$$
+
+b.
+
+$$
+\begin{aligned}
+\mathbf{Y}_T & =\mathbf{Y}_R+\mathbf{Y}_L+\mathbf{Y}_C \\
+& =(0.2 \mathrm{~S}+j 0)+(0-j 0.125 \mathrm{~S})+(0+j 0.050 \mathrm{~S}) \\
+& =0.2 \mathrm{~S}-j 0.075 \mathrm{~S}=\mathbf{0 . 2 1 3 6} \mathrm{S} \angle-\mathbf{2 0 . 5 6}^{\circ}
+\end{aligned}
+$$
+
+c. $\mathbf{Z}_T=\frac{1}{0.2136 \mathrm{~S} \angle-20.56^{\circ}}=\mathbf{4 . 6 8} \boldsymbol{\Omega} \angle \mathbf{2 0 . 5 6}{ }^{\circ}$

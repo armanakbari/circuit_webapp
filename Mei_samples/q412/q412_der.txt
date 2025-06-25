@@ -1,0 +1,7 @@
+In this case, particular unknowns are requested instead of a complete solution. It would, therefore, be a waste of time to find all the currents and voltages of the network. The method employed should concentrate on obtaining only the unknowns requested. With the block diagram approach, the network has the basic structure of Fig. 7.11, clearly indicating that the three branches are in parallel and the voltage across $A$ and $B$ is the supply voltage. The current $I_4$ is now immediately obvious as simply the supply voltage divided by the resultant resistance for $B$. If desired, block $A$ could be broken down further, as shown in Fig. 7.12, to identify $C$ and $D$ as series elements, with the voltage $V_2$ capable of being determined using the voltage divider rule once the resistance of $C$ and $D$ is reduced to a single value. This is an example of how a mental sketch of the approach might be made before applying laws, rules, and so on, to avoid dead ends and growing frustration.
+
+Applying Ohm's law,
+
+$$
+I_4=\frac{E}{R_B}=\frac{E}{R_4}=\frac{12 \mathrm{~V}}{8 \Omega}=1.5 \mathrm{~A}
+$$

@@ -1,0 +1,16 @@
+At node $o$,
+
+$$
+\frac{\mathrm{V}_{\mathrm{o}}-30}{1}+\frac{\mathrm{V}_{\mathrm{o}}-0}{2}+\frac{\mathrm{V}_{\mathrm{o}}-\left(2 \mathrm{~V}_{\mathrm{o}}+\mathrm{V}_1\right)}{4}=0 \rightarrow 1.25 \mathrm{~V}_{\mathrm{o}}-0.25 \mathrm{~V}_1=30
+$$
+
+
+At node 1,
+
+$$
+\frac{\left(2 V_o+V_1\right)-V_o}{4}+\frac{V_1-0}{16}-3=0 \rightarrow 5 V_1+4 V_o=48
+$$
+
+
+$\quad V_1=5 V_o-120$.
+$29 \mathrm{~V}_{\mathrm{o}}=648$ or $\mathrm{V}_{\mathrm{o}}=22.34 \mathrm{~V}$.

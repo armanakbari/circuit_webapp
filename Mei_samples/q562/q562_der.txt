@@ -1,0 +1,41 @@
+Applying Thévenin's theorem to the $80-\mathrm{mH}$ inductor (Fig. 12.32) yields
+
+$$
+R_{T h}=\frac{R}{N}=\frac{20 \mathrm{k} \Omega}{2}=10 \mathrm{k} \Omega
+$$
+
+Applying the voltage divider rule (Fig. 12.33),
+
+$$
+\begin{aligned}
+E_{T h} & =\frac{\left(R_2+R_3\right) E}{R_1+R_2+R_3} \\
+& =\frac{(4 \mathrm{k} \Omega+16 \mathrm{k} \Omega)(12 \mathrm{~V})}{20 \mathrm{k} \Omega+4 \mathrm{k} \Omega+16 \mathrm{k} \Omega}=\frac{(20 \mathrm{k} \Omega)(12 \mathrm{~V})}{40 \mathrm{k} \Omega}=6 \mathrm{~V}
+\end{aligned}
+$$
+
+
+The Thévenin equivalent circuit is shown in Fig. 12.34. Using Eq. (12.8),
+$$
+\begin{aligned}
+i_L & =\frac{E_{T h}}{R}\left(1-e^{-t / \tau}\right) \\
+\tau & =\frac{L}{R_{T h}}=\frac{80 \times 10^{-3} \mathrm{H}}{10 \times 10^3 \Omega}=8 \times 10^{-6} \mathrm{~s} \\
+I_m & =\frac{E_{T h}}{R_{T h}}=\frac{6 \mathrm{~V}}{10 \times 10^3 \Omega}=0.6 \times 10^{-3} \mathrm{~A}
+\end{aligned}
+$$
+
+and
+
+$$
+i_L=\left(0.6 \times 10^{-3}\right)\left(1-e^{-t /\left(8 \times 10^{-6}\right)}\right)
+$$
+
+
+Using Eq. (12.10),
+so that
+
+$$
+\begin{aligned}
+v_L & =E_{T h} e^{-t / \tau} \\
+v_L & =6 e^{-t /(\mathbf{8} \times \mathbf{1 0}-\mathbf{6})}
+\end{aligned}
+$$

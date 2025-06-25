@@ -1,0 +1,6 @@
+$$
+\mathrm{i}_1+\mathrm{i}_2+\mathrm{i}_3=0 \longrightarrow \frac{\mathrm{v}_1}{10}+\frac{\left(\mathrm{v}_1-60\right)-0}{20}+\frac{\mathrm{v}_1-5 \mathrm{v}_0}{20}=0
+$$
+
+
+But $\quad v_0=\frac{2}{5} v_1$ so that $2 v_1+v_1-60+v_1-2 v_1=0$ or $\mathrm{v}_1=60 / 2=30 \mathrm{~V}$, therefore $\mathrm{v}_{\mathrm{o}}=2 \mathrm{v}_1 / 5=\mathbf{1 2 ~ V}$.

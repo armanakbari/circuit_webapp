@@ -1,0 +1,32 @@
+Consider that the first voltage source ( 10 V ) is in active condition and the second one is short circuited as shown in Fig. 7.17. In this case, the equivalent impedance $Z_1$ between $4 \Omega, 3-j 4 \Omega$ and $-j 4 \Omega$ becomes,
+$$
+Z_1=\frac{4(3-j 5)}{4+3-j 5}-j 4=5.66-63.92^{\circ} \Omega
+$$
+
+
+The overall equivalent circuit impedance is $Z_1 \|(6+j 8)+2$, and this can be calculated as,
+
+$$
+Z_{\mathrm{eq} 1}=2+\frac{(6+j 8) \times 5.6663 .92^{\circ}}{6+j 8+5.66-63.92^{\circ}}=6.31-29.75^{\circ} \Omega
+$$
+
+
+From Fig. 7.19, the source current is calculated as,
+
+$$
+I_{s 1}=\frac{10}{6.31-29.75^{\circ}}=1.58 \angle-29.75^{\circ} \mathrm{A}
+$$
+
+
+The current in the $6 \Omega$ resistor is,
+
+$$
+I_{6 \Omega}=1.58 \angle-29.75^{\circ} \times \frac{5.66-63.92^{\circ}}{6+j 8+5.66-63.92^{\circ}}=1 \angle-112.63^{\circ} \mathrm{A}
+$$
+
+
+The voltage drops across the $6 \Omega$ resistor due to the first source is,
+
+$$
+V_{x 1}=1-112.63^{\circ} \times 6=6 \angle{-112.63^{\circ}} \mathrm{V}
+$$

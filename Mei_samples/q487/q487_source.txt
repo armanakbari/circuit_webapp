@@ -1,0 +1,3 @@
+Introductory Circuit Analysis
+P341
+Example9.13

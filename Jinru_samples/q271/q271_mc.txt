@@ -1,0 +1,5 @@
+1. 9 \mathrm{~mA}
+2. 6 \mathrm{~mA}
+3. 4 \mathrm{~mA}
+4. -6 \mathrm{~mA}
+5. None of the above

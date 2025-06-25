@@ -1,0 +1,11 @@
+In the setup shown in Fig. 9.28(b), the small-signal gate voltage is equal to $-A_1 V_X$, and hence $I_0=\left(-A_1 V_X-V_X\right) g_m$. Also, $R_D$ carries a current of $I_X$, generating a voltage equal to $I_X R_D$ at the drain with respect to ground. Since the current flowing downward through $r_O$ is given by $\left(I_X R_D-V_X\right) / r_O$, we have at the source node
+
+$$
+\frac{I_X R_D-V_X}{r_O}+\left(-A_1 V_X-V_X\right) g_m+I_X=0
+$$
+
+and
+
+$$
+R_X=\frac{R_D+r_O}{1+\left(A_1+1\right) g_m r_O}
+$$

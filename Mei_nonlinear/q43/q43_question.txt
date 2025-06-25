@@ -1,0 +1,1 @@
+Neglecting channel-length modulation and body effect, calculate the transfer function of the circuit shown in the provided circuit image

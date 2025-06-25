@@ -1,0 +1,20 @@
+Solution: Setting $E=0 \mathrm{~V}$ for the network of Fig. 9.4 results in the network of Fig. 9.5(a), where a short-circuit equivalent has replaced the $30-\mathrm{V}$ source.
+As shown in Fig. 9.5(a), the source current will choose the shortcircuit path, and $I_1^{\prime}=0 \mathrm{~A}$. If we applied the current divider rule,
+
+$$
+I_1^{\prime}=\frac{R_{s c} I}{R_{s c}+R_1}=\frac{(0 \Omega) I}{0 \Omega+6 \Omega}=0 \mathrm{~A}
+$$
+
+
+Setting $I$ to zero amperes will result in the network of Fig. 9.5(b), with the current source replaced by an open circuit. Applying Ohm's law,
+
+$$
+I_1^{\prime \prime}=\frac{E}{R_1}=\frac{30 \mathrm{~V}}{6 \Omega}=5 \mathrm{~A}
+$$
+
+
+Since $I_1^{\prime}$ and $I_1^{\prime \prime}$ have the same defined direction in Fig. 9.5(a) and (b), the current $I_1$ is the sum of the two, and
+
+$$
+I_1=I_1^{\prime}+I_1^{\prime \prime}=0 \mathrm{~A}+5 \mathrm{~A}=\mathbf{5} \mathbf{A}
+$$

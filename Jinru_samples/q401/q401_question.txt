@@ -1,0 +1,1 @@
+Find the currents $I_4$ in the circuit of the provided circuit image.

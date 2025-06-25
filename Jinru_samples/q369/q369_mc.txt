@@ -1,0 +1,5 @@
+1. 77.82 \mathbf{V}
+2. 60.00 \mathbf{V}
+3. 42.18 \mathbf{V}
+4. -17.82 \mathbf{V}
+5. None of the above

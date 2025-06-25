@@ -1,0 +1,9 @@
+The $6-\mathrm{k} \Omega$ and $12-\mathrm{k} \Omega$ resistors are in series so that their combined value is $6+12=18 \mathrm{k} \Omega$.  We now apply the current division technique to find $i_1$ and $i_2$.
+
+$$
+\begin{aligned}
+i_1 & =\frac{18,000}{9,000+18,000}(30 \mathrm{~mA})=20 \mathrm{~mA} \\
+i_2 & =\frac{9,000}{9,000+18,000}(30 \mathrm{~mA})=10 \mathrm{~mA}
+\end{aligned}
+$$
+Notice that the voltage across the $9-\mathrm{k} \Omega$ and $18-\mathrm{k} \Omega$ resistors is the same, and $v_o=9,000 i_1=18,000 i_2=180 \mathrm{~V}$, as expected.

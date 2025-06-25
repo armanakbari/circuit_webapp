@@ -1,0 +1,23 @@
+Note that since node $b$ has two unknown quantities and node $a$ has only one, we must first apply Kirchhoff's current law to node $a$. The result can then be applied to node $b$.
+
+For node $a$,
+
+$$
+\begin{gathered}
+I_1+I_2=I_3 \\
+4 \mathrm{~A}+3 \mathrm{~A}=I_3 \\
+I_3=7 \mathrm{~A}
+\end{gathered}
+$$
+
+and
+For node $b$,
+and
+
+$$
+\begin{gathered}
+I_3=I_4+I_5 \\
+7 \mathrm{~A}=1 \mathrm{~A}+I_5 \\
+I_5=7 \mathrm{~A}-1 \mathrm{~A}=\mathbf{6} \mathbf{A}
+\end{gathered}
+$$

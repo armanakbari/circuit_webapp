@@ -1,0 +1,8 @@
+We have already noted that the initial value of the inductor current is 5 A . After the switch has been closed for a long time, the inductor current reaches $20 / 1$, or 20 A . The circuit time constant is 80 ms , so the expression for $i(t)$ is
+
+$$
+\begin{aligned}
+i(t) & =20+(5-20) e^{-12.5 t} \\
+& =\left(20-15 e^{-12.5 t}\right) \mathrm{A}, \quad t \geq 0 .
+\end{aligned}
+$$

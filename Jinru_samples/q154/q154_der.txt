@@ -1,0 +1,50 @@
+We first find the Thévenin equivalent with respect to the terminals of $R_L$. The circuit for determining the open circuit voltage. The variables $\mathbf{V}_1, \mathbf{V}_2, \mathbf{I}_1$, and $\mathbf{I}_2$ have been added to expedite the discussion.
+
+First we note the ideal transformer imposes the following constraints on the variables $\mathbf{V}_1, \mathbf{V}_2, \mathbf{I}_1$, and $\mathbf{I}_2$
+
+$$
+\mathbf{V}_2=\frac{1}{4} \mathbf{V}_1, \quad \mathbf{I}_1=-\frac{1}{4} \mathbf{I}_2
+$$
+
+The open circuit value of $\mathbf{I}_2$ is zero, hence $\mathbf{I}_1$ is zero. It follows that
+
+$$
+\mathbf{V}_1=840 \angle 0^{\circ} \mathrm{V}, \quad \mathbf{V}_2=210 \angle 0^{\circ} \mathrm{V} .
+$$
+
+
+We note that $\mathbf{V}_{\mathrm{Th}}$ is the negative of $\mathbf{V}_2$, hence
+
+$$
+\mathbf{V}_{\mathrm{Th}}=-210 \angle 0^{\circ} \mathrm{V} .
+$$
+
+
+The circuit is used to determine the short circuit current. Viewing $\mathbf{I}_1$ and $\mathbf{I}_2$ as mesh currents, the two mesh equations are
+
+$\begin{aligned} 840 \angle 0^{\circ} & =80 \mathbf{I}_1-20 \mathbf{I}_2+\mathbf{V}_1, \\ 0 & =20 \mathbf{I}_2-20 \mathbf{I}_1+\mathbf{V}_2 .\end{aligned}$
+
+ When these two mesh current equations are combined with the constraint equations we get
+
+$$
+\begin{aligned}
+840 \angle 0^{\circ} & =-40 \mathbf{I}_2+\mathbf{V}_1 \\
+0 & =25 \mathbf{I}_2+\frac{\mathbf{V}_1}{4}
+\end{aligned}
+$$
+
+
+Solving for the short circuit value of $\mathbf{I}_2$ yields
+
+$$
+\mathbf{I}_2=-6 \mathrm{~A}
+$$
+
+
+Therefore the Thévenin resistance is
+
+$$
+R_{\mathrm{Th}}=\frac{-210}{-6}=35 \Omega
+$$
+
+Maximum power will be delivered to $R_L$ when $R_L$ equals $35 \Omega$.

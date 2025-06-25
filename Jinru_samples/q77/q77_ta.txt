@@ -1,0 +1,1 @@
+\left(24-24 e^{-32.000 t} \cos 24,000 -32 e^{-32.000 t} \sin 24,000 t\right) \mathrm{mA}

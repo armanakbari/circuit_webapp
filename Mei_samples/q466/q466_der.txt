@@ -1,0 +1,22 @@
+Solution:
+Two resistors of the $\Delta$ were equal; therefore, two resistors of the Y will be equal.
+
+$$
+\begin{aligned}
+& R_1=\frac{R_B R_C}{R_A+R_B+R_C}=\frac{(3 \Omega)(6 \Omega)}{3 \Omega+3 \Omega+6 \Omega}=\frac{18 \Omega}{12}=\mathbf{1 . 5} \Omega \\
+& R_2=\frac{R_A R_C}{R_A+R_B+R_C}=\frac{(3 \Omega)(6 \Omega)}{12 \Omega}=\frac{18 \Omega}{12}=\mathbf{1 . 5} \Omega \\
+& R_3=\frac{R_A R_B}{R_A+R_B+R_C}=\frac{(3 \Omega)(3 \Omega)}{12 \Omega}=\frac{9 \Omega}{12}=\mathbf{0 . 7 5} \Omega
+\end{aligned}
+$$
+
+
+Replacing the $\Delta$ by the Y , as shown in Fig. 8.81, yields
+
+$$
+\begin{aligned}
+R_T & =0.75 \Omega+\frac{(4 \Omega+1.5 \Omega)(2 \Omega+1.5 \Omega)}{(4 \Omega+1.5 \Omega)+(2 \Omega+1.5 \Omega)} \\
+& =0.75 \Omega+\frac{(5.5 \Omega)(3.5 \Omega)}{5.5 \Omega+3.5 \Omega} \\
+& =0.75 \Omega+2.139 \Omega \\
+R_T & =\mathbf{2 . 8 8 9} \Omega
+\end{aligned}
+$$

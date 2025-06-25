@@ -1,0 +1,5 @@
+1. 0.22000 \mathrm{~mA}
+2. 0.18182 \mathrm{~mA}
+3. 0.19999 \mathrm{~mA}
+4. 0.20000 \mathrm{~mA}
+5. None of the above

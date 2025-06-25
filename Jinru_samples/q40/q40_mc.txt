@@ -1,0 +1,5 @@
+1. 1500 e^{-5 t} \mu \mathrm{~A}
+2. 300 e^{-5 t} \mu \mathrm{~A}
+3. 300 e^{-0.2 t} \mu \mathrm{~A}
+4. 300 e^{-t} \mu \mathrm{~A}
+5. None of the above

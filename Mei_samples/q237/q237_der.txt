@@ -1,0 +1,3 @@
+\begin{aligned}
+&\text { Applying KVL to node } 1 \text { of the circuit in Fig. } 7.3 \text { yields, }\\
+&V_1=2415^{\circ} \mathrm{V}

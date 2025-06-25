@@ -1,0 +1,1 @@
+The variable resistor in the circuit in the provided circuit image is adjusted until maximum average power is delivered to $R_l$. What is the maximum average power (in watts) delivered to $R_L$ ?

@@ -1,0 +1,8 @@
+\begin{aligned}
+&\begin{aligned}
+& \boldsymbol{V}=100 \sin \omega t \Rightarrow \text { phasor form } \mathbf{V}=70.71 \mathrm{~V} \angle 0^{\circ} \\
+& \mathbf{I}=\frac{\mathbf{V}}{\mathbf{Z}_R}=\frac{V \angle \theta}{R \angle 0^{\circ}}=\frac{70.71 \mathrm{~V} \angle 0^{\circ}}{5 \Omega \angle 0^{\circ}}=14.14 \mathrm{~A} \angle 0^{\circ}
+\end{aligned}\\
+&\text { and }\\
+&i=\sqrt{2}(14.14) \sin \omega t=\mathbf{2 0} \sin \omega t
+\end{aligned}

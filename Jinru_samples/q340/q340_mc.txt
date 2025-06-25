@@ -1,0 +1,5 @@
+1. **Distractor 1:**
+2. This distractor can be obtained by correctly analyzing the circuit from right to left based on the given $i_o = 3 \mathrm{~A}$, and then calculating the power supplied by the independent $440 \mathrm{~V}$ source, while ignoring the KVL contradiction that arises from the flawed problem statement.
+3. *   $v_A = i_o \times 20 \Omega = 3 \mathrm{~A} \times 20 \Omega = 60 \mathrm{~V}$
+4. \mathbf{2 2 . 3 5 6} \mathbf{~ k W}
+5. None of the above

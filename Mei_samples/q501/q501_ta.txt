@@ -1,0 +1,1 @@
+\left(\mathbf{5} \times \mathbf{1 0}^{-\mathbf{3}}\right) e^{-t /\left(\mathbf{3 2} \times \mathbf{1 0}^{-\mathbf{3}}\right)}

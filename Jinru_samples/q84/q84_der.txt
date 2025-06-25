@@ -1,0 +1,15 @@
+To find $v_C(t)$, we can use either of the following relationships:
+
+$$
+\begin{aligned}
+& v_C=-\frac{1}{C} \int_0^t i d \tau+100 \text { or } \\
+& v_C=i R+L \frac{d i}{d t}
+\end{aligned}
+$$
+
+
+Whichever expression is used (the second is recommended), the result is
+
+$$
+v_C(t)=(100 \cos 9600 t+29.17 \sin 9600 t) e^{-2800 t} \mathrm{~V}, \quad t \geq 0
+$$

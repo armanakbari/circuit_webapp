@@ -1,0 +1,5 @@
+1. \mathbf{60} \boldsymbol{\Omega}
+2. \mathbf{80} \boldsymbol{\Omega}
+3. \mathbf{2 4 0} \boldsymbol{\Omega}
+4. \mathbf{1200} \boldsymbol{\Omega}
+5. None of the above

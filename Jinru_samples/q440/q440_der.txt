@@ -1,0 +1,5 @@
+To find $R_N$, we set the independent voltage source equal to zero and connect a voltage source of $v_o=1 \mathrm{~V}$ (or any unspecified voltage $v_o$ ) to the terminals. We ignore the $4-\Omega$ resistor because it is short-circuited. Also due to the short circuit, the $5-\Omega$ resistor, the voltage source, and the dependent current source are all in parallel. Hence, $i_x=0$. At node $a, i_o=\frac{1 v}{5 \Omega}=0.2 \mathrm{~A}$, and
+
+$$
+R_N=\frac{v_o}{i_o}=\frac{1}{0.2}=5 \Omega
+$$

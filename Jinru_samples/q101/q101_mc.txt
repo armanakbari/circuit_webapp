@@ -1,0 +1,5 @@
+1. \frac{8}{15}+j \frac{4}{10} \mathrm{~A}
+2. \frac{4}{10}+j \frac{8}{15} \mathrm{~A}
+3. \frac{4}{10}-j \frac{8}{15} \mathrm{~A}
+4. \frac{8}{10}+j \frac{16}{15} \mathrm{~A}
+5. None of the above

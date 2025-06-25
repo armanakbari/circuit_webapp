@@ -1,0 +1,1 @@
+We have $I_{D 2}=I_{R E F}\left[(W / L)_2 /(W / L)_1\right]$. Also, $\left|I_{D 3}\right|=\left|I_{D 2}\right|$ and $I_{D 4}=I_{D 3} \times\left[(W / L)_4 /(W / L)_3\right]$. Thus, $\left|I_{D 4}\right|=$ $\alpha \beta I_{R E F}$, where $\alpha=(W / L)_2 /(W / L)_1$ and $\beta=(W / L)_4 /(W / L)_3$.  $\left|I_{D 4}\right|=$ $(W / L)_2 /(W / L)_1* (W / L)_4 /(W / L)_3 *I_{R E F}$

@@ -1,0 +1,1 @@
+A balanced wye-connected generator delivers power to the balanced wye-connected load as shown In the provided circuit image. The line voltage of the generator is 200 V rms. Determine the line currents I_{\mathrm{aA}}.

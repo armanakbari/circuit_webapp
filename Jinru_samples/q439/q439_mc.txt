@@ -1,0 +1,5 @@
+1. $2.4 \Omega$
+2. $4/3 \Omega$
+3. 4 \Omega
+4. $12 \Omega$
+5. None of the above

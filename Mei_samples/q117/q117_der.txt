@@ -1,0 +1,61 @@
+Applying KVL to the supemode yields,
+
+$$
+\begin{aligned}
+-V_1-16+V_2 & =0 \\
+-V_1+V_2+0 V_3 & =16
+\end{aligned}
+$$
+
+
+Applying KCL to the supernode yields,
+
+$$
+\begin{gathered}
+I_x+I_y=I_n+I_z \\
+\frac{V_3-V_2}{2}+\frac{V_3-V_1}{6}=\frac{V_1}{4}+\frac{V_2}{3} \\
+6 V_3-6 V_2+2 V_3-2 V_1-3 V_1-4 V_2=0 \\
+-5 V_1-10 V_2+8 V_3=0
+\end{gathered}
+$$
+
+
+Applying KCL to the node 3 yields,
+
+$$
+\begin{gathered}
+10=I_s+I_7 \\
+10=\frac{V_3-V_2}{2}+\frac{V_3-V_1}{6} \\
+60=3 V_3-3 V_2+V_3-V_1 \\
+-V_1-3 V_2+4 V_3=60
+\end{gathered}
+$$
+
+
+The value of the determinant of three simultaneous equations is,
+
+$$
+D=\left|\begin{array}{ccc}
+-1 & 1 & 0 \\
+-5 & -10 & 8 \\
+-1 & -3 & 4
+\end{array}\right|=-1(-40+24)-1(-20+8)=28
+$$
+
+
+To evaluate $V_2, D_2$ parameter is calculated as,
+
+$$
+D_2=\left|\begin{array}{ccc}
+-1 & 16 & 0 \\
+-5 & 0 & 8 \\
+-1 & 60 & 4
+\end{array}\right|=-1(0-480)-16(-20+8)=672
+$$
+
+
+The value of the voltage at node 2 is determined as,
+
+$$
+V_2=\frac{D_2}{D}=\frac{672}{28}=24 \mathrm{~V}
+$$

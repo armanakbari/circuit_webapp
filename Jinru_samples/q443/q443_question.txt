@@ -1,0 +1,1 @@
+A 741 op amp has an open-loop voltage gain of $2 \times 10^5$, input resistance of $2 \mathrm{M} \Omega$, and output resistance of $50 \Omega$. The op amp is used in the circuit of the provided circuit image. Determine current $i$ when $v_s=2 \mathrm{~V}$.

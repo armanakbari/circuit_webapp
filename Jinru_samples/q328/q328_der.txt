@@ -1,0 +1,5 @@
+Power dissipated by the resistor:
+
+$$
+\mathrm{p}_{3 \Omega}=\mathrm{i}^2 \mathrm{R}=4(3)=\mathbf{1 2 W}
+$$

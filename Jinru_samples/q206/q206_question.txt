@@ -1,0 +1,5 @@
+The current source in the circuit in the provided circuit image is changed to a sinusoidal source. The expression for the current is
+$$
+i_g(t)=50 \cos 3 t \mathrm{~A} .
+$$
+Use the Fourier transform method to find $i_o(t)$.

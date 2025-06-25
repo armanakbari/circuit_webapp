@@ -1,0 +1,15 @@
+Let us first identify all of the capacitances in the circuit. At node $X, C_{G D 1}$ and $C_{D B 2}$ are connected to ground and $C_{G S 1}$ and $C_{G D 2}$ to $Y$. At node $Y, C_{S B 1}, C_{G S 2}$, and $C_L$ are connected to ground. Similar to the source follower of Fig. 6.22(b), this circuit has three capacitances in a loop and hence a second-order transfer function. Using the equivalent circuit shown in Fig. 6.27(b), where $C_X=C_{G D 1}+C_{D B 2}, C_{X Y}=C_{G S 1}+C_{G D 2}$, and $C_Y=C_{S B 1}+C_{G S 2}+C_L$, we have $V_1 C_{X Y} s+g_{m 1} V_1=V_{\text {out }} C_Y s$, and hence $V_1=V_{\text {out }} C_Y s /\left(C_{X Y} s+g_{m 1}\right)$. Also, since $V_2=V_{\text {out }}$, the summation of currents at node $X$ gives
+
+$$
+\left(V_1+V_{o u t}\right) C_X s+g_{m 2} V_{o u t}+V_1 C_{X Y} s=\frac{V_{\text {in }}-V_1-V_{\text {out }}}{R_S}
+$$
+
+
+Substituting for $V_1$ and simplifying the result, we obtain
+
+$$
+\frac{V_{\text {out }}}{V_{\text {in }}}(s)=\frac{g_{m 1}+C_{X Y} s}{R_S \xi s^2+\left[C_Y+g_{m 1} R_S C_X+\left(1+g_{m 2} R_S\right) C_{X Y}\right] s+g_{m 1}\left(1+g_{m 2} R_S\right)}
+$$
+
+where $\xi=C_X C_Y+C_X C_{X Y}+C_Y C_{X Y}$. As expected, (6.62) reduces to a form similar to (6.51) for $g_{m 2}=0$.
+\frac{V_{\text {out }}}{V_{\text {in }}}(s)=\frac{g_{m 1}+C_{X Y} s}{R_S {C_X C_Y+C_X C_{X Y}+C_Y C_{X Y}} s^2+\left[C_Y+g_{m 1} R_S C_X+\left(1+g_{m 2} R_S\right) C_{X Y}\right] s+g_{m 1}\left(1+g_{m 2} R_S\right)}

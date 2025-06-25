@@ -1,0 +1,5 @@
+1. 6 e^{-40 t} \mathrm{~A}
+2. $4 e^{-40 t} \mathrm{~A}$
+3. $6 e^{-60 t} \mathrm{~A}$
+4. $6 e^{-80 t} \mathrm{~A}$
+5. None of the above

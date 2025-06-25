@@ -1,0 +1,5 @@
+1. g_{m 2} R_{D 2} \frac{R_1+R_2}{R_S \| g_{m 2}^{-1}+R_1+R_2}
+2. g_{m 2} R_{D 2} \frac{R_S \| g_{m 2}^{-1}}{R_S \| g_{m 2}^{-1}+R_1+R_2}
+3. g_{m 2} R_{D 2} \frac{R_S \| g_{m 1}^{-1}}{R_S \| g_{m 1}^{-1}+R_1+R_2}
+4. g_{m 2} R_{D 2} \frac{R_S}{R_S+R_1+R_2}
+5. None of the above

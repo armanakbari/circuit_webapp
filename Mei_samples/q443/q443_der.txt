@@ -1,0 +1,6 @@
+$$
+\begin{aligned}
+& V_s=E=12 \mathrm{~V} \\
+& I_2=\frac{V_R}{R}=\frac{E}{R}=\frac{12 \mathrm{~V}}{4 \Omega}=3 \mathrm{~A}
+\end{aligned}
+$$

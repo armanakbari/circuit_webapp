@@ -1,0 +1,1 @@
+Find the mathematical expressions for the transient behavior of $V_L$ for the circuit in the provided circuit image after the closing of the switch. Sketch the resulting curves.

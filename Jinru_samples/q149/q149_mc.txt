@@ -1,0 +1,5 @@
+1. 16.67 \mathrm{~mW}
+2. 33.33 \mathrm{~mW}
+3. 8.33 \mathrm{~mW}
+4. 5.33 \mathrm{~mW}
+5. None of the above

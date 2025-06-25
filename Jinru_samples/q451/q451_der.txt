@@ -1,0 +1,24 @@
+This circuit consists of two noninverting amplifiers cascaded. At the output of the first op amp,
+
+$$
+v_a=\left(1+\frac{12}{3}\right)(20)=100 \mathrm{mV}
+$$
+
+
+At the output of the second op amp,
+
+$$
+v_o=\left(1+\frac{10}{4}\right) v_a=(1+2.5) 100=350 \mathrm{mV}
+$$
+
+
+The required current $i_o$ is the current through the $10-\mathrm{k} \Omega$ resistor.
+
+$$
+i_o=\frac{v_o-v_b}{10} \mathrm{~mA}
+$$
+But $v_b=v_a=100 \mathrm{mV}$. Hence,
+
+$$
+i_o=\frac{(350-100) \times 10^{-3}}{10 \times 10^3}=25 \mu \mathrm{~A}
+$$

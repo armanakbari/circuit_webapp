@@ -1,0 +1,22 @@
+Under DC condition, capacitors are open circuited and the circuit is redrawn as shown in Fig. 5.7. The source current is,
+
+$$
+I_s=\frac{32}{2+4+2}=4 \mathrm{~A}
+$$
+The voltages across the two capacitors are calculated as,
+
+$$
+\begin{gathered}
+V_1=32-2 \times 4=24 \mathrm{~V} \\
+V_2=2 \times 4=8 \mathrm{~V}
+\end{gathered}
+$$
+
+
+The energies stored by the capacitors are,
+
+$$
+\begin{aligned}
+& w_1=\frac{1}{2} C V_1^2=\frac{1}{2} \times 3 \times 10^{-6} \times 24^2=0.86 \mathrm{~mJ} \\
+\end{aligned}
+$$

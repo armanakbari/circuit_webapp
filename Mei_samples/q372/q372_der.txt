@@ -1,0 +1,3 @@
+$$
+R_T=\frac{1}{G_T}=\frac{1}{0.5 \mathrm{~S}}=\mathbf{2} \mathbf{\Omega}
+$$

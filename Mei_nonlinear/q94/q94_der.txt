@@ -1,0 +1,9 @@
+Solution
+With the aid of the results obtained in Example 8.18, we obtain
+
+$$
+\begin{aligned}
+\frac{V_{\text {out }}}{V_{\text {in }}} & =\frac{R_D}{R_D+R_S+R_F}+\frac{-g_m \frac{R_D\left(R_S+R_F\right)\left(R_F+R_D\right)}{\left(R_D+R_S+R_F\right)^2}}{1+\frac{g_m R_S R_D}{R_D+R_S+R_F}} \\
+& =\frac{R_D}{R_D+R_S+R_F}+\frac{-g_m R_D\left(R_S+R_F\right)\left(R_F+R_D\right)}{\left(R_D+R_S+R_F+g_m R_S R_D\right)\left(R_D+R_S+R_F\right)}
+\end{aligned}
+$$

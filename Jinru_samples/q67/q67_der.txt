@@ -1,0 +1,26 @@
+The roots of the characteristic equation come from the values of $R, L$, and $C$.
+
+$$
+\begin{aligned}
+s_1 & =-1.25 \times 10^4+\sqrt{1.5625 \times 10^8-10^8} \\
+& =-12,500+7500=-5000 \mathrm{rad} / \mathrm{s}, \\
+s_2 & =-1.25 \times 10^4-2 \overline{1.5625 \times 10^8-10^8} \\
+& =-12,500-7500=-20,000 \mathrm{rad} / \mathrm{s} .
+\end{aligned}
+$$
+
+Because the roots are real and distinct, we know that the response is overdamped and hence has the form. We find the co-efficients $A_1$ and $A_2$. We've already determined $s_1, s_2, v\left(0^{+}\right)$, and $d v\left(0^{+}\right) / d t$, so
+
+$$
+\begin{aligned}
+12 & =A_1+A_2 \\
+-450 \times 10^3 & =-5000 A_1-20,000 A_2
+\end{aligned}
+$$
+
+
+We solve two equations for $A_1$ and $A_2$ to obtain $A_1=-14 \mathrm{~V}$ and $A_2=26 \mathrm{~V}$. Substituting these values into Eq. 8.18 yields the overdamped voltage response:
+
+$$
+v(t)=\left(-14 e^{-5000 t}+26 e^{-20.000 t}\right) \mathrm{V}, \quad t \geq 0
+$$

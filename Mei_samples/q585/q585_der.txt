@@ -1,0 +1,5 @@
+\begin{aligned}
+\mathbf{V}_R=\frac{\mathbf{Z}_R \mathbf{E}}{\mathbf{Z}_R+\mathbf{Z}_L+\mathbf{Z}_C} & =\frac{\left(6 \Omega \angle 0^{\circ}\right)\left(50 \mathrm{~V} \angle 30^{\circ}\right)}{6 \Omega \angle 0^{\circ}+9 \Omega \angle 90^{\circ}+17 \Omega \angle-90^{\circ}} \\
+& =\frac{300 \angle 30^{\circ}}{6+j 9-j 17}=\frac{300 \angle 30^{\circ}}{6-j 8} \\
+& =\frac{300 \angle 30^{\circ}}{10 \angle-53.13^{\circ}}=\mathbf{3 0} \mathbf{V} \angle \mathbf{8 3 . 1 3 \circ}
+\end{aligned}

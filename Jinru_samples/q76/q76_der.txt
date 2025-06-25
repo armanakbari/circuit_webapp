@@ -1,0 +1,31 @@
+Because the roots of the characteristic equation are real and distinct, the inductor current response will be overdamped. Thus $i_L(t)$ namely,
+
+$$
+i_L=I_f+A_1^{\prime} e^{s_1 t}+A_2^{\prime} e^{s_2 t} .
+$$
+
+
+Inductor current in overdamped parallel RLC circuit step response
+
+Hence, from this solution, the two simultaneous equations that determine $A_1^{\prime}$ and $A_2^{\prime}$ are
+
+$$
+\begin{aligned}
+i_L(0) & =I_f+A_1^{\prime}+A_2^{\prime}=0 \\
+\frac{d i_L}{d t}(0) & =s_1 A_1^{\prime}+s_2 A_2^{\prime}=0
+\end{aligned}
+$$
+
+
+Solving for $A_1^{\prime}$ and $A_2^{\prime}$ gives
+
+$$
+A_1^{\prime}=-32 \mathrm{~mA} \quad \text { and } \quad A_2^{\prime}=8 \mathrm{~mA} .
+$$
+
+
+The numerical solution for $i_L(t)$ is
+
+$$
+i_L(t)=\left(24-32 e^{-20.060 t}+8 e^{-80.000 t}\right) \mathrm{mA}, \quad t \geq 0 .
+$$

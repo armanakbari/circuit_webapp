@@ -1,0 +1,3 @@
+Design of analog CMOS integrated circuits
+P124
+Example4.12

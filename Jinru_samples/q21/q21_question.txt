@@ -1,0 +1,1 @@
+The switch in the provided circuit image has been in position $x$ for a long time. At $t=0$, the switch moves instantancously to position $y$. Find i_o(t) \text { for } t \geq 0^{+}

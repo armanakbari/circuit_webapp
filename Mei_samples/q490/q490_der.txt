@@ -1,0 +1,21 @@
+$$
+\begin{aligned}
+\eta & =\frac{P_o}{P_s} \quad(\eta \text { in decimal form }) \\
+\eta & =\frac{R_L}{R_{T h}+R_L} \\
+\eta\left(R_{T h}+R_L\right) & =R_L \\
+\eta R_{T h}+\eta R_L & =R_L \\
+R_L(1-\eta) & =\eta R_{T h}
+\end{aligned}
+$$
+
+and
+
+$$
+\begin{gathered}
+R_L=\frac{\eta R_{T h}}{1-\eta} \\
+\end{gathered}
+$$
+\begin{aligned}
+&\text { For the laboratory supply, }\\
+&R_L=\frac{0.75(40 \Omega)}{1-0.75}=\mathbf{1 2 0} \Omega
+\end{aligned}

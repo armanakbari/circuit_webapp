@@ -1,0 +1,1 @@
+In the circuit shown in the provided circuit image, $V_0=0$, and $I_0=-12.25 \mathrm{~mA}$. Calculate $d v / d t$ at $t=0^{+}$.

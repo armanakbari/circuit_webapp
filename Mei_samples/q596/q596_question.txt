@@ -1,0 +1,1 @@
+Find $\mathbf{V}_R$  using the voltage divider rule in the provided circuit image.

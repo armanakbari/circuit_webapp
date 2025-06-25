@@ -1,0 +1,75 @@
+The circuit shown in the provided circuit image indicates that we can easily obtain the voltage across the current source once we know the equivalent impedance of the three parallel branches. Moreover, once we know $\mathbf{V}$, we can calculate the three phasor currents $\mathbf{I}_1, \mathbf{I}_2$, and $\mathbf{I}_3$. To find the equivalent impedance of the three branches, we first find the equivalent admittance simply by adding the admittances of each branch. The admittance of the first branch is
+
+$$
+Y_1=\frac{1}{10}=0.1 \mathrm{~S}
+$$
+
+the admittance of the second branch is
+
+$$
+Y_2=\frac{1}{6+j 8}=\frac{6-j 8}{100}=0.06-j 0.08 \mathrm{~S},
+$$
+
+and the admittance of the third branch is
+
+$$
+Y_3=\frac{1}{-j 5}=j 0.2 \mathrm{~s} .
+$$
+
+
+The admittance of the three branches is
+
+$$
+\begin{aligned}
+Y & =Y_1+Y_2+Y_3 \\
+& =0.16+j 0.12 \\
+& =0.2 \angle 36.87^{\circ} \mathrm{S} .
+\end{aligned}
+$$
+
+
+The impedance at the current source is
+
+$$
+Z=\frac{1}{Y}=5 \angle-36.87^{\circ} \Omega
+$$
+
+The Voltage $\mathbf{V}$ is
+
+$$
+\mathbf{V}=Z \mathbf{I}=40 \angle-36.87^{\circ} \mathrm{V}
+$$
+
+
+Hence
+
+$$
+\begin{aligned}
+& \mathbf{I}_1=\frac{40 \angle-36.87^{\circ}}{10}=4 \angle-36.87^{\circ}=3.2-j 2.4 \mathrm{~A}, \\
+& \mathbf{I}_2=\frac{40 \angle-36.87^{\circ}}{6+j 8}=4 \angle-90^{\circ}=-j 4 \mathrm{~A},
+\end{aligned}
+$$
+
+and
+
+$$
+\mathbf{I}_3=\frac{40 \angle-36.87^{\circ}}{5 \angle-90^{\circ}}=8 \angle 53.13^{\circ}=4.8+j 6.4 \mathrm{~A} .
+$$
+
+
+We check the computations at this point by verifying that
+
+$$
+\mathbf{I}_1+\mathbf{I}_2+\mathbf{I}_3=\mathbf{I}
+$$
+
+
+Specifically,
+
+$$
+3.2-j 2.4-j 4+4.8+j 6.4=8+j 0
+$$
+
+
+The corresponding steady-state time-domain expressions are
+$i_1=4 \cos \left(200,000 t-36.87^{\circ}\right) \mathrm{A}$

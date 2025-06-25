@@ -1,0 +1,5 @@
+1. 4 k T \gamma \frac{\left(g_{m 1}+g_{m 3}\right)}{g_{m 1}^2}
+2. 4 k T \gamma \frac{\left(g_{m 1}+g_{m 3}\right)}{\left(g_{m 1}+g_{m b 1}\right)^2}
+3. 4 k T \gamma \frac{1}{g_{m 1}+g_{m 3}}
+4. 4 k T \gamma \frac{\left(g_{m 1}+g_{m 3}\right)}{g_{m 1}^2+g_{m b 1}^2}
+5. None of the above

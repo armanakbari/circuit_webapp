@@ -1,0 +1,1 @@
+Determine  V_{c b}$ for the network In the provided circuit image.

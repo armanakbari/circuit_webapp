@@ -1,0 +1,5 @@
+1. 3000 - j4000 \Omega
+2. 3605.55-j 2000 \Omega
+3. 3000 - j2000 \Omega
+4. 4000 - j2000 \Omega
+5. None of the above

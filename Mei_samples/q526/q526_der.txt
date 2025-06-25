@@ -1,0 +1,14 @@
+$$
+\begin{aligned}
+\frac{1}{C_T} & =\frac{1}{C_1}+\frac{1}{C_2}+\frac{1}{C_3} \\
+& =\frac{1}{200 \times 10^{-6} \mathrm{~F}}+\frac{1}{50 \times 10^{-6} \mathrm{~F}}+\frac{1}{10 \times 10^{-6} \mathrm{~F}} \\
+& =0.005 \times 10^6+0.02 \times 10^6+0.1 \times 10^6 \\
+& =0.125 \times 10^6
+\end{aligned}
+$$
+
+and
+
+$$
+C_T=\frac{1}{0.125 \times 10^6}=\mathbf{8} \boldsymbol{\mu} \mathbf{F}
+$$

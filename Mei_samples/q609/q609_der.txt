@@ -1,0 +1,2 @@
+\mathbf{I}_R & =\frac{\mathbf{Z}_L \mathbf{I}_T}{\mathbf{Z}_R+\mathbf{Z}_L}=\frac{\left(4 \Omega \angle 90^{\circ}\right)\left(20 \mathrm{~A} \angle 0^{\circ}\right)}{3 \Omega \angle 0^{\circ}+4 \Omega \angle 90^{\circ}}=\frac{80 \mathrm{~A} \angle 90^{\circ}}{5 \angle 53.13^{\circ}} \\
+& =\mathbf{1 6} \mathbf{A} \angle \mathbf{3 6 . 8 7 ^ { \circ }} \\

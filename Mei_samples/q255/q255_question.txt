@@ -1,0 +1,1 @@
+Using superposition theorem, calculate the current in the $6 \Omega$ resistor for the circuit shown In the provided circuit image.

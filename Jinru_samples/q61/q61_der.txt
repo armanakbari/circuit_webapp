@@ -1,0 +1,33 @@
+The expression for the output voltage during the time the switch is at terminal a is
+
+$$
+\begin{aligned}
+v_o & =-5-\frac{1}{10^{-2}} \int_0^t(-10) d y \\
+& =(-5+1000 t) \mathrm{V}
+\end{aligned}
+$$
+
+Thus, 9 ms after the switch makes contact with terminal a, the output voltage is $-5+9$, or 4 V .
+
+The expression for the output voltage after the switch moves to terminal $b$ is
+
+$$
+\begin{aligned}
+v_o & =4-\frac{1}{10^{-2}} \int_{9 \times 10^{-3}}^t 8 d y \\
+& =4-800\left(t-9 \times 10^{-3}\right) \\
+& =(11.2-800 t) \mathrm{V}
+\end{aligned}
+$$
+
+
+During this time interval, the voltage is decreasing, and the operational amplifier eventually saturates at -6 V . Therefore we set the expression for $v_v$ equal to -6 V to obtain the saturation time $t_s$ :
+
+$$
+11.2-800 t_s=-6
+$$
+
+or
+
+$$
+t_s=21.5 \mathrm{~ms}
+$$

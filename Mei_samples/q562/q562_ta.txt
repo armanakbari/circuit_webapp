@@ -1,0 +1,1 @@
+6 e^{-t /(\mathbf{8} \times \mathbf{1 0}-\mathbf{6})}

@@ -1,0 +1,8 @@
+One way to calculate the reactive power delivered by the source is to add the complex power delivered to the line to that delivered to the load, or
+
+$$
+\begin{aligned}
+S & =25+j 100+975+j 650 \\
+& =1000+j 750 \mathrm{VA}
+\end{aligned}
+$$

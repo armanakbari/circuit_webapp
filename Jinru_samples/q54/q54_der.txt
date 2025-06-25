@@ -1,0 +1,20 @@
+Because the $6 \Omega$ resistor is in series with the $3 \Omega$ resistor, the energy dissipated and the percentage of the initial energy stored will be twice that of the $3 \Omega$ resistor:
+
+$$
+w_{6 \Omega 2}(\text { total })=1236.48 \mathrm{~mJ} .
+$$
+
+and the percentage of the initial energy stored is $45.80 \%$. We check these calculations by obscrving that
+
+$$
+1236.48+618.24+845.27=2699.99 \mathrm{~mJ}
+$$
+
+and
+
+$$
+31.31+22.90+45.80=100.01 \%
+$$
+
+
+The small discrepancies in the summations are the result of roundoff errors.

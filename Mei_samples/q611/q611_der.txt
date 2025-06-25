@@ -1,0 +1,4 @@
+\begin{aligned}
+\mathbf{I}_{R-L} & =\frac{\mathbf{Z}_C \mathbf{I}_T}{\mathbf{Z}_C+\mathbf{Z}_{R-L}}=\frac{\left(2 \Omega \angle-90^{\circ}\right)\left(5 \mathrm{~A} \angle 30^{\circ}\right)}{-j 2 \Omega+1 \Omega+j 8 \Omega}=\frac{10 \mathrm{~A} \angle-60^{\circ}}{1+j 6} \\
+& =\frac{10 \mathrm{~A} \angle-60^{\circ}}{6.083 \angle 80.54^{\circ}} = \mathbf{1 . 6 4 4} \mathbf{A} \angle \mathbf{- 1 4 0 . 5 4 ^ { \circ }}
+\end{aligned}

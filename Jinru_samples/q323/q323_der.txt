@@ -1,0 +1,5 @@
+Applying KVL around the loop containing $\mathrm{v}_2$, the 10 -volt source, and the 12 -volt source we get,
+
+$$
+\mathrm{v}_2+10+12=0 \text { or } \mathrm{v}_2=-22 \mathrm{~V}
+$$

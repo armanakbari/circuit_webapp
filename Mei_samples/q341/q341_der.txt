@@ -1,0 +1,6 @@
+\begin{aligned}
+R_T & =R_1+R_2+R_3 \\
+12 \mathrm{k} \Omega & =R_1+4 \mathrm{k} \Omega+6 \mathrm{k} \Omega \\
+R_1 & =12 \mathrm{k} \Omega-10 \mathrm{k} \Omega=\mathbf{2} \mathbf{k} \Omega \\
+
+\end{aligned}

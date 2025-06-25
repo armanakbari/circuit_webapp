@@ -1,0 +1,5 @@
+1. 98,000 t e^{-1250 t} \mathrm{~V}
+2. 2450 t e^{-1000 t} \mathrm{~V}
+3. -98,000 t e^{-1000 t} \mathrm{~V}
+4. 98,000 t e^{-1000 t} \mathrm{~V}
+5. None of the above

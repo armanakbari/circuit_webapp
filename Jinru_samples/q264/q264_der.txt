@@ -1,0 +1,18 @@
+As before, $v_n=v_p=v_{\mathrm{b}}$, and $i_{25}=-i_{100}$. Because $v_{\mathrm{n}}=1.5 \mathrm{~V}$.
+
+$$
+\frac{1.5-v_{\mathrm{b}}}{25}=-\frac{v_o-v_{\mathrm{b}}}{100}
+$$
+
+Solving for $v_{\mathrm{b}}$ as a function of $v_b$ gives
+
+$$
+v_{\mathrm{b}}=\frac{1}{5}\left(6+v_o\right) .
+$$
+
+Now, if the amplifier is to be within the linear region of operation, $-10 \mathrm{~V} \leq v_0 \leq 10 \mathrm{~V}$.
+Substituting these limits on $v_o$ into the expression for $v_{\mathrm{b}}$, we see that $v_{\mathrm{b}}$, is limited to
+
+$$
+-0.8 \mathrm{~V} \leq v_{\mathrm{b}} \leq 3.2 \mathrm{~V} .
+$$

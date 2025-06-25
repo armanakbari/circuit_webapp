@@ -1,0 +1,12 @@
+When $t=35 \mathrm{~ms}$, the value of the inductor current is
+
+$$
+i_L=6 e^{-1.4}=1.48 \mathrm{~A} .
+$$
+
+
+Thus, when switch 2 is opened and the time constant changes to $(150 / 9) \times 10^{-3}$, or 16.67 ms . The expression for $i_L$ becomes
+
+$$
+i_L=1.48 e^{-60(t-0.035)} \mathrm{A}, \quad t \geq 35 \mathrm{~ms} .
+$$

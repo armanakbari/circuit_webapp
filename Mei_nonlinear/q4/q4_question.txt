@@ -1,0 +1,1 @@
+\text { Assuming } \lambda=\gamma=0 \text {, calculate the small-signal gain of the circuit shown in the provided circuit image}

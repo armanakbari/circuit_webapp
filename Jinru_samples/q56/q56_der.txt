@@ -1,0 +1,5 @@
+Note that, because the switch remains in position b for only 15 ms , this expression is valid only for the time interval from 0 to 15 ms . After the switch has been in this position for 15 ms , the voltage on the capacitor will be
+
+$$
+v(15 \mathrm{~ms})=400-400 e^{-1.5}=310.75 \mathrm{~V}
+$$

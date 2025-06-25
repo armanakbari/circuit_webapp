@@ -1,0 +1,42 @@
+Converting the upper part delta circuit to wye circuit as shown in Fig. 2.26. The values of the resistors are,
+
+$$
+\begin{gathered}
+R_1=\frac{6 \times 8}{6+10+8}=2 \Omega \\
+R_2=\frac{10 \times 8}{6+10+8}=3.33 \Omega \\
+R_3=\frac{10 \times 6}{6+10+8}=2.5 \Omega
+\end{gathered}
+$$
+
+
+Now, the circuit in Fig. 2.26 can be redrawn as shown in Fig. 2.27. The $R_3$ and $3 \Omega$ are in series, and $R_2$ and $4 \Omega$ are in series, then in parallel to each other. In this case, the equivalent resistance is,
+
+$$
+R_4=\frac{\left(R_2+4\right)\left(R_3+3\right)}{R_2+4+R_3+3}=\frac{(3.33+4)(2.5+3)}{3.33+4+2.5+3}=3.14 \Omega
+$$
+
+
+From Fig. 2.27, the total circuit resistance is determined as,
+
+$$
+R_t=2+R_1+R_4=2+2+3.14=7.14 \Omega
+$$
+The value of the source current is,
+
+$$
+I_s=\frac{50}{7.14}=7 \mathrm{~A}
+$$
+
+
+The current through $4 \Omega$ resistor is,
+
+$$
+I_{4 \Omega}=7 \times \frac{(3+2.5)}{5.5+3.33+4}=3 \mathrm{~A}
+$$
+
+
+The power absorbed by $4 \Omega$ resistor is,
+
+$$
+P_{4 \Omega}=I_{4 \Omega}^2 \times 4=3^2 \times 4=36 \mathrm{~W}
+$$

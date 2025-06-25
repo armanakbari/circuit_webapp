@@ -1,0 +1,27 @@
+At $t=0^{-}$, the switch is still open circuited and the inductor is short circuited. This circuit in this condition is shown in Fig. 5.55 and in this case, the current is,
+
+$$
+i_L\left(0^{-}\right)=i_L\left(0^{+}\right)=\frac{16}{3+4}=2.29 \mathrm{~A}
+$$
+
+
+At $t=0^{+}$, i.e. $t>0$, the switch is closed and the circuit is shown in Fig. 5.56. The total circuit resistance is,$$
+\begin{gathered}
+i=\frac{16}{4+3 \|(1+5)}=2.67 \mathrm{~A} \\
+i_{s s, L}=2.67 \times \frac{(1+5)}{6+3}=1.78 \mathrm{~A}
+\end{gathered}
+$$
+
+
+The Thevenin resistance can be calculated from the circuit as shown in Fig. 5.56 as,
+
+$$
+R_{\mathrm{Th}}=3+\frac{4 \times 6}{10}=5.4 \Omega
+$$
+
+
+The final solution is,
+
+$$
+i(t)=1.78+(2.29-1.78) \mathrm{e}^{-\frac{5.4}{2} t}=1.78+0.51 \mathrm{e}^{-2.7 t} \mathrm{~A}
+$$

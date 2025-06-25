@@ -1,0 +1,5 @@
+1. \mathbf{0 . 2 S}-\boldsymbol{j} \mathbf{0.1 S}
+2. \mathbf{0 S}+\boldsymbol{j} \mathbf{0.2 S}
+3. \mathbf{0 . 2 S}+\boldsymbol{j} \mathbf{0}
+4. \mathbf{5 S}+\boldsymbol{j} \mathbf{0}
+5. None of the above

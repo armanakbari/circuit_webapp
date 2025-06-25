@@ -1,0 +1,43 @@
+\begin{aligned}
+&\text { Applying KVL to mesh } 1 \text { of the circuit in Fig. } 7.12 \text { yields, }\\
+&(6+j 8) I_1-(4+j 8) I_2=10
+\end{aligned}
+$$
+I_2=\frac{(6+j 8)}{(4+j 8)} I_1-\frac{10}{(4+j 8)}
+$$
+
+
+Applying KVL to mesh 2 of the circuit in Fig. 7.12 yields,
+
+$$
+-(4+j 8) I_1+(11-j 1) I_2-(6-j 9) I_3=0
+$$
+
+
+Applying KVL to mesh 3 of the circuit in Fig. 7.12 yields,
+
+$$
+I_3=2 I_x=2 I_1
+$$
+
+
+Substituting Eqs. (7.66) and (7.68) into Eq. (7.67) yields,
+
+$$
+\begin{gathered}
+-(4+j 8) I_1+(11-j 1)\left[\frac{(6+j 8)}{(4+j 8)} I_1-\frac{10}{(4+j 8)}\right]-(6-j 9) 2 I_1=0 \\
+{\left[-(4+j 8)+(11-j 1) \frac{(6+j 8)}{(4+j 8)}-(12-j 18)\right] I_1=(11-j 1) \frac{10}{(4+j 8)}} \\
+7.85121 .46^{\circ} I_1=12.35-68.63^{\circ} \\
+I_1=1.57 \angle169 .91^{\circ} \mathrm{A}
+\end{gathered}
+$$
+
+
+Substituting Eq. (7.72) into Eqs. (7.66) and (7.68) yields,
+
+$$
+\begin{gathered}
+I_2=\frac{(6+j 8)}{(4+j 8)} \times 1.57 \underline{169.91^{\circ}}-\frac{10}{(4+j 8)}=2.68 \angle{143.08^{\circ}} \mathrm{A} \\
+I_3=2 \times 1.57 \underline{169.91^{\circ}}=3.14  \angle{169.91^{\circ}} \mathrm{A}
+\end{gathered}
+$$

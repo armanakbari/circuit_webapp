@@ -1,0 +1,1 @@
+There cannot be an instantaneous change of current in an inductor, so the initial value of $i_L$ in the first instant after the dc current source has been applied must be 29 mA .

@@ -1,0 +1,5 @@
+When $I_1$ is zero, the resistance seen looking into port 2 is the $15 \Omega$ resistor in parallel with the series combination of the 5 and $20 \Omega$ resistors. Therefore
+
+$$
+z_{22}=\left.\frac{V_2}{I_2}\right|_{I_1=0}=\frac{(15)(25)}{40}=9.375 \Omega
+$$

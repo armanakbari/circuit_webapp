@@ -1,0 +1,1 @@
+$C_{G S} g_{m b} /\left(g_m+g_{m b}\right)$

@@ -1,0 +1,1 @@
+Calculate the output impedance of the folded cascode shown in the provided circuit image, where $M_3$ operates as the bias current source.

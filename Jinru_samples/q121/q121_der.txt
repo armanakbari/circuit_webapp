@@ -1,0 +1,5 @@
+The line and load impedances are in series across the voltage source, so the load current equals the voltage divided by the total impedance, or
+
+$$
+\mathbf{I}_{\mathrm{L}}=\frac{250 \angle 0^{\circ}}{40+j 30}=4-j 3=5 \angle-36.87^{\circ} \mathrm{A}(\mathrm{rms})
+$$

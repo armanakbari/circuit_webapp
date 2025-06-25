@@ -1,0 +1,5 @@
+1. 0.6727 \text { lagging. }
+2. 0.8944 \text { lagging. }
+3. 0.8944 \text { leading. }
+4. 0.7000 \text { lagging. }
+5. None of the above

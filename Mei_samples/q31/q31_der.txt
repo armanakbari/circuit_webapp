@@ -1,0 +1,4 @@
+\begin{aligned}
+&\text { The value of the equivalent current source is, }\\
+&I_s=20-8=12 \mathrm{~A}
+\end{aligned}

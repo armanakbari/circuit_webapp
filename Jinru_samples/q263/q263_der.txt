@@ -1,0 +1,13 @@
+we get
+
+$$
+\begin{aligned}
+v_p & =v_{\mathrm{b}}=v_n=2 \mathrm{~V}, \\
+i_{25} & =\frac{v_{\mathrm{a}}-v_n}{25}=\frac{1-2}{25}=-\frac{1}{25} \mathrm{~mA}, \\
+i_{100} & =\frac{v_o-v_n}{100}=\frac{v_o-2}{100} \mathrm{~mA}, \\
+i_{25} & =-i_{100} .
+\end{aligned}
+$$
+
+
+Therefore, $v_o=6 \mathrm{~V}$. Again, $v_o$ lies within $\pm 10 \mathrm{~V}$.

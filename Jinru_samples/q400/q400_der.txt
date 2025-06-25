@@ -1,0 +1,9 @@
+Applying KCL to the upper node,
+
+$$
+\begin{array}{r}
+-8+\frac{v_0}{10}+\frac{v_o}{20}+\frac{v_o}{30}+20+\frac{v_0}{60}=0 \text { or } v_0=-60 \mathrm{~V} \\
+i_1=\frac{v_0}{10}=-6 \mathrm{~A}, i_2=\frac{v_0}{20}=-3 \mathrm{~A} \\
+i_3=\frac{v_0}{30}=-2 \mathrm{~A}, i_4=\frac{v_0}{60}=1 \mathrm{~A}
+\end{array}
+$$

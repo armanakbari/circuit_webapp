@@ -1,0 +1,5 @@
+1. 22.5\left(1-\mathrm{e}^{-0.3 t}\right) \mathrm{V}
+2. 20\left(1-\mathrm{e}^{-0.3 t}\right) \mathrm{V}
+3. 22.5\left(1-\mathrm{e}^{-0.08 t}\right) \mathrm{V}
+4. 20\left(1-\mathrm{e}^{-0.08 t}\right) \mathrm{V}
+5. None of the above

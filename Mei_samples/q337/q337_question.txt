@@ -1,0 +1,1 @@
+Determine the power delivered by the source in the provided circuit image

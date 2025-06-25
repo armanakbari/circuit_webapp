@@ -1,0 +1,1 @@
+For the circuit shown in the provided circuit image, determine the power absorbed by the $9-\mathrm{k} \Omega$ resistor .

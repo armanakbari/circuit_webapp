@@ -1,0 +1,5 @@
+1. \left(400-400 e^{-100 t}\right) \mathrm{V}
+2. \left(200-200 e^{-100 t}\right) \mathrm{V}
+3. 400 e^{-100 t} \mathrm{V}
+4. \left(400-400 e^{-50 t}\right) \mathrm{V}
+5. None of the above

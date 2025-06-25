@@ -1,0 +1,7 @@
+\begin{aligned}
+&\text { We have }\\
+&\begin{aligned}
+I_{D 1}-I_{D 2} & =\frac{1}{2} \mu_n C_{o x} \frac{W}{L}\left(V_b-V_{T H}\right)^2\left(\lambda V_{D S 1}-\lambda V_{D S 2}\right) \\
+& =\frac{1}{2} \mu_n C_{o x} \frac{W}{L}\left(V_b-V_{T H}\right)^2(\lambda \Delta V)
+\end{aligned}
+\end{aligned}

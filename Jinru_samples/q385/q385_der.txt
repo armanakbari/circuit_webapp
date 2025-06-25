@@ -1,0 +1,78 @@
+We apply KVL to the three meshes in turn. For mesh 1 ,
+
+$$
+-24+10\left(i_1-i_2\right)+12\left(i_1-i_3\right)=0
+$$
+
+or
+
+$$
+11 i_1-5 i_2-6 i_3=12
+$$
+
+
+For mesh 2,
+
+$$
+24 i_2+4\left(i_2-i_3\right)+10\left(i_2-i_1\right)=0
+$$
+
+or
+
+$$
+-5 i_1+19 i_2-2 i_3=0
+$$
+
+
+For mesh 3,
+
+$$
+4 I_o+12\left(i_3-i_1\right)+4\left(i_3-i_2\right)=0
+$$
+But at node A, $I_o=i_1-i_2$, so that
+
+$$
+4\left(i_1-i_2\right)+12\left(i_3-i_1\right)+4\left(i_3-i_2\right)=0
+$$
+
+or
+
+$$
+-i_1-i_2+2 i_3=0
+$$
+
+$$
+\left[\begin{array}{rrr}
+11 & -5 & -6 \\
+-5 & 19 & -2 \\
+-1 & -1 & 2
+\end{array}\right]\left[\begin{array}{l}
+i_1 \\
+i_2 \\
+i_3
+\end{array}\right]=\left[\begin{array}{r}
+12 \\
+0 \\
+0
+\end{array}\right]
+$$
+
+
+We obtain the determinants as
+
+$$
+=418-30-10-114-22-50=192
+$$
+
+
+We calculate the mesh currents using Cramer's rule as
+
+$$
+\begin{gathered}
+i_1=\frac{\Delta_1}{\Delta}=\frac{432}{192}=2.25 \mathrm{~A}, \quad i_2=\frac{\Delta_2}{\Delta}=\frac{144}{192}=0.75 \mathrm{~A}, \\
+i_3=\frac{\Delta_3}{\Delta}=\frac{288}{192}=1.5 \mathrm{~A}
+\end{gathered}
+$$
+
+
+Thus, $I_o=i_1-i_2=1.5 \mathrm{~A}$.

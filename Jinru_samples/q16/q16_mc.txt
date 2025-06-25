@@ -1,0 +1,5 @@
+1. 6.00 e^{-6 t} \mathrm{~A}
+2. 6.00 e^{-4 t} \mathrm{~A}
+3. 5.76 e^{-2 t} \mathrm{~A}
+4. 6.00 e^{-2 t} \mathrm{~A}
+5. None of the above

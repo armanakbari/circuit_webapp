@@ -1,0 +1,5 @@
+1. 2.0 mA
+2. 1.3 mA
+3. 2.7 mA
+4. 0.7 mA
+5. None of the above

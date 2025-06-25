@@ -1,0 +1,12 @@
+Once the $160 \Omega$ and $80 \Omega$ resistors are in parallel, they have the same voltage 120 V . Hence the current through the $40 \Omega$ resistor is equal to 2 amps .
+
+$$
+40(0.5+1.5)=80 \text { volts. }
+$$
+
+
+Thus
+
+$$
+\mathbf{v}_{\mathrm{s}}=80+120=\mathbf{2 0 0} \mathbf{V}
+$$

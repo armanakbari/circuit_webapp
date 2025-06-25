@@ -1,0 +1,8 @@
+Applying KVL,
+
+$$
+\begin{aligned}
+& -20+10+10 \mathrm{I}-30=0, \quad \mathrm{I}=4 \\
+& 10=R I \quad \longrightarrow \quad R=\frac{10}{I}=\underline{2.5 \Omega}
+\end{aligned}
+$$

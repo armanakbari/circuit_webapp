@@ -1,0 +1,5 @@
+1. $15 - 11 \mathrm{e}^{-2 t} \mathrm{~A}$
+2. $10 - 6 \mathrm{e}^{-2 t} \mathrm{~A}$
+3. $8 - 4 \mathrm{e}^{-2 t} \mathrm{~A}$
+4. 10-2.57 \mathrm{e}^{-2 t} \mathrm{~A}
+5. None of the above

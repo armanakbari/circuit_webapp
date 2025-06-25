@@ -1,0 +1,1 @@
+Use the Fourier transform to find $i_o(t)$ in the circuit shown in the provided circuit image. The current source $i_g(t)$ is the signum function $20 \operatorname{sgn}(t) \mathrm{A}$.

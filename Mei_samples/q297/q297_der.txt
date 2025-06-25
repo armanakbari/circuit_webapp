@@ -1,0 +1,9 @@
+The line currents can be determined as,
+
+$$
+\begin{gathered}
+I_{\mathrm{Aa}}=\frac{220\angle10^{\circ}}{2\angle15^{\circ}+2\angle15^{\circ}}=55\angle-5^{\circ} \mathrm{A} \\
+I_{\mathrm{Bb}}=\frac{220\angle-110^{\circ}}{2\angle15^{\circ}+4\angle-35^{\circ}}=39.98\angle-91.16^{\circ} \mathrm{A} \\
+I_{\mathrm{Cc}}=\frac{220\angle130^{\circ}}{2 \angle{15^{\circ}}+5\angle-45^{\circ}}=35.23 \angle{158.90^{\circ}} \mathrm{A}
+\end{gathered}
+$$

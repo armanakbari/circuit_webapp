@@ -1,0 +1,5 @@
+1. \mathbf{1 . 7 8} \mathbf{~ m A}+\mathbf{2 . 2 2} \mathbf{~ m A} e^{-t / 1 \mathbf{1} .1 \mathbf{1} \mu \mathrm{~s}}
+2. $1.78 \mathbf{~ m A}+2.22 \mathbf{~ m A} e^{-t / 20.0 \mu \mathrm{s}}$
+3. $2.22 \mathbf{~ m A}+1.78 \mathbf{~ m A} e^{-t / 11.11 \mu \mathrm{s}}$
+4. $1.78 \mathbf{~ m A}-5.78 \mathbf{~ m A} e^{-t / 11.11 \mu \mathrm{s}}$
+5. None of the above

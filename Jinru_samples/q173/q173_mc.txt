@@ -1,0 +1,5 @@
+1. 117.04 \angle -0.96^{\circ} \mathrm{V}
+2. 202.72 \angle 29.04^{\circ} \mathrm{V}
+3. 202.72 \angle -30.96^{\circ} \mathrm{V}
+4. 205.04 \angle 29.80^{\circ} \mathrm{V}
+5. None of the above

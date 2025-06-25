@@ -1,0 +1,5 @@
+1. \frac{\frac{s}{R C}}{s^2+\frac{s}{R C}+\frac{1}{L C}}
+2. \frac{\frac{1}{L C}}{s^2+\frac{s}{R C}+\frac{1}{L C}}
+3. \frac{s^2}{s^2+\frac{s}{R C}+\frac{1}{L C}}
+4. \frac{\frac{R}{L} s}{s^2+\frac{R}{L} s+\frac{1}{L C}}
+5. None of the above

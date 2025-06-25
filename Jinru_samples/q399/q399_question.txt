@@ -1,0 +1,1 @@
+Find the currents $I_2$ in the circuit of the provided circuit image.

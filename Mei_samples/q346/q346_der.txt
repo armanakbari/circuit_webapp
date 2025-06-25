@@ -1,0 +1,11 @@
+For path 2, starting at point $a$ in a clockwise direction:
+and
+
+$$
+-V_2-20 \mathrm{~V}=0
+$$
+
+
+$$
+V_2=-\mathbf{2 0 ~ V}
+$$

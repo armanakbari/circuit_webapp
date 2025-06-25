@@ -1,0 +1,19 @@
+Solution: There are two options for solving this problem. The first is to use Eq. (6.9) as follows:
+
+$$
+\begin{aligned}
+\frac{1}{R_T} & =\frac{1}{6 \Omega}+\frac{1}{24 \Omega}+\frac{1}{48 \Omega}=0.1667 \mathrm{~S}+0.0417 \mathrm{~S}+0.0208 \mathrm{~S} \\
+& =0.2292 \mathrm{~S}
+\end{aligned}
+$$
+and
+
+$$
+R_T=\frac{1}{0.2292 \mathrm{~S}}=4.363 \Omega
+$$
+
+with
+
+$$
+I_1=\frac{R_T}{R_1} I=\frac{4.363 \Omega}{6 \Omega}(42 \mathrm{~mA})=30.54 \mathrm{~mA}
+$$

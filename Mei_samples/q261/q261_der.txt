@@ -1,0 +1,54 @@
+The rms value of the source voltage is,
+
+$$
+V_{\mathrm{rms}}=\sqrt{2} \times 16 \mathrm{~L} 5^{\circ}=22.63\angle25^{\circ} \mathrm{V}
+$$
+
+
+The inductive reactance is,
+
+$$
+X_L=10 \times 0.9=9 \Omega
+$$
+
+
+The circuit impedance is,
+
+$$
+Z=4+j 9=9.85\angle66 .04^{\circ} \Omega
+$$
+
+
+The source current is,
+
+$$
+I_{\mathrm{rms}}=\frac{22.63\angle25^{\circ}}{9.85\angle66 .04^{\circ}}=2.30\angle-41.04^{\circ} \mathrm{A}
+$$
+
+
+The complex power is calculated as,
+
+$$
+S=V_{\mathrm{rms}} I_{\mathrm{rms}}^*=22.63\angle25^{\circ} \times 2.30\angle41 .04^{\circ}=50.02 \mathrm{~W}-j 14.38 \mathrm{Var}
+$$
+
+
+The apparent power is determined as,
+
+$$
+S_{a p}=|S|=52.05 \mathrm{VA}
+$$
+
+
+The real power is calculated as,
+
+$$
+P=\operatorname{Re}(S)=50.02 \mathrm{~W}
+$$
+
+
+The reactive power is determined as,
+
+$$
+Q=\operatorname{Im}(S)=14.38 \mathrm{Var}
+$$

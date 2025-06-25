@@ -1,0 +1,1 @@
+Using the power of Kirchhoff's voltage law, determine the voltages $V_3 for the network in the provided circuit image.

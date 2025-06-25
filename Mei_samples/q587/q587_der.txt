@@ -1,0 +1,4 @@
+\begin{aligned}
+\mathbf{V}_C=\frac{\mathbf{Z}_C \mathbf{E}}{\mathbf{Z}_T} & =\frac{\left(17 \Omega \angle-90^{\circ}\right)\left(50 \mathrm{~V} \angle 30^{\circ}\right)}{10 \Omega \angle-53.13^{\circ}}=\frac{850 \mathrm{~V} \angle-60^{\circ}}{10 \angle-53^{\circ}} \\
+& =\mathbf{8 5} \mathbf{V} \angle-\mathbf{6 . 8 7 ^ { \circ }}
+\end{aligned}

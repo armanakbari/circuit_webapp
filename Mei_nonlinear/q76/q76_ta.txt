@@ -1,0 +1,1 @@
+\frac{r_{O 2} \| r_{O 4}}{1+\frac{C_1}{C_1+C_2} g_{m 1}\left(r_{O 2} \| r_{O 4}\right)}

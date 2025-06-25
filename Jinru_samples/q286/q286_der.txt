@@ -1,0 +1,30 @@
+To get $R_{\text {eq }}$, we combine resistors in series and in parallel. The $6-\Omega$ and $3-\Omega$ resistors are in parallel, so their equivalent resistance is
+
+$$
+6 \Omega \| 3 \Omega=\frac{6 \times 3}{6+3}=2 \Omega
+$$
+
+Also, the $1-\Omega$ and $5-\Omega$ resistors are in series; hence their equivalent resistance is
+
+$$
+1 \Omega+5 \Omega=6 \Omega
+$$
+
+
+ we notice that the two $2-\Omega$ resistors are in series, so the equivalent resistance is
+
+$$
+2 \Omega+2 \Omega=4 \Omega
+$$
+This $4-\Omega$ resistor is now in parallel with the $6-\Omega$ resistor; their equivalent resistance is
+
+$$
+4 \Omega \| 6 \Omega=\frac{4 \times 6}{4+6}=2.4 \Omega
+$$
+
+
+ the three resistors are in series. Hence, the equivalent resistance for the circuit is
+
+$$
+R_{\mathrm{eq}}=4 \Omega+2.4 \Omega+8 \Omega=14.4 \Omega
+$$

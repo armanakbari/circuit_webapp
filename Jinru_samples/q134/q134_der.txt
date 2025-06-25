@@ -1,0 +1,5 @@
+The addition of the capacitor as the third load is represented in geometric form as the sum of the two power triangles. When the power factor is 1 , the apparent power and the average power are the same, as seen from the power triangle. Therefore, the apparent power once the power factor has been corrected is
+
+$$
+|S|=P=20 \mathrm{kVA} .
+$$

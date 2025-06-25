@@ -1,0 +1,5 @@
+1. \left(V_{\text {REF }} / A_1\right) / r
+2. \left(V_{\text {REF }} /(A_1+1)\right) / r
+3. \left(V_{\text {REF }} \cdot A_1\right) / r
+4. V_{\text {REF }} / r
+5. None of the above

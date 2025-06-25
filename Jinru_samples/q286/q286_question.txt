@@ -1,0 +1,1 @@
+Find $R_{\mathrm{eq}}$ for the circuit

@@ -1,0 +1,11 @@
+The $10-\mathrm{k} \Omega$ resistor has been effectively shorted out by the jumper, resulting in the equivalent network of Fig. 6.51. Using Ohm's law,
+
+$$
+I=\frac{E}{R_1}=\frac{18 \mathrm{~V}}{5 \mathrm{k} \Omega}=3.6 \mathrm{~mA}
+$$
+
+and
+
+$$
+V=E=18 \mathrm{~V}
+$$

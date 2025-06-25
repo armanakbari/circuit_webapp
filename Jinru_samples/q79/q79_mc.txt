@@ -1,0 +1,5 @@
+1. 0 \mathrm{~mA}
+2. 50 \mathrm{~mA}
+3. 29 \mathrm{~mA}
+4. 100 \mathrm{~mA}
+5. None of the above

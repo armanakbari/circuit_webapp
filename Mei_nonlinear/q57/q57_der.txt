@@ -1,0 +1,10 @@
+Solution
+We have
+
+$$
+\begin{aligned}
+\overline{V_{n, i n}^2} & =\frac{\overline{V_{n, o u t}^2}}{A_v^2} \\
+& =\left(4 k T \gamma g_m+\frac{K}{C_{o x} W L} \cdot \frac{1}{f} \cdot g_m^2+\frac{4 k T}{R_D}\right) R_D^2 \frac{1}{g_m^2 R_D^2} \\
+& =4 k T \frac{\gamma}{g_m}+\frac{K}{C_{o x} W L} \cdot \frac{1}{f}+\frac{4 k T}{g_m^2 R_D}
+\end{aligned}
+$$

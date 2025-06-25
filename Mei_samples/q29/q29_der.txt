@@ -1,0 +1,23 @@
+Two voltage sources are connected in series but in an opposite direction. Therefore, the value of the resultant voltage is,
+
+$$
+V_s=40-10=30 \mathrm{~V}
+$$
+The $5 \Omega$ and $10 \Omega$ resistors are in parallel, and then in series with $4 \Omega$. The value of the resistance is,
+
+$$
+R_1=\frac{5 \times 10}{5+10}+4=7.33 \Omega
+$$
+
+$R_1(7.33 \Omega)$ from Eq. (2.141) is in parallel with $8 \Omega$ resistor, and then in series with $3 \Omega$ resistance. The equivalent circuit resistance is,
+
+$$
+R_t=\frac{7.33 \times 8}{7.33+8}+3=6.83 \Omega
+$$
+
+
+The value of the source current is,
+
+$$
+I_s=\frac{30}{6.83}=4.39 \A
+$$

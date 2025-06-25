@@ -1,0 +1,5 @@
+1. $\mathbf{10}\left(\mathbf{1}-e^{-t /\left(\mathbf{6} \times \mathbf{1 0}^{-3}\right)}\right)$
+2. $\mathbf{10}\left(\mathbf{1}-e^{-t /\left(\mathbf{1} \times \mathbf{1 0}^{-3}\right)}\right)$
+3. \mathbf{1 0}\left(\mathbf{1}-e^{-t /\left(\mathbf{5} \times \mathbf{1 0}^{-3}\right)}\right)
+4. $\mathbf{10} e^{-t /\left(\mathbf{5} \times \mathbf{1 0}^{-3}\right)}$
+5. None of the above

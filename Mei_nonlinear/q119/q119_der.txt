@@ -1,0 +1,19 @@
+We first calculate the small-signal gain of the first stage:
+
+$$
+\begin{aligned}
+A_{v 1} & \approx \frac{g_{m 1}}{g_{m 3}} \\
+& =\sqrt{\frac{50 \times 75}{10 \times 30}} \\
+& \approx 3.54
+\end{aligned}
+$$
+
+
+The noise of $M_5$ and $M_7$ referred to the gate of $M_5$ is equal to $4 k T(2 / 3)\left(g_{m 5}+g_{m 7}\right) / g_{m 5}^2=2.87 \times 10^{-17} \mathrm{~V}^2 / \mathrm{Hz}$, which is divided by $A_{v 1}^2$ when referred to the main input: $\left.\overline{V_n^2}\right|_{M 5,7}=2.29 \times 10^{-18} \mathrm{~V}^2 / \mathrm{Hz}$. Transistors $M_1$ and $M_3$ produce an input-referred noise of $\left.\overline{V_n^2}\right|_{M 1,3}=(8 k T / 3)\left(g_{m 3}+g_{m 1}\right) / g_{m 1}^2=1.10 \times 10^{-17} \mathrm{~V}^2 / \mathrm{Hz}$. Thus, the total input-referred noise equals
+
+$$
+\begin{aligned}
+\overline{V_{n, i n}^2} & =2\left(2.29 \times 10^{-18}+1.10 \times 10^{-17}\right) \\
+& =2.66 \times 10^{-17} \mathrm{~V}^2 / \mathrm{Hz}
+\end{aligned}
+$$

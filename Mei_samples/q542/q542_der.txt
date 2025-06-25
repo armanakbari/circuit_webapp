@@ -1,0 +1,5 @@
+Solution: As previously discussed, the capacitor is effectively an open circuit for dc after charging up to its final value (Fig. 10.68). Therefore,
+
+$$
+\begin{aligned}
+V_C & =\frac{(8 \Omega)(24 \mathrm{~V})}{4 \Omega+8 \Omega}=\mathbf{1 6} \mathbf{~ V} \\

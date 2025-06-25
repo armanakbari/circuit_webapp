@@ -1,0 +1,1 @@
+Using complex algebra, find the voltage $v$ for the circuit in the provided circuit image

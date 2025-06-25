@@ -1,0 +1,5 @@
+1. 1.2727 \Omega
+2. 3.4000 \Omega
+3. 3.2727 \Omega
+4. 2.6000 \Omega
+5. None of the above

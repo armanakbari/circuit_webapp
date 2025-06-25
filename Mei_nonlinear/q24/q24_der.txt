@@ -1,0 +1,1 @@
+& V_X=-g_m\left(R_D \| r_{O 1}\right) \frac{V_{i n 1}-V_{i n 2}}{2} \\

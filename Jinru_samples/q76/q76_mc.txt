@@ -1,0 +1,5 @@
+1. \left(24-32 e^{-20,0 \% k t}+8 e^{-810.060 t}\right) \mathrm{mA}
+2. \left(24-72 e^{-400 t}+48 e^{-600 t}\right) \mathrm{mA}
+3. \left(24+8 e^{-200 t}-32 e^{-800 t}\right) \mathrm{mA}
+4. \left(24-16 e^{-200 t}-8 e^{-800 t}\right) \mathrm{mA}
+5. None of the above

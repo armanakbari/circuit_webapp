@@ -1,0 +1,5 @@
+Power supplied by the sources:
+
+$$
+\mathrm{p}_{12 \mathrm{~V}}=12((-2))=-24 \mathrm{~W}
+$$

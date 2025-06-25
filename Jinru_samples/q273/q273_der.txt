@@ -1,0 +1,17 @@
+We can calculate the power in various ways.
+
+$$
+p=v i=30\left(6 \times 10^{-3}\right)=180 \mathrm{~mW}
+$$
+
+or
+
+$$
+p=i^2 R=\left(6 \times 10^{-3}\right)^2 5 \times 10^3=180 \mathrm{~mW}
+$$
+
+or
+
+$$
+p=v^2 G=(30)^2 0.2 \times 10^{-3}=180 \mathrm{~mW}
+$$

@@ -1,0 +1,5 @@
+1. $4 \cos(200,000t + 36.87^{\circ}) \mathrm{A}$
+2. $4 \cos(200,000t - 50.19^{\circ}) \mathrm{A}$
+3. $10.23 \cos(200,000t + 15.19^{\circ}) \mathrm{A}$
+4. 4 \cos \left(200,000 t-36.87^{\circ}\right) \mathrm{A}
+5. None of the above

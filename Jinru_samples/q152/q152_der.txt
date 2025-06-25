@@ -1,0 +1,11 @@
+We know that the magnitude of $Z_{\mathrm{L}}$ must equal the magnitude of $Z_{\mathrm{Th}}$. Therefore
+
+$$
+\left|Z_{\mathrm{L}}\right|=\left|Z_{\mathrm{Th}}\right|=|3000+j 4000|=5000 \Omega
+$$
+
+Now, as we know that the phase angle of $Z_{\mathrm{L}}$ is $-36.87^{\circ}$, we have
+
+$$
+Z_{\mathrm{L}}=5000 \angle-36.87^{\circ}=4000-j 3000 \Omega .
+$$

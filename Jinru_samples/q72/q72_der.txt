@@ -1,0 +1,11 @@
+We know that $\omega_0^2=10^6$. Therefore for critical damping,
+
+$$
+\alpha=10^3=\frac{1}{2 R C}
+$$
+
+or
+
+$$
+R=\frac{10^6}{(2000)(0.125)}=4000 \Omega
+$$

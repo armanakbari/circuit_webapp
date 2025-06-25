@@ -1,0 +1,1 @@
+Use Thevenin's theorem to calculate the current in the $12 \Omega$ resistor of the circuit In the provided circuit image.

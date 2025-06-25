@@ -1,0 +1,18 @@
+If $I_o=1 \mathrm{~A}$, then $V_1=(3+5) I_o=8 \mathrm{~V}$ and $I_1=V_1 / 4=2 \mathrm{~A}$. Applying KCL at node 1 gives
+
+$$
+\begin{gathered}
+I_2=I_1+I_o=3 \mathrm{~A} \\
+V_2=V_1+2 I_2=8+6=14 \mathrm{~V}, \quad I_3=\frac{V_2}{7}=2 \mathrm{~A}
+\end{gathered}
+$$
+
+
+Applying KCL at node 2 gives
+
+$$
+I_4=I_3+I_2=5 \mathrm{~A}
+$$
+
+
+Therefore, $I_s=5 \mathrm{~A}$. This shows that assuming $I_o=1$ gives $I_s=5 \mathrm{~A}$, the actual source current of 15 A will give $I_o=3 \mathrm{~A}$ as the actual value.

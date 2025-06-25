@@ -1,0 +1,7 @@
+\begin{aligned}
+&\text { For path } 1 \text {, starting at point } a \text { in a clockwise direction: }\\
+&\begin{gathered}
++25 \mathrm{~V}-V_1+15 \mathrm{~V}=0 \\
+V_1=\mathbf{4 0} \mathbf{V}
+\end{gathered}
+\end{aligned}

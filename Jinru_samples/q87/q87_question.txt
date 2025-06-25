@@ -1,0 +1,1 @@
+No energy is stored in the circuit shown in the provided circuit image when the input voltage $v_g$ jumps instantaneously from 0 to 25 mV .How long is it before the circuit saturates?

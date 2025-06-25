@@ -1,0 +1,5 @@
+1. 30.66 \mathbf{~mA}
+2. 105.00 \mathbf{~mA}
+3. 79.34 \mathbf{~ m A}
+4. 40.68 \mathbf{~mA}
+5. None of the above

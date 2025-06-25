@@ -1,0 +1,1 @@
+Use source transformations to find the voltage $v_o$ in the circuit shown in the provided circuit image.

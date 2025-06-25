@@ -1,0 +1,3 @@
+Design of analog CMOS integrated circuits
+P288
+Example8.4

@@ -1,0 +1,5 @@
+1. \frac{r_{O 2} \| r_{O 4}}{1+\frac{C_2}{C_1+C_2} g_{m 1}\left(r_{O 2} \| r_{O 4}\right)}
+2. \frac{r_{O 2} \| r_{O 4}}{1+\frac{C_1}{C_1+C_2} g_{m 1}\left(r_{O 2} \| r_{O 4}\right)}
+3. \frac{r_{O 2} \| r_{O 4}}{1-\frac{C_1}{C_1+C_2} g_{m 1}\left(r_{O 2} \| r_{O 4}\right)}
+4. \frac{r_{O 2} + r_{O 4}}{1+\frac{C_1}{C_1+C_2} g_{m 1}\left(r_{O 2} \| r_{O 4}\right)}
+5. None of the above

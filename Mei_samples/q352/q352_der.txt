@@ -1,0 +1,20 @@
+a. $R_T=R_1+R_2=4 \Omega+6 \Omega=\mathbf{1 0} \Omega$
+b. $I=\frac{E}{R_T}=\frac{20 \mathrm{~V}}{10 \Omega}=2 \mathbf{A}$
+
+c.
+
+$$
+\begin{aligned}
+& V_1=I R_1=(2 \mathrm{~A})(4 \Omega)=\mathbf{8} \mathbf{~ V} \\
+& V_2=I R_2=(2 \mathrm{~A})(6 \Omega)=\mathbf{1 2} \mathbf{V}
+\end{aligned}
+$$
+
+d.
+
+$$
+\begin{aligned}
+& P_{4 \Omega}=\frac{V_1^2}{R_1}=\frac{(8 \mathrm{~V})^2}{4}=\frac{64}{4}=16 \mathbf{W} \\
+& P_{6 \Omega}=I^2 R_2=(2 \mathrm{~A})^2(6 \Omega)=(4)(6)=24 \mathbf{W}
+\end{aligned}
+$$

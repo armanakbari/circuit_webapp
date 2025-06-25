@@ -1,0 +1,8 @@
+&\begin{aligned}
+R_{T h} & =R_4+R_1\left\|R_2\right\| R_3 \\
+& =1.4 \mathrm{k} \Omega+0.8 \mathrm{k} \Omega\|4 \mathrm{k} \Omega\| 6 \mathrm{k} \Omega \\
+& =1.4 \mathrm{k} \Omega+0.8 \mathrm{k} \Omega \| 2.4 \mathrm{k} \Omega \\
+& =1.4 \mathrm{k} \Omega+0.6 \mathrm{k} \Omega \\
+& =\mathbf{2} \mathbf{k} \Omega
+\end{aligned}
+\end{aligned}

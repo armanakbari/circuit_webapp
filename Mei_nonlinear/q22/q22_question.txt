@@ -1,0 +1,1 @@
+Due to a manufacturing error, in the circuit in the provided circuit image, $M_2$ is twice as wide as $M_1$. Calculate the small-signal gain if the dc levels of $V_{i n 1}$ and $V_{i n 2}$ are equal.

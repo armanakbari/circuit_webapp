@@ -1,0 +1,19 @@
+Capacitors 3 and $5 \mu \mathrm{~F}$ are connected in series. Here, the total capacitance is,
+
+$$
+C_1=\frac{3 \times 5}{3+5}=1.88 \mu \mathrm{~F}
+$$
+
+
+The capacitors 1.88 and $8 \mu \mathrm{~F}$ are connected in parallel, and the total capacitance is,
+
+$$
+C_2=8+1.88=9.88 \mu \mathrm{~F}
+$$
+
+
+Again, 9.88 and $2 \mu \mathrm{~F}$ are connected in series and the equivalent circuit capacitance is,
+
+$$
+C_{\mathrm{eq}}=\frac{9.88 \times 2}{9.88+2}=1.66 \mu \mathrm{~F}
+$$

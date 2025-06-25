@@ -1,0 +1,5 @@
+\begin{aligned}
+S_x & =\frac{1}{2}\left(39 \mathbf{I}_x\right)\left(\mathbf{I}_2^*\right)=P_x+j Q_x \\
+& =\frac{1}{2}(-78+j 234)(-24+j 58) \\
+& =-5850-j 5070 \mathrm{VA} .
+\end{aligned}

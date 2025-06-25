@@ -1,0 +1,5 @@
+1. 45 \Omega
+2. $65 \Omega$
+3. $25 \Omega$
+4. $85 \Omega$
+5. None of the above

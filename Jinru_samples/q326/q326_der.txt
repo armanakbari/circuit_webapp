@@ -1,0 +1,9 @@
+Applying KVL,
+
+$$
+\begin{aligned}
+& -30-10+8+\mathrm{I}(3+5)=0 \\
+& 8 \mathrm{I}=32 \longrightarrow \mathrm{I}=\underline{\mathbf{4 A}} \\
+& -\mathrm{V}_{\mathrm{ab}}+5 \mathrm{I}+8=0 \longrightarrow \mathrm{~V}_{\mathrm{ab}}=\underline{\mathbf{2 8 V}}
+\end{aligned}
+$$

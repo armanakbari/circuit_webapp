@@ -1,0 +1,1 @@
+-0.8 \mathrm{~V} \leq v_{\mathrm{b}} \leq 3.2 \mathrm{~V}

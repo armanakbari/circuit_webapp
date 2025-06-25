@@ -1,0 +1,40 @@
+Applying KCL to the circuit in Fig. 2.20 yields,
+
+$$
+I_x+I_1+2 I_x=14
+$$
+
+
+Applying Ohm's law to the circuit in Fig. 2.20 yields,
+
+$$
+\begin{aligned}
+& I_x=\frac{V_s}{2} \\
+& I_1=\frac{V_s}{4}
+\end{aligned}
+$$
+
+
+Substituting Eqs. (2.76) and (2.77) into Eq. (2.75) yields,
+
+$$
+\begin{gathered}
+14=3 \frac{V_s}{2}+\frac{V_s}{4} \\
+14=\frac{7 V_s}{4} \\
+V_s=\frac{14 \times 4}{7}=8 \mathrm{~V}
+\end{gathered}
+$$
+
+
+Substituting Eq. (2.80) into Eqs. (2.76) and (2.77) yields,
+
+$$
+\begin{aligned}
+& I_x=\frac{8}{2}=4 \mathrm{~A} \\
+& I_1=\frac{8}{4}=2 \mathrm{~A}
+\end{aligned}
+$$
+\begin{aligned}
+&\text { The power absorbed by the } 4 \Omega \text { resistance is, }\\
+&P_{4 \Omega}=2^2 \times 4=16 \mathrm{~W}
+\end{aligned}

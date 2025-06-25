@@ -1,0 +1,31 @@
+Delta load is converted to wye load as,
+
+$$
+Z_1=\frac{4\angle-15^{\circ}}{3}=1.33\angle-15^{\circ} \Omega
+$$
+
+
+The value of the parallel loads is,
+
+$$
+Z_2=\frac{1.33\angle-15^{\circ} \times 6\angle10^{\circ}}{1.33\angle-15^{\circ}+6\angle10^{\circ}}=1.10\angle-10.54^{\circ} \Omega
+$$
+
+
+The line current is calculated as,
+
+$$
+I_{\mathrm{Aa}}=\frac{200\angle-20^{\circ}}{0.02+j 5+1.10\angle-10.54^{\circ}}=40.62\angle-97.07^{\circ} \mathrm{A}
+$$
+Power delivers by the first line is calculated as,
+
+$$
+P_A=V_{\mathrm{AN}} I_{\mathrm{Aa}} \cos \left(\theta_v-\theta_i\right)=200 \times 40.62 \cos \left(-20^{\circ}+97.07^{\circ}\right)=1817.83 \mathrm{~W}
+$$
+
+
+Total power delivered by the source is,
+
+$$
+P_t=3 P_A=3 \times 1817.83=5453.49 \mathrm{~W}
+$$

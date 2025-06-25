@@ -1,0 +1,1 @@
+Consider the circuit shown in the provided circuit image, where the voltage amplifier has a negative gain equal to $-A$ and is otherwise ideal. Calculate the input capacitance of the circuit.

@@ -1,0 +1,5 @@
+1. $P_{4 \Omega}=16 \mathrm{~W}$
+2. $P_{4 \Omega}=9 \mathrm{~W}$
+3. $P_{4 \Omega}=144 \mathrm{~W}$
+4. P_{4 \Omega}=36 \mathrm{~W}
+5. None of the above

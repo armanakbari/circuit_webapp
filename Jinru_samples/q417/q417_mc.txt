@@ -1,0 +1,5 @@
+1. 4.48 amps
+2. -4.48 amps
+3. -2.98 amps
+4. 1.12 amps
+5. None of the above

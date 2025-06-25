@@ -1,0 +1,2 @@
+The switch $S_1$ in the provided circuit image has been closed for a long time. At $t=0 \mathrm{~s}, S_1$ is opened at the same instant $S_2$ is closed to avoid an interruption in current through the coil.
+Find the mathematical expression for the current $i_L$ following the closing of the switch $S_2$.

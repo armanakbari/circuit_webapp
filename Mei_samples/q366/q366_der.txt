@@ -1,0 +1,8 @@
+Solution: Redrawing the network with the standard battery symbol will result in the network of Fig. 5.49. Applying the voltage divider rule,
+
+$$
+\begin{aligned}
+& V_1=\frac{R_1 E}{R_1+R_2}=\frac{(4 \Omega)(24 \mathrm{~V})}{4 \Omega+2 \Omega}=\mathbf{1 6} \mathbf{V} \\
+
+\end{aligned}
+$$

@@ -1,0 +1,43 @@
+We begin by finding the component of $v_o$ resulting from the 10 V source. Figure 4.67 shows the circuit. With the 5 A source deactivated, $v_{\Delta}^{\prime}$ must equal $\left(-0.4 v_{\Delta}^{\prime}\right)(10)$. Hence, $v_{\Delta}^{\prime}$ must be zero, the branch containing the two dependent sources is open, and
+
+$$
+v_o^{\prime}=\frac{20}{25}(10)=8 \mathrm{~V}
+$$
+
+When the 10 V source is deactivated, the circuit reduces. We have added a reference node and the node designations $\mathrm{a}, \mathrm{b}$, and c to aid the discussion. Summing the currents away from node a yields
+
+$$
+\frac{v_o^{\prime \prime}}{20}+\frac{v_o^{\prime \prime}}{5}-0.4 v_{\Delta}^{\prime \prime}=0, \quad \text { or } \quad 5 v_o^{\prime \prime}-8 v_{\Delta}^{\prime \prime}=0
+$$
+
+
+Summing the currents away from node $b$ gives
+
+$$
+\begin{aligned}
+0.4 v_{\Delta}^{\prime \prime}+\frac{v_{\mathrm{b}}-2 i_{\Delta}^{\prime \prime}}{10}-5 & =0, \text { or } \\
+4 v_{\Delta}^{\prime \prime}+v_b-2 i_{\Delta}^{\prime \prime} & =50
+\end{aligned}
+$$
+
+
+We now use
+
+$$
+v_{\mathrm{b}}=2 \mathrm{i}_{\Delta}^{\prime \prime}+v_{\Delta}^{\prime \prime}
+$$
+
+to find the value for $v_{\Delta}^{\prime \prime}$. Thus,
+
+$$
+5 v_{\Delta}^{\prime \prime}=50, \text { or } v_{\Delta}^{\prime \prime}=10 \mathrm{~V} .
+$$
+
+From the node a equation,
+
+$$
+5 v_o^{\prime \prime}=80, \text { or } v_o^{\prime \prime}=16 \mathrm{~V} .
+$$
+
+
+The value of $v_o$ is the sum of $v_o^{\prime}$ and $v_o^{\prime \prime}$, or 24 \mathrm{~V} .

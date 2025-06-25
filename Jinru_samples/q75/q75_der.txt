@@ -1,0 +1,5 @@
+The initial voltage on the capacitor is zero before the switch has been opened; therefore it will be zero immediately after. Now, because $v=L d i_L / d t$,
+
+$$
+\frac{d i_L}{d t}\left(0^{+}\right)=0
+$$

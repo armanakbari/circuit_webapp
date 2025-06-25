@@ -1,0 +1,23 @@
+In this circuit, $3 \Omega$ and $6 \Omega$ resistors are connected in parallel, and that results in the equivalent resistance as,
+
+$$
+R_1=\frac{3 \times 6}{3+6}=2 \Omega
+$$
+
+
+Again, $4 \Omega$ and $R_1(2 \Omega)$ resistors are in series, and this equivalent resistance is parallel to $12 \Omega$ resistor. The overall equivalent resistance is,
+
+$$
+R_2=\frac{(4+2) \times 12}{4+2+12}=4 \Omega
+$$
+
+
+Finally, $R_2(4 \Omega)$ and $2 \Omega$ resistors are in series and this equivalent resistance is in parallel to $12 \Omega$ resistor. Finally, this equivalent resistance is in series with $8 \Omega$ resistor. The final equivalent circuit resistance is,
+
+$$
+R_t=8+\frac{(4+2) \times 12}{4+2+12}=12 \Omega
+$$
+\begin{aligned}
+&\text { The value of the source current is, }\\
+&I_s=\frac{48}{12}=4 \mathrm{~A}
+\end{aligned}

@@ -1,0 +1,1 @@
+In the provided circuit image shows a series $R L C$ circuit. Calculate the half-power frequencies.

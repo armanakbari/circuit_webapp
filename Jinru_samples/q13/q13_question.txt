@@ -1,0 +1,1 @@
+The switch in the circuit shown in the provided circuit image has been closed for a long time before it is opened at $t=0$. Find the percentage of the total energy stored in the 2 H inductor that is dissipated in the $10 \Omega$ resistor.

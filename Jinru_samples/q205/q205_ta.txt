@@ -1,0 +1,1 @@
+5 \operatorname{sgn}(t)-10 e^{-4 t} u(t)

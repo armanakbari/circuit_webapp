@@ -1,0 +1,5 @@
+1. 39.06 \mathrm{~W}
+2. 12.50 \mathrm{~W}
+3. 31.25 \mathrm{~W}
+4. 125.0 \mathrm{~W}
+5. None of the above

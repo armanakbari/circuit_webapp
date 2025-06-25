@@ -1,0 +1,1 @@
+\left(4 k T \gamma g_m+\frac{K}{C_{o x} W L} \cdot \frac{1}{f} \cdot g_m^2+\frac{4 k T}{R_D}\right) R_D^2

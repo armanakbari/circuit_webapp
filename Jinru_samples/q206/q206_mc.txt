@@ -1,0 +1,5 @@
+1. $10 \cos(3t-53.13^{\circ})$
+2. $10 \cos(3t+36.87^{\circ})$
+3. $-10 \cos(3t)$
+4. $10 \cos \left(3 t-36.87^{\circ}\right)$.
+5. None of the above

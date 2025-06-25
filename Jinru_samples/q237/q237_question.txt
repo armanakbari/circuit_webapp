@@ -1,0 +1,1 @@
+Use voltage division to find the voltage $v_o$ for the provided circuit image.

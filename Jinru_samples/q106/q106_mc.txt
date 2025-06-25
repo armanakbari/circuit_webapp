@@ -1,0 +1,5 @@
+1. -1.44-j 11.92 \mathrm{~A}
+2. -11.92-j 1.44 \mathrm{~A}
+3. -1.44+j 11.92 \mathrm{~A}
+4. 1.44+j 11.92 \mathrm{~A}
+5. None of the above

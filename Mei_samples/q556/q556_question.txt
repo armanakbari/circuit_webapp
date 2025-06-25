@@ -1,0 +1,1 @@
+in the provided circuit image, Find the mathematical expressions for V_{R_1}for five time constants of the storage phase.

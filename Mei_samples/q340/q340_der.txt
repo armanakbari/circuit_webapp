@@ -1,0 +1,6 @@
+\begin{aligned}
+R_T & =N R_1+R_2=(3)(7 \Omega)+4 \Omega=21 \Omega+4 \Omega=\mathbf{2 5} \Omega \\
+I & =\frac{E}{R_T}=\frac{50 \mathrm{~V}}{25 \Omega}=\mathbf{2} \mathbf{A} \\
+V_2 & =I R_2=(2 \mathrm{~A})(4 \Omega)=\mathbf{8} \mathbf{V}
+\end{aligned}
+$$

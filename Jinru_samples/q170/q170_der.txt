@@ -1,0 +1,10 @@
+The line voltages at the source terminals are
+
+$$
+\begin{aligned}
+\mathbf{V}_{\mathrm{ab}} & =\left(\sqrt{3} \angle 30^{\circ}\right) \mathbf{V}_{\mathrm{an}} \\
+& =205.94 \angle 29.68^{\circ} \mathrm{V}, \\
+\mathbf{V}_{\mathrm{bc}} & =205.94 \angle-90.32^{\circ} \mathrm{V}, \\
+\mathbf{V}_{\mathrm{ca}} & =205.94 \angle 149.68^{\circ} \mathrm{V} .
+\end{aligned}
+$$

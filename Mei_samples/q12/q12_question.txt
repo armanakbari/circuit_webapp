@@ -1,0 +1,1 @@
+A circuit with a current-controlled current source is shown In the provided circuit image. Determine the branch current I_1.

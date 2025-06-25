@@ -1,0 +1,20 @@
+At low frequencies, $C_1$ and $C_2$ draw a negligible current from the output node. To find the open-loop voltage gain, we break the feedback loop as shown in Fig. 8.25(b), grounding the top plate of $C_1$ to ensure zero voltage feedback. The open-loop gain is thus equal to $g_{m 1}\left(r_{O 2} \| r_{O 4}\right)$.
+
+We must also compute the loop gain, $\beta A_0$. With the aid of Fig. 8.25(c), we have
+
+$$
+V_F=-V_t \frac{C_1}{C_1+C_2} g_{m 1}\left(r_{O 2} \| r_{O 4}\right)
+$$
+
+
+That is
+
+$$
+\beta A_0=\frac{C_1}{C_1+C_2} g_{m 1}\left(r_{O 2} \| r_{O 4}\right)
+$$
+
+and hence
+
+$$
+A_{\text {closed }}=\frac{g_{m 1}\left(r_{O 2} \| r_{O 4}\right)}{1+\frac{C_1}{C_1+C_2} g_{m 1}\left(r_{O 2} \| r_{O 4}\right)}
+$$

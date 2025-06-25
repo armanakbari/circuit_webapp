@@ -1,0 +1,6 @@
+The redrawn network appears in Fig. 6.53. The current through the $3-\Omega$ resistor is zero due to the open circuit, causing all the current $I$ to pass through the jumper. Since $V_{3 \Omega}=I R=(0) R=0 \mathrm{~V}$, the voltage $V$ is directly across the short, and
+with
+
+$$
+\begin{gathered}
+V=0 \mathrm{~V} \\

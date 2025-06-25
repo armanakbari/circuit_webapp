@@ -1,0 +1,1 @@
+Use nodal analysis to determine voltages $v_3$ in the circuit.

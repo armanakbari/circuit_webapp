@@ -1,0 +1,8 @@
+Applying KVL,
+
+$$
+\begin{aligned}
+& -30-10+8+\mathrm{I}(3+5)=0 \\
+& 8 \mathrm{I}=32 \longrightarrow \mathrm{I}=\underline{\mathbf{4 A}}
+\end{aligned}
+$$

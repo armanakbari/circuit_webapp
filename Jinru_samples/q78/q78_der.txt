@@ -1,0 +1,28 @@
+We know that $\omega_0^2$ remains at $16 \times 10^8$. With $R$ set at $500 \Omega, \alpha$ becomes $4 \times 10^4 \mathrm{~s}^{-1}$, which corresponds to critical damping. Therefore the solution for $i_L(t)$ takes the form:
+
+$$
+i_L(t)=I_f+D_1^{\prime} t e^{-\alpha t}+D_2^{\prime} e^{-\alpha t} .
+$$
+
+Again, $D_1^{\prime}$ and $D_2^{\prime}$ are computed from initial conditions, or
+
+$$
+\begin{gathered}
+i_L(0)=I_f+D_2^{\prime}=0 \\
+\frac{d i_L}{d t}(0)=D_1^{\prime}-\alpha D_2^{\prime}=0
+\end{gathered}
+$$
+
+
+Thus
+
+$$
+D_1^{\prime}=-960,000 \mathrm{~mA} / \mathrm{s} \quad \text { and } \quad D_2^{\prime}=-24 \mathrm{~mA} .
+$$
+
+
+The numerical expression for $i_L(t)$ is
+
+$$
+i_L(t)=\left(24-960,000 t e^{-40,000 t}-24 e^{-40,000 t}\right) \mathrm{mA}, t \geq 0 .
+$$

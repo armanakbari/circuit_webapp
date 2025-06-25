@@ -1,0 +1,5 @@
+We model the $1 / f$ and thermal noise of the transistors as voltage sources in series with their gates [Fig. 7.44(b)]. The noise voltage at the gate of $M_2$ experiences a gain of $g_{m 2}\left(R_D\left\|r_{O 1}\right\| r_{O 2}\right)$ as it appears at the output. The result must then be divided by $g_{m 1}\left(R_D\left\|r_{O 1}\right\| r_{O 2}\right)$ to be referred to the main input. The noise current of $R_D$ is multiplied by $R_D\left\|r_{O 1}\right\| r_{O 2}$ and divided by $g_{m 1}\left(R_D\left\|r_{O 1}\right\| r_{O 2}\right)$. Thus, the overall input-referred noise voltage is given by
+
+$$
+\overline{V_{n, i n}^2}=4 k T \gamma\left(\frac{g_{m 2}}{g_{m 1}^2}+\frac{1}{g_{m 1}}\right)+\frac{1}{C_{o x}}\left[\frac{K_P g_{m 2}^2}{(W L)_2 g_{m 1}^2}+\frac{K_N}{(W L)_1}\right] \frac{1}{f}+\frac{4 k T}{g_{m 1}^2 R_D}
+$$

@@ -1,0 +1,1 @@
+g_{m 1} r_{O 1}\left[\left(g_{m 2}+g_{m b 2}\right) r_{O 2}+1\right]

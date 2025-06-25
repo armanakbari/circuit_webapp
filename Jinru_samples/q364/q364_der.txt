@@ -1,0 +1,1 @@
+$\begin{aligned} & R_{a b}=\frac{R_1 R_2+R_2 R_3+R_3 R_1}{R_3}=\frac{20 \times 40+40 \times 10+10 \times 20}{40}=\frac{1400}{40}=35 \Omega \\ & R_{a c}=1400 /(10)=140 \Omega, R_{b c}=1400 /(20)=70 \Omega \\ & 70 \| 70=35 \text { and } 140 \| 160=140 \times 60 /(200)=42 \\ & R_{e q}=35 \|(35+42)=24.0625 \Omega \\ & I_o=24 /\left(R_{a b}\right)=997.4 \mathrm{~mA}\end{aligned}$

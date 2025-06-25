@@ -1,0 +1,1 @@
+Capacitors are connected in a circuit as shown In the provided circuit image. Determine the equivalent circuit capacitance.

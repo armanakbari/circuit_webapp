@@ -1,0 +1,1 @@
+Determine the voltage $V_{a b}$ for the network of Fig. 6.45.

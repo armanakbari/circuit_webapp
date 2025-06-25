@@ -1,0 +1,5 @@
+1. -6 e^{-t /(8 \times 10^{-6})}
+2. 6(1 - e^{-t /(8 \times 10^{-6})})
+3. 6 e^{-t /(8 \times 10^{-3})}
+4. 6 e^{-t /(\mathbf{8} \times \mathbf{1 0}-\mathbf{6})}
+5. None of the above

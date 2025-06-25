@@ -1,0 +1,6 @@
+Solution
+If $M_1$ is the dependent source of interest and $g_{m 1}=0$, then the voltage at the source of $M_2$ is equal to $V_{i n}\left(R_S \| g_{m 2}^{-1}\right) /$ $\left(R_S \| g_{m 2}^{-1}+R_1+R_2\right)$, yielding
+
+$$
+A=g_{m 2} R_{D 2} \frac{R_S \| g_{m 2}^{-1}}{R_S \| g_{m 2}^{-1}+R_1+R_2}
+$$

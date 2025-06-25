@@ -1,0 +1,1 @@
+$I=\frac{E}{R_T}=\frac{20 \mathrm{~V}}{10 \Omega}=2 \mathbf{A}$

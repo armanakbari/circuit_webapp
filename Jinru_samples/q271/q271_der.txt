@@ -1,0 +1,1 @@
+$i=\frac{v}{R}=\frac{30}{5 \times 10^3}=6 \mathrm{~mA}$

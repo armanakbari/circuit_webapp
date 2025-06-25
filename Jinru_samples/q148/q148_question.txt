@@ -1,0 +1,1 @@
+For the circuit shown in the provided circuit image, what value of $Z_{\mathrm{L}}$ results in maximum average power transfer to $Z_{\mathrm{L}}$ ?

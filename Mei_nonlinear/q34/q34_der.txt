@@ -1,0 +1,21 @@
+(a) We note that the current flowing through $R_S$ is given by $\left(V_{\text {in }}-V_X\right) / R_S$, yielding a voltage drop across $R_{\text {out }}$ equal to $\left(V_{\text {in }}-V_X\right) R_{\text {out }} / R_S$. It follows that
+
+$$
+\frac{V_{\text {in }}-V_X}{R_S} R_{\text {out }}-A V_X=V_{\text {out }}
+$$
+
+
+Chap. 6 Frequency Response of Amplifiers
+
+We also equate the currents flowing through $R_S$ and $C_F$ :
+
+$$
+\frac{V_{\text {in }}-V_X}{R_S}=\left(V_X-V_{\text {out }}\right) C_F s
+$$
+
+
+The reader can find $V_X$ from the first equation and substitute the result in the second, thereby obtaining
+
+$$
+\frac{V_{\text {out }}}{V_{\text {in }}}(s)=\frac{R_{\text {out }} C_F s-A}{\left[(A+1) R_S+R_{\text {out }}\right] C_F s+1}
+$$

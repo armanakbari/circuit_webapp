@@ -1,0 +1,1 @@
+Obtain the phasor sum of $\mathbf{V}_R, \mathbf{V}_L$, and $\mathbf{V}_C$ in the provided circuit image.

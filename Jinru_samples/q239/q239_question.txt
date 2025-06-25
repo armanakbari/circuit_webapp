@@ -1,0 +1,1 @@
+Use the node-voltage method of circuit analysis to find the branch currents i_{\mathrm{b}}$ in the provided circuit image.

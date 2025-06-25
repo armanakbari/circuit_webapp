@@ -1,0 +1,9 @@
+Here the value for $\tau$ doesn't change. Thus we need to find only the initial and final values for the current in the capacitor. When obtaining the initial value, we must get the value of $i\left(0^{+}\right)$, because the current in the capacitor can change instantaneously. This current is equal to the current in the resistor, which from Ohm's law is $[90-(-30)] /\left(400 \times 10^3\right)=300 \mu \mathrm{~A}$. Note that when applying Ohm's law we recognized that the capacitor voltage cannot change instantaneously.
+The final value of $i(t)=0$, so
+
+$$
+\begin{aligned}
+i(t) & =0+(300-0) e^{-5 t} \\
+& =300 e^{-5 t} \mu \mathrm{~A}, \quad t \geq 0^{+} .
+\end{aligned}
+$$

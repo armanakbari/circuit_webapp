@@ -1,0 +1,5 @@
+1. 100 \Omega
+2. $200 \Omega$
+3. $24 \Omega$
+4. $50 \Omega$
+5. None of the above

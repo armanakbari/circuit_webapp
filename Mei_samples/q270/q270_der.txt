@@ -1,0 +1,5 @@
+The phase voltages are,
+
+$$
+\begin{gathered}
+V_{\mathrm{an}}=1800^{\circ} \mathrm{V} \\

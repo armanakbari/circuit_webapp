@@ -1,0 +1,1 @@
+\frac{V_Y}{V_{i n}}=\frac{-R_{D 1}}{R_F \| R_S+1 / g_{m 1}}\left\{-g_{m 2}\left[R_{D 2} \|\left(R_F+R_S\right)\right]\right\}

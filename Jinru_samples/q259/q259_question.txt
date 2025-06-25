@@ -1,0 +1,1 @@
+Calculate the maximum power that can be delivered to $R_L$.

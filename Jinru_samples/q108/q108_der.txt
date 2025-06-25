@@ -1,0 +1,43 @@
+The circuit has two meshes and a dependent voltage source, so we must write two mesh-current equations and a constraint equation. The reference direction for the mesh currents $\mathbf{I}_1$ and $\mathbf{I}_2$ is clockwise. Once we know $\mathbf{I}_1$ and $\mathbf{I}_2$, we can easily find the unknown voltages. Summing the voltages around mesh 1 gives
+
+$$
+150=(1+j 2) \mathbf{I}_1+(12-j 16)\left(\mathbf{I}_1-\mathbf{I}_2\right)
+$$
+
+or
+
+$$
+150=(13-j 14) \mathbf{I}_1-(12-j 16) \mathbf{I}_2 .
+$$
+
+
+Summing the voltages around mesh 2 generates the equation
+
+$$
+0=(12-j 16)\left(\mathbf{I}_2-\mathbf{I}_1\right)+(1+j 3) \mathbf{I}_2+39 \mathbf{I}_x
+$$
+
+
+The controlling current $\mathbf{I}_x$ is the difference between $\mathbf{I}_1$ and $\mathbf{I}_2$; that is, the constraint is
+
+$$
+\mathbf{I}_x=\mathbf{I}_1-\mathbf{I}_2
+$$
+
+Substituting this constraint into the mesh 2 equation and simplifying the resulting expression gives
+
+$$
+0=(27+j 16) \mathbf{I}_1-(26+j 13) \mathbf{I}_2 .
+$$
+
+Solving for $\mathbf{I}_1$ and $\mathbf{I}_2$ yields
+
+$$
+\begin{aligned}
+& \mathbf{I}_1=-26-j 52 \mathrm{~A}, \\
+& \mathbf{I}_2=-24-j 58 \mathrm{~A}, \\
+& \mathbf{I}_1=-2+j 6 \mathrm{~A} .
+\end{aligned}
+$$
+
+$\mathbf{V}_1=(1+j 2) \mathbf{I}_1=78-j 104 \mathrm{~V}$.

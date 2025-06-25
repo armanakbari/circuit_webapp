@@ -1,0 +1,10 @@
+\begin{aligned}
+&i=10 t e^{-5 t} \mathrm{~A} \quad \text { and } \quad v=e^{-5 \mathrm{t}}(1-5 t) \mathrm{V} .\\
+&\text { Therefore, }\\
+&p=v i=10 t e^{-10 t}-50 t^2 e^{-10 t} \mathrm{~W} .
+\end{aligned}
+\begin{aligned}
+\int_{0.2}^{\infty} p d t= & 10\left[\frac{e^{-10 t}}{100}(-10 t-1)\right]_{0.2}^{\infty} \\
+& -50\left\{\frac{t^2 e^{-10 t}}{-10}+\frac{2}{10}\left[\frac{e^{-10 t}}{100}(-10 t-1)\right]\right\}_{0.2}^{\infty} \\
+= & -0.2 e^{-2}=-27.07 \mathrm{~mJ}
+\end{aligned}

@@ -1,0 +1,1 @@
+Calculate the voltage gain of the circuit shown in the provided circuit image if $\lambda \neq 0$ and $\gamma \neq 0$.

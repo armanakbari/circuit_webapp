@@ -1,0 +1,1 @@
+\text { Calculate the equivalent noise voltage of two parallel resistors } R_1 \text { and } R_2 \text { Calculate the equivalent noise voltage of two parallel resistors } R_1 \text { and } R_2

@@ -1,0 +1,5 @@
+1. $10 e^{-t/(20 \times 10^{-3})}$
+2. \mathbf{1 0} e^{-t /(\mathbf{1 0} \times \mathbf{1 0}-\mathbf{3})}
+3. $10(1 - e^{-t/(10 \times 10^{-3})})$
+4. $12 e^{-t/(10 \times 10^{-3})}$
+5. None of the above

@@ -1,0 +1,5 @@
+Using Ohm's law, the initial current through the coil is determined by
+
+$$
+I_i=-\frac{E}{R_3}=-\frac{6 \mathrm{~V}}{1 \mathrm{k} \Omega}=-6 \mathrm{~mA}
+$$

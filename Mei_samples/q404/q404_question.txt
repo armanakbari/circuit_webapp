@@ -1,0 +1,1 @@
+Determine $V$  for the network In the provided circuit image if the resistor $R_2$ is shorted out.

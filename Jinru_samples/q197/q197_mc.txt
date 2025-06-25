@@ -1,0 +1,5 @@
+1. \frac{R}{2 L}+\sqrt{\left(\frac{R}{2 L}\right)^2+\frac{1}{L C}}
+2. \frac{1}{2 R C}+\sqrt{\left(\frac{1}{2 R C}\right)^2-\frac{1}{L C}}
+3. \frac{1}{2 R C}+\sqrt{\left(\frac{1}{2 R C}\right)^2+\frac{1}{L C}}
+4. -\frac{1}{2 R C}+\sqrt{\left(\frac{1}{2 R C}\right)^2+\frac{1}{L C}}
+5. None of the above

@@ -1,0 +1,5 @@
+1. 0.2 s to $\infty$ s
+2. 0 to 1.0 s
+3. 0 to 0.4 s
+4. 0 to 0.2 s
+5. None of the above

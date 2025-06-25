@@ -1,0 +1,5 @@
+1. 1.48 e^{-60t} \mathrm{A}
+2. 1.48 e^{-60(t-0.035)} \mathrm{A}
+3. 1.48 e^{-100(t-0.035)} \mathrm{A}
+4. 5.00 e^{-60(t-0.035)} \mathrm{A}
+5. None of the above

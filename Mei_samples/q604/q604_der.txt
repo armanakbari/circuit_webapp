@@ -1,0 +1,2 @@
+\mathbf{Y}_C & =B_C \angle 90^{\circ}=\frac{1}{X_C} \angle 90^{\circ}=\frac{1}{20 \Omega} \angle 90^{\circ} \\
+& =\mathbf{0 . 0 5 0 ~ S} \angle+\mathbf{9 0}^{\circ}=\mathbf{0}+\boldsymbol{j} \mathbf{0 . 0 5 0 ~ S}

@@ -1,0 +1,1 @@
+Find $i_3 in the provided circuit image.

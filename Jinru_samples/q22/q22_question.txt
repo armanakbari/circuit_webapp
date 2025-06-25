@@ -1,0 +1,1 @@
+The switch in the provided circuit image has been in position $x$ for a long time. At $t=0$, the switch moves instantancously to position $y$. Find the total energy dissipated in the $60 \mathrm{k} \Omega$ resistor.

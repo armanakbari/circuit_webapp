@@ -1,0 +1,5 @@
+1. 2 g_{m 1} R_D
+2. \frac{3}{2} g_{m 1} R_D
+3. \frac{2}{3} g_{m 1} R_D
+4. \frac{4}{3} g_{m 1} R_D
+5. None of the above

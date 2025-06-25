@@ -1,0 +1,5 @@
+1. \mathbf{2} \mathbf{k} \Omega
+2. \mathbf{4} \mathbf{k} \Omega
+3. \mathbf{1} \mathbf{k} \Omega
+4. \mathbf{9} \mathbf{k} \Omega
+5. None of the above

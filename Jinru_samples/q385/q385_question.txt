@@ -1,0 +1,1 @@
+Use mesh analysis to find the current $I_o$ in the circuit

@@ -1,0 +1,1 @@
+In the provided circuit image shows an electrical circuit. Use nodal analysis to calculate the node voltage V_2.

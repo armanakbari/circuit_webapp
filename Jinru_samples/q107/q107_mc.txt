@@ -1,0 +1,5 @@
+1. $-6.8 + j9.0 \mathrm{~A}$
+2. 5.2+j 13.6 \mathrm{~A}
+3. $16.9 - j10.7 \mathrm{~A}$
+4. $6.8 - j9.0 \mathrm{~A}$
+5. None of the above

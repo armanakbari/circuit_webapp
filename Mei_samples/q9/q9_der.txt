@@ -1,0 +1,19 @@
+\begin{aligned}
+&\text { The total resistance of the circuit is, }\\
+&R_t=2+\frac{3 \times(1+5)}{3+6}=4 \Omega
+\end{aligned}
+The value of the source current is,
+
+$$
+I_s=\frac{60}{4}=15 \mathrm{~A}
+$$
+
+
+The branch currents $I_1$ and $I_2$ can be calculated as,
+
+$$
+\begin{gathered}
+I_1=\frac{(5+1)}{6+3} \times 15=10 \mathrm{~A} \\
+I_2=\frac{3}{6+3} \times 15=5 \mathrm{~A}
+\end{gathered}
+$$

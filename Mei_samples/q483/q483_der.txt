@@ -1,0 +1,17 @@
+$$
+R_N=R_1\left\|R_2=3 \Omega\right\| 6 \Omega=\frac{(3 \Omega)(6 \Omega)}{3 \Omega+6 \Omega}=\frac{18 \Omega}{9}=\mathbf{2} \Omega
+$$
+
+
+Step 4 is shown in Fig. 9.63, clearly indicating that the short-circuit connection between terminals $a$ and $b$ is in parallel with $R_2$ and eliminates its effect. $I_N$ is therefore the same as through $R_1$, and the full battery voltage appears across $R_1$ since
+
+$$
+V_2=I_2 R_2=(0) 6 \Omega=0 \mathrm{~V}
+$$
+
+
+Therefore,
+
+$$
+I_N=\frac{E}{R_1}=\frac{9 \mathrm{~V}}{3 \Omega}=3 \mathrm{~A}
+$$

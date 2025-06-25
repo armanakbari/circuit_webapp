@@ -1,0 +1,12 @@
+The output energy associated with the frequency range $0 \leq \omega \leq 10 \mathrm{rad} / \mathrm{s}$ is
+
+$$
+\begin{aligned}
+W_o^{\prime} & =\frac{300}{\pi}\left\{\int_0^{10} \frac{d \omega}{25+\omega^2}-\int_0^{10} \frac{d \omega}{100+\omega^2}\right\} \\
+& =\frac{300}{\pi}\left(\frac{1}{5} \tan ^{-1} \frac{10}{5}-\frac{1}{10} \tan ^{-1} \frac{10}{10}\right)=\frac{30}{\pi}\left(\frac{2 \pi}{2.84}-\frac{\pi}{4}\right) \\
+& =13.64 \mathrm{~J} .
+\end{aligned}
+$$
+
+
+The total $1 \Omega$ energy in the output signal is 15 J , so the percentage associated with the frequency range 0 to $10 \mathrm{rad} / \mathrm{s}$ is $90.97 \%$.

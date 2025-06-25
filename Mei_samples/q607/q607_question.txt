@@ -1,0 +1,1 @@
+Find the admittance of series elements in the provided circuit image

@@ -1,0 +1,1 @@
+Find $i_s$ in the provided circuit image.

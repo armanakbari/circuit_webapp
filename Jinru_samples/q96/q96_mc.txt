@@ -1,0 +1,5 @@
+1. 96-j \frac{104}{3} \mathrm{~V}
+2. 92-j \frac{112}{3} \mathrm{~V}
+3. 96+j \frac{104}{3} \mathrm{~V}
+4. 104-j \frac{96}{3} \mathrm{~V}
+5. None of the above

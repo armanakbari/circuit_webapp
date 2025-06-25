@@ -1,0 +1,19 @@
+Because $i_o$ also is the current in the 120 V source, we have two unknown currents and therefore must derive two simultaneous equations involving $i_o$ and $i_1$. We obtain one of the equations by applying Kirchhoff's current law to either node b or c. Summing the currents at node b and assigning a positive sign to the currents leaving the node gives
+
+$$
+i_1-i_o-6=0
+$$
+
+
+We obtain the second equation from Kirchhoff's voltage law in combination with Ohm's law. Noting from Ohm's law that $v_o$ is $10 i_o$ and $v_1$ is $50 i_1$, we sum the voltages around the closed path cabc to obtain
+
+$$
+-120+10 i_o+50 i_1=0
+$$
+
+
+In writing this equation, we assigned a positive sign to voltage drops in the clockwise direction. Solving these two equations for $i_o$ and $i_1$ yields
+
+$$
+i_o=-3 \mathrm{~A} \quad \text { and } \quad i_1=3 \mathrm{~A} .
+$$

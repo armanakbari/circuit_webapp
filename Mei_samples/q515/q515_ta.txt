@@ -1,0 +1,1 @@
+\left(\mathbf{2 . 5} \times \mathbf{1 0}^{-\mathbf{3}}\right) e^{-t /\left(80 \times 10^{-3}\right)}

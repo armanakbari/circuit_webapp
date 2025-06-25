@@ -1,0 +1,1 @@
+Find the admittance Y_L in the provided circuit image

@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: circuit-benchmark
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn wsgi:app"
+    plan: free
+    autoDeploy: false
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.0 

@@ -1,0 +1,1 @@
+Using the current divider rule, find the current through C branch in the provided circuit image

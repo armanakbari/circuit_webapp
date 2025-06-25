@@ -1,0 +1,5 @@
+Noting that $M_2$ is a diode-connected device and simplifying the circuit , we use the above rule to write
+
+$$
+A_v=-\frac{R_D}{\frac{1}{g_{m 1}}+\frac{1}{g_{m 2}}}
+$$

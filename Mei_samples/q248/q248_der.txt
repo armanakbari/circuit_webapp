@@ -1,0 +1,57 @@
+Applying KVL to mesh 1 of the circuit in Fig. 7.11 yields,
+
+$$
+(6+j 8) I_1-(4+j 8) I_2=2415^{\circ}
+$$
+
+Applying KVL to supermesh of the circuit in Fig. 7.11 yields,
+
+$$
+-(4+j 8) I_1+(5+j 8) I_2+(3-j 5) I_3=-10
+$$
+
+Applying KCL to node $a$ of the circuit in Fig. 7.11 yields,
+
+$$
+I_2=I_3+4
+$$
+Substituting Eq. (7.52) into Eq. (7.50) yields,
+
+$$
+\begin{gathered}
+(6+j 8) I_1-(4+j 8)\left(I_3+4\right)=2415^{\circ} \\
+(6+j 8) I_1=(4+j 8) I_3+(16+j 32)+2415^{\circ} \\
+I_1=\frac{(4+j 8)}{(6+j 8)} I_3+\frac{(16+j 32)}{(6+j 8)}+\frac{2415^{\circ}}{(6+j 8)}
+\end{gathered}
+$$
+
+
+Substituting Eq. (7.55) and (7.52) into Eq. (7.51) yields,
+
+$$
+\begin{aligned}
+& -(4+j 8)\left[\frac{(4+j 8)}{(6+j 8)} I_3+\frac{(16+j 32)}{(6+j 8)}+\frac{24\left\lfloor 5^{\circ}\right.}{(6+j 8)}\right]+(5+j 8)\left(I_3+4\right) \\
+& +(3-j 5) I_3=-10 \\
+& {\left[(5+j 8)-(4+j 8) \frac{(4+j 8)}{(6+j 8)}+(3-j 5)\right] I_3} \\
+& =(4+j 8)\left[\frac{(16+j 32)}{(6+j 8)}+\frac{24\left\lfloor 5^{\circ}\right.}{(6+j 8)}\right]-(20+j 32)-10 \\
+& 7.42\left\lfloor 39.09^{\circ} I_3=8.061101 .69^{\circ}\right. \\
+& I_3=1.09 \angle 140 .78^{\circ} \mathrm{A}
+\end{aligned}
+$$
+
+
+Substituting Eq. (7.60) into Eq. (7.52) yields,
+
+$$
+I_2=4+1.09140 .78^{\circ}=3.23 \angle 12 .32^{\circ} \mathrm{A}
+$$
+
+
+Substituting Eq. (7.61) into Eq. (7.50) yields,
+
+$$
+\begin{gathered}
+(6+j 8) I_1-(4+j 8) 3.23 \underline{12.32^{\circ}}=24 \underline{15^{\circ}} \\
+I_1=4.57 \angle{-4.65^{\circ}} \mathrm{A}
+\end{gathered}
+$$

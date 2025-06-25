@@ -1,0 +1,8 @@
+Because the voltage is given in terms of its rms value, the current also is rms. The load voltage is the product of the load current and load impedance:
+
+$$
+\begin{aligned}
+\mathbf{V}_{\mathrm{L}} & =(39+j 26) \mathbf{I}_{\mathrm{L}}=234-j 13 \\
+& =234.36 \angle-3.18^{\circ} \mathrm{V}(\mathrm{rms}) .
+\end{aligned}
+$$

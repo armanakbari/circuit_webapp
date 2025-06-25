@@ -1,0 +1,1 @@
+The op amp in the circuit shown in the provided circuit image is ideal. Calculate $v_o$ if $v_{\mathrm{a}}=1 \mathrm{~V}$ and $v_{\mathrm{b}}=0 \mathrm{~V}$.

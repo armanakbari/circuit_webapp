@@ -1,0 +1,33 @@
+$$
+E_{\text {eq }}=\frac{+\frac{E_1}{R_1}-\frac{E_2}{R_2}+\frac{E_3}{R_3}}{\frac{1}{R_1}+\frac{1}{R_2}+\frac{1}{R_3}}
+$$
+
+
+The minus sign is used for $E_2 / R_2$ because that supply has the opposite polarity of the other two. The chosen reference direction is therefore
+that of $E_1$ and $E_3$. The total conductance is unaffected by the direction, and
+
+$$
+\begin{aligned}
+E_{\text {eq }} & =\frac{+\frac{10 \mathrm{~V}}{5 \Omega}-\frac{16 \mathrm{~V}}{4 \Omega}+\frac{8 \mathrm{~V}}{2 \Omega}}{\frac{1}{5 \Omega}+\frac{1}{4 \Omega}+\frac{1}{2 \Omega}}=\frac{2 \mathrm{~A}-4 \mathrm{~A}+4 \mathrm{~A}}{0.2 \mathrm{~S}+0.25 \mathrm{~S}+0.5 \mathrm{~S}} \\
+& =\frac{2 \mathrm{~A}}{0.95 \mathrm{~S}}=2.105 \mathrm{~V}
+\end{aligned}
+$$
+
+with
+
+$$
+R_{\mathrm{eq}}=\frac{1}{\frac{1}{5 \Omega}+\frac{1}{4 \Omega}+\frac{1}{2 \Omega}}=\frac{1}{0.95 \mathrm{~S}}=\mathbf{1 . 0 5 3} \boldsymbol{\Omega}
+$$
+
+
+The resultant source is shown in Fig. 9.97, and
+
+$$
+I_L=\frac{2.105 \mathrm{~V}}{1.053 \Omega+3 \Omega}=\frac{2.105 \mathrm{~V}}{4.053 \Omega}=\mathbf{0 . 5 1 9} \mathbf{A}
+$$
+
+with
+
+$$
+V_L=I_L R_L=(0.519 \mathrm{~A})(3 \Omega)=1.557 \mathrm{~V}
+$$

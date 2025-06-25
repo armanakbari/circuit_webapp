@@ -1,0 +1,1 @@
+Calculate the average power delivered to the circuit in the provided circuit image.

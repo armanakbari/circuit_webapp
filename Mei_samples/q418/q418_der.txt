@@ -1,0 +1,26 @@
+$$
+\begin{aligned}
+R_{1 \| 2} & =\frac{R}{N}=\frac{6 \Omega}{2}=3 \Omega \\
+R_A & =R_{1\|2\| 3}=\frac{(3 \Omega)(2 \Omega)}{3 \Omega+2 \Omega}=\frac{6 \Omega}{5}=1.2 \Omega \\
+R_B & =R_{4 \| 5}=\frac{(8 \Omega)(12 \Omega)}{8 \Omega+12 \Omega}=\frac{96 \Omega}{20}=4.8 \Omega
+\end{aligned}
+$$
+
+
+The reduced form of Fig. 7.13 will then appear as shown in Fig. 7.15, and
+
+$$
+\begin{aligned}
+R_T & =R_{1\|2\| 3}+R_{4 \| 5}=1.2 \Omega+4.8 \Omega=\mathbf{6} \Omega \\
+I_s & =\frac{E}{R_T}=\frac{24 \mathrm{~V}}{6 \Omega}=\mathbf{4} \mathbf{A}
+\end{aligned}
+$$
+
+with
+
+$$
+\begin{aligned}
+& V_1=I_s R_{1\|2\| 3}=(4 \mathrm{~A})(1.2 \Omega)=4.8 \mathrm{~V} \\
+& V_5=I_s R_{4\| \| 5}=(4 \mathrm{~A})(4.8 \Omega)=19.2 \mathrm{~V}
+\end{aligned}
+$$

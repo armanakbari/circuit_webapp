@@ -1,0 +1,12 @@
+Solution: Eq. (9.4):
+
+$$
+R_L=R_s=40 \mathrm{k} \Omega
+$$
+
+
+Eq. (9.7):
+
+$$
+P_{L_{\max }}=\frac{I_N^2 R_N}{4}=\frac{(10 \mathrm{~mA})^2(40 \mathrm{k} \Omega)}{4}=\mathbf{1} \mathbf{W}
+$$

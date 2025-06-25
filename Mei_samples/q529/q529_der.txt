@@ -1,0 +1,24 @@
+$$
+\begin{aligned}
+\frac{1}{C_T} & =\frac{1}{C_1}+\frac{1}{C_2}+\frac{1}{C_3} \\
+& =\frac{1}{200 \times 10^{-6} \mathrm{~F}}+\frac{1}{50 \times 10^{-6} \mathrm{~F}}+\frac{1}{10 \times 10^{-6} \mathrm{~F}} \\
+& =0.005 \times 10^6+0.02 \times 10^6+0.1 \times 10^6 \\
+& =0.125 \times 10^6
+\end{aligned}
+$$
+
+and
+
+$$
+C_T=\frac{1}{0.125 \times 10^6}=\mathbf{8} \boldsymbol{\mu} \mathbf{F}
+$$
+
+b.
+
+$$
+\begin{aligned}
+Q_T & =Q_1=Q_2=Q_3 \\
+& =C_T E=\left(8 \times 10^{-6} \mathrm{~F}\right)(60 \mathrm{~V})=\mathbf{4 8 0} \boldsymbol{\mu} \mathbf{C}
+\end{aligned}
+$$
+& V_2=\frac{Q_2}{C_2}=\frac{480 \times 10^{-6} \mathrm{C}}{50 \times 10^{-6} \mathrm{~F}}=\mathbf{9 . 6} \mathbf{V} \\

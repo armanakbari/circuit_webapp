@@ -1,0 +1,53 @@
+Solution:
+Converting delta-connected load to a wye-connected load yields,
+
+$$
+Z_y=\frac{Z_{\Delta}}{3}=\frac{12 \angle30^{\circ}}{3}=4 \angle30^{\circ} \Omega
+$$
+
+
+The line currents can be calculated as,
+
+$$
+I_{\mathrm{Aa}}=\frac{v_{\mathrm{an}}}{Z_y+Z_L}=\frac{230\angle{0}^{\circ}}{2\angle 15^{\circ}+4\angle30^{\circ}}=38.63\angle-25.01^{\circ} \mathrm{A}
+$$
+$$
+\begin{gathered}
+I_{\mathrm{Bb}}=\frac{v_{\mathrm{bn}}}{Z_y+Z_L}=\frac{230\angle-120^{\circ}}{2\angle15^{\circ}+4\angle30^{\circ}}=38.63\angle-145.01^{\circ} \mathrm{A} \\
+I_{\mathrm{Cc}}=\frac{v_{\mathrm{cn}}}{Z_y+Z_L}=\frac{230 \angle120^{\circ}}{2\angle15^{\circ}+4\angle30^{\circ}}=38.63 \angle{94.99^{\circ}} \mathrm{A}
+\end{gathered}
+$$
+
+
+The line voltage is calculated as,
+
+$$
+V_{\mathrm{AB}}=\sqrt{3} v_{\mathrm{an}} \angle{\30^{\circ}}=\sqrt{3} \times 230\angle{\30^{\circ}}=398.37 \angle{\30^{\circ}} \mathrm{V}
+$$
+
+
+Applying KVL between lines A and B of the circuit in Fig. 9.21 yields,
+
+$$
+\begin{gathered}
+V_{\mathrm{ab}}=V_{\mathrm{AB}}-I_{\mathrm{Aa}} Z_L+I_{\mathrm{Bb}} Z_L \\
+V_{\mathrm{ab}}=398.37\angle30^{\circ}+2\angle15^{\circ}\left(38.63\angle-145.01^{\circ}-38.63\angle-25.01^{\circ}\right)=267.60\angle35^{\circ} \mathrm{V}
+\end{gathered}
+$$
+
+
+The phase current is calculated as,
+
+$$
+I_{\mathrm{ab}}=\frac{V_{\mathrm{ab}}}{Z_{\Delta}}=\frac{267.60\angle \35^{\circ}}{12 \beta 0^{\circ}}=22.3\angle5^{\circ} \mathrm{A}
+$$
+
+
+Other phase currents can be written as,
+
+$$
+\begin{gathered}
+I_{\mathrm{bc}}=I_{\mathrm{ab}}-120^{\circ}=22.3\angle5^{\circ}-120^{\circ}=22.33\angle-115^{\circ} \mathrm{A} \\
+I_{\mathrm{ca}}=I_{\mathrm{ab}} 120^{\circ}=22.3\angle5^{\circ}+120^{\circ}=22.33\angle125^{\circ} \mathrm{A}
+\end{gathered}
+$$

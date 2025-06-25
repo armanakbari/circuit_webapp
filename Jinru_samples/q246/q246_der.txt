@@ -1,0 +1,5 @@
+The branch current in the $8 \Omega$ resistor in the direction of the voltage drop $v_o$ is $i_{\mathrm{a}}-i_{\mathrm{b}}$. Therefore
+
+$$
+v_o=8\left(i_{\mathrm{a}}-i_{\mathrm{b}}\right)=8(3.6)=28.8 \mathrm{~V}
+$$

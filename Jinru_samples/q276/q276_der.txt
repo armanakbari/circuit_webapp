@@ -1,0 +1,21 @@
+We apply KVL around the loop. The result is
+
+$$
+-12+4 i+2 v_o-4+6 i=0
+$$
+
+
+Applying Ohm's law to the $6-\Omega$ resistor gives
+
+$$
+v_o=-6 i
+$$
+
+
+Substituting Eq. (2.6.2) into Eq. (2.6.1) yields
+
+$$
+-16+10 i-12 i=0 \quad \Rightarrow \quad i=-8 \mathrm{~A}
+$$
+
+and $v_o=48 \mathrm{~V}$.

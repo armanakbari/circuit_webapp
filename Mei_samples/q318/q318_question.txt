@@ -1,0 +1,1 @@
+In the provided circuit image shows a low pass filter. Calculate the magnitude of the output voltage if the frequency of the input voltage is 400 Hz.

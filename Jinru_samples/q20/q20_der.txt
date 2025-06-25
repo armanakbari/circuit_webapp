@@ -1,0 +1,8 @@
+The easiest way to find $v_0(t)$ is to note that the resistive circuit forms a voltage divider across the terminals of the capacitor. Thus
+
+$$
+v_o(t)=\frac{48}{80} v_C(t)=60 e^{-25 t} \mathrm{~V}, \quad t \geq 0^{+}
+$$
+
+
+This expression for $v_o(t)$ is valid for $t \geq 0^{+}$ because $v_c\left(0^{-}\right)$is zero. Thus we have an instantancous change in the voltage across the $240 \mathrm{k} \Omega$ resistor.

@@ -1,0 +1,19 @@
+The resonant frequency is,
+
+$$
+f_0=\frac{1}{2 \pi \sqrt{600 \times 10^{-3} \times 80 \times 10^{-12}}}=22.97 \mathrm{kHz}
+$$
+
+
+The quality factor is calculated as,
+
+$$
+Q_s=\frac{1}{R} \sqrt{\frac{L}{C}}=\frac{1}{540} \sqrt{\frac{600 \times 10^{-3}}{80 \times 10^{-12}}}=160.38
+$$
+
+
+The bandwidth is calculated as,
+
+$$
+B W=\frac{f_0}{Q_s}=\frac{22.97}{160.38}=167.8 \mathrm{kHz} / \mathrm{s}
+$$

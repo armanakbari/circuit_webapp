@@ -1,0 +1,2 @@
+For the transistor configuration in the provided circuit image, in which $V_B$ and $V_{B E}$ have been provided:
+Determine $V_{B C}$ using the fact that the approximation $I_C=I_E$ is often applied to transistor networks.

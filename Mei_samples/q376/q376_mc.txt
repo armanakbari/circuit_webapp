@@ -1,0 +1,5 @@
+1. 1.6 \mathbf{\Omega}
+2. 18.0 \mathbf{\Omega}
+3. 4.4 \mathbf{\Omega}
+4. 0.6 \mathbf{\Omega}
+5. None of the above

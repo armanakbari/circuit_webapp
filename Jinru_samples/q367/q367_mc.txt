@@ -1,0 +1,5 @@
+1. 30 \Omega
+2. 160 \Omega
+3. 220 \Omega
+4. 130 \Omega
+5. None of the above

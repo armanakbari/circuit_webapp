@@ -1,0 +1,5 @@
+1. 2 S
+2. 0.05 S
+3. 0.3 S
+4. 0.5S
+5. None of the above

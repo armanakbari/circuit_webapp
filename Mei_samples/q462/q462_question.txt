@@ -1,0 +1,1 @@
+Determine the nodal voltages $V_2$ in the provided circuit image using the concept of a supernode.

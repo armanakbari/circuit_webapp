@@ -1,0 +1,15 @@
+After frequency compensation, the dominant pole moves down to approximately $\left(g_{m 9} R_L C_C R_S\right)^{-1}$, where $R_S$ denotes the output resistance of the first stage, and the second pole moves up to roughly $g_{m 9} / C_L$. For a phase margin of $45^{\circ}$, the loop gain must drop to unity at the second pole. With a low-frequency loop gain of $\beta g_{m 1} R_S g_{m 9} R_L$, we consider the postcompensation plot in Fig. 10.30 (on linear axes) and write
+
+$$
+|\beta H(\omega)| \approx \frac{\beta g_{m 1} R_S g_{m 9} R_L}{\sqrt{1+\omega^2 / \omega_{p 1}^{, 2}}}
+$$
+
+where the effect of $\omega_{p 2}^{\prime}$ on the magnitude is neglected. At $\omega=\omega_{p 2}^{\prime}$, the second term under the square root dominates, and
+
+$$
+\frac{\beta g_{m 1} R_S g_{m 9} R_L}{\omega_{p 2}^{\prime} / \omega_{p 1}^{\prime}}=1
+$$
+\begin{aligned}
+&\text { Substituting for the pole frequencies and assuming that } \beta=1 \text {, we obtain }\\
+&C_C=\frac{g_{m 1}}{g_{m 9}} C_L
+\end{aligned}

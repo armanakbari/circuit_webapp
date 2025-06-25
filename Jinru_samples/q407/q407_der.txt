@@ -1,0 +1,23 @@
+Let $\mathrm{V}_1$ be the unknown node voltage to the right of the $250-\Omega$ resistor. Let the ground reference be placed at the bottom of the $50-\Omega$ resistor. This leads to the following nodal equation:
+
+$$
+\begin{aligned}
+& \frac{\mathrm{V}_1-24}{250}+\frac{\mathrm{V}_1-0}{50}+\frac{\mathrm{V}_1-60 \mathrm{I}_{\mathrm{b}}-0}{150}=0 \\
+& \text { simplifying we get } \\
+& 3 \mathrm{~V}_1-72+15 \mathrm{~V}_1+5 \mathrm{~V}_1-300 \mathrm{I}_{\mathrm{b}}=0
+\end{aligned}
+$$
+
+
+But $I_b=\frac{24-V_1}{250}$. Substituting this into the nodal equation leads to
+
+$$
+24.2 \mathrm{~V}_1-100.8=0 \text { or } \mathrm{V}_1=4.165 \mathrm{~V}
+$$
+
+
+Thus,
+
+$$
+\mathrm{I}_{\mathrm{b}}=(24-4.165) / 250=79.34 \mathbf{~ m A}
+$$

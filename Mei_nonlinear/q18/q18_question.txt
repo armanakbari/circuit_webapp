@@ -1,0 +1,1 @@
+\text { Calculate the exact voltage gain of the circuit shown in the provided circuit image. }

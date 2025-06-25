@@ -1,0 +1,1 @@
+Consider the circuit shown in Fig. 3.12(a). In some cases, we are interested in the impedance seen looking into the source, $R_X$. Determine $R_X$ if $\lambda=0$.

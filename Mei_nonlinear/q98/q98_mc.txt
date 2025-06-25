@@ -1,0 +1,5 @@
+1. \left(r_O+R_S\right)\left(1+g_m r_O\right)
+2. \left(1+g_m r_O\right) R_S
+3. \left(1+g_m r_O\right) R_S+r_O
+4. r_O\left(1+g_m R_S\right)
+5. None of the above

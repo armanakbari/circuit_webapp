@@ -1,0 +1,1 @@
+Determine the nodal voltage V_2 for the network in the provided circuit image.

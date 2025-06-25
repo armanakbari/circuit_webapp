@@ -1,0 +1,5 @@
+1. $g_{m 2} R_L(W / L)_3 /(W / L)_2$
+2. $g_{m 1} R_L(W / L)_2 /(W / L)_3$
+3. $g_{m 1} R_L \sqrt{(W / L)_3 /(W / L)_2}$
+4. $g_{m 1} R_L(W / L)_3 /(W / L)_2$
+5. None of the above

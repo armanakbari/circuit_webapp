@@ -1,0 +1,18 @@
+To compute the input-referred noise voltage, we short the input to ground, obtaining
+
+$$
+\overline{V_{n 1, \text { out }}^2}=4 k T \gamma\left(g_{m 1}+g_{m 3}\right)\left(r_{O 1} \| r_{O 3}\right)^2
+$$
+
+
+Thus, the input-referred noise voltage, $V_{n, i n}$, must satisfy this relationship:
+
+$$
+\overline{V_{n, i n}^2}\left(g_{m 1}+g_{m b 1}\right)^2\left(r_{O 1} \| r_{O 3}\right)^2=4 k T \gamma\left(g_{m 1}+g_{m 3}\right)\left(r_{O 1} \| r_{O 3}\right)^2
+$$
+
+where the voltage gain from $V_{\text {in }}$ to $V_{\text {out }}$ is approximated by $\left(g_{m 1}+g_{m b 1}\right)\left(r_{O 1} \| r_{O 3}\right)$. It follows that
+
+$$
+\overline{V_{n, i n}^2}=4 k T \gamma \frac{\left(g_{m 1}+g_{m 3}\right)}{\left(g_{m 1}+g_{m b 1}\right)^2}
+$$

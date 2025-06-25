@@ -1,0 +1,23 @@
+\begin{aligned}
+&\text { Applying KVL to the circuit in Fig. } 2.11 \text { yields, }\\
+&\begin{gathered}
+-40+2 I_s+6 I_s+8 I_s+2 V_1=0 \\
+2 I_s-V_1=0 \\
+V_1=2 I_s
+\end{gathered}
+\end{aligned}
+Substituting Eq. (2.22) into Eq. (2.20) yields,
+
+$$
+\begin{gathered}
+-40+2 I_s+6 I_s+8 I_s+2 \times 2 I_s=0 \\
+I_s=\frac{40}{20}=2 \mathrm{~A}
+\end{gathered}
+$$
+
+
+The power absorbed by the $6 \Omega$ resistor is,
+
+$$
+P_{6 \Omega}=I_s^2 \times 6=2^2 \times 6=24 \mathrm{~W}
+$$

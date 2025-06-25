@@ -1,0 +1,19 @@
+The actual $G_m$ of the stage is slightly less than $g_{m 1}$ because a fraction of the small-signal current produced by $M_1$ is shunted to ground by $r_{O 1}$. As depicted in Fig. 3.68(a), we short the output node to ac ground and recognize that the impedance seen looking into the source of $M_2$ is equal to $\left[1 /\left(g_{m 2}+g_{m b 2}\right)\right] \| r_{O 2}$. Thus,
+
+$$
+I_{o u t}=g_{m 1} V_{i n} \frac{r_{O 1}}{r_{O 1}+\frac{1}{g_{m 2}+g_{m b 2}} \| r_{O 2}}
+$$
+It follows that the overall transconductance is equal to
+
+$$
+G_m=\frac{g_{m 1} r_{O 1}\left[r_{O 2}\left(g_{m 2}+g_{m b 2}\right)+1\right]}{r_{O 1} r_{O 2}\left(g_{m 2}+g_{m b 2}\right)+r_{O 1}+r_{O 2}}
+$$
+
+and hence the voltage gain is given by
+
+$$
+\begin{aligned}
+\left|A_v\right| & =G_m R_{\text {out }} \\
+& =g_{m 1} r_{O 1}\left[\left(g_{m 2}+g_{m b 2}\right) r_{O 2}+1\right]
+\end{aligned}
+$$

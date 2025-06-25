@@ -1,0 +1,5 @@
+The average power delivered to the $5000 \Omega$ load is
+
+$$
+P_2=\frac{263.16^2}{2(5000)}=6.93 \mathrm{~W}
+$$

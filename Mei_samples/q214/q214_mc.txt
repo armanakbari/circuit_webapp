@@ -1,0 +1,5 @@
+1. 0.36 \mathrm{~mJ}
+2. 0.16 \mathrm{~mJ}
+3. 0.32 \mathrm{~mJ}
+4. 1.00 \mathrm{~mJ}
+5. None of the above

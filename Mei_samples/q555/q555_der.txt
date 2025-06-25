@@ -1,0 +1,6 @@
+$$
+\begin{gathered}
+v_L=E e^{-t / \tau} \\
+v_L=\mathbf{5 0} \mathrm{e}^{-t / 2 \times 10^{-3}}
+\end{gathered}
+$$

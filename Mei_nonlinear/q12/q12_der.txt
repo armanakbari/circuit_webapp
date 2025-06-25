@@ -1,0 +1,1 @@
+For small signals applied to the gate of $M_1$, the drain current experiences a change equal to $g_{m 1} \Delta V_X$. This current is drawn from $R_D$ , producing an output voltage swing equal to $-g_{m 1} \Delta V_X R_D$. Thus, $A_v=-g_{m 1} R_D$

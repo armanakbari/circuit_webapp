@@ -1,0 +1,1 @@
+Find the value of $R_L$ for maximum power transfer in the circuit

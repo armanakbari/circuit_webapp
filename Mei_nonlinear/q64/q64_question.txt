@@ -1,0 +1,1 @@
+In the provided circuit image, assuming both transistors are in saturation.  What is the output signal-to-noise ratio if a low-frequency sinusoid of peak amplitude $V_m$ is applied to the input?

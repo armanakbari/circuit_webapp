@@ -1,0 +1,1 @@
+5.88 \mathrm{~mA} e^{-t / 11.22 \mathrm{~ms}}

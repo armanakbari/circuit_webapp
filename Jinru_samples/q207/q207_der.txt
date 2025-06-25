@@ -1,0 +1,61 @@
+The $1 \Omega$ energy in the input signal to the filter is
+
+$$
+W_i=\int_0^{\infty}\left(15 e^{-5 t}\right)^2 d t=\left.225 \frac{e^{-10 t}}{-10}\right|_0 ^{\infty}=22.5 \mathrm{~J}
+$$
+
+
+The Fourier transform of the output voltage is
+
+$$
+V_o(\omega)=V_i(\omega) H(\omega)
+$$
+
+where
+
+$$
+\begin{aligned}
+V_i(\omega) & =\frac{15}{5+j \omega} \\
+H(\omega) & =\frac{1 / R C}{1 / R C+j \omega}=\frac{10}{10+j \omega}
+\end{aligned}
+$$
+
+
+Hence
+
+$$
+\begin{aligned}
+V_o(\omega) & =\frac{150}{(5+j \omega)(10+j \omega)} \\
+\left|V_o(\omega)\right|^2 & =\frac{22,500}{\left(25+\omega^2\right)\left(100+\omega^2\right)}
+\end{aligned}
+$$
+
+
+The $1 \Omega$ energy available in the output signal of the filter is
+
+$$
+W_o=\frac{1}{\pi} \int_0^{\infty} \frac{22,500}{\left(25+\omega^2\right)\left(100+\omega^2\right)} d \omega
+$$
+
+We can easily evaluate the integral by expanding the kernel into a sum of partial fractions:
+
+$$
+\frac{22,500}{\left(25+\omega^2\right)\left(100+\omega^2\right)}=\frac{300}{25+\omega^2}-\frac{300}{100+\omega^2} .
+$$
+
+
+Then
+
+$$
+\begin{aligned}
+W_o & =\frac{300}{\pi}\left\{\int_0^{\infty} \frac{d \omega}{25+\omega^2}-\int_0^{\infty} \frac{d \omega}{100+\omega^2}\right\} \\
+& =\frac{300}{\pi}\left[\frac{1}{5}\left(\frac{\pi}{2}\right)-\frac{1}{10}\left(\frac{\pi}{2}\right)\right]=15 \mathrm{~J} .
+\end{aligned}
+$$
+
+
+The energy available in the output signal therefore is $66.67 \%$ of the energy available in the input signal; that is,
+
+$$
+\eta=\frac{15}{22.5}(100)=66.67 \%
+$$

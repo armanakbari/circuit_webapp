@@ -1,0 +1,5 @@
+1. -0.773 \mathrm{~A}
+2. 0.773 \mathrm{~A}
+3. -2.308 \mathrm{~A}
+4. 1.538 \mathrm{~A}
+5. None of the above

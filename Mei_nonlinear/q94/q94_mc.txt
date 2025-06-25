@@ -1,0 +1,5 @@
+1. \frac{R_D}{R_D+R_S+R_F}+\frac{-g_m R_D R_S\left(R_F+R_D\right)}{\left(R_D+R_S+R_F+g_m R_S R_D\right)\left(R_D+R_S+R_F\right)}
+2. \frac{R_D}{R_D+R_S+R_F}+\frac{g_m R_D\left(R_S+R_F\right)\left(R_F+R_D\right)}{\left(R_D+R_S+R_F+g_m R_S R_D\right)\left(R_D+R_S+R_F\right)}
+3. \frac{R_D}{R_D+R_S+R_F}+\frac{-g_m R_D\left(R_S+R_F\right)\left(R_F+R_D\right)}{\left(R_D+R_S+R_F+g_m R_F R_D\right)\left(R_D+R_S+R_F\right)}
+4. \frac{R_D}{R_D+R_S+R_F}+\frac{-g_m R_D\left(R_S+R_F\right)\left(R_F+R_D\right)}{\left(R_D+R_S+R_F+g_m R_S R_D\right)\left(R_D+R_S+R_F\right)}
+5. None of the above

@@ -1,0 +1,5 @@
+1. \mathbf{8}\text{ \textbf{V}}
+2. \mathbf{24}\text{ \textbf{V}}
+3. \mathbf{12}\text{ \textbf{V}}
+4. \mathbf{1 6} \mathbf{~ V}
+5. None of the above

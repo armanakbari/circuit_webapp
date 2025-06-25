@@ -1,0 +1,8 @@
+Applying current division,
+
+$$
+\begin{aligned}
+& \mathrm{i}_{\mathrm{x}}=[2 /(2+1+3)] 20=6.667 \text { and } \mathrm{v}_{\mathrm{x}}=1 \times 6.667=6.667 \mathrm{~V} \\
+& i_x=\frac{2}{2+1+3}(6 A)=2 A, \quad v_x=1 i_x=\underline{2 V}
+\end{aligned}
+$$

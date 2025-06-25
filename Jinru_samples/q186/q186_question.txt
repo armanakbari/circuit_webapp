@@ -1,0 +1,1 @@
+The voltage source $v_g$ drives the circuit shown in the provided circuit image. The response signal is the voltage across the capacitor, $v_{\varphi}$. Calculate the numerical expression for the transfer function.

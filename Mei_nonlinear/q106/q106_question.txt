@@ -1,0 +1,1 @@
+In the provided circuit image, assume that the op amp is a single-pole voltage amplifier. What unity-gain bandwidth must the op amp provide if $1+R_1 / R_2 \approx 10$ and the settling time is to be less than 5 ns ? For simplicity, assume that the low-frequency gain is much greater than unity.

@@ -1,0 +1,1 @@
+\frac{4 k T \gamma}{g_{m 1}+g_{m 2}}

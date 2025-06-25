@@ -1,0 +1,24 @@
+Solution: Considering the effect of the 6-mA current source  
+Current divider rule:
+
+$$
+I_2^{\prime}=\frac{R_1 I}{R_1+R_2}=\frac{(6 \mathrm{k} \Omega)(6 \mathrm{~mA})}{6 \mathrm{k} \Omega+12 \mathrm{k} \Omega}=2 \mathrm{~mA}
+$$
+
+
+Considering the effect of the 9-V voltage source 
+$$
+I_2^{\prime \prime}=\frac{E}{R_1+R_2}=\frac{9 \mathrm{~V}}{6 \mathrm{k} \Omega+12 \mathrm{k} \Omega}=0.5 \mathrm{~mA}
+$$
+
+
+
+Since $I_2^{\prime}$ and $I_2^{\prime \prime}$ have the same direction through $R_2$, the desired current is the sum of the two:
+
+$$
+\begin{aligned}
+I_2 & =I_2^{\prime}+I_2^{\prime \prime} \\
+& =2 \mathrm{~mA}+0.5 \mathrm{~mA} \\
+& =\mathbf{2 . 5} \mathbf{~ m A}
+\end{aligned}
+$$

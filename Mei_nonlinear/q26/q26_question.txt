@@ -1,0 +1,1 @@
+In the provided circuit image, calculate $V_X - V_Y $ if $V_{i n 1} \neq-V_{i n 2}$ and $\lambda \neq 0$.

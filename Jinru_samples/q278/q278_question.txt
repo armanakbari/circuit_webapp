@@ -1,0 +1,1 @@
+Find current $i_o$

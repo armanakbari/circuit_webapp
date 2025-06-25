@@ -1,0 +1,5 @@
+The voltage $v_a$ in the provided circuit image is a drop in the direction of the current in the resistor. Therefore,
+
+$$
+v_{\mathrm{a}}=(1)(8)=8 \mathrm{~V}
+$$

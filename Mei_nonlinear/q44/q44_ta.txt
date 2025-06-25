@@ -1,0 +1,1 @@
+\frac{1+g_m r_O}{r_O C_L C_{\text {in }} R_S s^2+\left[r_O C_L+C_{\text {in }} R_S+\left(1+g_m r_O\right) C_L R_S\right] s+1}

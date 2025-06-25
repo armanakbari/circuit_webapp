@@ -1,0 +1,1 @@
+Calculate the current $I_x$ in the circuit shown In the provided circuit image by source conversion technique.

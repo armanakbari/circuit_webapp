@@ -1,0 +1,6 @@
+The phase voltages are,
+
+$$
+\begin{gathered}
+
+V_{\mathrm{cn}}=180\angle-240^{\circ} \mathrm{V}

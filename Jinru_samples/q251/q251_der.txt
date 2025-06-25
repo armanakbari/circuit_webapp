@@ -1,0 +1,23 @@
+At first glance, the node-voltage method looks appealing, because we may define the unknown voltage as a node voltage by choosing the lower terminal of the dependent current source as the reference node. The circuit has four essential nodes and two voltage-controlled dependent sources, so the node-voltage method requires manipulation of three node-voltage equations and two constraint equations.
+
+Let's now turn to the mesh-current method for finding $v_o$. The circuit contains three meshes, and we can use the leftmost one to calculate $v_o$. If we let $i_{\mathrm{a}}$ denote the leftmost mesh current, then $v_o=193-10 i_{\mathrm{a}}$. The presence of the two current sources reduces the problem to manipulating a single supermesh equation and two constraint equations. Hence the mesh-current method is the more attractive technique here.
+
+The node-voltage equations are based on the circuit shown in the provided circuit image. The node-voltage equations are
+
+$$
+\begin{aligned}
+\frac{v_o-193}{10}-0.4 v_{\Delta}+\frac{v_o-v_{\mathrm{a}}}{2.5} & =0 \\
+\frac{v_{\mathrm{a}}-v_o}{2.5}-0.5+\frac{v_{\mathrm{a}}-\left(v_{\mathrm{b}}+0.8 v_\theta\right)}{10} & =0 \\
+\frac{v_{\mathrm{b}}}{7.5}+0.5+\frac{v_{\mathrm{b}}+0.8 v_\theta-v_{\mathrm{a}}}{10} & =0
+\end{aligned}
+$$
+
+
+The constraint equations are
+
+$$
+v_\theta=-v_{\mathrm{b}}, \quad v_{\Delta}=\left[\frac{v_{\mathrm{a}}-\left(v_{\mathrm{b}}+0.8 v_\theta\right)}{10}\right] 2 .
+$$
+
+
+We use the constraint equations to reduce the nodevoltage equations to three simultaneous equations involving $v_t, v_{\mathrm{a}}$, and $v_{\mathrm{b}}$. You should verify that the node-voltage approach also gives $v_o=173 \mathrm{~V}$.

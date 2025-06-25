@@ -1,0 +1,5 @@
+1. 118.90 \angle 0.32^{\circ} \mathrm{V}
+2. 118.90 \angle-0.32^{\circ} \mathrm{V}
+3. 119.82 \angle 0.01^{\circ} \mathrm{V}
+4. 117.61 \angle -0.59^{\circ} \mathrm{V}
+5. None of the above

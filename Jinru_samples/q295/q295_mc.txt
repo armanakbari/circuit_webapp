@@ -1,0 +1,5 @@
+1. 3.6 \mathrm{~W}
+2. 5.4 \mathrm{~W}
+3. -3.6 \mathrm{~W}
+4. 0.9 \mathrm{~W}
+5. None of the above

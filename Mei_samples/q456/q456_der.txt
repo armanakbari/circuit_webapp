@@ -1,0 +1,32 @@
+\begin{aligned}
+&\text { Applying Kirchhoff's voltage law around the supermesh path: }\\
+&\begin{aligned}
+& -V_{2 \Omega}-V_{6 \Omega}-V_{8 \Omega}=0 \\
+& -\left(I_2-I_1\right) 2 \Omega-I_2(6 \Omega)-\left(I_2-I_3\right) 8 \Omega=0 \\
+& -2 I_2+2 I_1-6 I_2-8 I_2+8 I_3=0 \\
+& \quad 2 I_1-16 I_2+8 I_3=0
+\end{aligned}
+\end{aligned}
+Introducing the relationship between the mesh currents and the current sources:
+
+$$
+\begin{aligned}
+& I_1=6 \mathrm{~A} \\
+& I_3=8 \mathrm{~A}
+\end{aligned}
+$$
+
+results in the following solutions:
+
+$$
+\begin{aligned}
+& 2 I_1-16 I_2+8 I_3=0 \\
+& 2(6 \mathrm{~A})-16 I_2+8(8 \mathrm{~A})=0
+\end{aligned}
+$$
+
+and
+
+$$
+I_2=\frac{76 \mathrm{~A}}{16}=4.75 \mathrm{~A}
+$$

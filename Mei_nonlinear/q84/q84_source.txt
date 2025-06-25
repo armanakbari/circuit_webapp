@@ -1,0 +1,3 @@
+Design of analog CMOS integrated circuits
+P307
+Example8.12

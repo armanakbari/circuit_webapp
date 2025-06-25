@@ -1,0 +1,1 @@
+In the provided circuit image shows an electrical circuit with a dependent source. The value of the source voltage is assigned to 18 and 36 V , respectively, for two different cases. Use linearity property to find the actual value of $I_0$.

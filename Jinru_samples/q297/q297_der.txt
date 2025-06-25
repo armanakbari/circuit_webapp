@@ -1,0 +1,20 @@
+$$
+\begin{aligned}
+70 \| 30 & =\frac{70 \times 30}{70+30}=21 \Omega \\
+12.5 \| 17.5 & =\frac{12.5 \times 17.5}{12.5+17.5}=7.292 \Omega \\
+15 \| 35 & =\frac{15 \times 35}{15+35}=10.5 \Omega
+\end{aligned}
+$$
+
+Hence, we find
+
+$$
+R_{a b}=(7.292+10.5) \| 21=\frac{17.792 \times 21}{17.792+21}=9.632 \boldsymbol{\Omega}
+$$
+
+
+Then
+
+$$
+i=\frac{v_s}{R_{a b}}=\frac{120}{9.632}=12.458 \mathrm{~A}
+$$

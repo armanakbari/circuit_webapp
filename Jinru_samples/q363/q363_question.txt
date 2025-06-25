@@ -1,0 +1,1 @@
+If $R_{\mathrm{eq}}=50 \Omega$ in the circuit in the provided circuit image, find $R$.

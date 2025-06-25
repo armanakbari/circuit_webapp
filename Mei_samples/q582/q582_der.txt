@@ -1,0 +1,11 @@
+Solution:
+
+$$
+\begin{aligned}
+\mathbf{Z}_T & =\mathbf{Z}_1+\mathbf{Z}_2+\mathbf{Z}_3 \\
+& =R \angle 0^{\circ}+X_L \angle 90^{\circ}+X_C \angle-90^{\circ} \\
+& =R+j X_L-j X_C \\
+& =R+j\left(X_L-X_C\right)=6 \Omega+j(10 \Omega-12 \Omega)=6 \Omega-j 2 \Omega \\
+\mathbf{Z}_T & =\mathbf{6 . 3 2 5} \boldsymbol{\Omega} \angle-\mathbf{1 8 . 4 3 ^ { \circ }}
+\end{aligned}
+$$

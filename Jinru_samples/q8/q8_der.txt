@@ -1,0 +1,12 @@
+$$
+i=10 t e^{-5 t} \mathrm{~A} \quad \text { and } \quad v=e^{-5 \mathrm{t}}(1-5 t) \mathrm{V} .
+$$
+
+
+Therefore,
+
+$$
+p=v i=10 t e^{-10 t}-50 t^2 e^{-10 t} \mathrm{~W}
+$$
+
+$\begin{aligned} \int_0^{0.2} p d t= & 10\left[\frac{e^{-10 t}}{100}(-10 t-1)\right]_0^{0.2} \\ & -50\left\{\frac{t^2 e^{-10 t}}{-10}+\frac{2}{10}\left[\frac{e^{-10 t}}{100}(-10 t-1)\right]\right\}_0^{0.2} \\ = & 0.2 e^{-2}=27.07 \mathrm{~mJ}\end{aligned}$

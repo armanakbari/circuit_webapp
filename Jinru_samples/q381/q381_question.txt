@@ -1,0 +1,1 @@
+In the circuit in the provided circuit image, the wiper divides the potentiometer resistance between $\alpha R$ and $(1-\alpha) R$, $0 \leq \alpha \leq 1$. Find $v_o / v_s$.

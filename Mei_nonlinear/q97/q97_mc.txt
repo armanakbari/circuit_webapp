@@ -1,0 +1,5 @@
+1. \frac{R_S}{1+g_{m 1} g_{m 2} R_S R_D}
+2. \frac{R_S}{1-g_{m 1} R_S\left(1+g_{m 2} R_D\right)}
+3. \frac{R_S}{1+g_{m 1} R_S\left(1+g_{m 2} R_D\right)}
+4. \frac{R_S}{1+g_{m 2} R_S\left(1+g_{m 1} R_D\right)}
+5. None of the above

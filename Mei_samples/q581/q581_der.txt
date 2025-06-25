@@ -1,0 +1,6 @@
+\begin{aligned}
+\mathbf{Z}_T & =\mathbf{Z}_1+\mathbf{Z}_2 \\
+& =R \angle 0^{\circ}+X_L \angle 90^{\circ} \\
+& =R+j X_L=4 \Omega+j 8 \Omega \\
+\mathbf{Z}_T & =\mathbf{8 . 9 4 4} \boldsymbol{\Omega} \angle \mathbf{6 3 . 4 3 ^ { \circ }}
+\end{aligned}

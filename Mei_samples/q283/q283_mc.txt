@@ -1,0 +1,5 @@
+1. 28.80\angle-140^{\circ} \mathrm{A}
+2. $48.00\angle-140^{\circ} \mathrm{A}$
+3. $144.00\angle-140^{\circ} \mathrm{A}$
+4. $144.00\angle100^{\circ} \mathrm{A}$
+5. None of the above

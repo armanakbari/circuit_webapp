@@ -1,0 +1,1 @@
+Calculate $v_s$ for the transistor in the provided circuit image given that $v_o=4 \mathrm{~V}, \beta=150, V_{B E}=0.7 \mathrm{~V}$.

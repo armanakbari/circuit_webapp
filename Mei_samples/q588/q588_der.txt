@@ -1,0 +1,15 @@
+\begin{gathered}
+\begin{array}{r}
+\mathbf{V}_L=\frac{\mathbf{Z}_L \mathbf{E}}{\mathbf{Z}_T}=\frac{\left(9 \Omega \angle 90^{\circ}\right)\left(50 \mathrm{~V} \angle 30^{\circ}\right)}{10 \Omega \angle-53.13^{\circ}}=\frac{450 \mathrm{~V} \angle 120^{\circ}}{10 \angle-53.13^{\circ}} \\
+=\mathbf{4 5} \mathbf{V} \angle \mathbf{1 7 3 . 1 3 3 ^ { \circ }}
+\end{array} \\
+\begin{aligned}
+\mathbf{V}_C=\frac{\mathbf{Z}_C \mathbf{E}}{\mathbf{Z}_T}= & \frac{\left(17 \Omega \angle-90^{\circ}\right)\left(50 \mathrm{~V} \angle 30^{\circ}\right)}{10 \Omega \angle-53.13^{\circ}}=\frac{850 \mathrm{~V} \angle-60^{\circ}}{10 \angle-53^{\circ}} \\
+= & \mathbf{8 5} \mathbf{V} \angle \mathbf{- 6 . 8 7 ^ { \circ }}
+\end{aligned} \\
+\begin{aligned}
+\mathbf{V}_1=\frac{\left(\mathbf{Z}_L+\mathbf{Z}_C\right) \mathbf{E}}{\mathbf{Z}_T}= & \frac{\left(9 \Omega \angle 90^{\circ}+17 \Omega \angle-90^{\circ}\right)\left(50 \mathrm{~V} \angle 30^{\circ}\right)}{10 \Omega \angle-53.13^{\circ}} \\
+= & \frac{\left(8 \angle-90^{\circ}\right)\left(50 \angle 30^{\circ}\right)}{10 \angle-53.13^{\circ}} \\
+= & \frac{400 \angle-60^{\circ}}{10 \angle-53.13^{\circ}}=\mathbf{4 0} \mathbf{V} \angle \mathbf{- 6 . 8 7 ^ { \circ }}
+\end{aligned}
+\end{gathered}

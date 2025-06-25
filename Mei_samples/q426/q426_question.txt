@@ -1,0 +1,1 @@
+For the transistor configuration in the provided circuit image, in which $V_B$ and $V_{B E}$ have been provided: Determine the voltage $V_E$

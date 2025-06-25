@@ -1,0 +1,1 @@
+Find the mathematical expressions for the response of $i_C$ if the switch is thrown into position 2 at 30 ms (assuming that the leakage resistance of the capacitor is infinite ohms).

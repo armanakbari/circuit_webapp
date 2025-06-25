@@ -1,0 +1,5 @@
+1. \mathbf{8 0} \mathbf{V}-\mathbf{4 0} \mathbf{V} e^{-t / 0.44 \mathrm{~s}}
+2. \mathbf{80} \mathbf{V}-\mathbf{80} \mathbf{V} e^{-t / 0.44 \mathrm{~s}}
+3. \mathbf{48} \mathbf{V}-\mathbf{8} \mathbf{V} e^{-t / 0.352 \mathrm{~s}}
+4. \mathbf{80} \mathbf{V}-\mathbf{40} \mathbf{V} e^{-t / 0.352 \mathrm{~s}}
+5. None of the above

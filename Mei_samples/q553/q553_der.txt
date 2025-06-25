@@ -1,0 +1,41 @@
+Substituting the short-circuit equivalent for the inductor will result in a final or steady-state current determined by Ohm's law:
+
+$$
+I_f=\frac{E}{R_1+R_2}=\frac{16 \mathrm{~V}}{2.2 \mathrm{k} \Omega+6.8 \mathrm{k} \Omega}=\frac{16 \mathrm{~V}}{9 \mathrm{k} \Omega}=1.78 \mathrm{~mA}
+$$
+
+
+The time constant is determined by
+
+$$
+\tau=\frac{L}{R_T}=\frac{100 \mathrm{mH}}{2.2 \mathrm{k} \Omega+6.8 \mathrm{k} \Omega}=\frac{100 \mathrm{mH}}{9 \mathrm{k} \Omega}=11.11 \mu \mathrm{~s}
+$$
+Applying Eq. (12.12):
+
+$$
+\begin{aligned}
+i_L & =I_f+\left(I_i-I_f\right) e^{-t / \tau} \\
+& =1.78 \mathrm{~mA}+(4 \mathrm{~mA}-1.78 \mathrm{~mA}) e^{-t / 11.11 \mu \mathrm{~s}} \\
+& =\mathbf{1 . 7 8} \mathbf{~ m A}+\mathbf{2 . 2 2} \mathbf{~ m A} e^{-t / 1 \mathbf{1} .1 \mathbf{1} \mu \mathrm{~s}}
+\end{aligned}
+$$
+
+b. Since the current through the inductor is constant at 4 mA prior to the closing of the switch, the voltage (whose level is sensitive only to changes in current through the coil) must have an initial value of 0 V . At the instant the switch is closed, the current through the coil cannot change instantaneously, so the current through the resistive elements will be 4 mA . The resulting peak voltage at $t=0 \mathrm{~s}$ can then be found using Kirchhoff's voltage law as follows:
+
+$$
+\begin{aligned}
+V_m & =E-V_{R_1}-V_{R_2} \\
+& =16 \mathrm{~V}-(4 \mathrm{~mA})(2.2 \mathrm{k} \Omega)-(4 \mathrm{~mA})(6.8 \mathrm{k} \Omega) \\
+& =16 \mathrm{~V}-8.8 \mathrm{~V}-27.2 \mathrm{~V}=16 \mathrm{~V}-36 \mathrm{~V} \\
+& =-20 \mathrm{~V}
+\end{aligned}
+$$
+Note the minus sign to indicate that the polarity of the voltage $v_L$ is opposite to the defined polarity of Fig. 12.24.
+
+The voltage will then decay (with the same time constant as the current $i_L$ ) to zero because the inductor is approaching its shortcircuit equivalence.
+
+The equation for $v_L$ is therefore:
+
+$$
+V_L=-20 e^{-t / 11.11 \mu \mathrm{~s}}
+$$

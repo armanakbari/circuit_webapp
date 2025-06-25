@@ -1,0 +1,1 @@
+A balanced three-phase wye-connected generator delivers power to a balanced three-phase delta-wye connected load as shown In the provided circuit image. Determine the power per phase.

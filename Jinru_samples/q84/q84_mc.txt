@@ -1,0 +1,5 @@
+1. (100 \cos 2800 t + 343 \sin 2800 t) e^{-9600 t} \mathrm{~V}
+2. (100 \cos 10000 t + 28 \sin 10000 t) e^{-2800 t} \mathrm{~V}
+3. (100 \cos 9600 t - 29.17 \sin 9600 t) e^{-2800 t} \mathrm{~V}
+4. (100 \cos 9600 t+29.17 \sin 9600 t) e^{-2800 t} \mathrm{~V}
+5. None of the above

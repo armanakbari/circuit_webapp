@@ -1,0 +1,1 @@
+Determine $I_1$ for the network in the provided circuit image

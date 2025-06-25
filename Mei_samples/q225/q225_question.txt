@@ -1,0 +1,1 @@
+A circuit with resistance and capacitance is shown In the provided circuit image. Find the charging voltage of the capacitor when the switch is closed at $t=0$.

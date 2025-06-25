@@ -1,0 +1,1 @@
+Calculate $E$ In the provided circuit image

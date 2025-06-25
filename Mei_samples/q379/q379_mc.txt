@@ -1,0 +1,5 @@
+1. 6 \Omega
+2. 33 \Omega
+3. 3 \Omega
+4. 14 \Omega
+5. None of the above

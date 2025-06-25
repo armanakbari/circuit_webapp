@@ -1,0 +1,1 @@
+A series-parallel circuit is supplied by a source of 60 V rms as shown In the provided circuit image. Find the complex power for  the total complex power.

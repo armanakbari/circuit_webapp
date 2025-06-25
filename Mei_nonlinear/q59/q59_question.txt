@@ -1,0 +1,1 @@
+\text { Calculate the input-referred noise current in the provided circuit image, including only the thermal noise of } M_1 \text { and } R_D \text {. }

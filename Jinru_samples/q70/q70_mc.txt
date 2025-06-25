@@ -1,0 +1,5 @@
+1. 60,000 V/s
+2. 49,000 V/s
+3. 98,000 \mathrm{~V} / \mathrm{s}
+4. 11,000 V/s
+5. None of the above

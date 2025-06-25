@@ -1,0 +1,19 @@
+We begin by noting that the circuit has two essential nodes; thus we need to write a single node-voltage expression. $v_1$ is defined as the voltage across the 10-ohm resistor. Since one end of the resistor is connected to the reference node (ground), $v_1$ is also the node voltage at the top of the 10-ohm resistor with respect to ground.
+
+$$
+\frac{v_1-50}{5}+\frac{v_1}{10}+\frac{v_1}{40}-3=0
+$$
+
+
+Solving for $v_1$ gives
+
+$$
+v_1=40 \mathrm{~V}
+$$
+
+
+Hence
+
+$$
+i_{\mathrm{a}}=\frac{50-40}{5}=2 \mathrm{~A},
+$$

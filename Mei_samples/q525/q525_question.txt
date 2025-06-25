@@ -1,0 +1,1 @@
+For the network in the provided circuit image, find the mathematical expression for the voltage $V_C$ after the closing of the switch (at $t=0$ ).

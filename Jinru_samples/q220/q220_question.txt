@@ -1,0 +1,1 @@
+Calculate the values of $i_b$

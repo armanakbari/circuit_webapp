@@ -1,0 +1,67 @@
+Solution: Replacing the independent voltage source of 12 V with a short-circuit equivalent will result in the network of Fig. 8.52. Even though the mental application of a short-circuit equivalent is discussed above, it would be wise in the early stage of development to redraw the
+network as shown in Fig. 8.52. The result is a single supernode for which Kirchhoff's current law must be applied. Be sure to leave the other defined nodes in place and use them to define the currents from that region of the network. In particular, note that the current $I_3$ will leave the supernode at $V_1$ and then enter the same supernode at $V_2$. It must therefore appear twice when applying Kirchhoff's current law, as shown below:
+
+$$
+\begin{aligned}
+\Sigma I_i & =\Sigma I_o \\
+6 \mathrm{~A}+I_3 & =I_1+I_2+4 \mathrm{~A}+I_3
+\end{aligned}
+$$
+
+or
+
+$$
+I_1+I_2=6 \mathrm{~A}-4 \mathrm{~A}=2 \mathrm{~A}
+$$
+
+
+Then
+
+$$
+\frac{V_1}{R_1}+\frac{V_2}{R_2}=2 \mathrm{~A}
+$$
+
+and
+
+$$
+\frac{V_1}{4 \Omega}+\frac{V_2}{2 \Omega}=2 \mathrm{~A}
+$$
+
+
+Relating the defined nodal voltages to the independent voltage source, we have
+
+$$
+V_1-V_2=E=12 \mathrm{~V}
+$$
+
+which results in two equations and two unknowns:
+
+$$
+\begin{aligned}
+& 0.25 V_1+0.5 V_2=2 \\
+& V_1-1 V_2=12 \\
+& \hline
+\end{aligned}
+$$
+
+
+Substituting:
+
+$$
+\begin{aligned}
+& V_1=V_2+12 \\
+& 0.25\left(V_2+12\right)+0.5 V_2=2
+\end{aligned}
+$$
+
+and
+
+$$
+0.75 V_2=2-3=-1
+$$
+
+so that
+
+$$
+V_2=\frac{-1}{0.75}=-1.333 \mathrm{~V}
+$$

@@ -1,0 +1,1 @@
+Find the mathematical expressions for the voltage $i_C$  if the switch is thrown into position 3 at $t=48 \mathrm{~ms}$.

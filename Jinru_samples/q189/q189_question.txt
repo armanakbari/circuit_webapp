@@ -1,0 +1,1 @@
+Choose values for $R$ in the circuit of the provided circuit image such that the resulting circuit could be used in an electrocardiograph to filter out any noise above 10 Hz and pass the electric signals from the heart at or near 1 Hz .

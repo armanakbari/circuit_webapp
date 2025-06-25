@@ -1,0 +1,5 @@
+1. 7.5 \sin \left(\omega t-90^{\circ}\right)
+2. \mathbf{7 . 5} \sin \left(\omega t+\mathbf{9 0}^{\circ}\right)
+3. 7.5 \sin (\omega t)
+4. 5.0 \sin \left(\omega t+45^{\circ}\right)
+5. None of the above

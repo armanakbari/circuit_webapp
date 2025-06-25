@@ -1,0 +1,1 @@
+Find $v_3$ in the circuit

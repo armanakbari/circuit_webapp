@@ -1,0 +1,36 @@
+Consider that the voltage source is active and the current source is open circuited as shown in Fig. 4.16. The total resistance of this circuit is,
+
+$$
+R_t=2+\frac{4 \times 6}{4+6}=4.4 \Omega
+$$
+The source current is,
+
+$$
+I_s=\frac{24}{4.4}=5.45 \mathrm{~A}
+$$
+
+
+The current in the $4 \Omega$ resistor is,
+
+$$
+I_{x 1}=5.45 \times \frac{6}{6+4}=3.27 \mathrm{~A}
+$$
+
+
+Again, consider that the voltage is short circuited and the current source is active as shown in Fig. 4.17. The 2 and $6 \Omega$ resistors are in parallel and their equivalent resistance is,
+
+$$
+R_1=\frac{2 \times 6}{2+6}=1.5 \Omega
+$$
+
+
+The current in the $4 \Omega$ resistor is,
+
+$$
+I_{x 2}=10 \times \frac{1.5}{1.5+4}=2.73 \mathrm{~A}
+$$
+Finally, the current in the $4 \Omega$ resistor can be obtained by adding Eqs. (4.37) and (4.39) as,
+
+$$
+I_x=I_{x 1}+I_{x 2}=3.27+2.73=6 \mathrm{~A}
+$$

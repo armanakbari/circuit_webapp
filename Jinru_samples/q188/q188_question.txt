@@ -1,0 +1,1 @@
+The circuit is shown in the provided circuit image. The sinusoidal source voltage is $120 \cos (5000 t$ $\left.+30^{\circ}\right) \mathrm{V}$. Find the steady-state expression for $v_o$.

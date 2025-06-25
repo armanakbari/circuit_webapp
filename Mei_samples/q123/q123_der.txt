@@ -1,0 +1,62 @@
+The value of the voltage at node 1 is,
+
+$$
+V_1=20 \mathrm{~V}
+$$
+
+
+Applying KVL at the supernode of the circuit in Fig. 3.32 yields,
+
+$$
+-V_2+2 I_x+V_3=0
+$$
+The current $I_{\mathrm{s}}$ through $3 \Omega$ resistor can be written as,
+
+$$
+I_x=\frac{20-V_2}{3}
+$$
+
+
+Substituting Eq. (3.138) into an Eq. (3.137) yields,
+
+$$
+-V_2+2 \frac{20-V_2}{3}+V_3=0
+$$
+
+
+$$
+-5 V_2+3 V_3=-40
+$$
+
+
+Applying KCL at the supernode of Fig. 3.32 yields,
+
+$$
+\begin{gathered}
+I_x=I_n+I_z+4 \\
+\frac{20-V_2}{3}=\frac{V_2}{6}+\frac{V_3}{4}+4 \\
+80-4 V_2=2 V_2+3 V_3+48 \\
+6 V_2+3 V_3=32
+\end{gathered}
+$$
+
+
+From Eqs. (3.140) and (3.144), the value of the node voltage can be determined as,
+
+$$
+V_2=\frac{72}{11}=6.54 \mathrm{~V}
+$$
+
+
+Substituting Eq. (3.145) into Eq. (3.144) yields,
+
+$$
+V_3=\frac{32-6 \times 6.54}{3}=-2.41 \mathrm{~V}
+$$
+
+
+The current in the $6 \Omega$ resistor is calculated as,
+
+$$
+l_{6 \Omega}=\frac{V_2}{6}=\frac{6.54}{6}=1.09 \mathrm{~A}
+$$

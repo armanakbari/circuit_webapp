@@ -1,0 +1,1 @@
+Using series/parallel resistance combination, find the overall absorbed power by the resistor network.

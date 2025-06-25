@@ -1,0 +1,5 @@
+1. \mathbf{0 ~ V}
+2. \mathbf{40 ~ V}
+3. \mathbf{20 ~ V}
+4. -\mathbf{2 0 ~ V}
+5. None of the above

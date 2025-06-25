@@ -1,0 +1,9 @@
+$$
+\mathbf{V}_2=0.1 \mathbf{V}_1=242.71 \angle-4.37^{\circ} \mathrm{V},
+$$
+
+giving
+
+$$
+v_2=242.71 \cos \left(400 t-4.37^{\circ}\right) \mathrm{V} .
+$$

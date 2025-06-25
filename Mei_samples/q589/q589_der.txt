@@ -1,0 +1,27 @@
+Combining common elements and finding the reactance of the inductor and capacitor, we obtain
+
+$$
+\begin{aligned}
+& R_T=6 \Omega+4 \Omega=10 \Omega \\
+& L_T=0.05 \mathrm{H}+0.05 \mathrm{H}=0.1 \mathrm{H} \\
+& C_T=\frac{200 \mu \mathrm{~F}}{2}=100 \mu \mathrm{~F}
+\end{aligned}
+$$
+\begin{aligned}
+& X_L=\omega L=(377 \mathrm{rad} / \mathrm{s})(0.1 \mathrm{H})=37.70 \Omega \\
+& X_C=\frac{1}{\omega C}=\frac{1}{(377 \mathrm{rad} / \mathrm{s})\left(100 \times 10^{-6} \mathrm{~F}\right)}=\frac{10^6 \Omega}{37,700}=26.53 \Omega
+\end{aligned}
+$$
+\begin{aligned}
+\mathbf{Z}_T & =R \angle 0^{\circ}+X_L \angle 90^{\circ}+X_C \angle-90^{\circ} \\
+& =10 \Omega+j 37.70 \Omega-j 26.53 \Omega \\
+& =10 \Omega+j 11.17 \Omega=\mathbf{1 5} \Omega \angle \mathbf{4 8 . 1 6 ^ { \circ }}
+\end{aligned}
+$$
+
+
+The current $\mathbf{I}$ is
+
+$$
+\mathbf{I}=\frac{\mathbf{E}}{\mathbf{Z}_T}=\frac{20 \mathrm{~V} \angle 0^{\circ}}{15 \Omega \angle 48.16^{\circ}}=\mathbf{1 . 3 3} \mathrm{A} \angle-\mathbf{4 8 . 1 6 ^ { \circ }}
+$$

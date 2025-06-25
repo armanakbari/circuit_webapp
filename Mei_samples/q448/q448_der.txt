@@ -1,0 +1,17 @@
+In this example, the voltage source will first be converted to a current source. Combining current sources,
+Network following the conversion of the voltage source to a current source.
+and
+
+$$
+\begin{aligned}
+& I_s=I_1+I_2=4 \mathrm{~A}+6 \mathrm{~A}=10 \mathrm{~A} \\
+& R_s=R_1\left\|R_2=8 \Omega\right\| 24 \Omega=6 \Omega
+\end{aligned}
+$$
+
+
+Applying the current divider rule to the resulting network of Fig. 8.15,
+
+$$
+I_L=\frac{R_s I_s}{R_s+R_L}=\frac{(6 \Omega)(10 \mathrm{~A})}{6 \Omega+14 \Omega}=\frac{60 \mathrm{~A}}{20}=3 \mathrm{~A}
+$$

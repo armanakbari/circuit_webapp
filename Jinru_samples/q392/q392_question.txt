@@ -1,0 +1,1 @@
+In the circuit of the provided circuit image, determine the currents $i_3$

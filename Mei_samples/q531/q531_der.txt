@@ -1,0 +1,25 @@
+$$
+\begin{aligned}
+C_T^{\prime} & =C_2+C_3=4 \mu \mathrm{~F}+2 \mu \mathrm{~F}=6 \mu \mathrm{~F} \\
+C_T & =\frac{C_1 C_T^{\prime}}{C_1+C_T^{\prime}}=\frac{(3 \mu \mathrm{~F})(6 \mu \mathrm{~F})}{3 \mu \mathrm{~F}+6 \mu \mathrm{~F}}=2 \mu \mathrm{~F} \\
+Q_T & =C_T E=\left(2 \times 10^{-6} \mathrm{~F}\right)(120 \mathrm{~V}) \\
+& =\mathbf{2 4 0} \mu \mathbf{C}
+\end{aligned}
+$$
+
+
+An equivalent circuit (Fig. 10.66) has
+and, therefore,
+
+$$
+\begin{aligned}
+Q_T & =Q_1=Q_T^{\prime} \\
+Q_1 & =\mathbf{2 4 0} \boldsymbol{\mu} \mathbf{C}
+\end{aligned}
+$$
+
+and
+
+$$
+\begin{aligned}
+V_1 & =\frac{Q_1}{C_1}=\frac{240 \times 10^{-6} \mathrm{C}}{3 \times 10^{-6} \mathrm{~F}}=\mathbf{8 0} \mathbf{~ V} \\

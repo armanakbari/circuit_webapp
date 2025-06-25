@@ -1,0 +1,1 @@
+A $90 \Omega$ resistor, a 32 mH inductor, and a $5 \mu \mathrm{~F}$ capacitor are connected in series across the terminals of a sinusoidal voltage source, as shown in the provided circuit image. The steady-state expression for the source voltage $v_s$ is $750 \cos \left(5000 t+30^{\circ}\right) \mathrm{V}$. Calculate the steady-state current $i$ by the phasor method.

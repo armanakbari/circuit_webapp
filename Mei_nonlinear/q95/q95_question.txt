@@ -1,0 +1,1 @@
+Determine the voltage gain of the source follower shown in Fig. 8.73(a) using Bode's method. Assume that $\lambda=\gamma=0$.

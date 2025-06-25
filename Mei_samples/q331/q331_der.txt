@@ -1,0 +1,7 @@
+a. $R_T=R_1+R_2+R_3=2 \Omega+1 \Omega+5 \Omega=\mathbf{8} \Omega$
+b. $I_s=\frac{E}{R_T}=\frac{20 \mathrm{~V}}{8 \Omega}=\mathbf{2 . 5 ~ A}$
+c.
+
+$$
+\begin{aligned}
+& V_1=I R_1=(2.5 \mathrm{~A})(2 \Omega)=\mathbf{5} \mathbf{V} \\

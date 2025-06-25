@@ -1,0 +1,9 @@
+For $C_1$,
+
+$$
+\begin{aligned}
+W_C & =\frac{1}{2} C V^2 \\
+& =\frac{1}{2}\left(2 \times 10^{-6} \mathrm{~F}\right)(16 \mathrm{~V})^2=\left(1 \times 10^{-6}\right)(256) \\
+& =\mathbf{2 5 6} \boldsymbol{\mu} \mathbf{J}
+\end{aligned}
+$$

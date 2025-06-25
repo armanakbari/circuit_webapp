@@ -1,0 +1,1 @@
+Determine the minimum value for $V_b$ in the provided circuit image

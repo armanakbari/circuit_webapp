@@ -1,0 +1,5 @@
+1. 160 e^{-5 t} \mathrm{~V}
+2. -320 e^{-5 t} \mathrm{~V}
+3. -160 e^{-5 t} \mathrm{~V}
+4. -160 e^{-6.25 t} \mathrm{~V}
+5. None of the above

@@ -1,0 +1,8 @@
+The switch has been open for a long time, so the initial current in the inductor is 5 A , oriented from top to bottom. Immediately after the switch closes, the current still is 5 A , and therefore the initial voltage across the inductor becomes $20-5(1)$, or 15 V . The final value of the inductor voltage is 0 V . With the switch closed, the time constant is $80 / 1$, or 80 ms . We use Eq. 7.60 to write the expression for $v(t)$ :
+
+$$
+\begin{aligned}
+v(t) & =0+(15-0) e^{-t / 80 \times 10^{-3}} \\
+& =15 e^{-12.5 t} \mathrm{~V}, \quad t \geq 0^{+} .
+\end{aligned}
+$$

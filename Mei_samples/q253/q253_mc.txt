@@ -1,0 +1,5 @@
+1. 6.07 \angle{21.4^{\circ}} \mathrm{A}
+2. 3.14 \angle{-10.09^{\circ}} \mathrm{A}
+3. 5.55 \angle{173.1^{\circ}} \mathrm{A}
+4. 3.14 \angle{169.91^{\circ}} \mathrm{A}
+5. None of the above

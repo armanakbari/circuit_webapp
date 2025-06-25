@@ -1,0 +1,1 @@
+An electrical circuit is shown in the provided circuit image. Assume $I_0=1 \mathrm{~A}$. Use linearity property to find the actual value of $I_0$.

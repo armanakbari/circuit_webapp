@@ -1,0 +1,30 @@
+Open the $9 \Omega$ resistor and calculate the Thevenin's impedance from the circuit in Fig. 7.29. This impedance is,
+$$
+Z_{\mathrm{Th}}=\frac{2 \times(3+j 8)}{5+j 8}=1.81 \angle| 1.45 \Omega
+$$
+
+
+Then, calculate the Thevenin or open-circuit voltage from the circuit in Fig. 7.30 as,
+
+$$
+V_{\mathrm{Th}}=\frac{22025^{\circ} \times(3+j 8)}{5+j 8}=199.25\angle36 .45^{\circ} \mathrm{V}
+$$
+
+
+The current through the $9 \Omega$ resistor can be calculated as,
+
+$$
+I_{9 \Omega}=\frac{199.25 \underline{\beta 6.45^{\circ}}}{9+1.81 \underline{11.45}}=18.48 \angle 34.54^{\circ}} \mathrm{A}
+$$
+Short circuit the open terminals and calculate the Norton's current from the circuit as shown in Fig. 7.31. This current is,
+
+$$
+I_N=\frac{22025^{\circ}}{2}=110 \angle25^{\circ} \mathrm{A}
+$$
+
+
+The current through the $9 \Omega$ resistor from the circuit in Fig. 7.32 can be calculated as,
+
+$$
+I_{9 \Omega}=\frac{11025^{\circ} \times 1.81 \underline{11.45}}{9+1.81 \underline{11.45}}=18.47\angle{34.54^{\circ}} \mathrm{A}
+$$

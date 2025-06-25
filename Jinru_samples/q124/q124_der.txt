@@ -1,0 +1,8 @@
+The average and reactive power delivered to the line are most easily calculated because the line current is known. Thus
+
+$$
+\begin{aligned}
+& P=(5)^2(1)=25 \mathrm{~W} \\
+& Q=(5)^2(4)=100 \mathrm{VAR}
+\end{aligned}
+$$

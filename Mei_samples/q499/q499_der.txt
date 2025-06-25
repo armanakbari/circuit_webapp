@@ -1,0 +1,25 @@
+Solutions:
+ Converting sources . Combining sources and parallel conductance branches 
+
+$$
+\begin{aligned}
+I_T & =I_1+I_2=5 \mathrm{~A}+\frac{5}{3} \mathrm{~A}=\frac{15}{3} \mathrm{~A}+\frac{5}{3} \mathrm{~A}=\frac{20}{3} \mathrm{~A} \\
+G_T & =G_1+G_2=1 \mathrm{~S}+\frac{1}{6} \mathrm{~S}=\frac{6}{6} \mathrm{~S}+\frac{1}{6} \mathrm{~S}=\frac{7}{6} \mathrm{~S}
+\end{aligned}
+$$
+Converting the current source to a voltage source (Fig. 9.101), we obtain
+
+$$
+E_{\text {eq }}=\frac{I_T}{G_T}=\frac{\frac{20}{3} \mathrm{~A}}{\frac{7}{6} \mathrm{~S}}=\frac{(6)(20)}{(3)(7)} \mathrm{V}=\frac{40}{7} \mathrm{~V}
+$$
+and
+
+$$
+R_{\mathrm{eq}}=\frac{1}{G_T}=\frac{1}{\frac{7}{6} \mathrm{~S}}=\frac{\mathbf{6}}{7} \boldsymbol{\Omega}
+$$
+
+so that
+
+$$
+I_{2 \Omega}=\frac{E_{\text {eq }}}{R_{\text {eq }}+R_3}=\frac{\frac{40}{7} \mathrm{~V}}{\frac{6}{7} \Omega+2 \Omega}=\frac{\frac{40}{7} \mathrm{~V}}{\frac{6}{7} \Omega+\frac{14}{7} \Omega}=\frac{40 \mathrm{~V}}{20 \Omega}=2 \mathrm{~A}
+$$

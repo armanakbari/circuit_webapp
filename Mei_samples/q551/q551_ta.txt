@@ -1,0 +1,1 @@
+50 e^{-t /\left(2 \times 10^{-3}\right)}

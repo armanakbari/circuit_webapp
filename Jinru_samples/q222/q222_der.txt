@@ -1,0 +1,5 @@
+The voltage $v_c$ in the provided circuit image(\mathrm{c})$ is a rise in the direction of the current in the resistor. Hence
+
+$$
+v_{\mathrm{c}}=-(1)(20)=-20 \mathrm{~V}
+$$

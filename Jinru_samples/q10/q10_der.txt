@@ -1,0 +1,12 @@
+The switch has been closed for a long time prior to $t=0$, so we know the voltage across the inductor must be zero at $t=0^{-}$. Therefore the initial current in the inductor is 20 A at $t=0^{-}$. Hence, $i_L\left(0^{+}\right)$also is 20 A , because an instantaneous change in the current cannot occur in an inductor. We replace the resistive circuit connected to the terminals of the inductor with a single resistor of $10 \Omega$ :
+
+$$
+R_{\mathrm{cq}}=2+(40 \| 10)=10 \Omega .
+$$
+
+
+The time constant of the circuit is $L / R_{\text {eq }}$, or 0.2 s , giving the expression for the inductor current as
+
+$$
+i_L(t)=20 e^{-5 t} \mathrm{~A}, \quad t \geq 0
+$$

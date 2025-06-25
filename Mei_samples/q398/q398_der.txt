@@ -1,0 +1,24 @@
+\begin{aligned}
+&\text { Applying the current divider rule, }\\
+&I_1=\frac{R_2 I}{R_1+R_2}
+\end{aligned}
+and
+
+$$
+\begin{aligned}
+\left(R_1+R_2\right) I_1 & =R_2 I \\
+R_1 I_1+R_2 I_1 & =R_2 I \\
+R_1 I_1 & =R_2 I-R_2 I_1 \\
+R_1 & =\frac{R_2\left(I-I_1\right)}{I_1}
+\end{aligned}
+$$
+
+
+Substituting values:
+
+$$
+\begin{aligned}
+R_1 & =\frac{7 \Omega(27 \mathrm{~mA}-21 \mathrm{~mA})}{21 \mathrm{~mA}} \\
+& =7 \Omega\left(\frac{6}{21}\right)=\frac{42 \Omega}{21}=\mathbf{2} \Omega
+\end{aligned}
+$$

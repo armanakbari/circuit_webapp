@@ -1,0 +1,13 @@
+$i_o$ is the current in the $1.6 \Omega$ resistor, so we find the current $i_o$, by using the formula for current division:
+
+$$
+i_o=\frac{16}{16+4}(10)=8 \mathrm{~A}
+$$
+
+We now can further divide $i_0$, between the $6 \Omega$ and $4 \Omega$ resistors. The current in the $6 \Omega$ resistor is
+
+$$
+i_6=\frac{4}{6+4}(8)=3.2 \mathrm{~A}
+$$
+
+and the power dissipated in the $6 \Omega$ resistor is $p=(3.2)^2(6)=61.44 \mathrm{~W}$.

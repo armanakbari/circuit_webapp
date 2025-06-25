@@ -1,0 +1,19 @@
+The magnitude of the phase currents in the load are calculated as,
+
+$$
+\begin{gathered}
+I_{\mathrm{ab}}=\frac{V_{\mathrm{ab}}}{Z_{\Delta}}=\frac{230\angle15^{\circ}}{16\angle35^{\circ}}=14.38\angle-20^{\circ} \mathrm{A} \\
+I_{\mathrm{bc}}=\frac{V_{\mathrm{bc}}}{Z_{\Delta}}=\frac{230\angle15^{\circ}-120^{\circ}}{16\angle35^{\circ}}=14.38\angle-140^{\circ} \mathrm{A} \\
+I_{\mathrm{ca}}=\frac{V_{\mathrm{ca}}}{Z_{\Delta}}=\frac{230\angle15^{\circ}+120^{\circ}}{16\angle35^{\circ}}=14.38\angle100^{\circ} \mathrm{A}
+\end{gathered}
+$$
+
+
+\begin{aligned}
+&\text { The line currents can be determined by applying KCL at nodes } a, b \text { and } c \text { as, }\\
+&\begin{gathered}
+I_{\mathrm{Aa}}=I_{\mathrm{ab}}-I_{\mathrm{ca}}=14.38\angle-20^{\circ}-14.38\angle100^{\circ}=24.91\angle-50^{\circ} \mathrm{A} \\
+I_{\mathrm{Bb}}=I_{\mathrm{bc}}-I_{\mathrm{ab}}=14.38\angle-140^{\circ}-14.38\angle-20^{\circ}=24.91\angle-170^{\circ} \mathrm{A} \\
+I_{\mathrm{Cc}}=I_{\mathrm{ca}}-I_{\mathrm{bc}}=14.38\angle100^{\circ}-14.38\angle-140^{\circ}=24.91\angle-70^{\circ} \mathrm{A}
+\end{gathered}
+\end{aligned}

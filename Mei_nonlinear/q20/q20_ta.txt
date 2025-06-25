@@ -1,0 +1,1 @@
+\frac{1}{2} \mu_n C_{o x} \frac{W}{L}\left(V_b-V_{T H}\right)^2 \frac{\lambda \Delta V}{\left(g_{m 3}+g_{m b 3}\right) r_{O 3}}

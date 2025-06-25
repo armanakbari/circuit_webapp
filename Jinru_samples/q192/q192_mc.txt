@@ -1,0 +1,5 @@
+1. 100 \mathrm{mH}
+2. 25.33 \mathrm{mH}
+3. 0.837 \mathrm{mH}
+4. 2.533 \mathrm{mH}
+5. None of the above

@@ -1,0 +1,7 @@
+It would indeed be difficult to analyze the network in the form of Fig. 7.18 with the symbolic notation for the sources and the reference or ground connection in the upper left-hand corner of the diagram. However, when the network is redrawn as shown in Fig. 7.19, the unknowns and the relationship between branches become significantly clearer. Note the common connection of the grounds and the replacing of the terminal notation by actual supplies.
+
+It is now obvious that
+
+$$
+V_2=-E_1=-6 \mathrm{~V}
+$$

@@ -1,0 +1,10 @@
+$$
+5 \| 20=\frac{5 \times 20}{25}=4 \Omega
+$$
+
+
+$$
+6 \| 3=\frac{6 \times 3}{9}=2 \Omega
+$$
+
+$\mathrm{R}_{\mathrm{ab}}=10+4+2+8=\mathbf{2 4} \Omega$

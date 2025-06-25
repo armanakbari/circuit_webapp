@@ -1,0 +1,20 @@
+a. Considering the effect of the 36-V source (Fig. 9.11):
+
+$$
+I_2^{\prime}=\frac{E}{R_T}=\frac{E}{R_1+R_2}=\frac{36 \mathrm{~V}}{12 \Omega+6 \Omega}=2 \mathrm{~A}
+$$
+
+
+Considering the effect of the 9-A source (Fig. 9.12):
+Applying the current divider rule,
+
+$$
+I_2^{\prime \prime}=\frac{R_1 I}{R_1+R_2}=\frac{(12 \Omega)(9 \mathrm{~A})}{12 \Omega+6 \Omega}=\frac{108 \mathrm{~A}}{18}=6 \mathrm{~A}
+$$
+
+
+The total current through the $6-\Omega$ resistor is
+
+$$
+I_2=I_2^{\prime}+I_2^{\prime \prime}=2 \mathrm{~A}+6 \mathrm{~A}=8 \mathrm{~A}
+$$

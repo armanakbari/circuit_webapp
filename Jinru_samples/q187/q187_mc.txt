@@ -1,0 +1,5 @@
+1. $\begin{aligned} & {\left[10 \sqrt{5} \times 10^{-4} e^{-31000 t} \cos \left(4000 t+79.70^{\circ}\right)\right.} \\ & \left.+10 t-4 \times 10^{-4}\right] u(t) \mathrm{V} .\end{aligned}$
+2. $\begin{aligned} & {\left[10 \sqrt{5} \times 10^{-4} e^{-4000 t} \cos \left(31000 t+79.70^{\circ}\right)\right.} \\ & \left.+10 t-4 \times 10^{-4}\right] u(t) \mathrm{V} .\end{aligned}$
+3. $\begin{aligned} & {\left[10 \sqrt{5} \times 10^{-4} e^{-31000 t} \cos \left(4000 t+79.70^{\circ}\right)\right.} \\ & \left.+10 t+4 \times 10^{-4}\right] u(t) \mathrm{V} .\end{aligned}$
+4. $\begin{aligned} & {\left[10 \sqrt{5} \times 10^{-4} e^{-31000 t} \cos \left(4000 t-79.70^{\circ}\right)\right.} \\ & \left.+10 t-4 \times 10^{-4}\right] u(t) \mathrm{V} .\end{aligned}$
+5. None of the above

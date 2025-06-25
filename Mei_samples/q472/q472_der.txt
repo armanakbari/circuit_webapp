@@ -1,0 +1,30 @@
+Solution: Considering the effect of the 12-V source (Fig. 9.20):
+
+$$
+I_1^{\prime}=\frac{E_1}{R_1+R_2}=\frac{12 \mathrm{~V}}{2 \Omega+4 \Omega}=\frac{12 \mathrm{~V}}{6 \Omega}=2 \mathrm{~A}
+$$
+
+
+Considering the effect of the 6-V source (Fig. 9.21):
+
+$$
+I^{\prime \prime}{ }_1=\frac{E_2}{R_1+R_2}=\frac{6 \mathrm{~V}}{2 \Omega+4 \Omega}=\frac{6 \mathrm{~V}}{6 \Omega}=1 \mathrm{~A}
+$$
+
+
+Considering the effect of the 3-A source (Fig. 9.22):
+Applying the current divider rule,
+
+$$
+I^{\prime \prime \prime}{ }_1=\frac{R_2 I}{R_1+R_2}=\frac{(4 \Omega)(3 \mathrm{~A})}{2 \Omega+4 \Omega}=\frac{12 \mathrm{~A}}{6}=2 \mathrm{~A}
+$$
+
+
+The total current through the $2-\Omega$ resistor appears in Fig. 9.23, and
+
+$$
+\begin{aligned}
+& I_1=\overbrace{I_1^{\prime \prime}+I_1^{\prime \prime \prime}}^{\text {Same direction }} \text { as } I_1^{\text {in Fig. } 9.19} C_1^{\prime} \\
+& =1 \mathrm{~A}+2 \mathrm{~A}-2 \mathrm{~A}=1 \mathrm{~A}
+\end{aligned}
+$$

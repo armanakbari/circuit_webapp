@@ -1,0 +1,5 @@
+1. \mathbf{1 1 8 . 4 4} \mathrm{V} \angle-\mathbf{9 . 4 6 ^ { \circ }}
+2. $\mathbf{117.67} \mathrm{V} \angle \mathbf{11.31^\circ}$
+3. $\mathbf{120.00} \mathrm{V} \angle -\mathbf{11.31^\circ}$
+4. $\mathbf{47.07} \mathrm{V} \angle -\mathbf{101.31^\circ}$
+5. None of the above

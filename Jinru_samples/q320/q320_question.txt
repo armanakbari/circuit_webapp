@@ -1,0 +1,1 @@
+Calculate $i_x$ in the circuit

@@ -1,0 +1,1 @@
+In the provided circuit image, find the drain current of $M_4$ if all of the transistors are in saturation.

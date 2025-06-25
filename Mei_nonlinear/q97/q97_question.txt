@@ -1,0 +1,1 @@
+\text { Calculate the closed-loop gain of the circuit shown in the provided circuit image. Assume that } \lambda=\gamma=0 \text {. }

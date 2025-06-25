@@ -1,0 +1,5 @@
+$\tau=R C=\left(8 \times 10^3 \Omega\right)\left(4 \times 10^{-6} \mathrm{~F}\right)=32 \times 10^{-3} \mathrm{~s}=32 \mathrm{~ms}$ By Eq. (10.15),
+
+$$
+V_C=E\left(1-e^{-t / \tau}\right)=\mathbf{4 0}\left(1-e^{-t /\left(32 \times 10^{-3}\right)}\right)
+$$

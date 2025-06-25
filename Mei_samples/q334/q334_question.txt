@@ -1,0 +1,1 @@
+Calculate the power dissipated by $R_1 in the provided circuit image

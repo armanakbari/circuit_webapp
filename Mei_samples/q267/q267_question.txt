@@ -1,0 +1,1 @@
+A load of $10 \mathrm{kVA}, 50 \mathrm{~Hz}, 0.8$ lagging power factor is connected across the voltage source shown In the provided circuit image. A capacitor is connected across the load to improve the power factor to 0.90 lagging. Calculate the value of line loss without the capacitor.

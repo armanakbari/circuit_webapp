@@ -1,0 +1,1 @@
+Find the mathematical expression for the transient behavior of the current $i_C$ following the closing of the switch (position 1 at $t=0 \mathrm{~s}$ ).

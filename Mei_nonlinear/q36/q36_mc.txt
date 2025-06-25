@@ -1,0 +1,5 @@
+1. \frac{g_m R_D}{1+g_m R_S} \cdot \frac{1}{\left(1+\frac{s}{\omega_{\text {in }}}\right)\left(1+\frac{s}{\omega_{\text {out }}}\right)}
+2. \frac{\left(g_m+g_{m b}\right) R_D}{1+\left(g_m+g_{m b}\right) R_D} \cdot \frac{1}{\left(1+\frac{s}{\omega_{\text {in }}}\right)\left(1+\frac{s}{\omega_{\text {out }}}\right)}
+3. \frac{\left(g_m+g_{m b}\right) R_D}{1+\left(g_m+g_{m b}\right) R_S} \cdot \frac{1}{\left(1+\frac{s}{\omega_{\text {in }}}\right)\left(1+\frac{s}{\omega_{\text {out }}}\right)}
+4. \frac{\left(g_m+g_{m b}\right) R_D}{1+g_m R_S} \cdot \frac{1}{\left(1+\frac{s}{\omega_{\text {in }}}\right)\left(1+\frac{s}{\omega_{\text {out }}}\right)}
+5. None of the above

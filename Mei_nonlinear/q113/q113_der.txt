@@ -1,0 +1,2 @@
+Solution
+The minimum value of $V_b$ places $I_1$ at the edge of the triode region, i.e., $V_{b, \min }=V_{G S 4}+V_{I 1}$. The maximum value biases $M_4$ at the edge of the triode region, i.e., $V_{b, \max }=V_{G S 2}+V_P+V_{T H 4}$. Thus, $V_b$ has a comfortably wide range and need not be precise.

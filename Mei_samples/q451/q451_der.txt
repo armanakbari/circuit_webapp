@@ -1,0 +1,48 @@
+Steps 1 and 2 are as indicated in the circuit. Note that the polarities of the $6-\Omega$ resistor are different for each loop current.
+
+Step 3: Kirchhoff's voltage law is applied around each closed loop in the clockwise direction:
+
+$$
+\begin{aligned}
+\text { loop 1: } & +E_1-V_1-V_2-E_2=0 \quad \text { (clockwise starting at point } a \text { ) } \\
+& +5 \mathrm{~V}-(1 \Omega) I_1-(6 \Omega)\left(I_1-I_2\right)-10 \mathrm{~V}=0 \\
+& \\
+& I_2 \text { flows through the } 6-\Omega \text { resistor } \\
+& \text { in the direction opposite to } I_1 \text { - } \\
+\text { loop 2: } & \begin{array}{l}
+E_2-V_2-V_3=0 \quad(\text { clockwise starting at point } b) \\
++ \\
++
+\end{array} 0 \mathrm{~V}-(6 \Omega)\left(I_2-I_1\right)-(2 \Omega) I_2=0
+\end{aligned}
+$$
+
+
+The equations are rewritten as
+
+$$
+\begin{aligned}
+& 5-I_1-6 I_1+6 I_2-10=0-7 I_1+6 I_2=5 \\
+& 10-6 I_2+6 I_1-2 I_2=0+6 I_1-8 I_2=-10 \\
+& \hline
+\end{aligned}
+$$
+
+
+Step 4:
+
+$$
+\begin{aligned}
+& I_1=\frac{\left|\begin{array}{rr}
+5 & 6 \\
+-10 & -8
+\end{array}\right|}{\left|\begin{array}{rr}
+-7 & 6 \\
+6 & -8
+\end{array}\right|}=\frac{-40+60}{56-36}=\frac{20}{20}=\mathbf{1} \mathbf{A} \\
+& I_2=\frac{\left|\begin{array}{rr}
+-7 & 5 \\
+6 & -10
+\end{array}\right|}{20}=\frac{70-30}{20}=\frac{40}{20}=\mathbf{2} \mathbf{A}
+\end{aligned}
+$$

@@ -1,0 +1,1 @@
+For the op amp circuit in the provided circuit image, calculate the output voltage $v_o$.

@@ -1,0 +1,1 @@
+A series-parallel circuit is shown In the provided circuit image. Calculate the current gain $\frac{I_0(\omega)}{I_i(\omega)}$.

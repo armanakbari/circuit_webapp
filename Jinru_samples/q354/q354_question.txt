@@ -1,0 +1,1 @@
+Using series/parallel resistance combination, find the equivalent resistance in the circuit of the provided circuit image.

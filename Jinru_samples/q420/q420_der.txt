@@ -1,0 +1,59 @@
+For loop 1,
+
+$$
+6=12 \mathrm{i}_1-2 \mathrm{i}_2 \quad \longrightarrow \quad 3=6 \mathrm{i}_1-\mathrm{i}_2
+$$
+
+
+For loop 2,
+
+$$
+-8=-2 \mathrm{i}_1+7 \mathrm{i}_2-\mathrm{i}_3
+$$
+
+
+For loop 3,
+
+$$
+-8+6+6 \mathrm{i}_3-\mathrm{i}_2=0 \quad \longrightarrow \quad 2=-\mathrm{i}_2+6 \mathrm{i}_3
+$$
+
+
+We put (1), (2), and (3) in matrix form,
+
+$$
+\begin{gathered}
+{\left[\begin{array}{lll}
+6 & -1 & 0 \\
+2 & -7 & 1 \\
+0 & -1 & 6
+\end{array}\right]\left[\begin{array}{l}
+i_1 \\
+i_2 \\
+i_3
+\end{array}\right]=\left[\begin{array}{l}
+3 \\
+8 \\
+2
+\end{array}\right]} \\
+\Delta=\left|\begin{array}{lll}
+6 & -1 & 0 \\
+2 & -7 & 1 \\
+0 & -1 & 6
+\end{array}\right|=-234, \quad \Delta_2=\left|\begin{array}{lll}
+6 & 3 & 0 \\
+2 & 8 & 1 \\
+0 & 2 & 6
+\end{array}\right|=240
+\end{gathered}
+$$
+$$
+\Delta_3=\left|\begin{array}{lll}
+6 & -1 & 3 \\
+2 & -7 & 8 \\
+0 & -1 & 2
+\end{array}\right|=-38
+$$
+
+
+At node $0, \mathrm{i}+\mathrm{i}_2=\mathrm{i}_3$ or $\mathrm{i}=\mathrm{i}_3-\mathrm{i}_2=\frac{\Delta_3-\Delta_2}{\Delta}=\frac{-38-240}{-234}=1.188 \mathrm{~A}$

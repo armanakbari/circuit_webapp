@@ -1,0 +1,1 @@
+\text { Determine the transfer function of the circuit shown in the provided circuit image using direct analysis }

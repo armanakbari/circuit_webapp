@@ -1,0 +1,1 @@
+Using Blackman's theorem, determine $R_{i n}$ in the provided circuit image. Assume that $\gamma=0$.

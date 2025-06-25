@@ -1,0 +1,1 @@
+In the provided circuit image shows the regulated cascode subjected to an output impedance test. Determine the small-signal values of $I_{r o}$. Assume that $\left(A_1+1\right) g_m r_O R_S$ is large.

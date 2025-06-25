@@ -1,0 +1,50 @@
+Combining common elements and finding the reactance of the inductor and capacitor, we obtain
+
+$$
+\begin{aligned}
+& R_T=6 \Omega+4 \Omega=10 \Omega \\
+& L_T=0.05 \mathrm{H}+0.05 \mathrm{H}=0.1 \mathrm{H} \\
+& C_T=\frac{200 \mu \mathrm{~F}}{2}=100 \mu \mathrm{~F}
+\end{aligned}
+$$
+\begin{aligned}
+& X_L=\omega L=(377 \mathrm{rad} / \mathrm{s})(0.1 \mathrm{H})=37.70 \Omega \\
+& X_C=\frac{1}{\omega C}=\frac{1}{(377 \mathrm{rad} / \mathrm{s})\left(100 \times 10^{-6} \mathrm{~F}\right)}=\frac{10^6 \Omega}{37,700}=26.53 \Omega
+\end{aligned}
+$$
+\begin{aligned}
+\mathbf{Z}_T & =R \angle 0^{\circ}+X_L \angle 90^{\circ}+X_C \angle-90^{\circ} \\
+& =10 \Omega+j 37.70 \Omega-j 26.53 \Omega \\
+& =10 \Omega+j 11.17 \Omega=\mathbf{1 5} \Omega \angle \mathbf{4 8 . 1 6 ^ { \circ }}
+\end{aligned}
+$$
+
+
+The current $\mathbf{I}$ is
+
+$$
+\mathbf{I}=\frac{\mathbf{E}}{\mathbf{Z}_T}=\frac{20 \mathrm{~V} \angle 0^{\circ}}{15 \Omega \angle 48.16^{\circ}}=\mathbf{1 . 3 3} \mathrm{A} \angle-\mathbf{4 8 . 1 6 ^ { \circ }}
+$$
+
+
+The voltage across the resistor, inductor, and capacitor can be found using Ohm's law:
+
+$$
+\begin{aligned}
+\mathbf{V}_R=\mathbf{I} \mathbf{Z}_R=(I \angle \theta)\left(R \angle 0^{\circ}\right) & =\left(1.33 \mathrm{~A} \angle-48.16^{\circ}\right)\left(10 \Omega \angle 0^{\circ}\right) \\
+& =\mathbf{1 3 . 3 0} \mathrm{V} \angle-\mathbf{4 8 . 1 6}^{\circ} \\
+\mathbf{V}_L=\mathbf{I} \mathbf{Z}_L=(I \angle \theta)\left(X_L \angle 90^{\circ}\right) & =\left(1.33 \mathrm{~A} \angle-48.16^{\circ}\right)\left(37.70 \Omega \angle 90^{\circ}\right) \\
+& =\mathbf{5 0 . 1 4} \mathrm{V} \angle \mathbf{4 1 . 8 4 ^ { \circ }} \\
+\mathbf{V}_C=\mathbf{I} \mathbf{Z}_C=(I \angle \theta)\left(X_C \angle-90^{\circ}\right) & =\left(1.33 \mathrm{~A} \angle-48.16^{\circ}\right)\left(26.53 \Omega \angle-90^{\circ}\right) \\
+& =\mathbf{3 5 . 2 8} \mathrm{V} \angle-\mathbf{1 3 8 . 1 6 ^ { \circ }}
+\end{aligned}
+$$
+b. The total power factor, determined by the angle between the applied voltage $\mathbf{E}$ and the resulting current $\mathbf{I}$, is $48.16^{\circ}$ :
+or
+
+$$
+\begin{gathered}
+F_p=\cos \theta=\cos 48.16^{\circ}=\mathbf{0 . 6 6 7} \text { lagging } \\
+F_p=\cos \theta=\frac{R}{Z_T}=\frac{10 \Omega}{15 \Omega}=\mathbf{0 . 6 6 7} \text { lagging }
+\end{gathered}
+$$

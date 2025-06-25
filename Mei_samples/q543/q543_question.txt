@@ -1,0 +1,1 @@
+Find charge on capacitor $C_1$ in the provided circuit image after it has charged up to its final value.

@@ -1,0 +1,1 @@
+For the network in the provided circuit image,  Find the total charge.

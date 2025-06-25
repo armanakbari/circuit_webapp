@@ -1,0 +1,3 @@
+Design of analog CMOS integrated circuits
+P231
+Example7.5

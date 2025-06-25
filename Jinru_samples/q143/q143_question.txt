@@ -1,0 +1,1 @@
+Calculate the average powers associated with the independent voltage source in the circuit.

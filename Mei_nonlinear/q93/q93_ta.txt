@@ -1,0 +1,1 @@
+\frac{g_m R_S R_D}{R_D+R_S+R_F}

@@ -1,0 +1,17 @@
+The cut-off frequency is,
+
+$$
+f_1=\frac{1}{2 \pi R C}=\frac{1}{2 \pi \times 100 \times 0.03 \times 10^{-6}}=53.05 \mathrm{kHz}
+$$
+The output voltage is calculated as,
+
+$$
+\left|V_0\right|=\frac{\left|V_i\right|}{\sqrt{\left(\frac{f_1}{f}\right)^2+1}}=\frac{80}{\sqrt{\left(\frac{53.05}{15}\right)^2+1}}=21.80 \mathrm{~V}
+$$
+
+
+At 30 kHz , the phase angle of the output voltage is determined as,
+
+$$
+\theta=\angleH(\omega)=90^{\circ}-\tan ^{-1}\left(2 \pi \times 30 \times 10^3 \times 100 \times 0.03 \times 10^{-6}\right)=60.53^{\circ}
+$$

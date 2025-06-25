@@ -1,0 +1,5 @@
+1. 6 \boldsymbol{\Omega}
+2. 18 \boldsymbol{\Omega}
+3. 9 \boldsymbol{\Omega}
+4. 15 \boldsymbol{\Omega}
+5. None of the above

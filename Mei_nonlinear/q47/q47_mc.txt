@@ -1,0 +1,5 @@
+1. -g_m\left(R_D \| r_O\right) \frac{1+\frac{1}{g_m} C_F s}{1+\left[\left(1+g_m R_D\right) R_S+R_D\right] C_F s}
+2. \frac{-g_m\left(R_D \| r_O\right)}{1+g_m R_S} \frac{1-\frac{1}{g_m} C_F s}{1+\left[\left(1+g_m R_D\right) R_S+R_D\right] C_F s}
+3. -g_m\left(R_D \| r_O\right) \frac{1-\frac{1}{g_m} C_F s}{1+\left[\left(1+g_m R_D\right) R_S+R_D\right] C_F s}
+4. -g_m\left(R_D \| r_O\right) \frac{1-\frac{1}{g_m} C_F s}{1+\left(R_S+R_D\right) C_F s}
+5. None of the above

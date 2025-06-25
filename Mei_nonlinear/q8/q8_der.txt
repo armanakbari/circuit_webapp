@@ -1,0 +1,6 @@
+Solution
+The impedance seen looking into the source of $M_2$ (a diode-connected device) is equal to $\left[1 /\left(g_{m 2}+g_{m b 2}\right)\right] \| r_{O 2}$. The impedance appears in parallel with $1 / g_{m b 1}$ and $r_{O 1}$. Thus,
+
+$$
+A_v=\frac{\frac{1}{g_{m 2}+g_{m b 2}}\left\|r_{O 2}\right\| r_{O 1} \| \frac{1}{g_{m b 1}}}{\frac{1}{g_{m 2}+g_{m b 2}}\left\|r_{O 2}\right\| r_{O 1} \| \frac{1}{g_{m b 1}}+\frac{1}{g_{m 1}}}
+$$

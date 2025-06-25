@@ -1,0 +1,1 @@
+Determine $V_{\text {out }} / V_{\text {in }}$ in the provided circuit image, assuming $\lambda=\gamma=0$. Note that the feedback network does not sense the main output here.

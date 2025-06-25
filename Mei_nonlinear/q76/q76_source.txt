@@ -1,0 +1,3 @@
+Design of analog CMOS integrated circuits
+P289
+Example8.5

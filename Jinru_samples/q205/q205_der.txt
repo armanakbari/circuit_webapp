@@ -1,0 +1,58 @@
+The Fourier transform of the driving source is
+
+$$
+\begin{aligned}
+I_g(\omega) & =\mathscr{F}\{20 \operatorname{sgn}(t)\} \\
+& =20\left(\frac{2}{j \omega}\right) \\
+& =\frac{40}{j \omega}
+\end{aligned}
+$$
+
+
+The transfer function of the circuit is the ratio of $\mathrm{I}_o$ to $\mathrm{I}_g$; so
+
+$$
+H(\omega)=\frac{\mathrm{I}_o}{\mathrm{I}_g}=\frac{1}{4+j \omega}
+$$
+
+
+The Fourier transform of $i_0(t)$ is
+
+$$
+\begin{aligned}
+I_o(\omega) & =I_g(\omega) H(\omega) \\
+& =\frac{40}{j \omega(4+j \omega)}
+\end{aligned}
+$$
+
+
+Expanding $I_o(\omega)$ into a sum of partial fractions yields
+
+$$
+I_{\vartheta}(\omega)=\frac{K_1}{j \omega}+\frac{K_2}{4+j \omega}
+$$
+Evaluating $K_1$ and $K_2$ gives
+
+$$
+\begin{aligned}
+& K_1=\frac{40}{4}=10, \\
+& K_2=\frac{40}{-4}=-10 .
+\end{aligned}
+$$
+
+
+Therefore
+
+$$
+I_o(\omega)=\frac{10}{j \omega}-\frac{10}{4+j \omega}
+$$
+
+
+The response is
+
+$$
+\begin{aligned}
+i_o(t) & =\mathscr{F}^{-1}\left[I_o(\omega)\right] \\
+& =5 \operatorname{sgn}(t)-10 e^{-4 t} u(t) .
+\end{aligned}
+$$

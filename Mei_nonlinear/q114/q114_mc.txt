@@ -1,0 +1,5 @@
+1. $V_{th4}+V_{I 1}$
+2. $V_{O V 4}+V_{I 1}$
+3. V_{G S 4}+V_{I 1}
+4. $V_{G S 4}-V_{I 1}$
+5. None of the above

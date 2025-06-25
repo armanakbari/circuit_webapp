@@ -1,0 +1,5 @@
+\begin{aligned}
+Q_T & =Q_1=Q_2=Q_3 \\
+& =C_T E=\left(8 \times 10^{-6} \mathrm{~F}\right)(60 \mathrm{~V})=\mathbf{4 8 0} \boldsymbol{\mu} \mathbf{C}
+\end{aligned}
+$$

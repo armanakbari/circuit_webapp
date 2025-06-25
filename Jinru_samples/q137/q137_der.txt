@@ -1,0 +1,10 @@
+The complex power delivered to the $(1+j 2) \Omega$ impedance is
+
+$$
+\begin{aligned}
+S_1 & =\frac{1}{2} \mathbf{V}_1 \mathbf{I}_{\mathrm{i}}^*=P_1+j Q_1 \\
+& =\frac{1}{2}(78-j 104)(-26+j 52) \\
+& =\frac{1}{2}(3380+j 6760) \\
+& =1690+j 3380 \mathrm{VA} .
+\end{aligned}
+$$

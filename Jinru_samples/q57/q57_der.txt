@@ -1,0 +1,8 @@
+Therefore, when the switch is moved to position c. the initial voltage on the capacitor is 310.75 V . With the switch in position $c$, the final value of the capacitor voltage is zero, and the time constant is 5 ms . Again, the expression for the capacitor voltage:
+
+$$
+\begin{aligned}
+v & =0+(310.75-0) e^{-200(t-0.015)} \\
+& =310.75 e^{-2010(t-0.015)} \mathrm{V}, \quad 15 \mathrm{~ms} \leq t
+\end{aligned}
+$$

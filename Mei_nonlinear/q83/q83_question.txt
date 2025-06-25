@@ -1,0 +1,1 @@
+\text { For the circuit shown in the provided circuit image, calculate the open-loop gains assuming } \lambda=\gamma=0 \text {. }

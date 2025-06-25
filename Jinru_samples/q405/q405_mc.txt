@@ -1,0 +1,5 @@
+1. 6.667 \mathrm{~V}
+2. 5.714 \mathrm{~V}
+3. 8.571 \mathrm{~V}
+4. -5.714 \mathrm{~V}
+5. None of the above

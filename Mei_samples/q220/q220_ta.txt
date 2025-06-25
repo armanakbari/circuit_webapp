@@ -1,0 +1,1 @@
+10-2.57 \mathrm{e}^{-2 t} \mathrm{~A}

@@ -1,0 +1,5 @@
+1. 42.34 VA
+2. 73.61 VA
+3. 104.10 VA
+4. 52.05 \mathrm{VA}
+5. None of the above

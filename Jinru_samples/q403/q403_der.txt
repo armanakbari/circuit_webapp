@@ -1,0 +1,5 @@
+Apply KCL to the top node.
+
+$$
+\frac{30-\mathrm{v}_0}{2 \mathrm{k}}+\frac{20-\mathrm{v}_0}{5 \mathrm{k}}=\frac{\mathrm{v}_0}{4 \mathrm{k}} \longrightarrow \mathrm{v}_0=\mathbf{2 0 ~ V}
+$$

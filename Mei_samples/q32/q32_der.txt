@@ -1,0 +1,45 @@
+\begin{aligned}
+&\text { The } 30 \mathrm{~V} \text { and } 10 \mathrm{~V} \text { voltage sources are converted to a current source as, }\\
+&I_{s 1}=\frac{30}{3}=10 \mathrm{~A}
+\end{aligned}
+$$
+I_{s 1}=\frac{10}{5}=2 \mathrm{~A}
+$$
+
+
+The equivalent circuit is shown in Fig. 2.46. The resistors $3 \Omega$ and $4 \Omega, 5 \Omega$ and $2 \Omega$ are in parallel. Their equivalent resistances are,
+
+$$
+\begin{aligned}
+& R_1=\frac{3 \times 4}{3+4}=1.71 \Omega \\
+& R_2=\frac{5 \times 2}{5+2}=1.43 \Omega
+\end{aligned}
+$$
+
+
+The two current sources are added together and the value of the equivalent current source is,
+
+$$
+I_s=2+3=5 \mathrm{~A}
+$$
+
+
+In this case, the circuit is converted to an equivalent circuit as shown in Fig. 2.47.
+Again, the current sources are converted to voltage sources as shown in Fig. 2.48, where the values of voltage sources are found to be,
+
+$$
+\begin{aligned}
+& V_{s 1}=10 \times 1.71=17.1 \mathrm{~V} \\
+& V_{s 2}=5 \times 1.43=7.15 \mathrm{~V}
+\end{aligned}
+$$
+
+
+Applying KVL to the circuit in Fig. 2.48 yields,
+
+$$
+\begin{gathered}
+-17.1+I(1.71+8+1.43)-7.15=0 \\
+I=\frac{24.25}{1.71+8+1.43}=2.18 \mathrm{~A}
+\end{gathered}
+$$

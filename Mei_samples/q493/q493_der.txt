@@ -1,0 +1,16 @@
+\begin{gathered}
+R_{T h}=R_3+R_1 \| R_2=8 \Omega+\frac{(6 \Omega)(3 \Omega)}{6 \Omega+3 \Omega}=8 \Omega+2 \Omega \\
+R=R_{T h}=\mathbf{1 0} \Omega
+\end{gathered}
+$$
+
+
+$$
+E_{T h}=\frac{R_2 E}{R_2+R_1}=\frac{(3 \Omega)(12 \mathrm{~V})}{3 \Omega+6 \Omega}=\frac{36 \mathrm{~V}}{9}=4 \mathrm{~V}
+$$
+
+and, by Eq. (9.6),
+
+$$
+P_{L_{\max }}=\frac{E_{T h}^2}{4 R_{T h}}=\frac{(4 \mathrm{~V})^2}{4(10 \Omega)}=0.4 \mathrm{~W}
+$$

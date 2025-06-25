@@ -1,0 +1,68 @@
+First we observe that $i_o(0), i_1(0)$, and $i_2(0)$ are all zero, which is consistent with the statement that no energy is stored in the circuit at the instant the switch is closed.
+
+Next we observe $v_o\left(0^{+}\right)=120 \mathrm{~V}$, which is consistent with the fact that $i_o(0)=0$.
+
+Now we observe the solutions for $i_1$ and $i_2$ are consistent with the solution for $v_o$ by observing
+
+$$
+\begin{aligned}
+v_0 & =3 \frac{d i_1}{d t}+6 \frac{d i_2}{d t} \\
+& =360 e^{-5 t}-240 e^{-5 t} \\
+& =120 e^{-5 t} \mathrm{~V}, \quad t \geq 0^{+}
+\end{aligned}
+$$
+
+or
+
+$$
+\begin{aligned}
+v_o & =6 \frac{d i_1}{d t}+15 \frac{d i_2}{d t} \\
+& =720 e^{-5 t}-600 e^{-5 t} \\
+& =120 e^{-5 t} \mathrm{~V}, \quad t \geq 0^{+}
+\end{aligned}
+$$
+
+
+The final values of $i_1$ and $i_2$ can be checked using flux linkages. The flux linking the 3 H coil $\left(\lambda_1\right)$ must be equal to the flux linking the 15 H coil ( $\lambda_2$ ), because
+
+$$
+\begin{aligned}
+v_o & =\frac{d \lambda_1}{d t} \\
+& =\frac{d \lambda_2}{d t}
+\end{aligned}
+$$
+
+
+Now
+
+$$
+\lambda_1=3 i_1+6 i_2 \text { Wb-turns }
+$$
+
+and
+
+$$
+\lambda_2=6 i_1+15 i_2 \mathrm{~Wb} \text {-turns }
+$$
+
+Regardless of which expression we use, we obtain
+
+$$
+\lambda_1=\lambda_2=24-24 e^{-5 t} \mathrm{~Wb} \text {-turns. }
+$$
+
+
+Note the solution for $\lambda_1$ or $\lambda_2$ is consistent with the solution for $v_o$.
+
+The final value of the flux linking either coil 1 or coil 2 is 24 Wb -turns, that is,
+
+$$
+\lambda_1(\infty)=\lambda_2(\infty)=24 \text { Wb-turns. }
+$$
+
+
+The final value of $i_1$ is
+
+$$
+i_1(\infty)=24 \mathrm{~A}
+$$

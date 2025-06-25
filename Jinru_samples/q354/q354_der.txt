@@ -1,0 +1,1 @@
+$\begin{aligned} & 160 / /(60+80+20)=80 \Omega, \\ & 160 / /(28+80+52)=80 \Omega \\ & \boldsymbol{R}_{e q}=20+80=\mathbf{1 0 0} \Omega\end{aligned}$

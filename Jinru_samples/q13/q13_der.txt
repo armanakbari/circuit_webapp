@@ -1,0 +1,26 @@
+The power dissipated in the $10 \Omega$ resistor is
+
+$$
+p_{10 \Omega 2}(t)=\frac{v_o^2}{10}=2560 e^{-10 t} \mathrm{~W}, \quad t \geq 0^{+}
+$$
+
+
+The total energy dissipated in the $10 \Omega$ resistor is
+
+$$
+w_{10 \Omega 2}(t)=\int_0^{\infty} 2560 e^{-10 t} d t=256 \mathrm{~J}
+$$
+
+
+The initial energy stored in the 2 H inductor is
+
+$$
+w(0)=\frac{1}{2} L i^2(0)=\frac{1}{2}(2)(400)=400 \mathrm{~J}
+$$
+
+
+Therefore the percentage of energy dissipated in the $10 \Omega$ resistor is
+
+$$
+\frac{256}{400}(100)=64 \% .
+$$

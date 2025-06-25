@@ -1,0 +1,1 @@
+8 k T \gamma\left(\frac{1}{g_{m 1}}+\frac{g_{m 3}}{g_{m 1}^2}\right)+\frac{2 K_N}{C_{o x}(W L)_1 f}+\frac{2 K_P}{C_{o x}(W L)_3 f} \frac{g_{m 3}^2}{g_{m 1}^2}

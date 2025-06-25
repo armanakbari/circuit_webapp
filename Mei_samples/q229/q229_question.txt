@@ -1,0 +1,1 @@
+In the provided circuit image shows a circuit where the switch is opened for a long time. Determine the current $i(t)$ for $t>0$.

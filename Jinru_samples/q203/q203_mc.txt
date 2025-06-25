@@ -1,0 +1,5 @@
+1. 1000.000 \Omega
+2. 500.000 \Omega
+3. 79.577 \Omega
+4. 159.155 \Omega
+5. None of the above

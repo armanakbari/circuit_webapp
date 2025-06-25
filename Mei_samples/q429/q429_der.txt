@@ -1,0 +1,80 @@
+From Fig. 7.20, we find
+
+$$
+V_2=V_B=2 \mathrm{~V}
+$$
+
+
+Writing Kirchhoff's voltage law around the lower loop yields
+or
+
+$$
+V_E=V_2-V_{B E}=2 \mathrm{~V}-0.7 \mathrm{~V}=1.3 \mathrm{~V}
+$$
+
+and
+
+$$
+I_E=\frac{V_E}{R_E}=\frac{1.3 \mathrm{~V}}{1000 \Omega}=\mathbf{1 . 3} \mathbf{~ m A}
+$$
+
+b. Applying Kirchhoff's voltage law to the input side (left-hand region of the network) will result in
+
+$$
+V_2+V_1-V_{C C}=0
+$$
+and
+
+$$
+V_1=V_{C C}-V_2
+$$
+
+but
+
+$$
+V_2=V_B
+$$
+
+and
+
+$$
+V_1=V_{C C}-V_2=22 \mathrm{~V}-2 \mathrm{~V}=\mathbf{2 0} \mathbf{V}
+$$
+
+c. Redrawing the section of the network of immediate interest will result in Fig. 7.21, where Kirchhoff's voltage law yields
+and
+
+$$
+V_C+V_{R_C}-V_{C C}=0
+$$
+
+but
+
+$$
+V_C=V_{C C}-V_{R_C}=V_{C C}-I_C R_C
+$$
+
+and
+
+$$
+I_C=I_E
+$$
+
+
+$$
+\begin{aligned}
+V_C & =V_{C C}-I_E R_C=22 \mathrm{~V}-(1.3 \mathrm{~mA})(10 \mathrm{k} \Omega) \\
+& =9 \mathrm{~V}
+\end{aligned}
+$$
+
+
+Then
+
+$$
+\begin{aligned}
+V_{B C} & =V_B-V_C \\
+& =2 \mathrm{~V}-9 \mathrm{~V} \\
+& =-7 \mathrm{~V}
+\end{aligned}
+$$

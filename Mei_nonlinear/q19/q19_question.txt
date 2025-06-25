@@ -1,0 +1,2 @@
+Two identical NMOS transistors are used as constant current sources in a system in the provided circuit image. However, due to the internal circuitry of the system, $V_X$ is higher than $V_Y$ by $\Delta V$.
+Calculate the resulting difference between $I_{D 1}$ and $I_{D 2}$ if $\lambda \neq 0$.

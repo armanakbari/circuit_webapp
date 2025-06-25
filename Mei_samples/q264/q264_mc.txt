@@ -1,0 +1,5 @@
+1. 0.88 \mathrm{mF}
+2. 0.33 \mathrm{mF}
+3. 1.20 \mathrm{mF}
+4. 0.55 \mathrm{mF}
+5. None of the above

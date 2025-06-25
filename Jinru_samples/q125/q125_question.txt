@@ -1,0 +1,1 @@
+In the circuit shown in the provided circuit image, a load having an impedance of $39+j 26 \Omega$ is fed from a voltage source through a line having an impedance of $1+j 4 \Omega$. The effective, or rms, value of the source voltage is 250 V . Calculate the reactive power delivered to the line.

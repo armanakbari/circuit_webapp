@@ -1,0 +1,5 @@
+1. 0 \mathbf{V}
+2. +2 \mathbf{V}
+3. +12 \mathbf{V}
+4. -2 \mathbf{V}
+5. None of the above

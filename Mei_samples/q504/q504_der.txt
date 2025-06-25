@@ -1,0 +1,24 @@
+$$
+\tau=32 \mathrm{~ms}
+$$
+
+
+By Eq. (10.18),
+
+$$
+v_C=E e^{-t / \tau}=\mathbf{4 0} e^{-t /\left(32 \times 10^{-3}\right)}
+$$
+
+
+By Eq. (10.19),
+
+$$
+i_C=-\frac{E}{R} e^{-t / \tau}=-\left(\mathbf{5} \times \mathbf{1 0}^{-\mathbf{3}}\right) e^{-t /\left(32 \times 10^{-3}\right)}
+$$
+
+
+By Eq. (10.20),
+
+$$
+V_R=-E e^{-t / \tau}=-40 e^{-t /\left(32 \times 10^{-3}\right)}
+$$

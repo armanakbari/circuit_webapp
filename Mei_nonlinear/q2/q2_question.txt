@@ -1,0 +1,1 @@
+It is possible to use the bulk (back gate) of a MOSFET as the terminal controlling the channel. Shown in the provided circuit image is an example. Determine the voltage gain if $\lambda=0$.

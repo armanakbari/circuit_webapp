@@ -1,0 +1,1 @@
+Assume $I_o=1 \mathrm{~A}$ and use linearity to find the actual value of $I_o$ in the circuit of the provided circuit image.

@@ -1,0 +1,11 @@
+The line currents are calculated as,
+
+$$
+\begin{gathered}
+I_{\mathrm{Aa}}=\frac{230\angle15^{\circ}}{2+j 8}=27.89\angle-60.96^{\circ} \mathrm{A} \\
+I_{\mathrm{Bb}}=I_{\mathrm{Aa}}\angle-120^{\circ}=27.89\angle-180.96^{\circ} \mathrm{A}
+\end{gathered}
+$$
+$$
+I_{\mathrm{Cc}}=I_{\mathrm{Aa}}\angle+120^{\circ}=27.89\angle59 .04^{\circ} \mathrm{A}
+$$

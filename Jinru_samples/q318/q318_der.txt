@@ -1,0 +1,33 @@
+For mesh 1,
+
+$$
+-V_4+2+5=0 \quad \longrightarrow \quad V_4=7 \mathrm{~V}
+$$
+
+
+For mesh 2,
+
+$$
++4+V_3+V_4=0 \quad \longrightarrow \quad V_3=-4-7=-11 \mathrm{~V}
+$$
+
+
+For mesh 3,
+
+$$
+-3+V_1-V_3=0 \quad \longrightarrow \quad V_1=V_3+3=-8 V
+$$
+
+
+For mesh 4,
+
+$$
+-V_1-V_2-2=0 \quad \longrightarrow \quad V_2=-V_1-2=6 \mathrm{~V}
+$$
+
+
+Thus,
+
+$$
+V_1=-8 \mathrm{~V}, \quad V_2=6 \mathrm{~V}, \quad V_3=-11 \mathrm{~V}, \quad V_4=7 \mathrm{~V}
+$$

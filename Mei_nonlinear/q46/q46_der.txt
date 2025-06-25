@@ -1,0 +1,1 @@
+Neglecting channel-length modulation and using the differential half circuit shown in Fig. 6.42(b), we observe that $M_5$ multiplies the drain current of $M_3$ by $K$, yielding an overall low-frequency voltage gain $A_v=g_{m 1} K R_D$.

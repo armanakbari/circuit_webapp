@@ -1,0 +1,17 @@
+We view $V_b$ as the input voltage and recognize that $r_M$ sustains a voltage approximately equal to $V_b$ if the loop gain is high. That is, $I_{\text {out }} \approx V_b / r_M$. But let us analyze this arrangement more accurately. Redrawing the circuit as in Fig. 8.59(c), we identify $A_1$ and $M_1$ as the forward transconductance amplifier and $r_M$ as the feedback network. The procedure depicted in Fig. 8.58 leads to the open-loop topology of Fig. 8.59(d), and hence
+
+$$
+\begin{aligned}
+G_{m, \text { open }} & =\frac{I_{\text {out }}}{V_b} \\
+& \approx A_1 g_m
+\end{aligned}
+$$
+
+where the current flowing through $r_O$ is neglected. The feedback factor $\beta=z_{21}=r_M$. Thus, the closed-loop output current is given by
+
+$$
+I_{\text {out }}=\frac{A_1 g_m}{1+A_1 g_m r_M} V_b
+$$
+
+
+In the open-loop configuration, the load sees an impedance of $r_O+r_M$. Since feedback regulates the output current, the impedance seen by the load rises by a factor of $1+A_1 g_m r_M$, reaching $Z_{\text {out }}=\left(1+A_1 g_m r_M\right)\left(r_O+r_M\right)$.

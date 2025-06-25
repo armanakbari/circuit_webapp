@@ -1,0 +1,5 @@
+1. 105.8 \times 10^{-3} \sin \left(\omega t+100.89^{\circ}\right)
+2. $62.2 \times 10^{-3} \sin \left(\omega t+87.36^{\circ}\right)$
+3. $44.7 \times 10^{-3} \sin \left(\omega t+116.57^{\circ}\right)$
+4. $23.8 \times 10^{-3} \sin \left(\omega t-83.10^{\circ}\right)$
+5. None of the above

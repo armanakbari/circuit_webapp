@@ -1,0 +1,5 @@
+1. -40V
+2. 40V
+3. -80V
+4. 180V
+5. None of the above

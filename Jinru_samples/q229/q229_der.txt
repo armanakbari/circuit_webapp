@@ -1,0 +1,28 @@
+A close look at the circuit in the provided circuit image reveals that:
+- There are two closed paths, the one on the left with the current $i_s$ and the one on the right with the current $i_o$.
+- Once $i_o$ is known, we can compute $v_o$.
+
+We need two equations for the two currents. Because there are two closed paths and both have voltage sources, we can apply Kirchhoff's voltage law to each to give the following equations:
+
+$$
+\begin{aligned}
+& 10=6 i_s \\
+& 3 i_s=2 i_o+3 i_o
+\end{aligned}
+$$
+
+
+Solving for the currents yields
+
+$$
+\begin{aligned}
+i_s & =1.67 \mathrm{~A}, \\
+i_o & =1 \mathrm{~A} .
+\end{aligned}
+$$
+
+Applying Ohm's law to the $3 \Omega$ resistor gives the desired voltage:
+
+$$
+v_o=3 i_o=3 \mathrm{~V} .
+$$

@@ -1,0 +1,5 @@
+1. 27.89\angle-180.96^{\circ} \mathrm{A}
+2. 27.89\angle-60.96^{\circ} \mathrm{A}
+3. 24.00\angle-156.87^{\circ} \mathrm{A}
+4. 27.89\angle59.04^{\circ} \mathrm{A}
+5. None of the above

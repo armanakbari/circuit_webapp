@@ -1,0 +1,1 @@
+in the provided circuit image, Find the mathematical expressions for v_{R_2}$ if the switch is opened after five time constants of the storage phase.

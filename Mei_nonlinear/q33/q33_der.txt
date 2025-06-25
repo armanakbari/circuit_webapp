@@ -1,0 +1,9 @@
+The reader can prove that the voltage gain from $X$ to $Y$ is equal to $1+\left(g_m+g_{m b}\right) r_O$. As shown in Fig. 6.7(b), the input resistance is given by the parallel combination of $r_O /\left(1-A_v\right)$ and $1 /\left(g_m+g_{m b}\right)$. Since $A_v$ is usually greater than unity, $r_O /\left(1-A_v\right)$ is a negative resistance. We therefore have
+
+$$
+\begin{aligned}
+R_{i n} & =\frac{r_O}{1-\left[1+\left(g_m+g_{m b}\right) r_O\right]} \| \frac{1}{g_m+g_{m b}} \\
+& =\frac{-1}{g_m+g_{m b}} \| \frac{1}{g_m+g_{m b}} \\
+& =\infty
+\end{aligned}
+$$

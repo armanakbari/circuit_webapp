@@ -1,0 +1,1 @@
+Using Norton's theorem, find $R_N$ of the circuit in the provided circuit image at terminals $a-b$.

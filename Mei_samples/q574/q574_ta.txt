@@ -1,0 +1,1 @@
+105.8 \times 10^{-3} \sin \left(\omega t+100.89^{\circ}\right)

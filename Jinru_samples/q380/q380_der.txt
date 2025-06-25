@@ -1,0 +1,8 @@
+By the current division principle, the current through the ammeter will be one-half its previous value when
+
+$$
+\begin{aligned}
+& \mathrm{R}=20+\mathrm{R}_{\mathrm{x}} \\
+& 65=20+\mathrm{R}_{\mathrm{x}} \longrightarrow \mathrm{R}_{\mathrm{x}}=45 \Omega
+\end{aligned}
+$$

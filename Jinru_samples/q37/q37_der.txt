@@ -1,0 +1,1 @@
+After the switch has been in position $b$ for a long time, the capacitor will look like an open circuit in terms of the 90 V source. Thus the final value of the capacitor voltage is +90 \mathrm{~V} .

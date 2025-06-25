@@ -1,0 +1,9 @@
+The complex power delivered to the $(1+j 3) \Omega$ impedance is
+
+$$
+\begin{aligned}
+S_3 & =\frac{1}{2} \mathbf{V}_3 \mathbf{I}_2^*=P_3+j Q_3 \\
+& =\frac{1}{2}(150-j 130)(-24+j 58) \\
+& =1970+j 5910 \mathrm{VA} .
+\end{aligned}
+$$

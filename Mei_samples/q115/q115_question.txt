@@ -1,0 +1,1 @@
+Find the power absorbed by the $6 \Omega$ resistor using nodal analysis of the circuit In the provided circuit image.

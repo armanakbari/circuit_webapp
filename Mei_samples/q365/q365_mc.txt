@@ -1,0 +1,5 @@
+1. -10V
+2. 15V
+3. 19V
+4. -19V
+5. None of the above

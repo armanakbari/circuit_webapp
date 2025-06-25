@@ -1,0 +1,48 @@
+We begin by constructing the phasor domain equivalent circuit. The voltage source becomes $2500 \angle 0^{\circ} \mathrm{V}$; the 5 mH inductor converts to an impedance of $j 2 \Omega$; and the $125 \mu \mathrm{H}$ inductor converts to an impedance of $j 0.05 \Omega$. 
+
+It follows directly that
+
+$$
+2500 \angle 0^{\circ}=(0.25+j 2) \mathbf{I}_1+\mathbf{V}_1
+$$
+
+and
+
+$$
+\mathbf{V}_1=10 \mathbf{V}_2=10\left[(0.2375+j 0.05) \mathbf{I}_2\right]
+$$
+
+
+Because
+
+$$
+\mathbf{I}_2=10 \mathbf{I}_1
+$$
+
+we have
+
+$$
+\begin{aligned}
+\mathbf{V}_1 & =10\left(0.2375+j(0.05) 10 \mathbf{I}_1\right. \\
+& =(23.75+j 5) \mathbf{I}_1
+\end{aligned}
+$$
+
+Therefore
+
+$$
+2500 \angle 0^{\circ}=(24+j 7) \mathbf{I}_1,
+$$
+
+or
+
+$$
+\mathbf{I}_1=100 \angle-16.26^{\circ} \mathrm{A} .
+$$
+
+
+Thus the steady-state expression for $i_1$ is
+
+$$
+i_1=100 \cos \left(400 t-16.26^{\circ}\right) \mathrm{A} .
+$$

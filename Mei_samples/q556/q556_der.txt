@@ -1,0 +1,31 @@
+$\tau=\frac{L}{R}=\frac{4 \mathrm{H}}{2 \mathrm{k} \Omega}=2 \mathrm{~ms}$ Eq. (12.10)
+
+$$
+\begin{gathered}
+v_L=E e^{-t / \tau} \\
+v_L=\mathbf{5 0} \mathrm{e}^{-t / 2 \times 10^{-3}}
+\end{gathered}
+$$
+
+
+Eq. (12.8):
+
+$$
+i_L=I_m\left(1-e^{-t / \tau}\right)
+$$
+$$
+\begin{aligned}
+I_m & =\frac{E}{R_1}=\frac{50 \mathrm{~V}}{2 \mathrm{k} \Omega}=25 \mathrm{~mA} \\
+i_L & =\mathbf{2 5} \times \mathbf{1 0}^{-\mathbf{3}}\left(\mathbf{1}-\mathbf{e}^{-t / 2 \times \mathbf{1 0}^{-\mathbf{3}}}\right)
+\end{aligned}
+$$
+
+
+Eq. (12.11): $\quad V_{R_1}=E\left(1-e^{-t / \tau}\right)$
+
+$$
+\begin{aligned}
+& V_{R_1}=50\left(1-\mathrm{e}^{-t / 2 \times 10^{-3}}\right) \\
+& V_{R_2}=50 \mathrm{~V}
+\end{aligned}
+$$

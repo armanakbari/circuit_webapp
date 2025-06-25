@@ -1,0 +1,1 @@
+\frac{\left(g_m+g_{m b}\right) R_D}{1+\left(g_m+g_{m b}\right) R_S} \cdot \frac{1}{\left(1+\frac{s}{\omega_{\text {in }}}\right)\left(1+\frac{s}{\omega_{\text {out }}}\right)}

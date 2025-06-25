@@ -1,0 +1,5 @@
+Applying KCL to the upper node,
+
+$$
+-8+\frac{\mathrm{v}_0}{10}+\frac{\mathrm{v}_{\mathrm{o}}}{20}+\frac{\mathrm{v}_{\mathrm{o}}}{30}+20+\frac{\mathrm{v}_0}{60}=0 \text { or } \mathrm{v}_0=-60 \mathrm{~V}
+$$

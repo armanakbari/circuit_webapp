@@ -1,0 +1,12 @@
+Step 3: See Fig. 9.68, and
+
+$$
+R_N=R_1+R_2=5 \Omega+4 \Omega=9 \boldsymbol{\Omega}
+$$
+
+
+Step 4: As shown in Fig. 9.69, the Norton current is the same as the current through the $4-\Omega$ resistor. Applying the current divider rule,
+
+$$
+I_N=\frac{R_1 I}{R_1+R_2}=\frac{(5 \Omega)(10 \mathrm{~A})}{5 \Omega+4 \Omega}=\frac{50 \mathrm{~A}}{9}=5.556 \mathrm{~A}
+$$

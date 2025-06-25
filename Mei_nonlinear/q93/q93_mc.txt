@@ -1,0 +1,5 @@
+1. \frac{g_m R_S R_D}{R_D+R_S+R_F}
+2. \frac{g_m R_F R_D}{R_D+R_S+R_F}
+3. \frac{g_m R_D}{R_D+R_F}
+4. \frac{g_m R_S R_D}{R_S+R_F}
+5. None of the above

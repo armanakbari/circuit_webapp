@@ -1,0 +1,1 @@
+In the provided circuit image illustrates a circuit implementation incorporating capacitors rather than resistors for the feedback network. Determine the loop gain of the latter at low frequencies.

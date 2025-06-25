@@ -1,0 +1,5 @@
+We find the voltage $v_o$ by direct application of Ohm's law:
+
+$$
+v_o(t)=40 i_o=-160 e^{-5 t} \mathrm{~V}, \quad t \geq 0^{+} .
+$$

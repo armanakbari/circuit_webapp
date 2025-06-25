@@ -1,0 +1,10 @@
+For a positive phase sequence, the line voltages lead the phase voltages by $30^{\circ}$; thus
+
+$$
+\begin{aligned}
+\mathbf{V}_{\mathrm{AB}} & =\left(\sqrt{3} \angle 30^{\circ}\right) \mathbf{V}_{\mathrm{AN}} \\
+& =199.58 \angle 28.81^{\circ} \mathrm{V}, \\
+\mathbf{V}_{\mathrm{BC}} & =199.58 \angle-91.19^{\circ} \mathrm{V}, \\
+\mathbf{V}_{\mathrm{CA}} & =199.58 \angle 148.81^{\circ} \mathrm{V} .
+\end{aligned}
+$$

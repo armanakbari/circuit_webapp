@@ -1,0 +1,12 @@
+The cut-off frequency is,
+
+$$
+f_c=\frac{1}{2 \pi R C}=\frac{1}{2 \pi \times 10 \times 10^3 \times 0.03 \times 10^{-6}}=530.52 \mathrm{~Hz}
+$$
+
+
+The output voltage is,
+
+$$
+\left|V_0\right|=\frac{\left|V_i\right|}{\sqrt{\left(\frac{f}{f_c}\right)^2+1}}=\frac{120}{\sqrt{\left(\frac{400}{530.52}\right)^2+1}}=96 \mathrm{~V}
+$$

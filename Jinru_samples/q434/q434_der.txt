@@ -1,0 +1,78 @@
+The circuit in the provided circuit involves a dependent source, which must be left intact. We let
+
+$$
+i_o=i_o^{\prime}+i_o^{\prime \prime}
+$$
+
+where $i_o^{\prime}$ and $i_o^{\prime \prime}$ are due to the $4-\mathrm{A}$ current source and $20-\mathrm{V}$ voltage source respectively. To obtain $i_o^{\prime}$, we turn off the $20-\mathrm{V}$ source so that we have the circuit in the provided circuit. We apply mesh analysis in order to obtain $i_o^{\prime}$. For loop 1,
+
+$$
+i_1=4 \mathrm{~A}
+$$
+
+
+For loop 2,
+
+$$
+-3 i_1+6 i_2-1 i_3-5 i_o^{\prime}=0
+$$
+For loop 3,
+
+$$
+-5 i_1-1 i_2+10 i_3+5 i_o^{\prime}=0
+$$
+
+
+But at node 0,
+
+$$
+i_3=i_1-i_o^{\prime}=4-i_o^{\prime}
+$$
+
+
+giving two simultaneous equations:
+
+$$
+\begin{aligned}
+& 3 i_2-2 i_o^{\prime}=8 \\
+& i_2+5 i_o^{\prime}=20
+\end{aligned}
+$$
+
+which can be solved to get
+
+$$
+i_o^{\prime}=\frac{52}{17} \mathrm{~A}
+$$
+
+
+To obtain $i_o^{\prime \prime}$, we turn off the 4-A current source. For loop 4, KVL gives
+
+$$
+6 i_4-i_5-5 i_o^{\prime \prime}=0
+$$
+
+and for loop 5,
+
+$$
+-i_4+10 i_5-20+5 i_o^{\prime \prime}=0
+$$
+
+
+But $i_5=-i_o^{\prime \prime}$. so:
+$$
+\begin{gathered}
+6 i_4-4 i_o^{\prime \prime}=0 \\
+i_4+5 i_o^{\prime \prime}=-20
+\end{gathered}
+$$
+
+which we solve to get
+
+$$
+i_o^{\prime \prime}=-\frac{60}{17} \mathrm{~A}
+$$
+Thus:
+$$
+i_o=-\frac{8}{17}=-0.4706 \mathrm{~A}
+$$

@@ -1,0 +1,1 @@
+Assume that the load resistance can be varied between 0 and $4000 \Omega$ and that the capacitive reactance of the load can be varied between 0 and $-2000 \Omega$. What settings of Z_{\mathrm{L}} transfer the most average power to the load?

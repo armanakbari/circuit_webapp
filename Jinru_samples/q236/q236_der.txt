@@ -1,0 +1,15 @@
+We can find the equivalent resistance of the four parallel branches containing resistors. Symbolically,
+
+$$
+\begin{aligned}
+R_{\mathrm{cq}} & =(36+44)\|10\|(40+10+30) \| 24 \\
+& =80\|10\| 80 \| 24=\frac{1}{\frac{1}{80}+\frac{1}{10}+\frac{1}{80}+\frac{1}{24}}=6 \Omega .
+\end{aligned}
+$$
+
+
+Applying Current-division equation that $i_j=\frac{v}{R_j}=\frac{R_{\mathrm{eq}}}{R_j} i$, therefore we can find
+
+$$
+i_0=\frac{6}{24}(8 \mathrm{~A})=2 \mathrm{~A} .
+$$

@@ -1,0 +1,23 @@
+For the computation of zero-value time constants, the main input is set to zero.
+the resistance seen by $C_{G S}$ is $V_X / I_X$. We denote this resistance by $R_{C G S}$. Since $V_1=V_X$ and the current flowing through $R_S$ is equal to $g_m V_1-I_X=g_m V_X-I_X$, we write a KVL as follows:
+
+$$
+I_X R_G=V_X+\left(g_m V_X-I_X\right) R_S
+$$
+
+obtaining
+
+$$
+R_{C G S}=\frac{R_G+R_S}{1+g_m R_S}
+$$
+
+
+For the resistance seen by $C_{G D}$, we have from Example 6.21
+
+$$
+R_{C G D}=R_D+\left(\frac{g_m R_D}{1+g_m R_S}+1\right) R_G
+$$
+\begin{aligned}
+&\text { Finally, the resistance seen by } C_L \text { is simply equal to } R_D \text {. It follows that the }-3-\mathrm{dB} \text { bandwidth is given by }\\
+&\omega_{-3 d B}^{-1}=\frac{R_G+R_S}{1+g_m R_S} C_{G S}+\left[R_D+\left(\frac{g_m R_D}{1+g_m R_S}+1\right) R_G\right] C_{G D}+R_D C_L
+\end{aligned}

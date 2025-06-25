@@ -1,0 +1,1 @@
+Calculate the equivalent impedance of the circuit shown In the provided circuit image.

@@ -1,0 +1,5 @@
+The magnitude of the current that supplies this apparent power is
+
+$$
+\left|\mathbf{I}_s\right|=|80-\mathrm{j} 40|=89.44 \mathrm{~A} .
+$$

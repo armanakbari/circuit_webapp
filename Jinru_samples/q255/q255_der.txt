@@ -1,0 +1,7 @@
+To find the power developed by the 8 A current source, we first find the voltage across the source. If we let $v_s$ represent the voltage across the source, positive at the upper terminal of the source, we obtain
+
+$$
+v_s+8(10)=v_o=20, \text { or } v_s=-60 \mathrm{~V},
+$$
+
+and the power developed by the 8 A source is 480 \mathrm{~W}. Note that the $125 \Omega$ and $10 \Omega$ resistors do not affect the value of $v_o$ but do affect the power calculations.

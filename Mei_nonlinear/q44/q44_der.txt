@@ -1,0 +1,25 @@
+Using the equivalent circuit shown in Fig. 6.32(b), we can write the current through $R_S$ as $-V_{\text {out }} C_L s+V_1 C_{\text {in }} s$. Noting that the voltage across $R_S$ plus $V_{\text {in }}$ must equal $-V_1$, we have
+
+$$
+\left(-V_{\text {out }} C_L s+V_1 C_{\text {in }} s\right) R_S+V_{\text {in }}=-V_1
+$$
+
+That is
+
+$$
+V_1=-\frac{-V_{\text {out }} C_L s R_S+V_{\text {in }}}{1+C_{\text {in }} R_S s}
+$$
+
+
+We also observe that the voltage across $r_O$ minus $V_1$ equals $V_{\text {out }}$ :
+
+$$
+r_O\left(-V_{\text {out }} C_L s-g_m V_1\right)-V_1=V_{\text {out }}
+$$
+
+
+Substituting for $V_1$ from (6.71), we obtain the transfer function:
+
+$$
+\frac{V_{\text {out }}}{V_{\text {in }}}(s)=\frac{1+g_m r_O}{r_O C_L C_{\text {in }} R_S s^2+\left[r_O C_L+C_{\text {in }} R_S+\left(1+g_m r_O\right) C_L R_S\right] s+1}
+$$

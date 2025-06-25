@@ -1,0 +1,5 @@
+1. R_{\text {out }}=\frac{R_F \| R_D}{1+g_m\left(R_F \| R_D\right)}
+2. $R_{\text {out }}=\frac{R_F}{1+g_m\left(R_F \| R_D\right)}$
+3. $R_{\text {out }}=\frac{R_F \| R_D}{1+g_m R_F}$
+4. $R_{\text {out }}=\frac{R_F+R_D}{1+g_m R_D}$
+5. None of the above

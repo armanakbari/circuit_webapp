@@ -1,0 +1,12 @@
+As $t \rightarrow \infty$,
+
+$$
+v_1 \rightarrow-20 \mathrm{~V} \text { and } v_2 \rightarrow+20 \mathrm{~V}
+$$
+
+
+Therefore the energy stored in the two capacitors is
+
+$$
+w_{\infty}=\frac{1}{2}(5+20) \times 10^{-6}(400)=5000 \mu \mathrm{~J}
+$$

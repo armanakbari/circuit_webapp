@@ -1,0 +1,39 @@
+At $t<0$, the switch is closed and the capacitor is open circuited under DC condition as shown in Fig. 5.39. In this case, the circuit is shown in Fig. 5.40. Here, the source current is calculated as,
+
+$$
+i=\frac{24}{2+6+4}=2 \mathrm{~A}
+$$
+
+
+The voltage across the capacitor is,
+$$
+v_c=2(4+6)=20 \mathrm{~V}
+$$
+
+
+The voltage across the capacitor does not change instantaneously. Therefore, the voltage at $t=0^{+}$will be equal to the voltage at $t=0^{-}$.
+
+$$
+v(0)=v_c=20 \mathrm{~V}
+$$
+
+
+At $t \geq 0$, the source is disconnected as shown in Fig. 5.40. The equivalent circuit resistance is,
+
+$$
+R_x=4+6=10 \Omega
+$$
+
+
+The time constant is,
+
+$$
+R_x C=10 \times 3=30
+$$
+
+
+The voltage across the capacitor at $t \geq 0$ is,
+
+$$
+v_c=v(0) \mathrm{e}^{-\frac{1}{R_x t} t}=20 \mathrm{e}^{-\frac{1}{30} t}=20 \mathrm{e}^{-0.03 t} \mathrm{~V}
+$$

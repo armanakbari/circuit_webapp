@@ -1,0 +1,1 @@
+A series-parallel circuit with voltage and current sources is shown In the provided circuit image. Use source conversion technique to find the current in the $8 \Omega$ resistor.

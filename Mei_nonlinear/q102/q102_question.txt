@@ -1,0 +1,1 @@
+\text { Determine the return ratios of } M_1\text { in the provided circuit image, assuming } \lambda=\gamma=0 \text {. }

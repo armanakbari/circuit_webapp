@@ -1,0 +1,1 @@
+Calculate the close-loop gain (in terms of open-loop gain) of the circuit shown in the provided circuit image. Assume that $\lambda=\gamma=0$.

@@ -1,0 +1,1 @@
+The switch in the circuit shown in the provided circuit image has been closed for a long time before it is opened at $t=0$. Find \left.v_0(t) \text { for } t \geq 0\right)^{+}

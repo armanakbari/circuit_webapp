@@ -1,0 +1,1 @@
+Find the Norton equivalent circuit of the circuit in the provided circuit image at terminals $a-b$.

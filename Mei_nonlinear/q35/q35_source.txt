@@ -1,0 +1,3 @@
+Design of analog CMOS integrated circuits
+P177
+Example6.4

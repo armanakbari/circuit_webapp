@@ -1,0 +1,20 @@
+b. For the dc generator,
+
+$$
+\begin{aligned}
+\eta & =\frac{P_o}{P_s} \quad(\eta \text { in decimal form }) \\
+\eta & =\frac{R_L}{R_{T h}+R_L} \\
+\eta\left(R_{T h}+R_L\right) & =R_L \\
+\eta R_{T h}+\eta R_L & =R_L \\
+R_L(1-\eta) & =\eta R_{T h}
+\end{aligned}
+$$
+
+and
+
+$$
+\begin{gathered}
+R_L=\frac{\eta R_{T h}}{1-\eta} \\
+R_L=\frac{0.75(2.5 \Omega)}{1-0.75}=7.5 \Omega
+\end{gathered}
+$$

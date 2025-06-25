@@ -1,0 +1,18 @@
+$$
+\begin{aligned}
+V_C & =E\left(1-e^{-t / \tau}\right) \\
+\tau & =R_1 C=\left(100 \times 10^3 \Omega\right)\left(0.05 \times 10^{-6} \mathrm{~F}\right)=5 \times 10^{-3} \mathrm{~s} \\
+& =5 \mathrm{~ms} \\
+V_C & =\mathbf{1 0}\left(\mathbf{1}-e^{-t /\left(\mathbf{5} \times \mathbf{1 0}^{-3}\right)}\right)
+\end{aligned}
+$$
+
+b.
+
+$$
+\begin{aligned}
+i_C & =\frac{E}{R_1} e^{-t / \tau} \\
+& =\frac{10 \mathrm{~V}}{100 \times 10^3 \Omega} e^{-t /\left(5 \times 10^{-3}\right)} \\
+i_C & =\left(\mathbf{0 . 1} \times \mathbf{1 0}^{-\mathbf{3}}\right) e^{-t /\left(\mathbf{5} \times \mathbf{1 0}^{-3}\right)}
+\end{aligned}
+$$

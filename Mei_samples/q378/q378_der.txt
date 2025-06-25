@@ -1,0 +1,25 @@
+since
+
+$$
+\begin{gathered}
+\frac{1}{R_T}=\frac{1}{R_1}+\frac{1}{R_2}+\frac{1}{R_3} \\
+\frac{1}{16 \mathrm{k} \Omega}=\frac{1}{R_1}+\frac{1}{2 R_1}+\frac{1}{4 R_1}
+\end{gathered}
+$$
+
+and
+
+$$
+\frac{1}{16 \mathrm{k} \Omega}=\frac{1}{R_1}+\frac{1}{2}\left(\frac{1}{R_1}\right)+\frac{1}{4}\left(\frac{1}{R_1}\right)
+$$
+
+
+$$
+\frac{1}{16 \mathrm{k} \Omega}=1.75\left(\frac{1}{R_1}\right)
+$$
+
+with
+
+$$
+R_1=1.75(16 \mathrm{k} \Omega)=\mathbf{2 8} \mathbf{~ k} \boldsymbol{\Omega}
+$$

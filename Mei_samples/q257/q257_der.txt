@@ -1,0 +1,67 @@
+Open the $3 \Omega$ resistor and redraw the circuit as shown in Fig. 7.35. Applying KVL to the circuit in Fig. 7.35 yields,
+
+$$
+\begin{gathered}
+-3010^{\circ}-V_x+V_{\mathrm{Th}}=0 \\
+V_{\mathrm{Th}}=3010^{\circ}+V_x
+\end{gathered}
+$$
+
+
+Applying KCL to node $a$ of the circuit in Fig. 7.35 yields,
+
+$$
+\frac{3010^{\circ}-V_{\mathrm{Th}}}{5}=1.5 V_x+\frac{V_{\mathrm{Th}}}{4+j 6}
+$$
+
+
+Substituting Eq. (7.125) into Eq. (7.126) yields,
+
+$$
+\begin{aligned}
+\frac{3010^{\circ}-V_{\mathrm{Th}}}{5} & =1.5\left(V_{\mathrm{Th}}-3010^{\circ}\right)+\frac{V_{\mathrm{Th}}}{4+j 6} \\
+4510^{\circ}+610^{\circ} & =\frac{V_{\mathrm{Th}}}{5}+1.5 V_{\mathrm{Th}}+\frac{V_{\mathrm{Th}}}{4+j 6} \\
+V_{\mathrm{Th}} & =28.6413 .72^{\circ} \mathrm{V}
+\end{aligned}
+$$
+To find the Thevenin's impedance, insert a 1 A current source to the open terminals of the circuit and short circuit the independent voltage source as shown in Fig. 7.36.
+
+Applying KVL to the circuit in Fig. 7.36 yields,
+
+$$
+\begin{gathered}
+-V_x+V_{\mathrm{cs}}=0 \\
+V_x=V_{\mathrm{cs}}
+\end{gathered}
+$$
+
+
+Applying KCL to node $b$ of the circuit in Fig. 7.36 yields,
+
+$$
+1=\frac{V_{\mathrm{cs}}}{4+j 6}+\frac{V_{\mathrm{cs}}}{5}+1.5 V_x
+$$
+
+
+Substituting Eq. (7.131) into Eq. (7.132) yields,
+
+$$
+\begin{gathered}
+1=\left(\frac{1}{4+j 6}+\frac{1}{5}+1.5\right) V_{\mathrm{cs}} \\
+V_{\mathrm{cs}}=0.56 \angle3 .72^{\circ} \mathrm{V}
+\end{gathered}
+$$
+
+
+Thevenin's impedance is then calculated as,
+
+$$
+Z_{\mathrm{Th}}=\frac{V_{\mathrm{cs}}}{1}=0.56 \angle3 .72^{\circ} \Omega
+$$
+
+
+The current in the $3 \Omega$ resistor is,
+
+$$
+I_{3 \Omega}=\frac{V_{\mathrm{Th}}}{3+Z_{\mathrm{Th}}}=\frac{28.64 \angle13 .72^{\circ}}{3+0.56 \angle3 .72^{\circ}}=8.05 \angle13 .14^{\circ} \mathrm{A}
+$$

@@ -1,0 +1,5 @@
+1. 311.77\angle90^{\circ} \mathrm{V}
+2. 311.77\angle-150^{\circ} \mathrm{V}
+3. 311.77\angle-90^{\circ} \mathrm{V}
+4. 180\angle-90^{\circ} \mathrm{V}
+5. None of the above

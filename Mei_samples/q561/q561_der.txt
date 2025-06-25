@@ -1,0 +1,19 @@
+$$
+\begin{aligned}
+\tau^{\prime} & =\frac{L}{R_1+R_2}=\frac{4 \mathrm{H}}{2 \mathrm{k} \Omega+3 \mathrm{k} \Omega}=\frac{4 \mathrm{H}}{5 \times 10^3 \Omega}=0.8 \times 10^{-3} \mathrm{~s} \\
+& =0.8 \mathrm{~ms}
+\end{aligned}
+$$
+
+
+By Eq. (12.15),
+
+$$
+V_i=\left(1+\frac{R_2}{R_1}\right) E=\left(1+\frac{3 \mathrm{k} \Omega}{2 \mathrm{k} \Omega}\right)(50 \mathrm{~V})=125 \mathrm{~V}
+$$
+
+and
+
+$$
+V_L=-V_i e^{-t / \tau^{\prime}}=-125 e^{-t /\left(0.8 \times 10^{-3}\right)}
+$$

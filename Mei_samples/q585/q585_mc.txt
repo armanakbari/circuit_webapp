@@ -1,0 +1,5 @@
+1. $\mathbf{30} \mathbf{V} \angle \mathbf{6.87^\circ}$
+2. $\mathbf{27.0} \mathbf{V} \angle \mathbf{83.13^\circ}$
+3. $\mathbf{30} \mathbf{V} \angle \mathbf{-83.13^\circ}$
+4. \mathbf{3 0} \mathbf{V} \angle \mathbf{8 3 . 1 3 \circ}
+5. None of the above

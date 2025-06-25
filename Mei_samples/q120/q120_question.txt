@@ -1,0 +1,1 @@
+An electrical circuit is shown In the provided circuit image. Use nodal analysis to calculate the current in the $3 \Omega$ resistor.

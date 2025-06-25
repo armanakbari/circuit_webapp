@@ -1,0 +1,1 @@
+-g_m\left(R_D \| r_O\right) \frac{1-\frac{C_F}{g_m} s}{\left[R_S\left(1+g_m R_D\right)+R_D\right] C_F s+R_D\left(R_S C_F s+1\right) C_B s+1}

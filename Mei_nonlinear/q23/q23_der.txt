@@ -1,0 +1,2 @@
+Solution
+Applying the half-circuit concept as illustrated in Fig. 4.23, we have $V_X / V_{i n 1}=-g_m\left(R_D \| r_{O 1}\right)$ and $V_Y /\left(-V_{i n 1}\right)=$ $-g_m\left(R_D \| r_{O 2}\right)$, thus arriving at $\left(V_X-V_Y\right) /\left(2 V_{i n 1}\right)=-g_m\left(R_D \| r_O\right)$, where $r_O=r_{O 1}=r_{O 2}$.

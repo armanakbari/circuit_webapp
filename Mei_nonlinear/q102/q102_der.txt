@@ -1,0 +1,14 @@
+In this circuit, $R_S$ degenerates both $M_1$ and $M_2$, and $M_2$ returns a voltage to the source of $M_1$ with positive feedback. Injecting a current as shown in Fig. 8.83(b), we note that $R_S$ carries a current of $-V_1 / R_S$, leading to $I_{D 2}=-I_1-V_1 / R_S$, and hence $V_{G S 2}=\left(-I_1-V_1 / R_S\right) / g_{m 2}$. Adding the voltage drops across $R_D$ and $R_S$ to $V_{G S 2}$, we have
+
+$$
+I_1 R_D-\frac{I_1}{g_{m 2}}-\frac{V_1}{g_{m 2} R_S}-V_1=0
+$$
+
+and
+
+$$
+\begin{aligned}
+R R_1 & =-g_{m 1} \frac{V_1}{I_1} \\
+& =\frac{1-g_{m 2} R_D}{1+g_{m 2} R_S} g_{m 1} R_S
+\end{aligned}
+$$

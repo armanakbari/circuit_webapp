@@ -1,0 +1,20 @@
+a. $R_T=R_1+R_2+R_3=2 \Omega+1 \Omega+5 \Omega=\mathbf{8} \Omega$
+b. $I_s=\frac{E}{R_T}=\frac{20 \mathrm{~V}}{8 \Omega}=\mathbf{2 . 5 ~ A}$
+c.
+
+$$
+\begin{aligned}
+& V_1=I R_1=(2.5 \mathrm{~A})(2 \Omega)=\mathbf{5} \mathbf{V} \\
+& V_2=I R_2=(2.5 \mathrm{~A})(1 \Omega)=\mathbf{2 . 5} \mathbf{V} \\
+& V_3=I R_3=(2.5 \mathrm{~A})(5 \Omega)=\mathbf{1 2 . 5} \mathbf{V}
+\end{aligned}
+$$
+
+d.
+
+$$
+\begin{aligned}
+& P_1=V_1 I_1=(5 \mathrm{~V})(2.5 \mathrm{~A})=12.5 \mathrm{~W} \\
+& P_2=I_2^2 R_2=(2.5 \mathrm{~A})^2(1 \Omega)=6.25 \mathrm{~W} \\
+& P_3=V_3^2 / R_3=(12.5 \mathrm{~V})^2 / 5 \Omega=31.25 \mathrm{~W}
+\end{aligned}

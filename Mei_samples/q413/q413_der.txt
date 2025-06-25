@@ -1,0 +1,20 @@
+In this case, particular unknowns are requested instead of a complete solution. It would, therefore, be a waste of time to find all the currents and voltages of the network. The method employed should concentrate on obtaining only the unknowns requested. With the block diagram approach, the network has the basic structure of Fig. 7.11, clearly indicating that the three branches are in parallel and the voltage across $A$ and $B$ is the supply voltage. The current $I_4$ is now immediately obvious as simply the supply voltage divided by the resultant resistance for $B$. If desired, block $A$ could be broken down further, as shown in Fig. 7.12, to identify $C$ and $D$ as series elements, with the voltage $V_2$ capable of being determined using the voltage divider rule once the resistance of $C$ and $D$ is reduced to a single value. This is an example of how a mental sketch of the approach might be made before applying laws, rules, and so on, to avoid dead ends and growing frustration.
+
+Applying Ohm's law,
+
+$$
+I_4=\frac{E}{R_B}=\frac{E}{R_4}=\frac{12 \mathrm{~V}}{8 \Omega}=1.5 \mathrm{~A}
+$$
+
+
+Combining the resistors $R_2$ and $R_3$ of Fig. 7.10 will result in
+
+$$
+R_D=R_2\left\|R_3=3 \Omega\right\| 6 \Omega=\frac{(3 \Omega)(6 \Omega)}{3 \Omega+6 \Omega}=\frac{18 \Omega}{9}=2 \Omega
+$$
+
+and, applying the voltage divider rule,
+
+$$
+V_2=\frac{R_D E}{R_D+R_C}=\frac{(2 \Omega)(12 \mathrm{~V})}{2 \Omega+4 \Omega}=\frac{24 \mathrm{~V}}{6}=4 \mathrm{~V}
+$$

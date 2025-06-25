@@ -1,0 +1,5 @@
+1. $\mathbf{20} \sin (\omega t-\mathbf{53})$
+2. \mathbf{2 0} \sin (\omega t+\mathbf{1 2 0})
+3. $\mathbf{27} \sin (\omega t+\mathbf{120})$
+4. $\mathbf{20} \sin (\omega t-\mathbf{120})$
+5. None of the above

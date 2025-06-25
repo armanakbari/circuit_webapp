@@ -1,0 +1,5 @@
+1. $\left(-14 e^{-5000 t}+26 e^{-20.000 t}\right) \mathrm{V}$
+2. $\left(26 e^{-5000 t}-14 e^{-20000 t}\right) \mathrm{V}$
+3. $\left(16 e^{-5000 t}-4 e^{-20000 t}\right) \mathrm{V}$
+4. $\left(24 e^{-5000 t}-12 e^{-20000 t}\right) \mathrm{V}$
+5. None of the above

@@ -1,0 +1,10 @@
+$$
+\mathbf{I}_2=10 \mathbf{I}_1=1000 \angle-16.26^{\circ} \mathrm{A} .
+$$
+
+
+Therefore
+
+$$
+i_2=1000 \cos \left(400 t-16.26^{\circ}\right) \mathrm{A} .
+$$

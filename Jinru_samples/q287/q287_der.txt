@@ -1,0 +1,32 @@
+The $3-\Omega$ and $6-\Omega$ resistors are in parallel because they are connected to the same two nodes $c$ and $b$. Their combined resistance is
+
+$$
+3 \Omega \| 6 \Omega=\frac{3 \times 6}{3+6}=2 \Omega
+$$
+
+Similarly, the $12-\Omega$ and $4-\Omega$ resistors are in parallel since they are connected to the same two nodes $d$ and $b$. Hence
+
+$$
+12 \Omega \| 4 \Omega=\frac{12 \times 4}{12+4}=3 \Omega
+$$
+
+
+Also the $1-\Omega$ and $5-\Omega$ resistors are in series; hence, their equivalent resistance is
+
+$$
+1 \Omega+5 \Omega=6 \Omega
+$$
+
+
+With these three combinations, we can replace the circuit, $3-\Omega$ in parallel with $6-\Omega$ gives $2-\Omega$. This $2-\Omega$ equivalent resistance is now in series with the $1-\Omega$ resistance to give a combined resistance of $1 \Omega+2 \Omega=3 \Omega$. we combine the $2-\Omega$ and $3-\Omega$ resistors in parallel to get
+
+$$
+2 \Omega \| 3 \Omega=\frac{2 \times 3}{2+3}=1.2 \Omega
+$$
+
+
+This $1.2-\Omega$ resistor is in series with the $10-\Omega$ resistor, so that
+
+$$
+R_{a b}=10+1.2=11.2 \Omega
+$$

@@ -1,0 +1,5 @@
+1. 10,714.29 \Omega
+2. 10,833.33 \Omega
+3. 8,750.00 \Omega
+4. 15,000.00 \Omega
+5. None of the above

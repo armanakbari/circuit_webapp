@@ -1,0 +1,5 @@
+\begin{aligned}
+& \quad \boldsymbol{V}=15 \sin \omega t \Rightarrow \text { phasor notation } \mathbf{V}=10.605 \mathrm{~V} \angle 0^{\circ} \\
+& \quad \mathbf{I}=\frac{\mathbf{V}}{\mathbf{Z}_C}=\frac{V \angle \theta}{X_C \angle-90^{\circ}}=\frac{10.605 \mathrm{~V} \angle 0^{\circ}}{2 \Omega \angle-90^{\circ}}=5.303 \mathrm{~A} \angle 90^{\circ} \\
+& \text { and } \quad i=\sqrt{2}(5.303) \sin \left(\omega t+90^{\circ}\right)=\mathbf{7 . 5} \sin \left(\omega t+\mathbf{9 0}^{\circ}\right)
+\end{aligned}

@@ -1,0 +1,1 @@
+Two identical amplifiers are connected in cascade. Each amplifier is described in terms of its $h$ parameters. The values are $h_{11}=1000 \Omega, h_{12}=0.0015, h_{21}=100$, and $h_{22}=100 \mu \mathrm{~S}$. Find the voltage gain $V_2 / V_g$.

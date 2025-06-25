@@ -1,0 +1,4 @@
+\begin{gathered}
+R_{T h}=R_3+R_1 \| R_2=8 \Omega+\frac{(6 \Omega)(3 \Omega)}{6 \Omega+3 \Omega}=8 \Omega+2 \Omega \\
+R=R_{T h}=\mathbf{1 0} \Omega
+\end{gathered}

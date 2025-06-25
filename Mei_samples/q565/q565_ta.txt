@@ -1,0 +1,1 @@
+2.54 \mathrm{~mA}-8.54 \mathrm{mAe}^{-t /(65.39 \mu \mathrm{~s})}

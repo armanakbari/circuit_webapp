@@ -1,0 +1,9 @@
+Solution
+As shown in Fig. 7.20, the maximum output noise occurs if the transistor sees only its own output impedance as the load, i.e., if the external load is an ideal current source. The output noise voltage spectrum is then given by $S_{\text {out }}(f)=S_{\text {in }}(f)|H(f)|^2$, i.e.,
+
+$$
+\begin{aligned}
+\overline{V_n^2} & =\overline{I_n^2} r_O^2 \\
+& =\left(4 k T \gamma g_m\right) r_O^2
+\end{aligned}
+$$

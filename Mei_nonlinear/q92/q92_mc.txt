@@ -1,0 +1,5 @@
+1. $A_{I, \text { open }} /\left(1+(R_F /\left(R_S+R_F\right)) A_{I, \text { open }}\right)$
+2. $A_{I, \text { open }} /\left(1+(-R_F /\left(R_S+R_F\right)) A_{I, \text { open }}\right)$
+3. $A_{I, \text { open }} /\left(1+(R_S /\left(R_S+R_F\right)) A_{I, \text { open }}\right)$
+4. $A_{I, \text { open }} /\left(1+(-R_S /\left(R_S+R_F\right)) A_{I, \text { open }}\right)
+5. None of the above

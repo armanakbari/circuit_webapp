@@ -1,0 +1,1 @@
+Compute values for $R$ to yield a bandpass filter with a center frequency of 5 kHz and a bandwidth of 200 Hz , using a $5 \mu \mathrm{~F}$ capacitor.

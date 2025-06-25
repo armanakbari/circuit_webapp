@@ -1,0 +1,5 @@
+\begin{aligned}
+&V_0=5 \times 10^{-3} \times 10 \times 10^3=50 \mathrm{~V}\\
+&\text { Using current division, }\\
+&\mathrm{I}_{20}=\frac{5}{5+20}(0.01 x 50)=\mathbf{0 . 1 ~ A}
+\end{aligned}

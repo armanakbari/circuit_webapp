@@ -1,0 +1,5 @@
+1. \mathbf{1 9 . 7 4} \mathrm{V} \angle \mathbf{8 0 . 5} 4^{\circ}
+2. $19.74 \mathrm{V} \angle -80.54^{\circ}$
+3. $27.92 \mathrm{V} \angle 80.54^{\circ}$
+4. $19.74 \mathrm{V} \angle 9.46^{\circ}$
+5. None of the above

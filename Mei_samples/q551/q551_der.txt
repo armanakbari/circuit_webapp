@@ -1,0 +1,23 @@
+$$
+\tau=\frac{L}{R_1}=\frac{4 \mathrm{H}}{2 \mathrm{k} \Omega}=2 \mathrm{~ms}
+$$
+
+
+By Eq. (12.8),
+
+$$
+I_m=\frac{E}{R_1}=\frac{50}{2 \mathrm{k} \Omega}=25 \times 10^{-3} \mathrm{~A}=25 \mathrm{~mA}
+$$
+
+and
+
+$$
+i_L=\left(25 \times 10^{-3}\right)\left(1-e^{-t /\left(2 \times 10^{-3}\right)}\right)
+$$
+
+
+By Eq. (12.10),
+
+$$
+v_L=50 e^{-t /\left(2 \times 10^{-3}\right)}
+$$

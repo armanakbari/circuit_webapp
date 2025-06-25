@@ -1,0 +1,8 @@
+Use the definition of quality factor to calculate $Q$ :
+
+$$
+\begin{aligned}
+Q & =\omega_n / \beta \\
+& =\sqrt{\frac{R^2 C}{L}} .
+\end{aligned}
+$$

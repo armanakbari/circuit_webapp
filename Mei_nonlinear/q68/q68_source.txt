@@ -1,0 +1,3 @@
+Design of analog CMOS integrated circuits
+P251
+Example7.20

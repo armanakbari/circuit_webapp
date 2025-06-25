@@ -1,0 +1,1 @@
+Analysis of a transistor network resulted in the reduced configuration of in the provided circuit image.  calculate the power of $R_L$ under transfer maximum power conditions.

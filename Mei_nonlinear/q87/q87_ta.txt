@@ -1,0 +1,1 @@
+R_{\text {out }}=\frac{R_F \| R_D}{1+g_m\left(R_F \| R_D\right)}

@@ -1,0 +1,5 @@
+1. 6.29mA
+2. 6.60mA
+3. 5.99mA
+4. 5.44mA
+5. None of the above

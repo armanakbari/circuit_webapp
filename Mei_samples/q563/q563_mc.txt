@@ -1,0 +1,5 @@
+1. \left(0.24 \times 10^{-3}\right)\left(1-e^{-t /\left(9.6 \times 10^{-6}\right)}\right)
+2. \left(0.6 \times 10^{-3}\right)\left(1-e^{-t /\left(40 \times 10^{-6}\right)}\right)
+3. \left(0.6 \times 10^{-3}\right)\left(1-e^{-t /\left(16 \times 10^{-6}\right)}\right)
+4. \left(0.6 \times 10^{-3}\right)\left(1-e^{-t /\left(8 \times 10^{-6}\right)}\right)
+5. None of the above

@@ -1,0 +1,1 @@
+\frac{R_G+R_S}{1+g_m R_S} C_{G S}+\left[R_D+\left(\frac{g_m R_D}{1+g_m R_S}+1\right) R_G\right] C_{G D}+R_D C_L

@@ -1,0 +1,21 @@
+To find the maximum average power delivered to $Z_L$, we first find $\mathbf{V}_2$ from the voltage-gain expression $\mathbf{V}_2 / \mathbf{V}_g$. When $Z_L$ is $10,833.33 \Omega$, this gain is
+
+$$
+\frac{\mathbf{V}_2}{\mathbf{V}_g}=0.8333
+$$
+
+
+Thus
+
+$$
+\mathbf{V}_2=(0.8333)(500)=416.67 \mathrm{~V},
+$$
+
+and
+
+$$
+\begin{aligned}
+P_L(\text { maximum }) & =\frac{1}{2} \frac{416.67^2}{10,833.33} \\
+& =8.01 \mathrm{~W}
+\end{aligned}
+$$

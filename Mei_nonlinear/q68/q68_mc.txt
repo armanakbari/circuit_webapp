@@ -1,0 +1,5 @@
+1. $4 k T \gamma\left(g_{m 1}+g_{m 2}+g_{m 3}\right)$
+2. 4 k T \gamma\left(g_{m 2}+g_{m 3}\right)
+3. $4 k T \gamma\left(g_{m 2}+\frac{g_{m 2}^{2}}{g_{m 3}}\right)$
+4. $4 k T \gamma \frac{g_{m 2} g_{m 3}}{g_{m 2}+g_{m 3}}$
+5. None of the above

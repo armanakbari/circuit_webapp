@@ -1,0 +1,5 @@
+1. $232.20+j 168.15 \mathrm{VA}$
+2. $227.52+j 164.74 \mathrm{VA}$
+3. $687.74+j 509.76 \mathrm{VA}$
+4. 682.56+j 494.21 \mathrm{VA}
+5. None of the above

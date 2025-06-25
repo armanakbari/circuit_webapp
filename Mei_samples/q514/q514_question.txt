@@ -1,0 +1,1 @@
+Find the mathematical expression for the transient behavior of the voltage across the capacitor in the provided circuit image if the switch is thrown into position 1 at $t=0 \mathrm{~s}$.

@@ -1,0 +1,5 @@
+1. \frac{C_L}{2 \gamma k T} \cdot \frac{\left(g_{m 1}+g_{m 2}\right)\left(r_{O 1} \| r_{O 2}\right)}{g_{m 1}} V_m^2
+2. \frac{C_L}{2 \gamma k T} \cdot \frac{g_{m 1}^2\left(r_{O 1} \| r_{O 2}\right)}{g_{m 1}+g_{m 2}} V_m^2
+3. \frac{C_L}{\gamma k T} \cdot \frac{g_{m 1}^2\left(r_{O 1} \| r_{O 2}\right)}{g_{m 1}+g_{m 2}} V_m^2
+4. \frac{C_L}{2 \gamma k T} \cdot \frac{g_{m 1}^2\left(r_{O 1} + r_{O 2}\right)}{g_{m 1}+g_{m 2}} V_m^2
+5. None of the above

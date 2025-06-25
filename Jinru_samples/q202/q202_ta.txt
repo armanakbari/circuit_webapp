@@ -1,0 +1,1 @@
+H(s)=\frac{\beta s}{s^2+\beta s+\omega_o^2}

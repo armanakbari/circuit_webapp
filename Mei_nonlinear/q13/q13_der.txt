@@ -1,0 +1,18 @@
+Solution
+We first find the Thevenin equivalent of $M_1$ and $V_{i n}$. As shown in Fig. 3.52(b), $M_1$ operates as a source follower, the equivalent Thevenin voltage is given by
+
+$$
+V_{i n, e q}=\frac{r_{O 1} \| \frac{1}{g_{m b 1}}}{r_{O 1} \| \frac{1}{g_{m b 1}}+\frac{1}{g_{m 1}}} V_{i n}
+$$
+and the equivalent Thevenin resistance is
+
+$$
+R_{e q}=r_{O 1}\left\|\frac{1}{g_{m b 1}}\right\| \frac{1}{g_{m 1}}
+$$
+
+
+Redrawing the circuit as in Fig. 3.52(c), we use (3.111) to write
+
+$$
+\frac{V_{\text {out }}}{V_{\text {in }}}=\frac{\left(g_{m 2}+g_{m b 2}\right) r_{O 2}+1}{r_{O 2}+\left[1+\left(g_{m 2}+g_{m b 2}\right) r_{O 2}\right]\left(r_{O 1}\left\|\frac{1}{g_{m b 1}}\right\| \frac{1}{g_{m 1}}\right)+R_D} R_D \frac{r_{O 1} \| \frac{1}{g_{m b 1}}}{r_{O 1} \| \frac{1}{g_{m b 1}}+\frac{1}{g_{m 1}}}
+$$

@@ -1,0 +1,1 @@
+Find charge on capacitor C3 for the network in the provided circuit image

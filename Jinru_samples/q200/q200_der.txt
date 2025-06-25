@@ -1,0 +1,9 @@
+Use the equation for bandwidth to compute a value for $R$, given a capacitance of $5 \mu \mathrm{~F}$. Remember to convert the bandwidth to the appropriate units:
+
+$$
+\begin{aligned}
+R & =\frac{1}{\beta C} \\
+& =\frac{1}{(2 \pi)(200)\left(5 \times 10^{-6}\right)} \\
+& =159.15 \Omega
+\end{aligned}
+$$

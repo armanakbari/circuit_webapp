@@ -1,0 +1,5 @@
+1. mathbf{36 V}
+2. mathbf{2 8 V}
+3. mathbf{-28 V}
+4. mathbf{24 V}
+5. None of the above

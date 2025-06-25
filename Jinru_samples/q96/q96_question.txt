@@ -1,0 +1,1 @@
+Use a $\Delta$-to-Y impedance transformation to find $\mathbf{V}_2$ in the circuit in the provided circuit image.

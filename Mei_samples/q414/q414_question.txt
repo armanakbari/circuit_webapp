@@ -1,0 +1,1 @@
+Find the current $I_s$ for the network In the provided circuit image

@@ -1,0 +1,61 @@
+Applying KVL to the meshes 1,2 and 3 yields,
+
+$$
+\begin{aligned}
+& 13 I_1-6 I_2-5 I_3=40 \\
+& -6 I_1+9 I_2-3 I_3=30 \\
+& -2 I_1+3 I_2-I_3=10 \\
+& -5 I_1-3 I_2+18 I_3=15
+\end{aligned}
+$$
+
+
+Determinant of the three simultaneous equations is calculated as,
+
+$$
+\begin{aligned}
+D & =\left|\begin{array}{ccc}
+13 & -6 & -5 \\
+-2 & 3 & -1 \\
+-5 & -3 & 18
+\end{array}\right|=13(54-3)+6(-36-5)-5(6+15) \\
+& =312
+\end{aligned}
+$$
+
+
+Other related parameters can be determined as,
+
+$$
+\begin{aligned}
+D_1 & =\left|\begin{array}{ccc}
+40 & -6 & -5 \\
+10 & 3 & -1 \\
+15 & -3 & 18
+\end{array}\right|=40(54-3)+6(180+15)-5(-30-45) \\
+& =3585 \\
+D_2 & =\left|\begin{array}{ccc}
+13 & 40 & -5 \\
+-2 & 10 & -1 \\
+-5 & 15 & 18
+\end{array}\right|=13(180+15)-40(-36-5)-5(-30+50) \\
+& =4075
+\end{aligned}
+$$
+
+
+The values of the currents are calculated as,
+
+$$
+\begin{aligned}
+& I_1=\frac{D_1}{D}=\frac{3585}{312}=11.49 \mathrm{~A} \\
+& I_2=\frac{D_2}{D}=\frac{4075}{312}=13.06 \mathrm{~A}
+\end{aligned}
+$$
+
+
+The power absorbed by the $6 \Omega$ resistor is,
+
+$$
+P_{60}=\left(I_1-I_2\right)^2 \times 6=(11.49-13.06)^2 \times 6=14.79 \mathrm{~W}
+$$

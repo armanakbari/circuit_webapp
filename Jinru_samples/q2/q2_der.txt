@@ -1,0 +1,11 @@
+Solve two different versions of the noninverting amplifier equation for $v_o$-first using $v_g=+1.5 \mathrm{~V}$ and then using $v_g=-1.5 \mathrm{~V}$ :
+
+$$
+\begin{aligned}
+& v_o=6(1.5)=9 \mathrm{~V} ; \\
+& v_o=6(-1.5)=-9 \mathrm{~V} .
+\end{aligned}
+$$
+
+
+Thus, if we use $\pm 9 \mathrm{~V}$ power supplies for the noninverting amplifier designed and $-1.5 \mathrm{~V} \leq v_g \leq+1.5 \mathrm{~V}$, the op amp will remain in its linear operating region. The circuit resulting from the analysis is shown in the provided circuit image.

@@ -1,0 +1,19 @@
+When port 1 is open, $I_1$ is zero and the voltage $V_1$ is
+
+$$
+V_1=\frac{V_2}{5+20}(20)=0.8 V_2
+$$
+
+
+With port 1 open, the current into port 2 is
+
+$$
+I_2=\frac{V_2}{9.375} .
+$$
+
+
+Hence
+
+$$
+z_{12}=\left.\frac{V_1}{I_2}\right|_{I_1=0}=\frac{0.8 V_2}{V_2 / 9.375}=7.5 \Omega
+$$

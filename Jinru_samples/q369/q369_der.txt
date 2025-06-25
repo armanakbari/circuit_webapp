@@ -1,0 +1,25 @@
+$$
+\begin{aligned}
+& \mathrm{R}_{\mathrm{ab}}=\frac{15 \times 10+10 \times 12+12 \times 15}{12}=\frac{450}{12}=37.5 \Omega \\
+& \mathrm{R}_{\mathrm{ac}}=450 /(10)=45 \Omega, \mathrm{R}_{\mathrm{bc}}=450 /(15)=30 \Omega
+\end{aligned}
+$$
+
+
+Combining the resistors in parallel,
+
+$$
+\begin{gathered}
+30 \| 20=(600 / 50)=12 \Omega \\
+37.5 \| 30=(37.5 \times 30 / 67.5)=16.667 \Omega \\
+35 \| 45=(35 \times 45 / 80)=19.688 \Omega \\
+\mathrm{R}_{\text {eq }}=19.688 \|(12+16.667)=11.672 \Omega
+\end{gathered}
+$$
+
+
+By voltage division,
+
+$$
+\mathrm{v}=\frac{11.672}{11.672+16} 100=\underline{42.18 \mathbf{V}}
+$$

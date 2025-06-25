@@ -1,0 +1,1 @@
+A wye-connected generator generates a voltage of 180 V rms as shown In the provided circuit image. For abc phase sequence, write down the line voltage V_{\mathrm{ab}}.

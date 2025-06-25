@@ -1,0 +1,5 @@
+1. \mathbf{-20} \sin \omega t
+2. \mathbf{2 0} \sin \omega t
+3. \mathbf{14.14} \sin \omega t
+4. \mathbf{20} \cos \omega t
+5. None of the above

@@ -1,0 +1,16 @@
+The problem is to select values for $R$ and $L$ that yield a low-pass filter with a cutoff frequency of 10 Hz . From Eq. 14.12, we see that $R$ and $L$ cannot be specified independently to generate a value for $\omega_c$. Therefore, let's choose a commonly available value of $L, 100 \mathrm{mH}$. Before we use Eq. 14.12 to compute the value of $R$ needed to obtain the desired cutoff frequency, we need to convert the cutoff frequency from hertz to radians per second:
+
+$$
+\omega_c=2 \pi(10)=20 \pi \mathrm{rad} / \mathrm{s} .
+$$
+
+
+Now, solve for the value of $R$ which, together with $L=100 \mathrm{mH}$, will yield a low-pass filter with a cutoff frequency of 10 Hz :
+
+$$
+\begin{aligned}
+R & =\omega_c L \\
+& =(20 \pi)\left(100 \times 10^{-3}\right) \\
+& =6.28 \Omega .
+\end{aligned}
+$$

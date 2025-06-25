@@ -1,0 +1,1 @@
+Determine the resistance R1 to effect the division of current In the provided circuit image.

@@ -1,0 +1,12 @@
+At node $1, \frac{60-v_1}{4}=\frac{v_1}{8}+\frac{v_1-v_2}{2} \quad 120=7 v_1-4 v_2$
+At node $2,3 \mathrm{i}_o+\frac{60-\mathrm{v}_2}{10}+\frac{\mathrm{v}_1-\mathrm{v}_2}{2}=0$
+
+But $\mathrm{i}_o=\frac{60-\mathrm{v}_1}{4}$.
+Hence
+
+$$
+\frac{3\left(60-v_1\right)}{4}+\frac{60-v_2}{10}+\frac{v_1-v_2}{2}=0 \longrightarrow 1020=5 v_1+12 v_2
+$$
+
+
+Thus, gives $v_1=53.08 \mathrm{~V}$. Hence $i_o=\frac{60-v_1}{4}=1.73 \mathrm{~A}$

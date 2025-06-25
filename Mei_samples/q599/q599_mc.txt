@@ -1,0 +1,5 @@
+1. \mathbf{0 . 5} \mathbf{S}+\boldsymbol{j} \mathbf{0}
+2. \mathbf{0 . 0 5} \mathbf{S}+\boldsymbol{j} \mathbf{0}
+3. \mathbf{20} \mathbf{S}+\boldsymbol{j} \mathbf{0}
+4. \mathbf{0} \mathbf{S}-\boldsymbol{j} \mathbf{0.05}
+5. None of the above

@@ -1,0 +1,1 @@
+Two capacitors are connected in parallel as shown In the provided circuit image. Determine the current i_1.

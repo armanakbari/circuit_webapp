@@ -1,0 +1,5 @@
+1. 104 + j72 \mathrm{~V}
+2. 72 - j104 \mathrm{~V}
+3. 72+j 104 \mathrm{~V}
+4. -72 - j104 \mathrm{~V}
+5. None of the above

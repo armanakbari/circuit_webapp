@@ -1,0 +1,8 @@
+Because the phase sequence is positive, the line voltage $\mathbf{V}_{\mathrm{AB}}$ is
+
+$$
+\begin{aligned}
+\mathbf{V}_{\mathrm{AB}} & =\left(\sqrt{3} \angle 30^{\circ}\right) \mathbf{V}_{\mathrm{AN}} \\
+& =202.72 \angle 29.04^{\circ} \mathrm{V} .
+\end{aligned}
+$$

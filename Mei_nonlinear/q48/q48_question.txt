@@ -1,0 +1,1 @@
+Using the extra element theorem (EET), find the transfer function of the circuit in the provided circuit image, while including both C_F and a capacitor, C_B, from node B to ground.

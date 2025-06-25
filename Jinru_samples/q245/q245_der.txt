@@ -1,0 +1,36 @@
+To calculate the power associated with the source, we need to know the current in the source. The circuit indicates that the source current will be identical to mesh currents. Also, note that the circuit has seven branches where the current is unknown and five nodes. Therefore we need three $[b-(n-1)=7-(5-1)]$ mesh-current equations to describe the circuit. If we assume that the voltage drops are positive, the three mesh equations are
+
+$$
+\begin{array}{r}
+-40+2 i_{\mathrm{a}}+8\left(i_{\mathrm{a}}-i_{\mathrm{b}}\right)=0 \\
+8\left(i_{\mathrm{b}}-i_{\mathrm{a}}\right)+6 i_{\mathrm{b}}+6\left(i_{\mathrm{b}}-i_{\mathrm{c}}\right)=0 \\
+6\left(i_{\mathrm{c}}-i_{\mathrm{b}}\right)+4 i_{\mathrm{c}}+20=0
+\end{array}
+$$
+
+Your calculator can probably solve these equations, or you can use a computer tool. Cramer's method is a useful tool when solving three or more simultaneous equations by hand.
+
+$$
+\begin{aligned}
+10 i_{\mathrm{a}}-8 i_{\mathrm{b}}+0 i_{\mathrm{c}} & =40 \\
+-8 i_{\mathrm{a}}+20 i_{\mathrm{b}}-6 i_{\mathrm{c}} & =0 \\
+0 i_{\mathrm{a}}-6 i_{\mathrm{b}}+10 i_{\mathrm{c}} & =-20
+\end{aligned}
+$$
+
+
+The three mesh currents are
+
+$$
+\begin{aligned}
+i_{\mathrm{a}} & =5.6 \mathrm{~A}, \\
+i_{\mathrm{b}} & =2.0 \mathrm{~A}, \\
+i_{\mathrm{c}} & =-0.80 \mathrm{~A} .
+\end{aligned}
+$$
+
+The minus sign means that this source is delivering power to the network. The current in the 20 V source is identical to the mesh current $i_{\mathrm{c}}$; therefore
+
+$$
+p_{20 \mathrm{~V}}=20 i_{\mathrm{c}}=-16 \mathrm{~W} .
+$$

@@ -1,0 +1,5 @@
+1. \mathbf{1.08}\left(\mathbf{1}-\boldsymbol{e}^{-t / 8 \mathrm{~ms}}\right)
+2. \mathbf{0 . 1 2}\left(\mathbf{1}-\boldsymbol{e}^{-t / 8 \mathrm{~ms}}\right)
+3. \mathbf{12}\left(\mathbf{1}-\boldsymbol{e}^{-t / 10 \mathrm{~ms}}\right)
+4. \mathbf{0.12}\left(\mathbf{1}-\boldsymbol{e}^{-t / 9.1 \mathrm{~ms}}\right)
+5. None of the above

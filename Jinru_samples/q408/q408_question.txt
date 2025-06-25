@@ -1,0 +1,1 @@
+Find $I_o$ in the circuit

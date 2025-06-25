@@ -1,0 +1,1 @@
+Calculate the gain of the transconductance amplifier shown in the provided circuit image

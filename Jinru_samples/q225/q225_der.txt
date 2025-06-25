@@ -1,0 +1,7 @@
+The current $i_{\mathrm{d}}$ in the $25 \Omega$ resistor in in the provided circuit image is in the direction of the voltage rise across the resistor. Therefore
+
+$$
+i_{\mathrm{d}}=\frac{-50}{25}=-2 \mathrm{~A}
+$$
+
+$p_{25 \Omega}=\frac{(50)^2}{25}=(-2)^2(25)=100 \mathrm{~W}$.

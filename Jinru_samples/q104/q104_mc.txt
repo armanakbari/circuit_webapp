@@ -1,0 +1,5 @@
+1. \frac{\mathbf{V}_1}{10}=-6.84+j 1.68 \mathrm{~A}
+2. \frac{\mathbf{V}_1}{10}=6.84+j 1.68 \mathrm{~A}
+3. \frac{\mathbf{V}_1}{10}=6.84-j 1.68 \mathrm{~A}
+4. \frac{\mathbf{V}_1}{10}=1.68-j 6.84 \mathrm{~A}
+5. None of the above

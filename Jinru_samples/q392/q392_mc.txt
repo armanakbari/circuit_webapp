@@ -1,0 +1,5 @@
+1. 1.333 \mathrm{~A}
+2. 5.333 \mathrm{~A}
+3. 2.667 \mathrm{~A}
+4. 4.000 \mathrm{~A}
+5. None of the above

@@ -1,0 +1,1 @@
+\frac{R_D}{1+\frac{C_1}{C_1+C_2} g_{m 1} R_D}

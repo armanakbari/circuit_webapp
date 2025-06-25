@@ -1,0 +1,1 @@
+The independent current source in the circuit shown in the provided circuit image generates zero current for $t<0$ and a pulse $10 t e^{-5 t} \mathrm{~A}$, for $t>0$. At what instant of time is the current maximum?

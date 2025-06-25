@@ -1,0 +1,8 @@
+The impedance reflected into the primary winding is
+
+$$
+\begin{aligned}
+Z_r & =\left(\frac{1200}{|900-j 900|}\right)^2(900+j 900) \\
+& =\frac{8}{9}(900+j 900)=800+j 800 \Omega
+\end{aligned}
+$$

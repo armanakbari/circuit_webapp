@@ -1,0 +1,1 @@
+A load impedance having a constant phase angle of $-36.87^{\circ}$ is connected across the load terminals a and b in the circuit shown the provided circuit image. The magnitude of $Z_{\mathrm{L}}$ is varied until the average power delivered is the most possible under the given restriction. Specify $Z_L$ in rectangular form.

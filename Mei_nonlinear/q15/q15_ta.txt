@@ -1,0 +1,1 @@
+\frac{\left(g_m+g_{m b}\right) r_O+1}{r_O+\left(g_m+g_{m b}\right) r_O R_P+R_P+R_D} R_D R_P

@@ -1,0 +1,5 @@
+1. \mathbf{8 . 0} \sin \left(\boldsymbol{\omega} \boldsymbol{t}+\mathbf{90 ^ { \circ }}\right)
+2. \mathbf{8 . 0} \sin \left(\boldsymbol{\omega} \boldsymbol{t}-\mathbf{9 0 ^ { \circ }}\right)
+3. \mathbf{8 . 0} \sin \left(\boldsymbol{\omega} \boldsymbol{t}\right)
+4. \mathbf{5 . 7} \sin \left(\boldsymbol{\omega} \boldsymbol{t}-\mathbf{90 ^ { \circ }}\right)
+5. None of the above

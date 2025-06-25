@@ -1,0 +1,1 @@
+Determine the voltage $V^{\prime}$ In the provided circuit image across resistors $R_1$ and $R_2$.

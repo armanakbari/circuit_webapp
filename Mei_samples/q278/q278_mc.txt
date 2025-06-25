@@ -1,0 +1,5 @@
+1. 13.30 \angle{30.17^{\circ}} \mathrm{A}
+2. 17.89 \angle{-146.57^{\circ}} \mathrm{A}
+3. 13.30 \angle{150.17^{\circ}} \mathrm{A}
+4. 10.33 \angle{-146.57^{\circ}} \mathrm{A}
+5. None of the above

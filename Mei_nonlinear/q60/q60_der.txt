@@ -1,0 +1,27 @@
+To compute the input-referred noise voltage, we must short the input port. In this case, we can also short the output port as shown in Fig. 7.38(b), and find the output noise current due to $R_F$ and $M_1$. Since both terminals of $R_F$ are at ac ground, a KVL yields
+
+$$
+\overline{I_{n 1, \text { out }}^2}=\frac{4 k T}{R_F}+4 k T \gamma g_m
+$$
+The output impedance of the circuit with the input shorted is simply equal to $R_F$, yielding
+
+$$
+\overline{V_{n 1, \text { out }}^2}=\left(\frac{4 k T}{R_F}+4 k T \gamma g_m\right) R_F^2
+$$
+
+
+We can calculate the input-referred noise voltage by dividing (7.64) by the voltage gain or by dividing (7.63) by the transconductance, $G_m$. Let us pursue the latter method. As depicted in Fig. 7.38(c),
+
+$$
+\begin{aligned}
+G_m & =\frac{I_{\text {out }}}{V_{\text {in }}} \\
+& =g_m-\frac{1}{R_F}
+\end{aligned}
+$$
+
+
+Dividing (7.63) by $G_m^2$ gives
+
+$$
+\overline{V_{n, i n}^2}=\frac{\frac{4 k T}{R_F}+4 k T \gamma g_m}{\left(g_m-\frac{1}{R_F}\right)^2}
+$$

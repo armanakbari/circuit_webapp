@@ -1,0 +1,5 @@
+The current $i_b$ in the resistor with a conductance of 0.2 S in the provided circuit image is in the direction of the voltage drop across the resistor. Thus
+
+$$
+i_{\mathrm{b}}=(50)(0.2)=10 \mathrm{~A} .
+$$

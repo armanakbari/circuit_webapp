@@ -1,0 +1,1 @@
+7.98 \mathrm{e}^{-0.1 t} \mathrm{~V}

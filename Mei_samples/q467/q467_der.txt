@@ -1,0 +1,22 @@
+Solutions: Since all the resistors of the $\Delta$ or Y are the same, Equations (8.8a) and (8.8b) can be used to convert either form to the other.
+a. Converting the $\Delta$ to a $Y$. Note: When this is done, the resulting $d^{\prime}$ of the new Y will be the same as the point $d$ shown in the original figure, only because both systems are "balanced." That is, the resistance in each branch of each system has the same value:
+
+$$
+R_{\mathrm{Y}}=\frac{R_{\Delta}}{3}=\frac{6 \Omega}{3}=2 \Omega
+$$
+The network then appears as shown in Fig. 8.84.
+
+$$
+R_T=2\left[\frac{(2 \Omega)(9 \Omega)}{2 \Omega+9 \Omega}\right]=3.2727 \Omega
+$$
+
+b. Converting the $Y$ to $a \Delta$ :
+
+$$
+\begin{aligned}
+R_{\Delta} & =3 R_{\mathrm{Y}}=(3)(9 \Omega)=27 \Omega \\
+R_T^{\prime} & =\frac{(6 \Omega)(27 \Omega)}{6 \Omega+27 \Omega}=\frac{162 \Omega}{33}=4.9091 \Omega \\
+R_T & =\frac{R_T^{\prime}\left(R_T^{\prime}+R_T^{\prime}\right)}{R_T^{\prime}+\left(R_T^{\prime}+R_T^{\prime}\right)}=\frac{R_T^{\prime} 2 R_T^{\prime}}{3 R_T^{\prime}}=\frac{2 R_T^{\prime}}{3} \\
+& =\frac{2(4.9091 \Omega)}{3}=3.2727 \Omega
+\end{aligned}
+$$

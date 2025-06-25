@@ -1,0 +1,56 @@
+Since, the point of interest is the current through $12 \Omega$ resistor. Let us open that resistor ( $12 \Omega$ ) from the circuit, and redraw the circuit as shown in Fig. 4.35. Short circuit (turn off) the voltage source to calculate the Thevenin's resistance with the aid of the redrawn circuit in Fig. 4.36.
+
+The left delta circuit of Fig. 4.36 is converted to a wye circuit as shown in Fig. 4.37. The resistances are,
+
+$$
+\begin{aligned}
+& R_1=\frac{4 \times 6}{4+6+2}=2 \Omega \\
+& R_2=\frac{6 \times 2}{4+6+2}=1 \Omega
+\end{aligned}
+$$
+$$
+R_3=\frac{4 \times 2}{4+6+2}=0.67 \Omega
+$$
+
+
+After conversion from delta to wye, the circuit can be redrawn as shown in Fig. 4.38. The resistor $0.67 \Omega$ is in series with $10 \Omega$ resistor. Again, the resistor $2 \Omega$ is in series with $8 \Omega$ resistor. Therefore, the Thevenin's resistance can be calculated as,
+
+$$
+R_{\mathrm{Th}}=1+\frac{(8+2)(10+0.67)}{10+10.67}=6.16 \Omega
+$$
+
+
+To calculate the open-circuit voltage, use the circuit in Fig. 4.35. The $8 \Omega$ resistor is in series with $10 \Omega$ resistor, and in parallel with $4 \Omega$ resistor. In this case, the equivalent circuit resistance is,
+
+$$
+R_{\mathrm{eq}}=2+\frac{(4)(10+8)}{4+18}+6=11.27 \Omega
+$$
+
+
+The source current is,
+
+$$
+I_s=\frac{24}{11.27}=2.13 \mathrm{~A}
+$$
+The current in the $8 \Omega$ resistor is,
+
+$$
+I_{8 \Omega}=2.13 \times \frac{4}{10+8+4}=0.39 \Omega
+$$
+
+
+Applying KVL to the circuit in Fig. 4.39 yields,
+
+$$
+\begin{gathered}
+-V_{\mathrm{Th}}+8 I_{8 \Omega}+6 I_s=0 \\
+V_{\mathrm{Th}}=8 \times 0.39+6 \times 2.13=15.9 \mathrm{~V}
+\end{gathered}
+$$
+
+
+Thevenin's equivalent circuit is shown in Fig. 4.40. The current in the $12 \Omega$ resistor is,
+
+$$
+I_{12 \Omega}=\frac{15.9}{6.16+12}=0.875 \mathrm{~A}
+$$

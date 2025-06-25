@@ -1,0 +1,1 @@
+In the provided circuit image shows a circuit with resistance, capacitance and switch. Determine the voltage across the capacitor when the switch is closed at $t<0$.

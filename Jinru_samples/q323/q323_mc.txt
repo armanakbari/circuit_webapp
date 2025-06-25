@@ -1,0 +1,5 @@
+1. -3 \mathrm{~V}
+2. -22 \mathrm{~V}
+3. -48 \mathrm{~V}
+4. 22 \mathrm{~V}
+5. None of the above

@@ -1,0 +1,27 @@
+Using the current divider rule:
+
+$$
+I_1=\frac{R_2 I}{R_2+R_1}=\frac{(1 \Omega)(6 \mathrm{~A})}{1 \Omega+2 \Omega}=2 \mathrm{~A}
+$$
+
+
+The voltage $V_1$ is
+
+$$
+V_1=I_1 R_1=(2 \mathrm{~A})(2 \Omega)=4 \mathrm{~V}
+$$
+
+and, applying Kirchhoff's voltage law,
+
+$$
++V_s-V_1-20 \mathrm{~V}=0
+$$
+
+and
+
+$$
+\begin{aligned}
+V_s & =V_1+20 \mathrm{~V}=4 \mathrm{~V}+20 \mathrm{~V} \\
+& =24 \mathrm{~V}
+\end{aligned}
+$$

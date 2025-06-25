@@ -1,0 +1,1 @@
+Calculate $\mathbf{V}_R$ in the provided circuit image.

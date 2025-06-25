@@ -1,0 +1,1 @@
+-40 e^{-t /\left(32 \times 10^{-3}\right)}

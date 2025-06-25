@@ -1,0 +1,1 @@
+At the instant the switch makes contact with terminal a in the circuit shown in the provided circuit image, the voltage on the $0.1 \mu \mathrm{~F}$ capacitor is 5 V . The switch remains at terminal a for 9 ms and then moves instantaneously to terminal b. How many milliseconds after making contact with terminal b does the operational amplifier saturate?

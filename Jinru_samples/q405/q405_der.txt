@@ -1,0 +1,8 @@
+$$
+-2+\frac{\mathrm{V}_{\mathrm{X}}-0}{10}+\frac{\mathrm{V}_{\mathrm{X}}-0}{20}+0.2 \mathrm{~V}_{\mathrm{X}}=0
+$$
+
+
+$$
+0.35 \mathrm{~V}_{\mathrm{x}}=2 \text { or } \mathrm{V}_{\mathrm{x}}=5.714 \mathrm{~V}
+$$

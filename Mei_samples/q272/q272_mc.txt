@@ -1,0 +1,5 @@
+1. 180\angle0^{\circ} \mathrm{V}
+2. 180\angle-240^{\circ} \mathrm{V}
+3. 180\angle120^{\circ} \mathrm{V}
+4. 180\angle-120^{\circ} \mathrm{V}
+5. None of the above

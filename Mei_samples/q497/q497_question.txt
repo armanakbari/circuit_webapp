@@ -1,0 +1,1 @@
+Using Millman's theorem, find the current through the resistor $R_L$ in the provided circuit image

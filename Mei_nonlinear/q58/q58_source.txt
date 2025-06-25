@@ -1,0 +1,3 @@
+Design of analog CMOS integrated circuits
+P239
+Example7.12

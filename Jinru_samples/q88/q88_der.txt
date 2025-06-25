@@ -1,0 +1,18 @@
+The roots of the characteristic equation are $s_1=-20 \mathrm{rad} / \mathrm{s}$ and $s_2=-10 \mathrm{rad} / \mathrm{s}$. The final value of $v_o$ is the input voltage times the gain of each stage, because the capacitors behave as open circuits as $t \rightarrow \infty$. Thus,
+
+$$
+v_o(\infty)=\left(250 \times 10^{-3}\right) \frac{(-500)}{100} \frac{(-100)}{25}=5 \mathrm{~V} .
+$$
+
+The solution for $v_0$ thus takes the form:
+
+$$
+v_o=5+A_1^{\prime} e^{-10 t}+A_2^{\prime} e^{-20 t} .
+$$
+
+
+With $v_o(0)=0$ and $d v_o(0) / d t=0$, the numerical values of $A_1^{\prime}$ and $A_2^{\prime}$ are $A_1^{\prime}=-10 \mathrm{~V}$ and $A_2^{\prime}=5 \mathrm{~V}$. Therefore, the solution for $v_o$ is
+
+$$
+v_o(t)=\left(5-10 e^{-10 t}+5 e^{-20 t}\right) \mathrm{V}, \quad t \geq 0
+$$

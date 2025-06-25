@@ -1,0 +1,5 @@
+1. -\left(\mathbf{0 . 0 5} \times \mathbf{1 0}^{-\mathbf{3}}\right) e^{-t /\left(\mathbf{1 0} \times \mathbf{1 0}^{-3}\right)}
+2. \left(\mathbf{0 . 0 5} \times \mathbf{1 0}^{-\mathbf{3}}\right) e^{-t /\left(\mathbf{10} \times \mathbf{1 0}^{-3}\right)}
+3. -\left(\mathbf{0 . 0 5} \times \mathbf{1 0}^{-\mathbf{3}}\right) e^{-t /\left(\mathbf{5} \times \mathbf{1 0}^{-3}\right)}
+4. -\left(\mathbf{0 . 1} \times \mathbf{1 0}^{-\mathbf{3}}\right) e^{-t /\left(\mathbf{10} \times \mathbf{1 0}^{-3}\right)}
+5. None of the above

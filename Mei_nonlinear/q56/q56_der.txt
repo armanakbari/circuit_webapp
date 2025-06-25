@@ -1,0 +1,5 @@
+We must identify the sources of noise, find their transfer functions to the output, multiply their spectra by the squared magnitude of the transfer functions and add the results. We model the thermal and flicker noise of $M_1$ by two current sources: $\overline{I_{n, t h}^2}=4 k T \gamma g_m$ and $\overline{I_{n, 1 / f}^2}=K g_m^2 /\left(C_{o x} W L f\right)$. We also represent the thermal noise of $R_D$ by a current source $\overline{I_{n, R D}^2}=4 k T / R_D$. Since these currents flow through $R_D$, the output noise voltage per unit bandwidth is equal to
+
+$$
+\overline{V_{n, \text { out }}^2}=\left(4 k T \gamma g_m+\frac{K}{C_{o x} W L} \cdot \frac{1}{f} \cdot g_m^2+\frac{4 k T}{R_D}\right) R_D^2
+$$

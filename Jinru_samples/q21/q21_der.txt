@@ -1,0 +1,4 @@
+\begin{aligned}
+&\text { We find the current } i_o(t) \text { from Ohm's law: }\\
+&i_o(t)=\frac{v_o(t)}{60 \times 10^3}=e^{-25 t} \mathrm{~mA}, \quad t \geq 0^{+} .
+\end{aligned}

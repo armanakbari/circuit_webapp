@@ -1,0 +1,1 @@
+$p_{50 \mathrm{~V}}=-50 i_{\mathrm{a}}=-100 \mathrm{~W}$ (delivering).

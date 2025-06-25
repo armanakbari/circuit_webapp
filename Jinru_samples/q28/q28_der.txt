@@ -1,0 +1,5 @@
+The total energy delivered to the $250 \mathrm{k} \Omega$ resistor is
+
+$$
+w=\int_0^{\infty} p d t=\int_0^{\infty} \frac{400 e^{-2 t}}{250,000} d t=800 \mu \mathrm{~J}
+$$

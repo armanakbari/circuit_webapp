@@ -1,0 +1,1 @@
+in the provided circuit image shows a common-gate topology placed in a voltage-voltage feedback configuration. Note that the summation of the feedback voltage and the input voltage is accomplished by applying the former to the gate and the latter to the source. ${ }^8$ Calculate the input resistance at low frequencies if channel-length modulation is negligible.

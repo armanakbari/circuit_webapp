@@ -1,0 +1,24 @@
+The voltage $V_1$  can be determined as,
+
+$$
+V_1=(3+6) 1=9 \mathrm{~V}
+$$
+Here, the assumption that $I_0=2 \mathrm{~A}$ resulted in a source current of 4 A . However, since the actual source current is 12 A , the actual value of the current $I_0$ is,
+
+$$
+I_0=\frac{12}{4}=3 \mathrm{~A}
+$$
+
+
+The current $I_1$ is calculated as,
+
+$$
+I_1=\frac{V_1}{3}=\frac{9}{3}=3 \mathrm{~A}
+$$
+
+
+The source current is,
+
+$$
+I_s=3+1=4 \mathrm{~A}
+$$

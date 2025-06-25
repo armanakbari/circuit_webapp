@@ -1,0 +1,5 @@
+1. \frac{6.146 \text{ V} \angle 50.194^{\circ}}{4 \Omega \angle -90^{\circ}}
+2. gle 50.194^{\circ}}{4 \Omega \angle 90^{\circ}}=
+3. \frac{9.6 \text{ V} \angle 0^{\circ}}{4 \Omega \angle 90^{\circ}}
+4. \frac{6.146 \text{ V} \angle 50.194^{\circ}}{3.073 \Omega \angle 50.194^{\circ}}
+5. None of the above

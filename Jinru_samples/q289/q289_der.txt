@@ -1,0 +1,17 @@
+The $6-\Omega$ and $3-\Omega$ resistors are in parallel, so their combined resistance is
+
+$$
+6 \Omega \| 3 \Omega=\frac{6 \times 3}{6+3}=2 \Omega
+$$
+
+
+Notice that $v_o$ is not affected by the combination of the resistors because the resistors are in parallel and therefore have the same voltage $v_o$. We can obtain $v_o$ in two ways. One way is to apply Ohm's law to get
+
+$$
+i=\frac{12}{4+2}=2 \mathrm{~A}
+$$
+and hence, $v_o=2 i=2 \times 2=4 \mathrm{~V}$. Another way is to apply voltage division, since the 12 V is divided between the $4-\Omega$ and $2-\Omega$ resistors. Hence,
+
+$$
+v_o=\frac{2}{2+4}(12 \mathrm{~V})=4 \mathrm{~V}
+$$

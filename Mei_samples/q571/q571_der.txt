@@ -1,0 +1,9 @@
+\begin{aligned}
+&\begin{aligned}
+I_1 & =I_2 \\
+I_1 & =\frac{E}{R_1+R_3+R_5}=\frac{50 \mathrm{~V}}{2 \Omega+1 \Omega+7 \Omega}=\frac{50 \mathrm{~V}}{10 \Omega}=\mathbf{5} \mathbf{A} \\
+V_2 & =I_2 R_5=(5 \mathrm{~A})(7 \Omega)=\mathbf{3 5} \mathbf{V}
+\end{aligned}\\
+&\text { Applying the voltage divider rule, }\\
+&V_1=\frac{\left(R_3+R_5\right) E}{R_1+R_3+R_5}=\frac{(1 \Omega+7 \Omega)(50 \mathrm{~V})}{2 \Omega+1 \Omega+7 \Omega}=\frac{(8 \Omega)(50 \mathrm{~V})}{10 \Omega}=\mathbf{4 0} \mathbf{V}
+\end{aligned}.

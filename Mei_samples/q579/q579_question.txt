@@ -1,0 +1,1 @@
+Using complex algebra, find the current i for the circuit in the provided circuit image

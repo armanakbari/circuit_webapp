@@ -1,0 +1,5 @@
+1. 171.09+j 1224.26 \Omega
+2. 122.15+j 1201.23 \Omega
+3. 174.94+j 1214.57 \Omega
+4. 28.91+j 1975.74 \Omega
+5. None of the above

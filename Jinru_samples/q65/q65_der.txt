@@ -1,0 +1,8 @@
+Kirchhoff's current law requires the sum of the currents leaving the top node to equal zero at every instant. Hence
+
+$$
+\begin{aligned}
+i_C\left(0^{+}\right) & =-i_L\left(0^{+}\right)-i_R\left(0^{+}\right) \\
+& =-90 \mathrm{~mA}
+\end{aligned}
+$$

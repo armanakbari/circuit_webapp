@@ -1,0 +1,8 @@
+Because the load is $\Delta$ connected, the phase voltages are the same as the line voltages. To calculate the line voltages, we first calculate $\mathbf{V}_{\mathrm{AN}}$ :
+
+$$
+\begin{aligned}
+\mathbf{V}_{\mathrm{AN}} & =(39.5+j 28.6)\left(2.4 \angle-36.87^{\circ}\right) \\
+& =117.04 \angle-0.96^{\circ} \mathrm{V} .
+\end{aligned}
+$$

@@ -1,0 +1,32 @@
+The initial power factor is,
+
+$$
+\begin{aligned}
+& \cos \theta_1=0.8 \\
+& \theta_1=36.87^{\circ}
+\end{aligned}
+$$
+
+
+The final power factor is,
+
+$$
+\begin{aligned}
+& \cos \theta_2=0.9 \\
+& \theta_2=25.84^{\circ}
+\end{aligned}
+$$
+
+
+The power of the load is calculated as,
+
+$$
+P=10 \times 0.8=8 \mathrm{~kW}
+$$
+
+
+The capacitor is calculated as,
+
+$$
+C=\frac{8 \times 1000\left(\tan 36.87^{\circ}-\tan 25.84^{\circ}\right)}{2 \pi \times 50 \times 120^2}=0.47 \mathrm{mF}
+$$

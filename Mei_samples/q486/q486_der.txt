@@ -1,0 +1,1 @@
+R_N=R_1\left\|R_2=4 \Omega\right\| 6 \Omega=\frac{(4 \Omega)(6 \Omega)}{4 \Omega+6 \Omega}=\frac{24 \Omega}{10}=2.4 \Omega

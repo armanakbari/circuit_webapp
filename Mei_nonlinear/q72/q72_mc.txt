@@ -1,0 +1,5 @@
+1. g_{m 1}\left(r_{O 1} \| R_D\right) \cdot g_{m 2}
+2. -g_{m 1} R_D \cdot g_{m 2}
+3. -g_{m 1}\left(r_{O 1} \| R_D\right) \cdot g_{m 2}
+4. -g_{m 1}\left(r_{O 1} \| R_D\right) \cdot g_{m 2} r_{o2}
+5. None of the above

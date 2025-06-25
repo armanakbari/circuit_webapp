@@ -1,0 +1,5 @@
+1. r_{oN}
+2. g_{mN} r_{oN}
+3. g_{mN}
+4. 1 / g_{m N}
+5. None of the above

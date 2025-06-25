@@ -1,0 +1,5 @@
+With the input signal set to zero, this circuit produces the same output noise voltage as the circuit in Fig. 7.42(a) does. But the complementary stage provides a higher voltage gain, $\left(g_{m 1}+g_{m 2}\right)\left(r_{O 1} \| r_{O 2}\right)$. The input-referred noise voltage is thus given by
+
+$$
+\overline{V_{n, i n}^2}=\frac{4 k T \gamma}{g_{m 1}+g_{m 2}}
+$$

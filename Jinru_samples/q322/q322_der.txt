@@ -1,0 +1,5 @@
+Applying KVL around the entire outside loop we get,
+
+$$
+-24+v_1+10+12=0 \text { or } v_1=\mathbf{2 V}
+$$

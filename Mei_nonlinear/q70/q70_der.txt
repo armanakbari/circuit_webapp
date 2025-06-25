@@ -1,0 +1,46 @@
+Since the thermal and $1 / f$ noise of $M_1$ and $M_2$ can be modeled as voltage sources in series with the input, we need only refer the noise of $M_3$ and $M_4$ to the input. Let us calculate the output noise contributed by $M_3$. The drain noise current of $M_3$ is divided between $r_{O 3}$ and the resistance seen looking into the drain of $M_1$ [Fig. 7.59(c)]. From Chapter 5, this resistance equals $R_X=r_{O 4}+2 r_{O 1}$. Denoting the resulting noise currents flowing through $r_{O 3}$ and $R_X$ by $I_{n A}$ and $I_{n B}$, respectively, we have
+
+$$
+I_{n A}=g_{m 3} V_{n 3} \frac{r_{O 4}+2 r_{O 1}}{2 r_{O 4}+2 r_{O 1}}
+$$
+
+and
+
+$$
+I_{n B}=g_{m 3} V_{n 3} \frac{r_{O 3}}{2 r_{O 4}+2 r_{O 1}}
+$$
+
+
+The former produces a noise voltage of $g_{m 3} V_{n 3} r_{O 3}\left(r_{O 4}+2 r_{O 1}\right) /\left(2 r_{O 4}+2 r_{O 1}\right)$ at node $X$ with respect to ground whereas the latter flows through $M_1, M_2$, and $r_{O 4}$, generating $g_{m 3} V_{n 3} r_{O 3} r_{O 4} /\left(2 r_{O 4}+2 r_{O 1}\right)$ at node $Y$ with respect
+to ground. Thus, the total differential output noise due to $M_3$ is equal to
+
+$$
+\begin{aligned}
+V_{n X Y} & =V_{n X}-V_{n Y} \\
+& =g_{m 3} V_{n 3} \frac{r_{O 3} r_{O 1}}{r_{O 3}+r_{O 1}}
+\end{aligned}
+$$
+
+(The reader can verify that $V_{n Y}$ must be subtracted from $V_{n X}$.)
+Equation (7.136) implies that the noise current of $M_3$ is simply multiplied by the parallel combination of $r_{O 1}$ and $r_{O 3}$ to produce the differential output voltage. This is of course not surprising because, as depicted in Fig. 7.60, the effect of $V_{n 3}$ at the output can also be derived by decomposing $V_{n 3}$ into two differential components applied to the gates of $M_3$ and $M_4$ and subsequently using the half-circuit concept. Since this calculation relates to a single noise source, we can temporarily ignore the random nature of noise and treat $V_{n 3}$ and the circuit as familiar deterministic, linear components.
+Applying (7.136) to $M_4$ as well and adding the resulting powers, we have
+
+$$
+\begin{aligned}
+\left.\overline{V_{n, o u t}^2}\right|_{M 3, M 4} & =g_{m 3}^2\left(r_{O 1} \| r_{O 3}\right)^2 \overline{V_{n 3}^2}+g_{m 4}^2\left(r_{O 2} \| r_{O 4}\right)^2 \overline{V_{n 4}^2} \\
+& =2 g_{m 3}^2\left(r_{O 1} \| r_{O 3}\right)^2 \overline{V_{n 3}^2}
+\end{aligned}
+$$
+
+
+To refer the noise to the input, we divide (7.138) by $g_{m 1}^2\left(r_{O 1} \| r_{O 3}\right)^2$, obtaining the total input-referred noise voltage per unit bandwidth as
+
+$$
+\overline{V_{n, i n}^2}=2 \overline{V_{n 1}^2}+2 \frac{g_{m 3}^2}{g_{m 1}^2} \overline{V_{n 3}^2}
+$$
+
+which, upon substitution for $\overline{V_{n 1}^2}$ and $\overline{V_{n 3}^2}$, reduces to
+
+$$
+\overline{V_{n, i n}^2}=8 k T \gamma\left(\frac{1}{g_{m 1}}+\frac{g_{m 3}}{g_{m 1}^2}\right)+\frac{2 K_N}{C_{o x}(W L)_1 f}+\frac{2 K_P}{C_{o x}(W L)_3 f} \frac{g_{m 3}^2}{g_{m 1}^2}
+$$

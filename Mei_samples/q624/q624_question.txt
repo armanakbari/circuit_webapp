@@ -1,0 +1,1 @@
+Calculate $\mathbf{V}_C$ in the provided circuit image.

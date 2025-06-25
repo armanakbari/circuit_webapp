@@ -1,0 +1,5 @@
+1. 1 / \left(\left(R_{G} \| R_{D}\right) C_{G D}\right)
+2. 1 / \left(R_{G} C_{G D}\left(1+g_{m} R_{D}\right)\right)
+3. g_{m} / C_{G D}
+4. 1 /\left(R_{e q} C_{G D}\right)
+5. None of the above

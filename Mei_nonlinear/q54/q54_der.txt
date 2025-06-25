@@ -1,0 +1,20 @@
+each resistor exhibits an equivalent noise current with the spectral density $4 k T / R$. Since the two noise sources are uncorrelated, we add the powers:
+
+$$
+\begin{aligned}
+\overline{I_{n, t o t}^2} & =\overline{I_{n 1}^2}+\overline{I_{n 2}^2} \\
+& =4 k T\left(\frac{1}{R_1}+\frac{1}{R_2}\right)
+\end{aligned}
+$$
+
+
+Thus, the equivalent noise voltage is given by
+
+$$
+\begin{aligned}
+\overline{V_{n, t o t}^2} & =\overline{I_{n, t o t}^2}\left(R_1 \| R_2\right)^2 \\
+& =4 k T\left(R_1 \| R_2\right)
+\end{aligned}
+$$
+
+as intuitively expected. Note that our notation assumes a $1-\mathrm{Hz}$ bandwidth.

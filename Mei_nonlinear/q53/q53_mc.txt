@@ -1,0 +1,5 @@
+1. \frac{4kT}{C}
+2. \frac{2kT}{C}
+3. \frac{kT}{2C}
+4. \frac{k T}{C}
+5. None of the above

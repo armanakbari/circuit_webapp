@@ -1,0 +1,1 @@
+Compute the power factor of the network  in the provided circuit image.

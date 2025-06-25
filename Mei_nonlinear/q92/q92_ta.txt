@@ -1,0 +1,1 @@
+$A_{I, \text { open }} /\left(1+(-R_S /\left(R_S+R_F\right)) A_{I, \text { open }}\right)

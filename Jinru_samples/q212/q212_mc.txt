@@ -1,0 +1,5 @@
+1. -666.67 \angle 0^{\circ} \mathrm{V}
+2. -10000 \angle 0^{\circ} \mathrm{V}
+3. 3333.33 \angle 0^{\circ} \mathrm{V}
+4. 263.16 \angle 0^{\circ} \mathrm{V}
+5. None of the above

@@ -1,0 +1,14 @@
+$$
+\begin{aligned}
+\mathbf{V}_1 & =2500 \angle 0^{\circ}-\left(100 \angle-16.26^{\circ}\right)(0.25+j 2) \\
+& =2500-80-j 185 \\
+& =2420-j 185=2427.06 \angle-4.37^{\circ} \mathrm{V} .
+\end{aligned}
+$$
+
+
+Hence
+
+$$
+v_1=2427.06 \cos \left(400 t-4.37^{\circ}\right) \mathrm{V}
+$$

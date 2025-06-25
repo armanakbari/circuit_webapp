@@ -1,0 +1,15 @@
+Again, consider the terminals $a$ and $b$ are open circuited. The resistances $4 \Omega$ and $10 \Omega$ are in series, then in parallel with $3 \Omega$ resistance. The values of the resistance are,
+
+$$
+\begin{gathered}
+R_3=4+10=14 \Omega \\
+R_4=\frac{14 \times 3}{14+3}=2.47 \Omega
+\end{gathered}
+$$
+
+
+The total circuit resistance is,
+
+$$
+R_{t o}=5+2.47=7.47 \Omega
+$$

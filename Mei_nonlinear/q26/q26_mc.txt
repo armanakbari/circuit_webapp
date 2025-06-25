@@ -1,0 +1,5 @@
+1. g_m\left(R_D \| r_O\right)\left(V_{i n 1}-V_{i n 2}\right)
+2. -g_m R_D\left(V_{i n 1}-V_{i n 2}\right)
+3. -\frac{g_m}{2}\left(R_D \| r_O\right)\left(V_{i n 1}-V_{i n 2}\right)
+4. -g_m\left(R_D \| r_O\right)\left(V_{i n 1}-V_{i n 2}\right)
+5. None of the above

@@ -1,0 +1,46 @@
+$$
+\begin{gathered}
+25 \underline{10^{\circ}}=\frac{V_1}{5-j 8}+\frac{V_1-V_2}{3} \\
+V_1=62.54-3^{\circ}+0.83-13^{\circ} V_2
+\end{gathered}
+$$
+
+
+Applying KCL to node 2 yields,
+
+$$
+\frac{V_1-V_2}{3}+0.5 I_x=\frac{V_2}{4+j 6}
+$$
+
+
+But, the expression of current is,
+
+$$
+I_x=\frac{V_1}{5-j 8}
+$$
+
+
+Substituting Eq. (7.37) into Eq. (7.36) yields,
+
+$$
+\begin{gathered}
+\frac{V_1-V_2}{3}+0.5 \frac{V_1}{5-j 8}=\frac{V_2}{4+j 6} \\
+\left(\frac{1}{3}+\frac{0.5}{5-j 8}\right) V_1=\left(\frac{1}{3}+\frac{1}{4+j 6}\right) V_2 \\
+0.367 .09^{\circ} V_1=0.43-15.71^{\circ} V_2
+\end{gathered}
+$$
+
+
+Substituting Eq. (7.35) into Eq. (7.40) yields,
+
+$$
+\begin{gathered}
+0.367 .09^{\circ}\left(62.54-3^{\circ}+0.83-13^{\circ} V_2\right)=0.43-15.71^{\circ} V_2 \\
+V_2=90.8540 .36^{\circ} \mathrm{V}
+\end{gathered}
+$$
+Substituting Eq. (7.42) into Eq. (7.35) yields,
+
+$$
+V_1=62.54-3^{\circ}+0.83-13^{\circ} \times 90.8540 .36^{\circ}=133.17 \underline{13.63^{\circ}} \mathrm{V}
+$$

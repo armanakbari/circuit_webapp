@@ -1,0 +1,11 @@
+We can use Ohm's law to find the voltage drop across the $24 \Omega$ resistor:
+
+$$
+v=(24)(2)=48 \mathrm{~V} .
+$$
+
+This is also the voltage drop across the branch containing the $40 \Omega$, the $10 \Omega$, and the $30 \Omega$ resistors in series. We can then use voltage division to determine the voltage drop $v_o$ across the $30 \Omega$ resistor given that we know the voltage drop across the seriesconnected resistors. Then we recognize that the equivalent resistance of the series-connected resistors is $40+10+30=80 \Omega$ :
+
+$$
+v_o=\frac{30}{80}(48 \mathrm{~V})=18 \mathrm{~V}
+$$

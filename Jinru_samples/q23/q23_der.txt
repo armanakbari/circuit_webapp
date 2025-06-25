@@ -1,0 +1,17 @@
+Once we know $v(t)$, we can obtain the current $i(t)$ from Ohm's law. After determining $i(t)$, we can calculate $v_1(t)$ and $v_2(t)$ because the voltage across a capacitor is a function of the capacitor current. To find $v(t)$, we replace the series-connected capacitors with an equivalent capacitor. It has a capacitance of $4 \mu \mathrm{~F}$ and is charged to a voltage of 20 V . Therefore, the circuit  reduces to the one, which reveals that the initial value of $v(t)$ is 20 V , and that the time constant of the circuit is $(4)(250) \times 10^{-3}$, or 1 s . Thus the expression for $v(t)$ is
+
+$$
+v(t)=20 e^{-t} \mathrm{~V}, \quad t \geq 0 .
+$$
+
+
+The current $i(t)$ is
+
+$$
+i(t)=\frac{v(t)}{250,000}=80 e^{-t} \mu \mathrm{~A}, \quad t \geq 0^{+}
+$$
+
+
+Knowing $i(t)$, we calculate the expressions for $v_1(t)$ :
+
+$\begin{aligned} v_1(t) & =-\frac{10^6}{5} \int_0^t 80 \times 10^{-6} e^{-x} d x-4 \\ & =\left(16 e^{-t}-20\right) \mathrm{V}, \quad t \geq 0\end{aligned}$

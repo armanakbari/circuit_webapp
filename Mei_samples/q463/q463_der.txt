@@ -1,0 +1,29 @@
+Solution: Converting sources and choosing nodes (Fig. 8.56), we have
+$$
+\left.\begin{array}{c}
+\left(\frac{1}{2 \Omega}+\frac{1}{4 \Omega}+\frac{1}{6 \Omega}\right) V_1-\left(\frac{1}{6 \Omega}\right) V_2=+4 \mathrm{~A} \\
+\frac{\left(\frac{1}{10 \Omega}+\frac{1}{3 \Omega}+\frac{1}{6 \Omega}\right) V_2-\left(\frac{1}{6 \Omega}\right) V_1=-0.1 \mathrm{~A}}{\frac{11}{12} V_1-\frac{1}{6} V_2}=4 \\
+\frac{-\frac{1}{6} V_1+\frac{3}{5} V_2=-0.1}{1}
+\end{array}\right\}
+$$
+
+resulting in
+
+$$
+\begin{aligned}
+11 V_1-2 V_2 & =+48 \\
+-5 V_1+18 V_2 & =-3
+\end{aligned}
+$$
+
+and
+
+$$
+V_2=V_{3 \Omega}=\frac{\left|\begin{array}{rr}
+11 & 48 \\
+-5 & -3
+\end{array}\right|}{\left|\begin{array}{rr}
+11 & -2 \\
+-5 & 18
+\end{array}\right|}=\frac{-33+240}{198-10}=\frac{207}{188}=\mathbf{1 . 1 0 1} \mathbf{~ V}
+$$

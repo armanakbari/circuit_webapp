@@ -1,0 +1,1 @@
+Given RT and I, calculate R1 In the provided circuit image

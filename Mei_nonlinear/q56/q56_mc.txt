@@ -1,0 +1,5 @@
+1. \left(4 k T \gamma g_m+\frac{K}{C_{o x} W L} \cdot \frac{1}{f} \cdot g_m^2\right) R_D^2+4 k T R_D
+2. 4 k T \gamma g_m+\frac{K}{C_{o x} W L} \cdot \frac{1}{f} \cdot g_m^2+4 k T R_D
+3. \left(4 k T \gamma g_m+\frac{K}{C_{o x} W L} \cdot \frac{1}{f} \cdot g_m+\frac{4 k T}{R_D}\right) R_D^2
+4. \left(4 k T \gamma g_m+\frac{K}{C_{o x} W L} \cdot \frac{1}{f} \cdot g_m^2+\frac{4 k T}{R_D}\right) R_D^2
+5. None of the above

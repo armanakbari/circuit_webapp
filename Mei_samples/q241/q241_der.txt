@@ -1,0 +1,33 @@
+$$
+\begin{gathered}
+-V_1-1520^{\circ}+V_2=0 \\
+V_1=V_2-1520^{\circ}
+\end{gathered}
+$$
+
+
+Applying KCL to the supernode of the circuit in Fig. 7.4 yields,
+
+$$
+\begin{gathered}
+\frac{V_2}{4}+\frac{V_2}{5+j 8}+\frac{V_1}{6-j 8}=615^{\circ} \\
+0.32-16.36^{\circ} V_2+\frac{V_1}{6-j 8}=615^{\circ}
+\end{gathered}
+$$
+
+
+Substituting Eq. (7.28) into Eq. (7.29) yields,
+
+$$
+\begin{gathered}
+0.32-16.36^{\circ} V_2+\frac{V_2-1520^{\circ}}{6-j 8}=615^{\circ} \\
+V_2=18.8227 .2^{\circ} \mathrm{V}
+\end{gathered}
+$$
+
+
+Substituting Eq. (7.31) into Eq. (7.28) yields,
+
+$$
+V_1=18.8227 .2^{\circ}-1520^{\circ}=4.3652 .72^{\circ} \mathrm{V}
+$$

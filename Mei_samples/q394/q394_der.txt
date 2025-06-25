@@ -1,0 +1,6 @@
+$$
+\begin{aligned}
+I_2 & =\frac{R_1 I_s}{R_1+R_2}=\frac{(4 \mathrm{k} \Omega)(6 \mathrm{~A})}{4 \mathrm{k} \Omega+8 \mathrm{k} \Omega}=\frac{4}{12}(6 \mathrm{~A})=\frac{1}{3}(6 \mathrm{~A}) \\
+& =\mathbf{2} \mathbf{A}
+\end{aligned}
+$$

@@ -1,0 +1,1 @@
+& V_Y=-g_m\left(R_D \| r_{O 2}\right) \frac{V_{i n 2}-V_{i n 1}}{2}

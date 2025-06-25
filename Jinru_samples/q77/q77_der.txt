@@ -1,0 +1,49 @@
+Because $L$ and $C$ remain fixed, $\omega_0^2$, so $\omega_0^2=16 \times 10^8$. Increasing $R$ to $625 \Omega$ decreases $\alpha$ to $3.2 \times 10^4 \mathrm{rad} / \mathrm{s}$. With $\omega_0^2>\alpha^2$, the roots of the characteristic equation are complex. Hence
+
+$$
+\begin{aligned}
+& s_1=-3.2 \times 10^4+j 2.4 \times 10^4 \mathrm{rad} / \mathrm{s}, \\
+& s_2=-3.2 \times 10^4-j 2.4 \times 10^4 \mathrm{rad} / \mathrm{s} .
+\end{aligned}
+$$
+
+
+The current response is now underdamped and given by Eq. 8.48:
+
+$$
+i_L(t)=I_f+B_1^{\prime} e^{-\alpha t} \cos \omega_d t+B_2^{\prime} e^{-\alpha t} \sin \omega_d t
+$$
+
+Here, $\alpha$ is $32,000 \mathrm{rad} / \mathrm{s}, \omega_d$ is $24,000 \mathrm{rad} / \mathrm{s}$, and $I_f$ is 24 mA .
+
+$B_1^{\prime}$ and $B_2^{\prime}$ are determined from the initial conditions. Thus the two simultaneous equations are
+
+$$
+\begin{gathered}
+i_L(0)=I_f+B_1^{\prime}=0 \\
+\frac{d i_L}{d t}(0)=\omega_d B_2^{\prime}-\alpha B_1^{\prime}=0
+\end{gathered}
+$$
+
+
+Then,
+
+$$
+B_1^{\prime}=-24 \mathrm{~mA}
+$$
+
+and
+
+$$
+B_2^{\prime}=-32 \mathrm{~mA} .
+$$
+
+
+The numerical solution for $i_L(t)$ is
+
+$$
+\begin{aligned}
+i_L(t)= & \left(24-24 e^{-32.000 t} \cos 24,000 t\right. \\
+& \left.-32 e^{-32.000 t} \sin 24,000 t\right) \mathrm{mA}, \quad t \geq 0
+\end{aligned}
+$$

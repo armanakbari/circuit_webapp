@@ -1,0 +1,5 @@
+The open circuit requires that $I$ be zero amperes. The voltage drop across both resistors is therefore zero volts since $V=I R=$ $(0) R=0 \mathrm{~V}$. Applying Kirchhoff's voltage law around the closed loop,
+
+$$
+V_{a b}=E=\mathbf{2 0} \mathbf{V}
+$$

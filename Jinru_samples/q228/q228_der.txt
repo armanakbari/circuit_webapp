@@ -1,0 +1,19 @@
+Now we attach a $10 \Omega$ resistor to the device in the provided circuit image to complete the circuit. Kirchhoff's current law tells us that the current in the $10 \Omega$ resistor is the same as the current in the $5 \Omega$ resistor. Using Kirchhoff's voltage law and Ohm's law, we can write the equation for the voltage drops around the circuit, starting at the voltage source and proceeding clockwise:
+
+$$
+-30+5 i+10 i=0
+$$
+
+
+Solving for $i$, we get
+
+$$
+i=2 \mathrm{~A}
+$$
+
+
+Because this is the value of current flowing in the $10 \Omega$ resistor, we can use the power equation $p=i^2 R$ to compute the power delivered to this resistor:
+
+$$
+p_{10 \Omega}=(2)^2(10)=40 \mathrm{~W}
+$$

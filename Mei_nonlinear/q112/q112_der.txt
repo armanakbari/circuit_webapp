@@ -1,0 +1,34 @@
+We know from our analysis of Fig. 9.27(b) that
+
+$$
+V_X=\left[r_O+\left(A_1+1\right) g_m r_O R_S+R_S\right] I_X
+$$
+
+and hence
+
+$$
+\begin{aligned}
+V_P & =I_X R_S \\
+& =\frac{R_S}{r_O+\left(A_1+1\right) g_m r_O R_S+R_S} V_X
+\end{aligned}
+$$.
+
+If $\left(A_1+1\right) g_m r_O R_S$ is large, then $V_P \approx V_X /\left[\left(A_1+1\right) g_m r_O\right]$, implying that the amplifier suppresses the change in the voltage across $R_S$ by another factor of $A_1+1$ compared to the case of a simple degenerated transistor. We also have
+
+$$
+\begin{aligned}
+V_G & =-A_1 V_P \\
+& =\frac{-A_1 R_S}{r_O+\left(A_1+1\right) g_m r_O R_S+R_S} V_X
+\end{aligned}
+$$
+
+
+The small-signal gate-source voltage is equal to $V_G-V_P \approx-V_X /\left(g_m r_O\right)$, yielding $I_0 \approx-V_X / r_O$. Moreover,
+
+$$
+\begin{aligned}
+I_{r o} & =\frac{V_X-V_P}{r_O} \\
+& =\frac{r_O+\left(A_1+1\right) g_m r_O R_S}{r_O+\left(A_1+1\right) g_m r_O R_S+R_S} \frac{V_X}{r_O} \\
+& \approx \frac{V_X}{r_O}
+\end{aligned}
+$$

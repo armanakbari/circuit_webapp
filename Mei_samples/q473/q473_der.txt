@@ -1,0 +1,7 @@
+Solution:
+Steps 1 and 2 produce the network of Fig. 9.28. Note that the load resistor $R_L$ has been removed and the two "holding" terminals have been defined as $a$ and $b$.
+Step 3: Replacing the voltage source $E_1$ with a short-circuit equivalent yields the network of Fig. 9.29(a), where
+
+$$
+R_{T h}=R_1 \| R_2=\frac{(3 \Omega)(6 \Omega)}{3 \Omega+6 \Omega}=2 \Omega
+$$

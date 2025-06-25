@@ -1,0 +1,5 @@
+The inductor prevents an instantaneous change in its current, so the initial value of the inductor current is 30 mA :
+
+$$
+i_L\left(0^{-}\right)=i_L(0)=i_L\left(0^{+}\right)=30 \mathrm{~mA}
+$$

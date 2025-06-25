@@ -1,0 +1,26 @@
+The resonant frequency is,
+
+$$
+f_0=\frac{1}{2 \pi \sqrt{600 \times 10^{-3} \times 80 \times 10^{-12}}}=22.97 \mathrm{kHz}
+$$
+
+
+The quality factor is calculated as,
+
+$$
+Q_s=\frac{1}{R} \sqrt{\frac{L}{C}}=\frac{1}{540} \sqrt{\frac{600 \times 10^{-3}}{80 \times 10^{-12}}}=160.38
+$$
+
+
+The bandwidth is calculated as,
+
+$$
+B W=\frac{f_0}{Q_s}=\frac{22.97}{160.38}=167.8 \mathrm{kHz} / \mathrm{s}
+$$
+\begin{aligned}
+&\text { The half-power frequencies are determined as, }\\
+&\begin{aligned}
+& f_1=22970-\frac{540}{4 \pi \times 600 \times 10^{-3}}=22.90 \mathrm{kHz} \\
+& f_2=22970+\frac{540}{4 \pi \times 600 \times 10^{-3}}=23.04 \mathrm{kHz}
+\end{aligned}
+\end{aligned}

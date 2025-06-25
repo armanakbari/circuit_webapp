@@ -1,0 +1,1 @@
+Calculate the resulting difference between $I_{D 1}$ and $I_{D 2}$ if $\lambda \neq 0$.

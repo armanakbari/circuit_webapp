@@ -1,0 +1,1 @@
+The initial energy stored in the circuit in the provided circuit image is zero. At $t=0$, a dc current source of 24 mA is applied to the circuit. The value of the resistor is $400 \Omega$. What is the initial value of $i_L$ ?

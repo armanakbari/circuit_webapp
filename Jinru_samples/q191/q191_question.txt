@@ -1,0 +1,1 @@
+Choose values for $L$ that will yield a highpass filter with a cutoff frequency of 15 kHz .

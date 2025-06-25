@@ -1,0 +1,4 @@
+\begin{aligned}
+\mathbf{Y}_R & =G \angle 0^{\circ}=\frac{1}{R} \angle 0^{\circ}=\frac{1}{5 \Omega} \angle 0^{\circ} \\
+& =\mathbf{0 . 2 S} \angle \mathbf{0}^{\circ}=\mathbf{0 . 2 S}+\boldsymbol{j} \mathbf{0}
+\end{aligned}

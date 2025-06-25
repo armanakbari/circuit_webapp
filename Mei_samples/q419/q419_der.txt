@@ -1,0 +1,37 @@
+Note the similarities with Fig. 7.12, permitting the use of the voltage divider rule to determine $V_1$ and $V_3$ :
+
+$$
+\begin{aligned}
+& V_1=\frac{R_1 E}{R_1+R_2}=\frac{(5 \Omega)(12 \mathrm{~V})}{5 \Omega+3 \Omega}=\frac{60 \mathrm{~V}}{8}=7.5 \mathrm{~V} \\
+& V_3=\frac{R_3 E}{R_3+R_4}=\frac{(6 \Omega)(12 \mathrm{~V})}{6 \Omega+2 \Omega}=\frac{72 \mathrm{~V}}{8}=9 \mathrm{~V}
+\end{aligned}
+$$
+
+
+The open-circuit voltage $V_{a b}$ is determined by applying Kirchhoff's voltage law around the indicated loop of Fig. 7.17 in the clockwise direction starting at terminal $a$.
+
+$$
++V_1-V_3+V_{a b}=0
+$$
+
+and
+
+$$
+V_{a b}=V_3-V_1=9 \mathrm{~V}-7.5 \mathrm{~V}=\mathbf{1 . 5} \mathbf{V}
+$$
+
+b. By Ohm's law,
+
+$$
+\begin{aligned}
+& I_1=\frac{V_1}{R_1}=\frac{7.5 \mathrm{~V}}{5 \Omega}=1.5 \mathrm{~A} \\
+& I_3=\frac{V_3}{R_3}=\frac{9 \mathrm{~V}}{6 \Omega}=1.5 \mathrm{~A}
+\end{aligned}
+$$
+
+
+Applying Kirchhoff's current law,
+
+$$
+I_s=I_1+I_3=1.5 \mathrm{~A}+1.5 \mathrm{~A}=\mathbf{3} \mathbf{~ A}
+$$

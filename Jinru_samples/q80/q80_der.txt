@@ -1,0 +1,8 @@
+The capacitor holds the initial voltage across the inductor to 50 V . Therefore
+
+$$
+\begin{aligned}
+L \frac{d i_L}{d t}\left(0^{+}\right) & =50 \\
+\frac{d i_L}{d t}\left(0^{+}\right) & =\frac{50}{25} \times 10^3=2000 \mathrm{~A} / \mathrm{s}
+\end{aligned}
+$$

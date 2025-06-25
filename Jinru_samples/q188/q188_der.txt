@@ -1,0 +1,20 @@
+$H(s)=\frac{1000(s+5000)}{s^2+6000 s+25 * 10^6}$
+
+The frequency of the voltage source is $5000 \mathrm{rad} / \mathrm{s}$; hence we evaluate $H(s)$ at $H(j 5000)$ :
+
+$$
+\begin{aligned}
+H(j 5000) & =\frac{1000(5000+j 5000)}{-25 * 10^6+j 5000(6000)+25 \times 10^6} \\
+& =\frac{1+j 1}{j 6}=\frac{1-j 1}{6}=\frac{\sqrt{2}}{6} \angle-45^{\circ}
+\end{aligned}
+$$
+
+
+Then, 
+
+$$
+\begin{aligned}
+v_{o_{\mathrm{rs}}} & =\frac{(120) \sqrt{2}}{6} \cos \left(5000 t+30^{\circ}-45^{\circ}\right) \\
+& =20 \sqrt{2} \cos \left(5000 t-15^{\circ}\right) \mathrm{V}
+\end{aligned}
+$$

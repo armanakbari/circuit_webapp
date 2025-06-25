@@ -1,0 +1,17 @@
+Since the threshold voltage of $M_1$ depends on $V_{\text {out }}$, we perform a simple iteration. Noting that
+
+$$
+\left(V_{\text {in }}-V_{T H}-V_{\text {out }}\right)^2=\frac{2 I_D}{\mu_n C_{o x}\left(\frac{W}{L}\right)_1}
+$$
+
+we first assume that $V_{T H} \approx 0.6 \mathrm{~V}$, obtaining $V_{\text {out }}=0.153 \mathrm{~V}$. Now we calculate a new $V_{T H}$ as
+
+$$
+\begin{aligned}
+V_{T H} & =V_{T H 0}+\gamma\left(\sqrt{2 \Phi_F+V_{S B}}-\sqrt{2 \Phi_F}\right) \\
+& =0.635 \mathrm{~V}
+\end{aligned}
+$$
+
+
+This indicates that $V_{\text {out }}$ is approximately 35 mV less than that calculated above, i.e., $V_{\text {out }} \approx 0.118 \mathrm{~V}$.

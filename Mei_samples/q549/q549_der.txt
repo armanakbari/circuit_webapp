@@ -1,0 +1,9 @@
+For $C_2$,
+
+$$
+\begin{aligned}
+W_C & =\frac{1}{2} C V^2 \\
+& =\frac{1}{2}\left(3 \times 10^{-6} \mathrm{~F}\right)(56 \mathrm{~V})^2=\left(1.5 \times 10^{-6}\right)(3136) \\
+& =\mathbf{4 7 0 4} \boldsymbol{\mu} \mathbf{J}
+\end{aligned}
+$$

@@ -1,0 +1,1 @@
+For the network in the provided circuit image,  for maximum power to $R$, and calculate the power delivered under these conditions.

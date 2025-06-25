@@ -1,0 +1,1 @@
+Apply nodal analysis to solve for $V_x$ in the circuit.

@@ -1,0 +1,9 @@
+There are two ways to approach this problem. The first is to sketch the diagram of Fig. 5.46 and note that there is a $54-\mathrm{V}$ drop across the series resistors $R_1$ and $R_2$. The current can then be determined using Ohm's law and the voltage levels as follows:
+
+$$
+\begin{aligned}
+I & =\frac{54 \mathrm{~V}}{45 \Omega}=1.2 \mathrm{~A} \\
+V_{a b} & =I R_2=(1.2 \mathrm{~A})(25 \Omega)=\mathbf{3 0} \mathbf{V} \\
+
+\end{aligned}
+$$

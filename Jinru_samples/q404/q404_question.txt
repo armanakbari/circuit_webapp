@@ -1,0 +1,1 @@
+Solve for $V_1$ in the circuit using nodal analysis.

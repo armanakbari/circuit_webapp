@@ -1,0 +1,12 @@
+This is a summer with two inputs. 
+
+$$
+v_o=-\left[\frac{10}{5}(2)+\frac{10}{2.5}(1)\right]=-(4+4)=-8 \mathrm{~V}
+$$
+
+
+The current $i_o$ is the sum of the currents through the $10-\mathrm{k} \Omega$ and $2-\mathrm{k} \Omega$ resistors. Both of these resistors have voltage $v_o=-8 \mathrm{~V}$ across them, since $v_a=v_b=0$. Hence,
+
+$$
+i_o=\frac{v_o-0}{10}+\frac{v_o-0}{2} \mathrm{~mA}=-0.8-4=-4.8 \mathrm{~mA}
+$$

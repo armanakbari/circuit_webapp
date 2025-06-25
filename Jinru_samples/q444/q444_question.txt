@@ -1,0 +1,1 @@
+Refer to the op amp in the provided circuit image. If $v_i=0.5 \mathrm{~V}$, calculate the output voltage $v_o$

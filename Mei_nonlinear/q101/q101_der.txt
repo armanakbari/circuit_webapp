@@ -1,0 +1,7 @@
+With $g_m=0$, we have $A=R_D+r_O$. If the input port is shorted, no feedback is present and $T_{s c}=0$. With the input port open [Fig. 8.82(b)], we observe that no current flows through $R_D, I_1$ generates a voltage of $-I_1 r_O$ across $r_O$, and $V_1=-I_1 r_O$. That is, $T_{o c}=g_m r_O$. It follows that
+
+$$
+R_{i n}=\frac{R_D+r_O}{1+g_m r_O}
+$$
+
+as expected.

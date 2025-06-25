@@ -1,0 +1,38 @@
+\begin{aligned}
+&\text { The impedances are calculated as, }\\
+&Z_1=5+j\left(314 \times 20 \times 10^{-3}\right)=5+j 6.28=8.03 \mid 51.47^{\circ} \Omega
+\end{aligned}
+$$
+Z_2=3-j\left(\frac{1}{314 \times 0.5 \times 10^{-3}}\right)=5-j 6.37=8.10-51.87^{\circ} \Omega
+$$
+
+
+The total impedance is,
+
+$$
+\left.Z_t=3+\frac{8.03\left[51.47^{\circ} \times 8.10 \mid-51.87^{\circ}\right.}{8.03\left|51.47^{\circ}+8.10\right|-51.87^{\circ}}=9.5 \right\rvert\, 0.08^{\circ} \Omega
+$$
+
+
+The total admittance is,
+
+$$
+Y_t=\frac{1}{Z_t}=\frac{1}{9.50 .08^{\circ}}=0.11-0.08^{\circ} \mathrm{S}
+$$
+
+
+The source current is calculated as,
+
+$$
+\left.I=\frac{V}{Z_t}=\frac{220 \mid 25^{\circ}}{9.5 \mid 0.08^{\circ}}=23.16 \right\rvert\, 24.92^{\circ} \mathrm{A}
+$$
+
+
+The voltage drop across the inductor is calculated as,
+
+$$
+\begin{gathered}
+I_1=23.16\left|24.92^{\circ} \times \frac{8.10 \mid-51.87^{\circ}}{8.03\left|51.47^{\circ}+8.10\right|-51.87^{\circ}}=18.75\right|-26.44^{\circ} \mathrm{A} \\
+V_{j 6.28}=6.28\left|90^{\circ} \times 18.75\right|-26.44^{\circ}=117.75 \mid 63.56^{\circ} \mathrm{V}
+\end{gathered}
+$$

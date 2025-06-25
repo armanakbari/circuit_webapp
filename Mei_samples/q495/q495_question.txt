@@ -1,0 +1,1 @@
+Find the value of $R_L$ in the provided circuit image for maximum power to $R_L$

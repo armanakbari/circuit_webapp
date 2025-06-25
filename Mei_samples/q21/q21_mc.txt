@@ -1,0 +1,5 @@
+1. I_2= 10 \mathrm{~A}
+2. I_2= 3.33 \mathrm{~A}
+3. I_2= 5 \mathrm{~A}
+4. I_2= 6.67 \mathrm{~A}
+5. None of the above

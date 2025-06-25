@@ -1,0 +1,3 @@
+Design of analog CMOS integrated circuits
+P296
+Example8.10

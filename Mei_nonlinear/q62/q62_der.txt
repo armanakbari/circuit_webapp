@@ -1,0 +1,13 @@
+Representing the thermal noise of $M_1$ and $M_2$ by current sources [Fig. 7.42(b)] and noting that they are uncorrelated, we write
+
+$$
+\overline{V_{n, o u t}^2}=4 k T\left(\gamma g_{m 1}+\gamma g_{m 2}\right)\left(r_{O 1} \| r_{O 2}\right)^2
+$$
+(In reality, $\gamma$ may not be the same for NMOS and PMOS devices.) Since the voltage gain is equal to $g_{m 1}\left(r_{O 1} \| r_{O 2}\right)$, the total noise voltage referred to the gate of $M_1$ is
+
+$$
+\begin{aligned}
+\overline{V_{n, i n}^2} & =4 k T\left(\gamma g_{m 1}+\gamma g_{m 2}\right) \frac{1}{g_{m 1}^2} \\
+& =4 k T \gamma\left(\frac{1}{g_{m 1}}+\frac{g_{m 2}}{g_{m 1}^2}\right)
+\end{aligned}
+$$

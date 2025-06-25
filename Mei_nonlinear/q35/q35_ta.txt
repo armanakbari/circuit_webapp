@@ -1,0 +1,1 @@
+\frac{-A}{\left[(1+A) R_S C_F s+1\right]\left(\frac{1}{1+A^{-1}} C_F R_{\text {out }} s+1\right)}

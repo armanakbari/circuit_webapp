@@ -1,0 +1,24 @@
+Combining the resistors that are in parallel,
+
+$$
+\begin{aligned}
+& 70\left\|30=\frac{70 \times 30}{100}=21 \Omega, \quad 20\right\| 5=\frac{20 \times 5}{25}=4 \Omega \\
+& \mathrm{i}=\frac{200}{21+4}=8 \mathrm{~A} \\
+& \mathrm{v}_1=21 \mathrm{i}=168 \mathrm{~V}, \mathrm{v}_{\mathrm{o}}=4 \mathrm{i}=32 \mathrm{~V} \\
+& \mathrm{i}_1=\frac{\mathrm{v}_1}{70}=2.4 \mathrm{~A}, \mathrm{i}_2=\frac{\mathrm{v}_{\mathrm{o}}}{20}=1.6 \mathrm{~A}
+\end{aligned}
+$$
+
+
+At node a, KCL must be satisfied
+
+$$
+\mathrm{i}_1=\mathrm{i}_2+\mathrm{I}_{\mathrm{o}} \longrightarrow 2.4=1.6+\mathrm{I}_{\mathrm{o}} \longrightarrow \mathrm{I}_{\mathrm{o}}=0.8 \mathrm{~A}
+$$
+
+
+Hence,
+
+$$
+\mathrm{v}_{\mathrm{o}}=32 \mathrm{~V} \text { and } \mathrm{I}_{\mathrm{o}}=800 \mathrm{~mA}
+$$

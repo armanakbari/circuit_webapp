@@ -1,0 +1,3 @@
+Design of analog CMOS integrated circuits
+P139
+Example5.2

@@ -1,0 +1,48 @@
+Since
+
+$$
+\left(V_{\text {in }}-V_{\text {out }} \frac{R_2}{R_1+R_2}\right) A(s)=V_{\text {out }}
+$$
+
+we have
+
+$$
+\frac{V_{\text {out }}}{V_{\text {in }}}(s)=\frac{A(s)}{1+\frac{R_2}{R_1+R_2} A(s)}
+$$
+
+
+For a one-pole system, $A(s)=A_0 /\left(1+s / \omega_0\right)$, where $\omega_0$ is the 3 - dB bandwidth and $A_0 \omega_0$ the unity-gain bandwidth. Thus,
+
+$$
+\begin{aligned}
+\frac{V_{\text {out }}}{V_{\text {in }}}(s) & =\frac{A_0}{1+\frac{R_2}{R_1+R_2} A_0+\frac{s}{\omega_0}} \\
+& =\frac{\frac{A_0}{1+\frac{R_2}{R_1+R_2} A_0}}{1+\frac{s}{\left(1+\frac{R_2}{R_1+R_2} A_0\right) \omega_0}}
+\end{aligned}
+$$
+indicating that the closed-loop amplifier is also a one-pole system with a time constant equal to
+
+$$
+\tau=\frac{1}{\left(1+\frac{R_2}{R_1+R_2} A_0\right) \omega_0}
+$$
+
+
+Recognizing that the quantity $R_2 A_0 /\left(R_1+R_2\right)$ is the low-frequency loop gain and usually much greater than unity, we have
+
+$$
+\tau \approx\left(1+\frac{R_1}{R_2}\right) \frac{1}{A_0 \omega_0}
+$$
+
+
+The output step response for $V_{\text {in }}=a u(t)$ can now be expressed as
+
+$$
+V_{\text {out }}(t) \approx a\left(1+\frac{R_1}{R_2}\right)\left(1-\exp \frac{-t}{\tau}\right) u(t)
+$$
+
+with the final value $V_F \approx a\left(1+R_1 / R_2\right)$. For $1 \%$ settling, $V_{\text {out }}=0.99 V_F$, and hence
+
+$$
+1-\exp \frac{-t_1 \%}{\tau}=0.99
+$$
+
+yielding $t_{1 \%}=\tau \ln 100 \approx 4.6 \tau$. For a $1 \%$ settling of $5 \mathrm{~ns}, \tau \approx 1.09 \mathrm{~ns}$, and from $(9.9), A_0 \omega_0 \approx\left(1+R_1 / R_2\right) / \tau=9.21$ Grad/s (1.47 GHz).

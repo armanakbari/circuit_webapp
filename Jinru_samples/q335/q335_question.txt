@@ -1,0 +1,1 @@
+For the circuit in the provided circuit image, if $R_1=R_2=R_3=R_4$, what value of $\alpha$ will produce $\left|V_o / V_s\right|=10$ ?

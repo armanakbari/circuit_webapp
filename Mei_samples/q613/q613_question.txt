@@ -1,0 +1,1 @@
+Determine $\mathbf{Y}_T$ in the provided circuit image.

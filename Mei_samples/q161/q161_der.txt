@@ -1,0 +1,73 @@
+Consider that the voltage source is active and the current source is open circuited as shown in Fig. 4.23. Then, applying KVL to the circuit in Fig. 4.24 yields,
+
+$$
+(2+3+4+6) I_1-0.5 V_x=24
+$$
+
+
+Now, according to the circuit,
+
+$$
+V_x=2 I_1
+$$
+
+
+Substituting Eq. (4.55) into Eq. (4.54) yields,
+
+$$
+\begin{aligned}
+& 15 I_1-1 I_1=24 \\
+& I_1=\frac{24}{14}=1.71 \mathrm{~A}
+\end{aligned}
+$$
+
+
+The current in the $6 \Omega$ resistor is,
+
+$$
+I_{2 x}=I_1=1.71 \mathrm{~A}
+$$
+
+
+Again, consider that the voltage source is short circuited and the current source is active.
+In this case, the current in Fig. 4.25 represents the supermesh and it can be redrawn as shown in Fig. 4.26. According to the circuit shown in Fig. 4.26,
+
+$$
+I_1=I_2-10
+$$
+
+
+Applying KVL to the supermesh circuit in Fig. 4.26 yields,
+
+$$
+6 I_1+9 I_2=0.5 V_x
+$$
+
+
+Substituting Eqs. (4.55) and (4.59) into Eq. (4.60) yields,
+
+$$
+\begin{aligned}
+6\left(I_2-10\right)+9 I_2 & =0.5 \times 2\left(I_2-10\right) \\
+14 I_2 & =50 \\
+I_2=\frac{50}{14} & =3.57 \mathrm{~A}
+\end{aligned}
+$$
+
+
+In this case, the current in the $6 \Omega$ resistor is,
+
+$$
+I_{2 y}=I_2=3.57 \mathrm{~A}
+$$
+
+
+Finally, the current in the $6 \Omega$ resistor is,
+
+$$
+I_p=I_{2 x}+I_{2 y}=3.57+1.71=5.28 \mathrm{~A}
+$$
+\begin{aligned}
+&\text { The power absorbed by the } 6 \Omega \text { resistor is, }\\
+&P_{6 \Omega}=I_2^2 \times 6=5.28^2 \times 6=167.27 \mathrm{~W}
+\end{aligned}

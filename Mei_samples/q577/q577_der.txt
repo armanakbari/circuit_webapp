@@ -1,0 +1,8 @@
+\begin{aligned}
+&\text { and }\\
+&\begin{aligned}
+& \boldsymbol{V}=24 \sin \omega t \Rightarrow \text { phasor form } \mathbf{V}=16.968 \mathrm{~V} \angle 0^{\circ} \\
+& \mathbf{I}=\frac{\mathbf{V}}{\mathbf{Z}_L}=\frac{V \angle \theta}{X_L \angle 90^{\circ}}=\frac{16.968 \mathrm{~V} \angle 0^{\circ}}{3 \Omega \angle 90^{\circ}}=5.656 \mathrm{~A} \angle-90^{\circ} \\
+& i=\sqrt{2}(5.656) \sin \left(\omega t-90^{\circ}\right)=\mathbf{8 . 0} \sin \left(\boldsymbol{\omega} \boldsymbol{t}-\mathbf{9 0 ^ { \circ }}\right)
+\end{aligned}
+\end{aligned}

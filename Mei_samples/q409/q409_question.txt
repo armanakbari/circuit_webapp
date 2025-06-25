@@ -1,0 +1,1 @@
+Determine $I_C$ for the network In the provided circuit image

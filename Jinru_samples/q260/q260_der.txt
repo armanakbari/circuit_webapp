@@ -1,0 +1,26 @@
+When $R_L$ equals $25 \Omega$, the voltage $v_{\mathrm{ab}}$ is
+
+$$
+v_{\mathrm{ab}}=\left(\frac{300}{50}\right)(25)=150 \mathrm{~V}
+$$
+
+
+From the provided circuit image, when $v_{\mathrm{ab}}$ equals 150 V , the current in the voltage source in the direction of the voltage rise across the source is
+
+$$
+i_s=\frac{360-150}{30}=\frac{210}{30}=7 \mathrm{~A} .
+$$
+
+
+Therefore, the source is delivering 2520 W to the circuit, or
+
+$$
+p_s=-i_s(360)=-2520 \mathrm{~W}
+$$
+
+
+The percentage of the source power delivered to the load is
+
+$$
+\frac{900}{2520} \times 100=35.71 \%
+$$

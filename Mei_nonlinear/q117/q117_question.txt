@@ -1,0 +1,1 @@
+Calculate the small-signal voltage gain of the class-AB op amp shown in the provided circuit image

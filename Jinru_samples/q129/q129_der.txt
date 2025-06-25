@@ -1,0 +1,51 @@
+All voltage and current phasors in this problem are assumed to represent effective values. Note from the circuit diagram that $\mathbf{I}_s=\mathbf{I}_1+\mathbf{I}_2$. The total complex power absorbed by the two loads is
+
+$$
+\begin{aligned}
+S & =(250) \mathbf{I}_s^* \\
+& =(250)\left(\mathbf{I}_1+\mathbf{I}_2\right)^* \\
+& =(250) \mathbf{I}_1^*+(250) \mathbf{I}_2^* \\
+& =S_1+S_2
+\end{aligned}
+$$
+
+
+We can sum the complex powers geometrically, using the power triangles for each load. By hypothesis,
+
+$$
+\begin{aligned}
+S_1 & =8000-j \frac{8000(.6)}{(.8)} \\
+& =8000-j 6000 \mathrm{VA}
+\end{aligned}
+$$
+
+\begin{aligned}
+S_2 & =20,000(.6)+j 20,000(.8) \\
+& =12,000+j 16,000 \mathrm{VA} .
+\end{aligned}
+
+It follows that
+
+$$
+S=20,000+j 10,000 \mathrm{VA},
+$$
+
+and
+
+$$
+\mathbf{I}_s^{\mathrm{w}}=\frac{20,000+j 10,000}{250}=80+j 40 \mathrm{~A} .
+$$
+
+
+Therefore
+
+$$
+\mathbf{I}_{\mathrm{s}}=80-j 40=89.44 \angle-26.57^{\circ} \mathrm{A} .
+$$
+
+
+Thus the power factor of the combined load is
+
+$$
+\mathrm{pf}=\cos \left(0+26.57^{\circ}\right)=0.8944 \text { lagging. }
+$$

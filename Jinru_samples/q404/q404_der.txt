@@ -1,0 +1,26 @@
+Step 1. The first thing to do is to select a reference node and to identify all the unknown nodes. We select the bottom of the circuit as the reference node. The only unknown node is the one connecting all the resistors together and we will call that node $\mathrm{V}_1$. The other two nodes are at the top of each source. Relative to the reference, the one at the top of the 10 -volt source is -10 V . At the top of the 20 -volt source is +20 V .
+
+Step 2. Setup the nodal equation (there is only one since there is only one unknown).
+
+$$
+\frac{\left(V_1-(-10)\right)}{5}+\frac{\left(V_2-(-10)\right)}{10}+\frac{\left(V_2-0\right)}{10}+\frac{\left(V_2-20\right)}{10}=0
+$$
+
+
+Step 3. Simplify and solve.
+
+$$
+\begin{aligned}
+& \left(\frac{1}{5}+\frac{1}{10}+\frac{1}{10}+\frac{1}{10}\right) V_1=-\frac{10}{5}-\frac{10}{10}+\frac{20}{10} \\
+& (0.2+0.1+0.1+0.1) V_1=0.5 V_1=-2-1+2=-1
+\end{aligned}
+$$
+
+or
+
+$$
+V_1=-2 \mathrm{~V} .
+$$
+
+
+The answer can be checked by calculating all the currents and see if they add up to zero. The top two currents on the left flow right to left and are 0.8 A and 1.6 A respectively. The current flowing up through the 10 -ohm resistor is 0.2 A . The current flowing right to left through the 10 -ohm resistor is 2.2 A . Summing all the currents flowing out of the node, $\mathrm{V}_1$, we get, $+0.8+1.6-0.2-2.2=0$. The answer checks.

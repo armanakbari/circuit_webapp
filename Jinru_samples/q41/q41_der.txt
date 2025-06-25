@@ -1,0 +1,17 @@
+To find how long the switch must be in position b before the capacitor voltage becomes zero, we solve the equation derived in (d) for the time when $v_C(t)=0$ :
+
+$$
+120 e^{-5 t}=90 \text { or } e^{5 t}=\frac{120}{90}
+$$
+
+so
+
+$$
+\begin{aligned}
+t & =\frac{1}{5} \ln \left(\frac{4}{3}\right) \\
+& =57.54 \mathrm{~ms} .
+\end{aligned}
+$$
+
+
+Note that when $v_C=0, i=225 \mu \mathrm{~A}$ and the voltage drop across the $400 \mathrm{k} \Omega$ resistor is 90 V .

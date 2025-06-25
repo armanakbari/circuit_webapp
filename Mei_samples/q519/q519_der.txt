@@ -1,0 +1,14 @@
+Since the voltage across the capacitor is constant at 4 V prior to the closing of the switch, the current (whose level is sensitive only to changes in voltage across the capacitor) must have an initial value of 0 mA . At the instant the switch is closed, the voltage across the capacitor cannot change instantaneously, so the voltage across the resistive elements at this instant is the applied voltage less the initial voltage across the capacitor. The resulting peak current is
+
+$$
+I_m=\frac{E-V_C}{R_1+R_2}=\frac{24 \mathrm{~V}-4 \mathrm{~V}}{2.2 \mathrm{k} \Omega+1.2 \mathrm{k} \Omega}=\frac{20 \mathrm{~V}}{3.4 \mathrm{k} \Omega}=5.88 \mathrm{~mA}
+$$
+
+
+The current will then decay (with the same time constant as the voltage $V_C$ ) to zero because the capacitor is approaching its opencircuit equivalence.
+
+The equation for $i_C$ is therefore:
+
+$$
+i_C=5.88 \mathrm{~mA} e^{-t / 11.22 \mathrm{~ms}}
+$$

@@ -1,0 +1,1 @@
+\left(V_{\text {REF }} / A_1\right) / r

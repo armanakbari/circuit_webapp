@@ -1,0 +1,5 @@
+1. \mathbf{6 1 . 5 3 6} \mathbf{V} \angle \mathbf{5 0 . 1 9 4 ^ { \circ }}
+2. $\mathbf{55.901} \mathbf{V} \angle \mathbf{39.806^{\circ}}$
+3. $\mathbf{87.025} \mathbf{V} \angle \mathbf{50.194^{\circ}}$
+4. $\mathbf{61.536} \mathbf{V} \angle \mathbf{-50.194^{\circ}}$
+5. None of the above

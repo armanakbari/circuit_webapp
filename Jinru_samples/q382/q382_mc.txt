@@ -1,0 +1,5 @@
+1. 1 \mathrm{~A}
+2. 0 \mathrm{~A}
+3. 1.8 \mathrm{~A}
+4. -1 \mathrm{~A}
+5. None of the above

@@ -1,0 +1,5 @@
+The initial value of the derivative is
+
+$$
+\frac{d v\left(0^{+}\right)}{d t}=\frac{(12.25)\left(10^{-3}\right)}{(0.125)\left(10^{-6}\right)}=98,000 \mathrm{~V} / \mathrm{s}
+$$

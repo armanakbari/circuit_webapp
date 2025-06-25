@@ -1,0 +1,5 @@
+1. -V_X / r_O
+2. $-g_m V_X$
+3. $V_X / r_O$
+4. $V_X / \left(A_1 g_m r_O R_S\right)$
+5. None of the above

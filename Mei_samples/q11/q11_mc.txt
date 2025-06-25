@@ -1,0 +1,5 @@
+1. I_x=\frac{8}{1}=8 \mathrm{~A};
+2. I_x=\frac{8}{4}=2 \mathrm{~A};
+3. I_x=\frac{-8}{2}=-4 \mathrm{~A};
+4. I_x=\frac{8}{2}=4 \mathrm{~A};
+5. None of the above

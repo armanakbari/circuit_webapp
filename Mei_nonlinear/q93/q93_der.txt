@@ -1,0 +1,10 @@
+Solution
+We prefer to break the loop at a port that does not entail loading effects. Let us do so at the gate of $M_1$, as depicted in Fig. 8.72(a). Applying a test voltage, $V_t$, and calculating the feedback voltage, $V_F$, we have
+
+$$
+\begin{aligned}
+\text { Loop Gain } & =-\frac{V_F}{V_t} \\
+& =g_m\left[R_D \|\left(R_S+R_F\right)\right] \frac{R_S}{R_S+R_F} \\
+& =\frac{g_m R_S R_D}{R_D+R_S+R_F}
+\end{aligned}
+$$

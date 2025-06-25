@@ -1,0 +1,60 @@
+This circuit contains a dependent source, unlike the circuit in the previous example. To find $R_{\mathrm{Th}}$, we set the independent source equal to zero but leave the dependent source alone. Because of the presence of the dependent source, however, we excite the network with a voltage source $v_o$ connected to the terminals. We may set $v_o=1 \mathrm{~V}$ to ease calculation, since the circuit is linear. Our goal is to find the current $i_o$ through the terminals, and then obtain $R_{\mathrm{Th}}=1 / i_o$. (Alternatively, we may insert a 1-A current source, find the corresponding voltage $v_o$, and obtain $R_{\mathrm{Th}}=v_o / 1$.)
+
+Applying mesh analysis to loop 1:
+
+$$
+-2 v_x+2\left(i_1-i_2\right)=0 \quad \text { or } \quad v_x=i_1-i_2
+$$
+
+
+But $-4 i_2=v_x=i_1-i_2$; hence,
+
+$$
+i_1=-3 i_2
+$$
+
+
+For loops 2 and 3, applying KVL produces
+
+$$
+\begin{gathered}
+4 i_2+2\left(i_2-i_1\right)+6\left(i_2-i_3\right)=0 \\
+6\left(i_3-i_2\right)+2 i_3+1=0
+\end{gathered}
+$$
+Solving these equations gives
+
+$$
+i_3=-\frac{1}{6} \mathrm{~A}
+$$
+
+
+But $i_o=-i_3=1 / 6 \mathrm{~A}$. Hence,
+
+$$
+R_{\mathrm{Th}}=\frac{1 \mathrm{~V}}{i_o}=6 \Omega
+$$
+
+
+To get $V_{\mathrm{Th}}$, we find $v_{o c}$ in the circuit. Applying mesh analysis, we get
+
+$$
+\begin{gathered}
+i_1=5 \\
+-2 v_x+2\left(i_3-i_2\right)=0 \quad \Rightarrow \quad v_x=i_3-i_2 \\
+4\left(i_2-i_1\right)+2\left(i_2-i_3\right)+6 i_2=0
+\end{gathered}
+$$
+
+or
+
+$$
+12 i_2-4 i_1-2 i_3=0
+$$
+
+
+But $4\left(i_1-i_2\right)=v_x$. Solving these equations leads to $i_2=10 / 3$. Hence,
+
+$$
+V_{\mathrm{Th}}=v_{o c}=6 i_2=20 \mathrm{~V}
+$$

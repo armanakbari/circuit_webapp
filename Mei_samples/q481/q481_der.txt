@@ -1,0 +1,59 @@
+$$
+\begin{aligned}
+R_{T h} & =R_4+R_1\left\|R_2\right\| R_3 \\
+& =1.4 \mathrm{k} \Omega+0.8 \mathrm{k} \Omega\|4 \mathrm{k} \Omega\| 6 \mathrm{k} \Omega \\
+& =1.4 \mathrm{k} \Omega+0.8 \mathrm{k} \Omega \| 2.4 \mathrm{k} \Omega \\
+& =1.4 \mathrm{k} \Omega+0.6 \mathrm{k} \Omega \\
+& =\mathbf{2} \mathbf{k} \Omega
+\end{aligned}
+$$
+
+
+Step 4: Applying superposition, we will consider the effects of the voltage source $E_1$ first. Note Fig. 9.52. The open circuit requires that $V_4=I_4 R_4=(0) R_4=0 \mathrm{~V}$, and
+
+$$
+\begin{gathered}
+E_{T h}^{\prime}=V_3 \\
+R_T^{\prime}=R_2\left\|R_3=4 \mathrm{k} \Omega\right\| 6 \mathrm{k} \Omega=2.4 \mathrm{k} \Omega
+\end{gathered}
+$$
+
+
+Applying the voltage divider rule,
+
+$$
+\begin{gathered}
+V_3=\frac{R_T^{\prime} E_1}{R_T^{\prime}}+R_1=\frac{(2.4 \mathrm{k} \Omega)(6 \mathrm{~V})}{2.4 \mathrm{k} \Omega+0.8 \mathrm{k} \Omega}=\frac{14.4 \mathrm{~V}}{3.2}=4.5 \mathrm{~V} \\
+E_{T h}^{\prime}=V_3=4.5 \mathrm{~V}
+\end{gathered}
+$$
+
+
+For the source $E_2$, the network of Fig. 9.53 will result. Again, $V_4=$ $I_4 R_4=(0) R_4=0 \mathrm{~V}$, and
+
+$$
+\begin{gathered}
+E_{T h}^{\prime \prime}=V_3 \\
+R_T^{\prime}=R_1\left\|R_3=0.8 \mathrm{k} \Omega\right\| 6 \mathrm{k} \Omega=0.706 \mathrm{k} \Omega
+\end{gathered}
+$$
+
+and
+
+$$
+\begin{aligned}
+V_3=\frac{R_T^{\prime} E_2}{R_T^{\prime}+R_2}= & \frac{(0.706 \mathrm{k} \Omega)(10 \mathrm{~V})}{0.706 \mathrm{k} \Omega+4 \mathrm{k} \Omega}=\frac{7.06 \mathrm{~V}}{4.706}=1.5 \mathrm{~V} \\
+& E_{T h}^{\prime \prime}=V_3=1.5 \mathrm{~V}
+\end{aligned}
+$$
+
+
+Since $E_{T h}^{\prime}$ and $E_{T h}^{\prime \prime}$ have opposite polarities,
+
+$$
+\begin{aligned}
+E_{T h} & =E_{T h}^{\prime}-E_{T h}^{\prime \prime} \\
+& =4.5 \mathrm{~V}-1.5 \mathrm{~V} \\
+& =3 \mathrm{~V} \quad\left(\text  
+\end{aligned}
+$$

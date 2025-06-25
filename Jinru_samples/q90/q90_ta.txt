@@ -1,0 +1,1 @@
+5 \cos \left(5000 t-23.13^{\circ}\right) \mathrm{A}

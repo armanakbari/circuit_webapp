@@ -1,0 +1,1 @@
+Assuming that the devices in the provided circuit image operate in saturation and the circuit is symmetric, calculate the input-referred noise voltage.

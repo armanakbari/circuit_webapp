@@ -1,0 +1,16 @@
+a. Voltage divider rule:
+
+$$
+V_{a b}=\frac{R_1 E}{R_T}=\frac{(2 \Omega)(10 \mathrm{~V})}{2 \Omega+3 \Omega+5 \Omega}=+2 \mathbf{V}
+$$
+
+b. Voltage divider rule:
+
+$$
+\begin{aligned}
+& \quad V_b=V_{R_2}+V_{R_3}=\frac{\left(R_2+R_3\right) E}{R_T}=\frac{(3 \Omega+5 \Omega)(10 \mathrm{~V})}{10 \Omega}=\mathbf{8} \mathbf{V} \\
+& \text { or } \quad V_b=V_a-V_{a b}=E-V_{a b}=10 \mathrm{~V}-2 \mathrm{~V}=\mathbf{8} \mathbf{V}
+\end{aligned}
+$$
+
+c. $V_c=$ ground potential $=\mathbf{0} \mathbf{~ V}$

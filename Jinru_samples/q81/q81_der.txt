@@ -1,0 +1,50 @@
+We know that the current response is critically damped. Thus
+
+$$
+i_L(t)=I_f+D_1^{\prime} t e^{-\alpha t}+D_2^{\prime} e^{-\alpha t},
+$$
+
+where
+
+$$
+\alpha=\frac{1}{2 R C}=40,000 \mathrm{rad} / \mathrm{s} \quad \text { and } \quad I_f=24 \mathrm{~mA} .
+$$
+
+
+Notice that the effect of the nonzero initial stored energy is on the calculations for the constants $D_1^{\prime}$ and $D_2^{\prime}$, which we obtain from the initial conditions. First we use the initial value of the inductor current:
+
+$$
+i_L(0)=I_f+D_2^{\prime}=29 \mathrm{~mA}
+$$
+
+from which we get
+
+$$
+D_2^{\prime}=29-24=5 \mathrm{~mA} .
+$$
+
+The solution for $D_1^{\prime}$ is
+
+$$
+\frac{d i_L}{d t}\left(0^{+}\right)=D_1^{\prime}-\alpha D_2^{\prime}=2000
+$$
+
+or
+
+$$
+\begin{aligned}
+D_1^{\prime} & =2000+\alpha D_2^{\prime} \\
+& =2000+(40,000)\left(5 \times 10^{-3}\right) \\
+& =2200 \mathrm{~A} / \mathrm{s}=2.2 \times 10^6 \mathrm{~mA} / \mathrm{s}
+\end{aligned}
+$$
+
+
+Thus the numerical expression for $i_L(t)$ is
+
+$$
+\begin{aligned}
+i_L(t)= & \left(24+2.2 \times 10^6 t e^{-40,000 t}\right. \\
+& +5 e^{-4(0.000 t)} \mathrm{mA}, \quad t \geq 0
+\end{aligned}
+$$

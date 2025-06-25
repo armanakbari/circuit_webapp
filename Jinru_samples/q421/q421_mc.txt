@@ -1,0 +1,5 @@
+1. -53.33 \mathrm{~V}
+2. 53.33 \mathrm{~V}
+3. 66.67 \mathrm{~V}
+4. 13.33 \mathrm{~V}
+5. None of the above

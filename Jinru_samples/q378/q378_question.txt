@@ -1,0 +1,1 @@
+The provided circuit image represents a model of a solar photovoltaic panel. Given that $V_s=30 \mathrm{~V}$, $R_1=20 \Omega$, and $i_L=1 \mathrm{~A}$, find $R_L$.

@@ -1,0 +1,1 @@
+\frac{4 k T R_F g_m^2+4 k T \gamma g_m}{\left(g_m R_F-1\right)^2}

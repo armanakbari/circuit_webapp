@@ -1,0 +1,1 @@
+Calculate the differential gain of the circuit in the provided circuit image if $\lambda \neq 0$.

@@ -1,0 +1,5 @@
+1. 31 - j 49 \mathrm{~V}
+2. 78-j 104 \mathrm{~V}
+3. 5 + j 104 \mathrm{~V}
+4. -55 - j 18 \mathrm{~V}
+5. None of the above

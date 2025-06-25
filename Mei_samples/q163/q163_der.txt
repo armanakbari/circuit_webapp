@@ -1,0 +1,54 @@
+Initially, open the $10 \Omega$ resistor and calculate the Thevenin's voltage as shown in Fig. 4.47. In this case, the source current is,
+
+$$
+I_s=\frac{30}{2+4}=5 \mathrm{~A}
+$$
+Thevenin's voltage can be calculated as,
+
+$$
+V_{\mathrm{Th}}=4 \times 5+5=25 \mathrm{~V}
+$$
+
+
+Insert a unity voltage source to the circuit in Fig. 4.48 to calculate the Thevenin's resistance. Applying KVL to the circuit in Fig. 4.48 yields,
+
+$$
+\begin{gathered}
+6 I_1-4 I_2=0 \\
+I_1=\frac{2}{3} I_2 \\
+-4 I_1+4 I_2-I_p+1=0 \\
+-4 I_1+4 I_2-I_1+1=0 \\
+5 I_1-4 I_2=1
+\end{gathered}
+$$
+
+
+Substituting Eq. (4.95) into Eq. (4.98) yields,
+
+$$
+\begin{aligned}
+5 \times \frac{2}{3} I_2-4 I_2 & =1 \\
+3.33 I_2-4 I_2 & =1
+\end{aligned}
+$$
+$$
+\begin{gathered}
+-0.67 I_2=1 \\
+I_2=-\frac{1}{0.67}=-1.49 \mathrm{~A} \\
+I_g=-I_2=1.49 \mathrm{~A}
+\end{gathered}
+$$
+
+
+Thevenin's resistance can be determined by omitting negative sign as,
+
+$$
+R_{\mathrm{Th}}=\frac{1}{I_g}=\frac{1}{1.49}=0.67 \Omega
+$$
+
+
+Thevenin's equivalent circuit is shown in Fig. 4.49. The current in the $10 \Omega$ resistor is,
+
+$$
+I_{10 \Omega}=\frac{25}{10+0.67}=2.34 \mathrm{~A}
+$$

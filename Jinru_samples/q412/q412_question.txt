@@ -1,0 +1,1 @@
+Use nodal analysis to find $V_o$ in the circuit

@@ -1,0 +1,1 @@
+A balanced three-phase wye-delta system is shown In the provided circuit image. Per phase load impedance and generator voltage are $Z_{\Delta}=520^{\circ} \Omega$ and 240 V rms , respectively. For ABC phase sequence, calculate the line current I_{\mathrm{Cc}}.

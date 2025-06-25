@@ -1,0 +1,1 @@
+Reduce the network in the provided circuit image to a single current source, and calculate the current through $R_L$.

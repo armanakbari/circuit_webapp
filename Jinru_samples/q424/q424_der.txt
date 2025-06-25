@@ -1,0 +1,4 @@
+For loop $1,120+40 \mathrm{i}_1-10 \mathrm{i}_2=0$, which leads to $-12=4 \mathrm{i}_1-\mathrm{i}_2$
+For loop 2, $50 i_2-10 i_1-10 i_3=0$, which leads to $-i_1+5 i_2-i_3=0$
+For loop 3, $-120-10 \mathrm{i}_2+40 \mathrm{i}_3=0$, which leads to $12=-\mathrm{i}_2+4 \mathrm{i}_3$
+Thus, we get $\mathrm{i}_1=-3 \mathrm{~A}, \mathrm{i}_2=0$, and $\mathrm{i}_3=3 \mathrm{~A}$

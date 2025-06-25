@@ -1,0 +1,5 @@
+1. $(W / L)_1 /(W / L)_2* (W / L)_3 /(W / L)_4 *I_{R E F}$
+2. $(W / L)_2 /(W / L)_1* (W / L)_3 /(W / L)_4 *I_{R E F}$
+3. $(W / L)_2 /(W / L)_1* (W / L)_4 /(W / L)_3 *I_{R E F}$
+4. $(W / L)_4 /(W / L)_1* (W / L)_2 /(W / L)_3 *I_{R E F}$
+5. None of the above

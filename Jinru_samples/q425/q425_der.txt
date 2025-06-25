@@ -1,0 +1,5 @@
+For loop 1, $-0.75+1.5 \mathrm{kI}_{\mathrm{B}}+\mathrm{V}_{\mathrm{BE}}+400 \mathrm{I}_{\mathrm{E}}=0=-0.75+0.7+1500 \mathrm{I}_{\mathrm{B}}+400(1+\beta) \mathrm{I}_{\mathrm{B}}$
+
+$$
+\mathrm{I}_{\mathrm{B}}=0.05 / 81,900=\mathbf{0 . 6 1} \boldsymbol{\mu} \mathbf{A}
+$$

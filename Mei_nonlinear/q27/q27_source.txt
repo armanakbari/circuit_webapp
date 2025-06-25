@@ -1,0 +1,3 @@
+Design of analog CMOS integrated circuits
+P118
+Example4.9

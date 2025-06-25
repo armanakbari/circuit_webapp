@@ -1,0 +1,5 @@
+The initial energy stored in $C_1$ is
+
+$$
+w_1=\frac{1}{2}\left(5 \times 10^{-6}\right)(16)=40 \mu \mathrm{~J} .
+$$

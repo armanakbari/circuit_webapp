@@ -1,0 +1,4 @@
+\begin{aligned}
+&\text { The initial energy stored in the inductors is }\\
+&w=\frac{1}{2}(5)(64)+\frac{1}{2}(20)(16)=320 \mathrm{~J} .
+\end{aligned}

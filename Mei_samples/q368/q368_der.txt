@@ -1,0 +1,5 @@
+Voltage divider rule:
+
+$$
+V_{a b}=\frac{R_1 E}{R_T}=\frac{(2 \Omega)(10 \mathrm{~V})}{2 \Omega+3 \Omega+5 \Omega}=+2 \mathbf{V}
+$$

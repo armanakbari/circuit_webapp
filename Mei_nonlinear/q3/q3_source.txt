@@ -1,0 +1,3 @@
+Design of analog CMOS integrated circuits
+P53
+Example3.5

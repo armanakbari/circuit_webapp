@@ -1,0 +1,1 @@
+\mathbf{8 . 0} \sin \left(\omega t+30^{\circ}\right)

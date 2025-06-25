@@ -1,0 +1,5 @@
+1. \frac{1}{2} \mu_n C_{o x} \frac{W}{L}\left(V_b-V_{T H}\right)(\lambda \Delta V)
+2. \frac{1}{2} \mu_n C_{o x} \frac{W}{L}\left(V_b-V_{T H}\right)^2(\lambda \Delta V)
+3. \frac{1}{2} \mu_n C_{o x} \frac{W}{L}\left(V_b-V_{T H}\right)^2 \lambda (\Delta V)^2
+4. \mu_n C_{o x} \frac{W}{L}\left(V_b-V_{T H}\right) \Delta V
+5. None of the above

@@ -1,0 +1,1 @@
+\left(C_{i n} \omega\right)^2 \frac{4 k T}{g_m^2}\left(\gamma g_m+\frac{1}{R_D}\right)

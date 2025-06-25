@@ -1,0 +1,15 @@
+Solution: Note Fig. 15.11:
+
+$$
+\begin{aligned}
+i & =5 \sin \left(\omega t+30^{\circ}\right) \Rightarrow \text { phasor form } \mathbf{I}=3.535 \mathrm{~A} \angle 30^{\circ} \\
+\mathbf{V} & =\mathbf{I Z}_L=(I \angle \theta)\left(X_L \angle 90^{\circ}\right)=\left(3.535 \mathrm{~A} \angle 30^{\circ}\right)\left(4 \Omega \angle+90^{\circ}\right) \\
+& =14.140 \mathrm{~V} \angle 120^{\circ}
+\end{aligned}
+$$
+
+and
+
+$$
+\boldsymbol{V}=\sqrt{2}(14.140) \sin \left(\omega t+120^{\circ}\right)=\mathbf{2 0} \sin (\omega t+\mathbf{1 2 0})
+$$

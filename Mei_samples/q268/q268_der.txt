@@ -1,0 +1,31 @@
+Solution:
+After opening the load impedance, calculate the value of the Thevenin impedance as,
+
+$$
+Z_{\mathrm{Th}}=3+\frac{(2+j 8)(4-j 9)}{6-j 1}=15.59+j 4.43=16.21\angle15 .87^{\circ} \Omega
+$$
+
+
+The source current after opening the load impedance is,
+
+$$
+I=\frac{60}{2+j 8+4-j 9}=9.86\angle9 .46^{\circ} \mathrm{A}
+$$
+
+
+The open circuit or Thevenin's voltage is calculated as,
+
+$$
+V_{\mathrm{Th}}=9.86\angle9 .46^{\circ} \times(4-j 9)=97.15\angle-56.58^{\circ} \mathrm{V}
+$$
+
+
+The load impedance is calculated as,
+
+$$
+Z_L=Z_{\mathrm{Th}}^*=15.59-j 4.43=16.21\angle-15.87^{\circ} \Omega
+$$
+\begin{aligned}
+&\text { The maximum power is determined as, }\\
+&P_{\max }=\frac{\left|V_{\mathrm{Th}}\right|^2}{8 R_{\mathrm{Th}}}=\frac{97.15^2}{8 \times 15.59}=75.67 \mathrm{~W}
+\end{aligned}

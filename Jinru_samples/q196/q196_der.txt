@@ -1,0 +1,12 @@
+At the cutoff frequencies, the magnitude of the transfer function is $(1 / \sqrt{2}) H_{\max }=1 / \sqrt{2}$. Substituting this constant on the left-hand side of the magnitude equation and then simplifying. we get
+
+$$
+\left[\omega_c R C-\frac{1}{\omega_c \frac{L}{R}}\right]= \pm 1
+$$
+
+
+Squaring the left-hand side of this equation once again produces two quadratic equations for the cutoff frequencies, with four solutions. Only two of them are positive and therefore have physical significance:
+
+$$
+\omega_{c 1}=-\frac{1}{2 R C}+\sqrt{\left(\frac{1}{2 R C}\right)^2+\frac{1}{L C}},
+$$

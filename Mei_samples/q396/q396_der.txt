@@ -1,0 +1,5 @@
+By Eq. (6.10), the current divider rule,
+
+$$
+I_1=\frac{R_2 I}{R_1+R_2}=\frac{(4 \Omega)(12 \mathrm{~A})}{2 \Omega+4 \Omega}=\mathbf{8} \mathbf{A}
+$$

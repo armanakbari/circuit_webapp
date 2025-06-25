@@ -1,0 +1,34 @@
+We must compute three quantities. First, with the transistor disabled,
+
+$$
+A=r_O+R_S
+$$
+
+
+Second, with the port of interest left open [Fig. 8.77(b)], we have
+
+$$
+\begin{aligned}
+T_{o c} & =-g_m \frac{V_1}{I_1} \\
+& =0
+\end{aligned}
+$$
+
+because no current flows through $R_S$. Third, with the port of interest shorted [Fig. 8.77(c)], we obtain
+
+$$
+\begin{aligned}
+T_{s c} & =-g_m \frac{V_1}{I_1} \\
+& =+g_m\left(R_S \| r_O\right)
+\end{aligned}
+$$
+
+
+It follows from Eq. (8.174) that
+
+$$
+\begin{aligned}
+Z_{\text {out }} & =\left(r_O+R_S\right)\left[1+g_m\left(R_S \| r_O\right)\right] \\
+& =\left(1+g_m r_O\right) R_S+r_O
+\end{aligned}
+$$

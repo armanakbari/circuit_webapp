@@ -1,0 +1,5 @@
+1. H(s)=\frac{\omega_o^2}{s^2+\beta s+\omega_o^2}
+2. H(s)=\frac{s^2}{s^2+\beta s+\omega_o^2}
+3. H(s)=\frac{s^2+\omega_o^2}{s^2+\beta s+\omega_o^2}
+4. H(s)=\frac{\beta s}{s^2+\beta s+\omega_o^2}
+5. None of the above

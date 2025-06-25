@@ -1,0 +1,1 @@
+A parallel $R L C$ circuit is shown In the provided circuit image. At parallel resonance condition determine the resonant impedance.

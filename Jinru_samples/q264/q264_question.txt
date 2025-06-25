@@ -1,0 +1,1 @@
+If $v_{\mathrm{a}}=1.5 \mathrm{~V}$, specify the range of $v_{\mathrm{b}}$ that avoids amplifier saturation.

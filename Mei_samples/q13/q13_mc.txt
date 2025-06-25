@@ -1,0 +1,5 @@
+1. $P_{4 \Omega}=3^2 \times 4=36 \mathrm{~W}$
+2. P_{4 \Omega}=2^2 \times 4=16 \mathrm{~W};
+3. $P_{4 \Omega}=4^2 \times 4=64 \mathrm{~W}$
+4. $P_{4 \Omega}=6^2 \times 4=144 \mathrm{~W}$
+5. None of the above

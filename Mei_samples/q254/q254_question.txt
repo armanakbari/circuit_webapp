@@ -1,0 +1,1 @@
+Calculate the voltage drop across the $6 \Omega$ resistor for the circuit shown In the provided circuit image by superposition theorem.

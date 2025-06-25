@@ -1,0 +1,1 @@
+Two capacitors are connected to a voltage source as shown In the provided circuit image. Determine the energy stored in the capacitor of 3uF under DC condition.

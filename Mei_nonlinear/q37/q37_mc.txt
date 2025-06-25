@@ -1,0 +1,5 @@
+1. \frac{C_{G D} s-g_m}{s\left[R_S\left(C_{G S} C_{G D}+C_{G S} C_{D B}+C_{G D} C_{D B}\right) s+\left(g_m R_S+1\right) C_{G S}+C_{D B}\right]}
+2. \frac{C_{G D} s-g_m}{s\left[R_S\left(C_{G S} C_{G D}+C_{G S} C_{D B}+C_{G D} C_{D B}\right) s+\left(g_m R_S+1\right) C_{G D}+C_{D B}\right]}
+3. \frac{g_m+C_{G D} s}{s\left[R_S\left(C_{G S} C_{G D}+C_{G S} C_{D B}+C_{G D} C_{D B}\right) s+\left(g_m R_S+1\right) C_{G D}+C_{D B}\right]}
+4. \frac{C_{G D} s-g_m}{R_S\left(C_{G S} C_{G D}+C_{G S} C_{D B}+C_{G D} C_{D B}\right) s+\left(g_m R_S+1\right) C_{G D}+C_{D B}}
+5. None of the above

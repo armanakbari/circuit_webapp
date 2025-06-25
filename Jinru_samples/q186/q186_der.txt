@@ -1,0 +1,21 @@
+The first step in finding the transfer function is to construct the $s$-domain equivalent circuit. By definition, the transfer function is the ratio of $V_o / V_g$, which can be computed from a single node-voltage equation. Summing the currents away from the upper node generates
+
+$$
+\frac{V_o-V_g}{1000}+\frac{V_o}{250+0.05 s}=\frac{V_o s}{10^6}=0
+$$
+
+Solving for $V_o$ yields
+
+$$
+V_o=\frac{1000(s+5000) V_g}{s^2+6000 s+25 \times 10^6}
+$$
+
+
+Hence the transfer function is
+
+$$
+\begin{gathered}
+H(s)=\frac{V_o}{V_g} \\
+=\frac{1000(s+5000)}{s^2+6000 s+25 \times 10^6}
+\end{gathered}
+$$

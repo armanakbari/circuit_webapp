@@ -1,0 +1,1 @@
+An ammeter with an internal resistance of $1 \Omega$ is inserted in the network to measure $I^{\prime}$ as shown in the provided circuit image. What is $I^{\prime}$ ?

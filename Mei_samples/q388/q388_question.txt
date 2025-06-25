@@ -1,0 +1,1 @@
+Determine the currents $I_3$ In the provided circuit image9 through applications of Kirchhoff's current law.

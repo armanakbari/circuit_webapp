@@ -1,0 +1,1 @@
+Find the $z_{21}$ parameters for the circuit shown in the provided circuit image.

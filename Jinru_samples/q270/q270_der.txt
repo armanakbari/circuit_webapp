@@ -1,0 +1,13 @@
+$$
+\begin{gathered}
+p_{30 \text { volt source }}=30 \times(-6)=-180 \mathrm{~W} \\
+p_{12 \text { volt element }}=12 \times 6=72 \mathrm{~W}
+\end{gathered}
+$$
+
+$\mathrm{p}_{28 \text { volt e.ement with } 2 \mathrm{amps} \text { flowing through it }}=28 \times 2=56 \mathrm{~W}$
+$\mathrm{p}_{28}$ volt element with 1 amp flowing through it $=28 \times 1=\mathbf{2 8} \mathbf{~ W}$
+$\mathrm{p}_{\text {the 5lo dependent source }}=5 \times 2 \times(-3)=-30 \mathrm{~W}$
+Since the total power absorbed by all the elements in the circuit must equal zero, or $0=-180+72+56+28-30+\mathrm{p}_{\text {into the element with } \mathrm{V}_{\mathrm{o}} \text { or }}$
+$\mathrm{p}_{\text {into the element with } \mathrm{Vo}_{\mathrm{o}}}=180-72-56-28+30=54 \mathrm{~W}$
+Since $p_{\text {into the element with } V_o}=V_o \times 3=54 \mathrm{~W}$ or $V_o=18 \mathrm{~V}$.

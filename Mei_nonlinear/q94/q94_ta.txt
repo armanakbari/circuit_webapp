@@ -1,0 +1,1 @@
+\frac{R_D}{R_D+R_S+R_F}+\frac{-g_m R_D\left(R_S+R_F\right)\left(R_F+R_D\right)}{\left(R_D+R_S+R_F+g_m R_S R_D\right)\left(R_D+R_S+R_F\right)}

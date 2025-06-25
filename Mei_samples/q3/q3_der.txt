@@ -1,0 +1,7 @@
+\begin{aligned}
+&\text { The value of the current in the circuit is determined as, }\\
+&\begin{gathered}
+V_2=I_s \times 4=40 \\
+I_s=10 \mathrm{~A}
+\end{gathered}
+\end{aligned}

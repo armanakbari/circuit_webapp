@@ -1,0 +1,28 @@
+\begin{aligned}
+&\text { From (7.47), the input-referred noise voltage is simply }\\
+&\overline{V_{n, i n}^2}=4 k T \frac{\gamma}{g_m}+\frac{4 k T}{g_m^2 R_D}
+\end{aligned}
+As depicted in Fig. 7.35(a), this voltage generates the same output noise as the actual circuit if the input is shorted.
+(a)
+(b)
+
+Figure 7.35
+To obtain the input-referred noise current, we open the input and find the output noise in terms of $\overline{I_{n, i n}^2}$ [Fig. 7.35(b)]. The noise current flows through $C_{i n}$, generating at the output
+
+$$
+\overline{V_{n 2, \text { out }}^2}=\overline{I_{n, i n}^2}\left(\frac{1}{C_{\text {in }} \omega}\right)^2 g_m^2 R_D^2
+$$
+
+
+According to Fig. 7.34(b), this value must be equal to the output of the noisy circuit when its input is open:
+
+$$
+\overline{V_{n 2, \text { out }}^2}=\left(4 k T \gamma g_m+\frac{4 k T}{R_D}\right) R_D^2
+$$
+
+
+From (7.51) and (7.52), it follows that
+
+$$
+\overline{I_{n, i n}^2}=\left(C_{i n} \omega\right)^2 \frac{4 k T}{g_m^2}\left(\gamma g_m+\frac{1}{R_D}\right)
+$$

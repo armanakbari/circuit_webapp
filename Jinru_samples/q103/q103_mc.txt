@@ -1,0 +1,5 @@
+1. -18.84 + j36.12 \mathrm{~V}
+2. 36.12-j 18.84 \mathrm{~V}
+3. 36.12 + j18.84 \mathrm{~V}
+4. -36.12 + j18.84 \mathrm{~V}
+5. None of the above

@@ -1,0 +1,39 @@
+Using the op amp model, we obtain the equivalent circuit. We now solve the circuit by using nodal analysis. At node 1, KCL gives
+
+$$
+\frac{v_s-v_1}{10 \times 10^3}=\frac{v_1}{2000 \times 10^3}+\frac{v_1-v_o}{20 \times 10^3}
+$$
+
+
+Multiplying through by $2000 \times 10^3$, we obtain
+
+$$
+200 v_s=301 v_1-100 v_o
+$$
+
+or
+
+$$
+2 v_s \simeq 3 v_1-v_o \quad \Rightarrow \quad v_1=\frac{2 v_s+v_o}{3}
+$$
+
+
+At node $O$,
+
+$$
+\frac{v_1-v_o}{20 \times 10^3}=\frac{v_o-A v_d}{50}
+$$
+
+
+But $v_d=-v_1$ and $A=200,000$. Then
+
+$$
+v_1-v_o=400\left(v_o+200,000 v_1\right)
+$$
+
+
+Substituting $v_1$,gives
+
+$$
+0 \simeq 26,667,067 v_o+53,333,333 v_s \quad \Rightarrow \quad \frac{v_o}{v_s}=-1.9999699
+$$

@@ -1,0 +1,25 @@
+We first obtain $A$ and $C$ by setting $g_{m 1}$ to zero:
+
+$$
+\begin{aligned}
+& A=\frac{V_{\text {out }}}{V_{\text {in }}}=0 \\
+& C=\frac{V_1}{V_{\text {in }}}=\frac{g_{m 2} R_S}{1+g_{m 2} R_S}
+\end{aligned}
+$$
+
+
+Next, we set $V_{i n}$ to zero and apply $I_1$ in lieu of $M_1$ :
+
+$$
+\begin{aligned}
+& B=\frac{V_{\text {out }}}{I_1}=-R_D \\
+& D=\frac{V_1}{I_1}=0
+\end{aligned}
+$$
+
+
+As expected, the return ratio for $M_1$ is zero. We thus have
+
+$$
+\frac{V_{\text {out }}}{V_{\text {in }}}=g_{m 1}\left(-R_D \frac{g_{m 2} R_S}{1+g_{m 2} R_S}\right)
+$$

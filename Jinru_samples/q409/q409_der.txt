@@ -1,0 +1,29 @@
+At node 1,
+
+$$
+\begin{aligned}
+& \frac{\mathrm{V}_1-40}{20}+\frac{\mathrm{V}_1-0}{20}+\frac{\mathrm{V}_1-\mathrm{V}_{\mathrm{o}}}{10}=0 \text { or } \\
+& (0.05+0.05+.1) \mathrm{V}_1-0.1 \mathrm{~V}_{\mathrm{o}}=0.2 \mathrm{~V}_1-0.1 \mathrm{~V}_{\mathrm{o}}=2
+\end{aligned}
+$$
+
+
+At node o,
+
+$$
+\begin{aligned}
+& \frac{\mathrm{V}_{\mathrm{o}}-\mathrm{V}_1}{10}-4 \mathrm{I}_{\mathrm{x}}+\frac{\mathrm{V}_{\mathrm{o}}-0}{10}=0 \text { and } \mathrm{I}_{\mathrm{x}}=\mathrm{V}_1 / 20 \\
+& -0.1 \mathrm{~V}_1-0.2 \mathrm{~V}_1+0.2 \mathrm{~V}_{\mathrm{o}}=-0.3 \mathrm{~V}_1+0.2 \mathrm{~V}_{\mathrm{o}}=0 \text { or } \\
+& \mathrm{V}_1=(2 / 3) \mathrm{V}_{\mathrm{o}}
+\end{aligned}
+$$
+
+
+Thus:
+
+$$
+\begin{gathered}
+0.2(2 / 3) \mathrm{V}_{\mathrm{o}}-0.1 \mathrm{~V}_{\mathrm{o}}=0.03333 \mathrm{~V}_{\mathrm{o}}=2 \text { or } \\
+\mathrm{V}_{\mathrm{o}}=\mathbf{6 0 ~ V} .
+\end{gathered}
+$$

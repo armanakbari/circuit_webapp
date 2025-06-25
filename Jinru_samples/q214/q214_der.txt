@@ -1,0 +1,20 @@
+To find the average power delivered to the input port, we first find the input impedance $Z_{\text {in }}$.
+$$
+\begin{aligned}
+Z_{\text {in }} & =\frac{b_{22} Z_L+b_{12}}{b_{21} Z_L+b_{11}} \\
+& =\frac{(-0.2)(5000)-3000}{-2 \times 10^{-3}(5000)-20} \\
+& =\frac{400}{3}=133.33 \Omega
+\end{aligned}
+$$
+
+
+Now $\mathbf{I}_1$ follows directly:
+
+$$
+\mathbf{I}_1=\frac{500}{500+133.33}=789.47 \mathrm{~mA}
+$$
+The average power delivered to the input port is
+
+$$
+P_1=\frac{0.78947^2}{2}(133.33)=41.55 \mathrm{~W} .
+$$

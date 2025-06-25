@@ -1,0 +1,7 @@
+Solution
+\frac{V_{\text {out }}}{V_{\text {in }}}=\frac{\left(g_m+g_{m b}\right) r_O+1}{r_O+\left(g_m+g_{m b}\right) r_O R_S+R_S+R_D} R_D
+Letting $R_D$ approach infinity, we have
+
+$$
+A_v=\left(g_m+g_{m b}\right) r_O+1
+$$

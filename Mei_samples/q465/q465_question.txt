@@ -1,0 +1,1 @@
+Write the nodal equations and find the voltage across the 2 \Omega resistor for the network in the provided circuit image

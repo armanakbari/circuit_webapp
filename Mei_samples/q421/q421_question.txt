@@ -1,0 +1,1 @@
+Find the voltage $V_3$ for the network In the provided circuit image

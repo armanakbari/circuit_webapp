@@ -1,0 +1,20 @@
+Use the equation for bandwidth to compute a value for $R$, given a capacitance of $5 \mu \mathrm{~F}$. Remember to convert the bandwidth to the appropriate units:
+
+$$
+\begin{aligned}
+R & =\frac{1}{\beta C} \\
+& =\frac{1}{(2 \pi)(200)\left(5 \times 10^{-6}\right)} \\
+& =159.15 \Omega
+\end{aligned}
+$$
+
+
+Using the value of capacitance and the equation for center frequency, compute the inductor value:
+
+$$
+\begin{aligned}
+L & =\frac{1}{\omega_o^2 C} \\
+& =\frac{1}{[2 \pi(5000)]^2\left(5 \times 10^{-6}\right)} \\
+& =202.64 \mu \mathrm{H}
+\end{aligned}
+$$

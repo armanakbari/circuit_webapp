@@ -1,0 +1,6 @@
+\begin{aligned}
+&\text { The currents in the branches are calculated as, }\\
+&\begin{aligned}
+i_2 & =\frac{i}{C_1+C_2} C_2=10 \times \frac{8}{6+8}=5.71 \mathrm{~A}
+\end{aligned}
+\end{aligned}

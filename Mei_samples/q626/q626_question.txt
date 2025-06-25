@@ -1,0 +1,1 @@
+Compute the power delivered in the provided circuit image.

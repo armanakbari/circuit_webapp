@@ -1,0 +1,5 @@
+The impedance seen looking into the primary terminals of the transformer is the impedance of the primary winding plus the reflected impedance; thus
+
+$$
+Z_{\mathrm{ab}}=200+j 3600+800+j 800=1000+j 4400 \Omega
+$$

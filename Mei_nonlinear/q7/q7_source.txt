@@ -1,0 +1,3 @@
+Design of analog CMOS integrated circuits
+P70
+Example3.12

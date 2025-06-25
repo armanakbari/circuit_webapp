@@ -1,0 +1,3 @@
+Solution
+In order to compute the loop gain, we must first set the main input to (ac) zero, arriving at the arrangement shown in Fig. 8.7(b). Redrawing the circuit as in Fig. 8.7(c), we recognize that this topology is identical to the CS stage of Fig. 8.3(b) with $V_{i n}=0$. The loop gain is therefore given by Eq. (8.8).
+\frac{V_F}{V_t}=-\frac{C_2}{C_1+C_2} g_{m 1} r_{O 1}

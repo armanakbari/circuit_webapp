@@ -1,0 +1,5 @@
+The cut-off frequency is,
+
+$$
+f_c=\frac{1}{2 \pi R C}=\frac{1}{2 \pi \times 10 \times 10^3 \times 0.03 \times 10^{-6}}=530.52 \mathrm{~Hz}
+$$

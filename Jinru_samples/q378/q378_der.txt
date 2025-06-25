@@ -1,0 +1,5 @@
+Given that $v_s=30 \mathbf{V}, R_1=20 \Omega, I_L=1 \mathbf{A}$, find $R_L$.
+
+$$
+v_s=i_L\left(R_1+R_L\right) \quad \longrightarrow \quad R_L=\frac{v_s}{i_L}-R_1=\frac{30}{1}-20=\underline{10 \Omega}
+$$

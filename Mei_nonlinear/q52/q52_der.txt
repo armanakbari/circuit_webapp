@@ -1,0 +1,15 @@
+The noise spectrum of $R$ is given by $S_v(f)=4 k T R$. Next, modeling the noise of $R$ by a series voltage source $V_R$, we compute the transfer function from $V_R$ to $V_{\text {out }}$ :
+
+$$
+\frac{V_{\text {out }}}{V_R}(s)=\frac{1}{R C s+1}
+$$
+
+
+From the theorem in Section 7.1.1, we have
+
+$$
+\begin{aligned}
+S_{\text {out }}(f) & =S_v(f)\left|\frac{V_{\text {out }}}{V_R}(j \omega)\right|^2 \\
+& =4 k T R \frac{1}{4 \pi^2 R^2 C^2 f^2+1}
+\end{aligned}
+$$

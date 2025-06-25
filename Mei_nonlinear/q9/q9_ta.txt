@@ -1,0 +1,1 @@
+-g_{m 1}\left[r_{O 1}\left\|r_{O 2}\right\|\left(1 / g_{m 2}\right)\right]

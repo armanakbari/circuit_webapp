@@ -1,0 +1,1 @@
+Using the voltage divider rule, find the voltage V_C in the provided circuit image

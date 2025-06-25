@@ -1,0 +1,1 @@
+In the provided circuit image shows a circuit in which one transistor, $M_1$, resides outside the feedback loop. Using Bode's method, compute $V_{\text {out }} / V_{\text {in }}$.

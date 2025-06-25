@@ -1,0 +1,35 @@
+Applying KVL to the two loops, we obtain
+
+$$
+\begin{gathered}
+12 i_1-4 i_2+v_s=0 \\
+-4 i_1+16 i_2-3 v_x-v_s=0
+\end{gathered}
+$$
+
+
+But $v_x=2 i_1$. Equation (4.1.2) becomes
+
+$$
+-10 i_1+16 i_2-v_s=0
+$$
+
+
+Adding Eqs. (4.1.1) and (4.1.3) yields
+
+$$
+2 i_1+12 i_2=0 \quad \Rightarrow \quad i_1=-6 i_2
+$$
+
+
+Substituting this in Eq. (4.1.1), we get
+
+$$
+-76 i_2+v_s=0 \quad \Rightarrow \quad i_2=\frac{v_s}{76}
+$$
+
+When $v_s=24 \mathrm{~V}$,
+
+$$
+I_o=i_2=\frac{24}{76} \mathrm{~A}
+$$

@@ -1,0 +1,28 @@
+The circuit in the provided circuit involves a voltage-controlled dependent current source. We transform this dependent current source as well as the 6-V independent voltage source. The $18-\mathrm{V}$ voltage source is not transformed because it is not connected in series with any resistor. The two $2-\Omega$ resistors in parallel combine to give a $1-\Omega$ resistor, which is in parallel with the 3-A current source. The current source is transformed to a voltage source. Notice that the terminals for $v_x$ are intact. Applying KVL around the loop gives
+
+$$
+-3+5 i+v_x+18=0
+$$
+
+Applying KVL to the loop containing only the $3-\mathrm{V}$ voltage source, the $1-\Omega$ resistor, and $v_x$ yields
+
+$$
+-3+1 i+v_x=0 \quad \Rightarrow \quad v_x=3-i
+$$
+
+
+Then we obtain
+
+$$
+15+5 i+3-i=0 \quad \Rightarrow \quad i=-4.5 \mathrm{~A}
+$$
+
+
+Alternatively, we may apply KVL to the loop containing $v_x$, the $4-\Omega$ resistor, the voltage-controlled dependent voltage source, and the $18-\mathrm{V}$ voltage source. We obtain
+
+$$
+-v_x+4 i+v_x+18=0 \quad \Rightarrow \quad i=-4.5 \mathrm{~A}
+$$
+
+
+Thus, $v_x=3-i=7.5 \mathrm{~V}$.

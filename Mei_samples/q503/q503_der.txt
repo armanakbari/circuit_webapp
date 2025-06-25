@@ -1,0 +1,3 @@
+$\tau=R C=\left(8 \times 10^3 \Omega\right)\left(4 \times 10^{-6} \mathrm{~F}\right)=32 \times 10^{-3} \mathrm{~s}=32 \mathrm{~ms}$ By Eq. (10.15),
+
+ $5 \tau=5(32 \mathrm{~ms})=\mathbf{1 6 0 ~ m s}$

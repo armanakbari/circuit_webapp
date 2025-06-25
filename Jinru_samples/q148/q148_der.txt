@@ -1,0 +1,11 @@
+If there are no restrictions on $R_{\mathrm{L}}$ and $X_{\mathrm{L}}$, the load impedance is set equal to the conjugate of the output or the Thévenin impedance. Therefore we set
+
+$$
+R_{\mathrm{L}}=3000 \Omega \quad \text { and } \quad X_L=-4000 \Omega,
+$$
+
+or
+
+$$
+Z_{\mathrm{L}}=3000-j 4000 \Omega
+$$

@@ -1,0 +1,66 @@
+At node 1 ,
+
+$$
+\begin{aligned}
+& {\left[\left(\mathrm{v}_1-80\right) / 10\right]+\left[\left(\mathrm{v}_1-4 \mathrm{v}_{\mathrm{o}}\right) / 20\right]+\left[\left(\mathrm{v}_1-\left(\mathrm{v}_{\mathrm{o}}-96\right)\right) / 40\right]=0 \text { or }} \\
+& (0.1+0.05+0.025) \mathrm{v}_1-(0.2+0.025) \mathrm{v}_{\mathrm{o}}= \\
+& 0.175 \mathrm{v}_1-0.225 \mathrm{v}_{\mathrm{o}}=8-2.4=5.6
+\end{aligned}
+$$
+
+
+At node 2,
+
+$$
+\begin{aligned}
+& -2 i_o+\left[\left(\left(\mathrm{v}_{\mathrm{o}}-96\right)-\mathrm{v}_1\right) / 40\right]+\left[\left(\mathrm{v}_{\mathrm{o}}-0\right) / 80\right]=0 \text { and } i_o=\left[\left(\mathrm{v}_1-\left(\mathrm{v}_{\mathrm{o}}-96\right)\right) / 40\right] \\
+& -2\left[\left(\mathrm{v}_1-\left(\mathrm{v}_{\mathrm{o}}-96\right)\right) / 40\right]+\left[\left(\left(\mathrm{v}_{\mathrm{o}}-96\right)-\mathrm{v}_1\right) / 40\right]+\left[\left(\mathrm{v}_{\mathrm{o}}-0\right) / 80\right]=0 \\
+& -3\left[\left(\mathrm{v}_1-\left(\mathrm{v}_{\mathrm{o}}-96\right)\right) / 40\right]+\left[\left(\mathrm{v}_{\mathrm{o}}-0\right) / 80\right]=0 \text { or } \\
+& -0.0 .075 \mathrm{v}_1+(0.075+0.0125) \mathrm{v}_{\mathrm{o}}=7.2= \\
+& -0.075 \mathrm{v}_1+0.0875 \mathrm{v}_{\mathrm{o}}=7.2
+\end{aligned}
+$$
+
+
+Using (1) and (2) we get,
+
+$$
+\begin{aligned}
+& {\left[\begin{array}{cc}
+0.175 & -0.225 \\
+-0.075 & 0.0875
+\end{array}\right]\left[\begin{array}{l}
+v_1 \\
+v_o
+\end{array}\right]=\left[\begin{array}{l}
+5.6 \\
+7.2
+\end{array}\right] o r} \\
+& {\left[\begin{array}{l}
+v_1 \\
+v_o
+\end{array}\right]=\frac{\left[\begin{array}{cc}
+0.0875 & 0.225 \\
+0.075 & 0.175
+\end{array}\right]}{0.0153125-0.016875}\left[\begin{array}{l}
+5.6 \\
+7.2
+\end{array}\right]=\frac{\left[\begin{array}{cc}
+0.0875 & 0.225 \\
+0.075 & 0.175
+\end{array}\right]}{-0.0015625}\left[\begin{array}{l}
+5.6 \\
+7.2
+\end{array}\right]}
+\end{aligned}
+$$
+
+
+$$
+v_1=-313.6-1036.8=-1350.4
+$$
+
+
+$$
+\mathrm{v}_{\mathrm{o}}=-268.8-806.4=-\mathbf{1 . 0 7 5 2} \mathbf{~ k V}
+$$

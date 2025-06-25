@@ -1,0 +1,35 @@
+The line currents are calculated as,
+
+$$
+\begin{gathered}
+I_{\mathrm{Aa}}=\frac{230\angle15^{\circ}}{2+j 8}=27.89\angle-60.96^{\circ} \mathrm{A} \\
+I_{\mathrm{Bb}}=I_{\mathrm{Aa}}\angle-120^{\circ}=27.89\angle-180.96^{\circ} \mathrm{A}
+\end{gathered}
+$$
+$$
+I_{\mathrm{Cc}}=I_{\mathrm{Aa}}\angle+120^{\circ}=27.89\angle59 .04^{\circ} \mathrm{A}
+$$
+
+
+Power supplied to each phase is,
+
+$$
+\begin{aligned}
+P_A & =V_{\mathrm{p}} I_p \cos \theta=V_{\mathrm{AN}} I_{\mathrm{Aa}} \cos \left(\theta_v-\theta_i\right)=230 \times 27.89 \times \cos (15+60.96) \\
+& =1556.20 \mathrm{~W}
+\end{aligned}
+$$
+
+
+Per phase power absorbed by the load is,
+
+$$
+P_{L 1 \phi}=27.89^2 \times 2=1555.70 \mathrm{~W}
+$$
+
+
+Total complex power supplied by the source is,
+
+$$
+S_t=3 V_{\mathrm{An}} I_{\mathrm{Aa}}^*=3 \times 230\angle15^{\circ} \times 27.89\angle60 .96^{\circ}=4668.60+j 18669.21 \mathrm{VA}
+$$

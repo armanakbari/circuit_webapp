@@ -1,0 +1,7 @@
+\begin{array}{ll} 
+& R_{T h}=R_1+R_2=6 \Omega+10 \Omega=16 \Omega \\
+& E_{T h}=V_1+V_2=I R_1+0 \\
+& =\left(20 \times 10^{-3} \mathrm{~A}\right)(6 \Omega)=120 \times 10^{-3} \mathrm{~V}=0.12 \mathrm{~V} \\
+\text { and } & \tau=R_{T h} C=(16 \Omega)\left(500 \times 10^{-6} \mathrm{~F}\right)=8 \mathrm{~ms} \\
+\text { so that } & V_C=\mathbf{0 . 1 2}\left(\mathbf{1}-\boldsymbol{e}^{-t / 8 \mathrm{~ms}}\right)
+\end{array}

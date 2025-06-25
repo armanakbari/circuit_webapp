@@ -1,0 +1,12 @@
+For differential-mode operation, 
+
+$$
+\begin{aligned}
+& V_X=-g_m\left(R_D \| r_{O 1}\right) \frac{V_{i n 1}-V_{i n 2}}{2} \\
+& V_Y=-g_m\left(R_D \| r_{O 2}\right) \frac{V_{i n 2}-V_{i n 1}}{2}
+\end{aligned}
+$$
+\begin{aligned}
+&\text { That is, }\\
+&V_X-V_Y=-g_m\left(R_D \| r_O\right)\left(V_{i n 1}-V_{i n 2}\right)
+\end{aligned}

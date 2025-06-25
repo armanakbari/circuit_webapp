@@ -1,0 +1,18 @@
+Using the a-phase values from the solution of Example 11.2, we obtain
+
+$$
+\begin{aligned}
+\mathbf{V}_\phi & =\mathbf{V}_{\mathrm{AB}}=202.72 \angle 29.04^{\circ} \mathrm{V} \\
+\mathbf{I}_\phi & =\mathbf{I}_{\mathrm{AB}}=1.39 \angle-6.87^{\circ} \mathrm{A}
+\end{aligned}
+$$
+
+
+Then we have
+
+$$
+\begin{aligned}
+S_T & =3\left(202.72 \angle 29.04^{\circ}\right)\left(1.39 \angle 6.87^{\circ}\right) \\
+& =682.56+j 494.21 \mathrm{VA} .
+\end{aligned}
+$$

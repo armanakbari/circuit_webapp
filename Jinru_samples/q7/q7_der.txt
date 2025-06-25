@@ -1,0 +1,1 @@
+We see that energy is at a maximum when current is at a maximum; glancing at the graphs confirms this. Maximum current $=0.736$ A. Therefore, $w_{\max }=27.07 \mathrm{~mJ}$.

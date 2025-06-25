@@ -1,0 +1,5 @@
+1. 1763.63 \mathrm{~W}
+2. -645.53 \mathrm{~W}
+3. 1118.10 \mathrm{~W}
+4. 645.53 \mathrm{~W}
+5. None of the above

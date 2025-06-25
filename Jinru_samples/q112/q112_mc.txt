@@ -1,0 +1,5 @@
+1. $700+j 3700 \Omega$
+2. 900-j 900 \Omega
+3. $800-j 900 \Omega$
+4. $900-j 4100 \Omega$
+5. None of the above

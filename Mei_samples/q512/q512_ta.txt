@@ -1,0 +1,1 @@
+\mathbf{1 0} e^{-t /(\mathbf{1 0} \times \mathbf{1 0}-\mathbf{3})}

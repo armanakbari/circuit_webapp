@@ -1,0 +1,33 @@
+Solution 1: The reference and four subscripted voltage levels were chosen as shown in Fig. 8.58. A moment of reflection should reveal that for any difference in potential between $V_1$ and $V_3$, the current through and the potential drop across each $5-\Omega$ resistor will be the same. Therefore, $V_4$ is simply a midvoltage level between $V_1$ and $V_3$ and is known if $V_1$ and $V_3$ are available. We will therefore not include it in a nodal voltage and will redraw the network as shown in Fig. 8.59. Understand, however, that $V_4$ can be included if desired, although four nodal voltages will result rather than the three to be obtained in the solution of this problem.
+
+$$
+\begin{aligned}
+& V_1: \quad\left(\frac{1}{2 \Omega}+\frac{1}{2 \Omega}+\frac{1}{10 \Omega}\right) V_1-\left(\frac{1}{2 \Omega}\right) V_2-\left(\frac{1}{10 \Omega}\right) V_3=0 \\
+& V_2: \quad\left(\frac{1}{2 \Omega}+\frac{1}{2 \Omega}\right) V_2-\left(\frac{1}{2 \Omega}\right) V_1-\left(\frac{1}{2 \Omega}\right) V_3=3 \mathrm{~A} \\
+& V_3: \quad\left(\frac{1}{10 \Omega}+\frac{1}{2 \Omega}+\frac{1}{4 \Omega}\right) V_3-\left(\frac{1}{2 \Omega}\right) V_2-\left(\frac{1}{10 \Omega}\right) V_1=0
+\end{aligned}
+$$
+
+which are rewritten as
+
+$$
+\begin{array}{r}
+1.1 V_1-0.5 V_2-0.1 V_3=0 \\
+V_2-0.5 V_1-0.5 V_3=3 \\
+0.85 V_3-0.5 V_2-0.1 V_1=0 \\
+\hline
+\end{array}
+$$
+Before continuing, note the symmetry about the major diagonal in the equation above. Recall a similar result for mesh analysis. Examples 8.23 and 8.24 also exhibit this property in the resulting equations. Keep this thought in mind as a check on future applications of nodal analysis.
+
+$$
+V_3=V_{4 \Omega}=\frac{\left|\begin{array}{rll}
+1.1 & -0.5 & 0 \\
+-0.5 & +1 & 3 \\
+-0.1 & -0.5 & 0
+\end{array}\right|}{\left|\begin{array}{rll}
+1.1 & -0.5 & -0.1 \\
+-0.5 & +1 & -0.5 \\
+-0.1 & -0.5 & +0.85
+\end{array}\right|}=4.645 \mathbf{~ V}
+$$

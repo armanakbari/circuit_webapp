@@ -1,0 +1,1 @@
+f_1 =22.90 \mathrm{kHz};  f_2==23.04 \mathrm{kHz

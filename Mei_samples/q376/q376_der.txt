@@ -1,0 +1,9 @@
+\begin{aligned}
+&\begin{aligned}
+R_T^{\prime} & =\frac{R}{N}=\frac{6 \Omega}{3}=2 \Omega \\
+R_T^{\prime \prime} & =\frac{R_2 R_4}{R_2+R_4}=\frac{(9 \Omega)(72 \Omega)}{9 \Omega+72 \Omega}=\frac{648 \Omega}{81}=8 \Omega \\
+R_T & =R_T^{\prime} \| R_T^{\prime \prime} \\
+& =\frac{R_T^{\prime} R_T^{\prime \prime}}{R_T^{\prime}+R_T^{\prime \prime}}=\frac{(2 \Omega)(8 \Omega)}{2 \Omega+8 \Omega}=\frac{16 \Omega}{10}=\mathbf{1 . 6} \mathbf{\Omega}
+\end{aligned}\\
+&\text { and }
+\end{aligned}

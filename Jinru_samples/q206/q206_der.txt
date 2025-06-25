@@ -1,0 +1,31 @@
+The transform of the driving function is
+
+$$
+I_g(\omega)=50 \pi[\delta(\omega-3)+\delta(\omega+3)]
+$$
+
+
+As before, the transfer function of the circuit is
+
+$$
+H(\omega)=\frac{1}{4+j \omega}
+$$
+
+
+The transform of the current response then is
+
+$$
+I_o(\omega)=50 \pi \frac{\delta(\omega-3)+\delta(\omega+3)}{4+j \omega}
+$$
+Because of the sifting property of the impulse function, the easiest way to find the inverse transform of $I_o(\omega)$ is by the inversion integral:
+
+$$
+\begin{aligned}
+i_o(t) & =\mathscr{F}^{-1}\left\{I_o(\omega)\right\} \\
+& =\frac{50 \pi}{2 \pi} \int_{-\infty}^{\infty}\left[\frac{\delta(\omega-3)+\delta(\omega+3)}{4+j \omega}\right] e^{j \omega t} d \omega \\
+& =25\left(\frac{e^{j 3 t}}{4+j 3}+\frac{e^{-j 3 t}}{4-j 3}\right) \\
+& =25\left(\frac{e^{j 3 t} e^{-j 36.87}}{5}+\frac{e^{-j 3 t} e^{j 36.87}}{5}\right) \\
+& =5\left[2 \cos \left(3 t-36.87^{\circ}\right)\right] \\
+& =10 \cos \left(3 t-36.87^{\circ}\right) .
+\end{aligned}
+$$

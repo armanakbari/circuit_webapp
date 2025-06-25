@@ -1,0 +1,1 @@
+Find the voltage $V_2$ for the network In the provided circuit image.

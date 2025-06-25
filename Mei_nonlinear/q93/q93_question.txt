@@ -1,0 +1,1 @@
+Determine the exact loop gain for the circuit in the provided circuit image

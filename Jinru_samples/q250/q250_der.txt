@@ -1,0 +1,29 @@
+At first glance, the node-voltage method looks appealing, because we may define the unknown voltage as a node voltage by choosing the lower terminal of the dependent current source as the reference node. The circuit has four essential nodes and two voltage-controlled dependent sources, so the node-voltage method requires manipulation of three node-voltage equations and two constraint equations.
+
+Let's now turn to the mesh-current method for finding $v_o$. The circuit contains three meshes, and we can use the leftmost one to calculate $v_o$. If we let $i_{\mathrm{a}}$ denote the leftmost mesh current, then $v_o=193-10 i_{\mathrm{a}}$. The presence of the two current sources reduces the problem to manipulating a single supermesh equation and two constraint equations. Hence the mesh-current method is the more attractive technique here.
+
+The mesh-current equations are based on the circuit. The supermesh equation is
+
+$$
+193=10 i_{\mathrm{a}}+10 i_{\mathrm{b}}+10 i_{\mathrm{c}}+0.8 v_0
+$$
+
+and the constraint equations are
+
+$$
+\begin{gathered}
+i_{\mathrm{b}}-i_{\mathrm{a}}=0.4 v_{\Delta}=0.8 i_{\mathrm{c}} \\
+v_\theta=-7.5 i_{\mathrm{b}} \\
+i_{\mathrm{c}}-i_{\mathrm{b}}=0.5
+\end{gathered}
+$$
+
+
+We use the constraint equations to write the supermesh equation in terms of $i_{\mathrm{a}}$ :
+
+$$
+\begin{array}{r}
+160=80 i_{\mathrm{a}}, \quad \text { or } \quad i_{\mathrm{a}}=2 \mathrm{~A}, \\
+v_o=193-20=173 \mathrm{~V} .
+\end{array}
+$$

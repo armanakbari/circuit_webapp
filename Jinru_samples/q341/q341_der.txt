@@ -1,0 +1,5 @@
+The 3-ohm resistor is in parallel with the c-ohm resistor and can be replaced by a $[(3 \times 6) /(3+6)]=2$-ohm resistor. Therefore,
+
+$$
+\boldsymbol{I}_o=10 /(8+2)=\mathbf{1} \mathbf{A}
+$$

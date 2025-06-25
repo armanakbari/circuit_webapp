@@ -1,0 +1,12 @@
+Viewing $A$ and $B$ as the outputs and modeling the circuit by its Thevenin equivalent, we must determine the noise voltage that appears between these nodes. To this end, we construct the half circuit shown in Fig. 7.58(b) and write the noise voltage at $A$ as
+
+$$
+\overline{V_{n, A}^2}=\left(4 k T \gamma g_{m 1}+4 k T \gamma g_{m 3}\right) \frac{1}{g_{m 1}^2}+\frac{K}{(W L)_1 C_{o x}} \frac{1}{f}+\frac{K}{(W L)_3 C_{o x}} \frac{1}{f}\left(\frac{g_{m 3}}{g_{m 1}}\right)^2
+$$
+
+
+The noise measured between $A$ and $B$ is thus equal to
+
+$$
+\overline{V_{n, A B}^2}=8 k T \gamma\left(g_{m 1}+g_{m 3}\right) \frac{1}{g_{m 1}^2}+\frac{2 K}{(W L)_1 C_{o x}} \frac{1}{f}+\frac{2 K}{(W L)_3 C_{o x}} \frac{1}{f}\left(\frac{g_{m 3}}{g_{m 1}}\right)^2
+$$

@@ -1,0 +1,1 @@
+A circuit with a current-controlled current source is shown In the provided circuit image. Determine the power absorbed by the $4 \Omega$ resistor.

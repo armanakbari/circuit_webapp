@@ -1,0 +1,6 @@
+Find the input voltage of the circuit in the provided circuit image \text { if }\\
+&\left.\begin{array}{l}
+v_a=50 \sin \left(377 t+30^{\circ}\right) \\
+v_b=30 \sin \left(377 t+60^{\circ}\right)
+\end{array}\right\} f=60 \mathrm{~Hz}
+\end{aligned}

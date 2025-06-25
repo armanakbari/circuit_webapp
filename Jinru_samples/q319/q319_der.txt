@@ -1,0 +1,1 @@
+For loop $1,-10+\mathrm{v}+4=0, \quad \mathrm{v}=6 \mathbf{~ V}$

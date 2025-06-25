@@ -1,0 +1,1 @@
+In the provided circuit image, calculate the voltage gain if $C_1$ acts as an ac short at the frequency of interest.

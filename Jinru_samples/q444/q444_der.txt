@@ -1,0 +1,1 @@
+$\begin{gathered}\frac{v_o}{v_i}=-\frac{R_f}{R_1}=-\frac{25}{10}=-2.5 \\ v_o=-2.5 v_i=-2.5(0.5)=-1.25 \mathrm{~V}\end{gathered}$

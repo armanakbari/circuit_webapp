@@ -1,0 +1,1 @@
+\frac{R_D+r_O}{1+g_m r_O}

@@ -1,0 +1,1 @@
+Use Thevenin's theorem to calculate the current in the $3 \Omega$ resistor for the circuit shown In the provided circuit image.

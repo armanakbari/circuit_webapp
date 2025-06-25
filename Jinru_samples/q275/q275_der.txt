@@ -1,0 +1,26 @@
+To find $v_1$ and $v_2$, we apply Ohm's law and Kirchhoff's voltage law. Assume that current $i$ flows through the loop. From Ohm's law,
+
+$$
+v_1=2 i, \quad v_2=-3 i
+$$
+
+
+Applying KVL around the loop gives
+
+$$
+-20+v_1-v_2=0
+$$
+
+
+We obtain
+
+$$
+-20+2 i+3 i=0 \quad \text { or } \quad 5 i=20 \quad \Rightarrow \quad i=4 \mathrm{~A}
+$$
+
+
+Substituting $i$ finally gives
+
+$$
+v_1=8 \mathrm{~V}, \quad v_2=-12 \mathrm{~V}
+$$

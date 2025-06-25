@@ -1,0 +1,12 @@
+The total power supplied by the battery is equal to the total power absorbed by the bulbs; that is,
+
+$$
+p=15+10+20=45 \mathrm{~W}
+$$
+
+
+Since $p=V I$, then the total current supplied by the battery is
+
+$$
+I=\frac{p}{V}=\frac{45}{9}=5 \mathrm{~A}
+$$

@@ -1,0 +1,5 @@
+1. 60 e^{-25 t} \mathrm{~V}
+2. 60 e^{-31.25 t} \mathrm{~V}
+3. -60 e^{-25 t} \mathrm{~V}
+4. 80 e^{-25 t} \mathrm{~V}
+5. None of the above

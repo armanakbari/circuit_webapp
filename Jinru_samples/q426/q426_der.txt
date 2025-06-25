@@ -1,0 +1,15 @@
+For loop 1, $-0.75+1.5 \mathrm{kI}_{\mathrm{B}}+\mathrm{V}_{\mathrm{BE}}+400 \mathrm{I}_{\mathrm{E}}=0=-0.75+0.7+1500 \mathrm{I}_{\mathrm{B}}+400(1+\beta) \mathrm{I}_{\mathrm{B}}$
+
+$$
+\begin{array}{r}
+I_B=0.05 / 81,900=\mathbf{0 . 6 1} \boldsymbol{\mu} \mathbf{A} \\
+v_0=400 I_E=400(1+\beta) I_B=\mathbf{4 9} \mathbf{~ m V}
+\end{array}
+$$
+
+
+For loop 2, $-400 \mathrm{I}_{\mathrm{E}}-\mathrm{V}_{\mathrm{CE}}-5 \mathrm{kI} \mathrm{I}_{\mathrm{C}}+9=0$, but, $\mathrm{I}_{\mathrm{C}}=\beta \mathrm{I}_{\mathrm{B}}$ and $\mathrm{I}_{\mathrm{E}}=(1+\beta) \mathrm{I}_{\mathrm{B}}$
+
+$$
+\mathrm{V}_{\mathrm{CE}}=9-5 \mathrm{k} \beta \mathrm{I}_{\mathrm{B}}-400(1+\beta) \mathrm{I}_{\mathrm{B}}=9-0.659=\mathbf{8 . 6 4 1} \text { volts }
+$$

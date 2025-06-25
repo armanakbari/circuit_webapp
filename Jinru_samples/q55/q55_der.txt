@@ -1,0 +1,8 @@
+At the instant the switch is moved to position b, the initial voltage on the capacitor is zero. If the switch were to remain in position $b$, the capacitor would eventually charge to 400 V . The time constant of the circuit when the switch is in position b is 10 ms . Therefore we can use expression with $t_0=0$ to write the expression for the capacitor voltage:
+
+$$
+\begin{aligned}
+v & =400+(0-400) e^{-100 t} \\
+& =\left(400-400 e^{-100 t}\right) \mathrm{V}, \quad 0 \leq t \leq 15 \mathrm{~ms} .
+\end{aligned}
+$$

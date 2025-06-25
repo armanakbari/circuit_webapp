@@ -1,0 +1,5 @@
+1. 12.64 e^{-t /\left(20 \times 10^{-3}\right)}
+2. 12.64 e^{-t /\left(40 \times 10^{-3}\right)}
+3. 7.36 e^{-t /\left(40 \times 10^{-3}\right)}
+4. 20 e^{-t /\left(40 \times 10^{-3}\right)}
+5. None of the above

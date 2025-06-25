@@ -1,0 +1,22 @@
+The line voltages are,
+
+$$
+\begin{gathered}
+V_{\mathrm{AB}}=\sqrt{3} \times 240 \angle{\30^{\circ}}=415.69 \angle{\3 0^{\circ}} \mathrm{V} \\
+V_{\mathrm{BC}}=\sqrt{3} \times 240\angle-90^{\circ}=415.69\angle-90^{\circ} \mathrm{V}
+\end{gathered}
+$$
+$$
+V_{\mathrm{CA}}=\sqrt{3} \times 240150^{\circ}=415.69\angle150^{\circ} \mathrm{V}
+$$
+
+
+The phase currents in the load can be determined as,
+
+$$
+\begin{gathered}
+I_{\mathrm{ab}}=\frac{V_{\mathrm{AB}}}{Z}=\frac{415.69 \angle{30^{\circ}}}{25 \angle{20^{\circ}}}=16.63 \angle{10^{\circ}} \mathrm{A} \\
+I_{\mathrm{bc}}=\frac{V_{\mathrm{BC}}}{Z}=\frac{415.69\angle-90^{\circ}}{25 \angle{20^{\circ}}}=16.63\angle-110^{\circ} \mathrm{A} \\
+I_{\mathrm{ca}}=\frac{V_{\mathrm{CA}}}{Z}=\frac{415.69 \angle{150^{\circ}}}{25 \angle{20^{\circ}}}=16.63 \angle{130^{\circ}} \mathrm{A}
+\end{gathered}
+$$

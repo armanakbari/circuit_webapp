@@ -1,0 +1,1 @@
+Determine the power delivered to the network in the provided circuit image.

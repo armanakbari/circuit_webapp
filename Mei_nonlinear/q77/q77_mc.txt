@@ -1,0 +1,5 @@
+1. \frac{1}{g_{m 1}}\left(1+\frac{C_1}{C_1+C_2} g_{m 1} R_D\right)
+2. \frac{1}{g_{m 1}+g_{m b 1}}\left(1+\frac{C_2}{C_1+C_2} g_{m 1} R_D\right)
+3. \frac{1}{(g_{m 1}+g_{m b 1})\left(1+\frac{C_1}{C_1+C_2} g_{m 1} R_D\right)}
+4. \frac{1}{g_{m 1}+g_{m b 1}}\left(1+\frac{C_1}{C_1+C_2} g_{m 1} R_D\right)
+5. None of the above

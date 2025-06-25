@@ -1,0 +1,1 @@
+Calculate the indicated current I_5 in the provided circuit image

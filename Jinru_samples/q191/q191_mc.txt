@@ -1,0 +1,5 @@
+1. 5.31 \mathrm{mH}
+2. 33.33 \mathrm{mH}
+3. 10.61 \mathrm{mH}
+4. 2.65 \mathrm{mH}
+5. None of the above

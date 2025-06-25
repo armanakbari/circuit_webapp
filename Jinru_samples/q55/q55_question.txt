@@ -1,0 +1,1 @@
+The uncharged capacitor in the provided circuit image is initially switched to terminal a of the three-position switch. At $t=0$, the switch is moved to position b, where it remains for 15 ms . After the 15 ms delay, the switch is moved to position c , where it remains indefinitely. Find the expression for $v(t)$ when $0 \leq t \leq 15 \mathrm{~ms}$.

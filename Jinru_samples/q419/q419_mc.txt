@@ -1,0 +1,5 @@
+1. 12 \mathrm{~mA}
+2. 8 \mathrm{~mA}
+3. -8 \mathrm{~mA}
+4. 7 \mathrm{~mA}
+5. None of the above

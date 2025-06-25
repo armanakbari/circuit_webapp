@@ -1,0 +1,1 @@
+\left(0.6 \times 10^{-3}\right)\left(1-e^{-t /\left(8 \times 10^{-6}\right)}\right)

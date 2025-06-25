@@ -1,0 +1,1 @@
+Calculate the total power factor in the provided circuit image.

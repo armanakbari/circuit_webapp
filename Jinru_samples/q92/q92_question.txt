@@ -1,0 +1,1 @@
+The sinusoidal current source in the circuit shown in the provided circuit image produces the current $i_s=8 \cos 200,000 t \mathrm{~A}$. Find the steady-state expressions for $i_1$

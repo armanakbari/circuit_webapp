@@ -1,0 +1,8 @@
+$$
+\begin{aligned}
+I & =\frac{54 \mathrm{~V}}{45 \Omega}=1.2 \mathrm{~A} \\
+V_{a b} & =I R_2=(1.2 \mathrm{~A})(25 \Omega)=\mathbf{3 0} \mathbf{V} \\
+V_{c b} & =-I R_1=-(1.2 \mathrm{~A})(20 \Omega)=-\mathbf{2 4} \mathbf{V} \\
+
+\end{aligned}
+$$

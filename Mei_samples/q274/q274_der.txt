@@ -1,0 +1,18 @@
+The phase voltages are,
+
+$$
+\begin{gathered}
+V_{\mathrm{an}}=1800^{\circ} \mathrm{V} \\
+V_{\mathrm{bn}}=180\angle-120^{\circ} \mathrm{V} \\
+V_{\mathrm{cn}}=180\angle-240^{\circ} \mathrm{V}
+\end{gathered}
+$$
+
+
+The line voltages are calculated as,
+
+$$
+V_{\mathrm{ab}}=\sqrt{3} \times 180 \angle3 0^{\circ}=311.77 \angle30^{\circ} \mathrm{V}
+$$
+\begin{aligned}
+& V_{\mathrm{bc}}=\sqrt{3} \times 180\angle-120^{\circ}+30^{\circ}=311.77\angle-90^{\circ} \mathrm{V} \\

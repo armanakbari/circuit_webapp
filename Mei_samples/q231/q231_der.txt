@@ -1,0 +1,14 @@
+\begin{aligned}
+&\text { The impedances are calculated as, }\\
+&Z_1=5+j\left(314 \times 20 \times 10^{-3}\right)=5+j 6.28=8.03 \mid 51.47^{\circ} \Omega
+\end{aligned}
+$$
+Z_2=3-j\left(\frac{1}{314 \times 0.5 \times 10^{-3}}\right)=5-j 6.37=8.10-51.87^{\circ} \Omega
+$$
+
+
+The total impedance is,
+
+$$
+\left.Z_t=3+\frac{8.03\left[51.47^{\circ} \times 8.10 \mid-51.87^{\circ}\right.}{8.03\left|51.47^{\circ}+8.10\right|-51.87^{\circ}}=9.5 \right\rvert\, 0.08^{\circ} \Omega
+$$

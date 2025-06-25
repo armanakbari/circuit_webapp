@@ -1,0 +1,8 @@
+\begin{aligned}
+&\text { and }\\
+&\begin{aligned}
+& +E-V_1-V_x=0 \\
+V_x= & E-V_1=32 \mathrm{~V}-12 \mathrm{~V} \\
+= & \mathbf{2 0} \mathrm{V}
+\end{aligned}
+\end{aligned}

@@ -1,0 +1,5 @@
+1. $-1 \mathrm{~V} \leq v_{\mathrm{b}} \leq+1 \mathrm{~V}$
+2. $0 \mathrm{~V} \leq v_{\mathrm{b}} \leq+2 \mathrm{~V}$
+3. $-9 \mathrm{~V} \leq v_{\mathrm{b}} \leq+11 \mathrm{~V}$
+4. $-10 \mathrm{~V} \leq v_{\mathrm{b}} \leq+10 \mathrm{~V}$
+5. None of the above

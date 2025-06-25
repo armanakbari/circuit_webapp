@@ -1,0 +1,1 @@
+Find the current through the $2-\Omega$ resistor of the network in the provided circuit image. The presence of three sources will result in three different networks to be analyzed.

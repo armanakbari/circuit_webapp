@@ -1,0 +1,1 @@
+\text { The circuit shown in the provided circuit image is a special case where } R_D \rightarrow \infty \text {. Calculate the transfer function (with } \lambda=0 \text { ) }

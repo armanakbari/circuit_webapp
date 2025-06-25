@@ -1,0 +1,1 @@
+The capacitor holds the initial voltage across the parallel elements to 12 V . Thus the initial current in the resistive branch, $i_R\left(0^{+}\right)$, is $12 / 200$, or 60 \mathrm{~mA} .

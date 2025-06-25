@@ -1,0 +1,5 @@
+Step 3: See Fig. 9.68, and
+
+$$
+R_N=R_1+R_2=5 \Omega+4 \Omega=9 \boldsymbol{\Omega}
+$$

@@ -1,0 +1,1 @@
+The variable resistor in the circuit in the provided circuit image is adjusted until maximum average power is delivered to $R_l$. What is the value of $R_L$ in ohms?

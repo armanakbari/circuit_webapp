@@ -1,0 +1,15 @@
+We find the time at which the inductor voltage equals 24 V by solving the expression
+
+$$
+24=40 e^{-10 t}
+$$
+
+for $t$ :
+
+$$
+\begin{aligned}
+t & =\frac{1}{10} \ln \frac{40}{24} \\
+& =51.08 \times 10^{-3} \\
+& =51.08 \mathrm{~ms}
+\end{aligned}
+$$

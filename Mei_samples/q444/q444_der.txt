@@ -1,0 +1,5 @@
+Using the current divider rule:
+
+$$
+I_1=\frac{R_2 I}{R_2+R_1}=\frac{(1 \Omega)(6 \mathrm{~A})}{1 \Omega+2 \Omega}=2 \mathrm{~A}
+$$

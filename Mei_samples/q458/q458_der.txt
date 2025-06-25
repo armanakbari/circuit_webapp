@@ -1,0 +1,24 @@
+$$
+\begin{array}{cc}
+I_1: & (8 \Omega+3 \Omega) I_1-(8 \Omega) I_3-(3 \Omega) I_2=15 \mathrm{~V} \\
+I_2: & (3 \Omega+5 \Omega+2 \Omega) I_2-(3 \Omega) I_1-(5 \Omega) I_3=0 \\
+I_3: & (8 \Omega+10 \Omega+5 \Omega) I_3-(8 \Omega) I_1-(5 \Omega) I_2=0 \\
+\hline & 11 I_1-8 I_3-3 I_2=15 \\
+& 10 I_2-3 I_1-5 I_3=0 \\
+& 23 I_3-8 I_1-5 I_2=0
+\end{array}
+$$
+
+and
+
+$$
+I_3=I_{10 \Omega}=\frac{\left|\begin{array}{rrr}
+11 & -3 & 15 \\
+-3 & 10 & 0 \\
+-8 & -5 & 0
+\end{array}\right|}{\left|\begin{array}{rrr}
+11 & -3 & -8 \\
+-3 & 10 & -5 \\
+-8 & -5 & 23
+\end{array}\right|}=1.220 \mathrm{~A}
+$$

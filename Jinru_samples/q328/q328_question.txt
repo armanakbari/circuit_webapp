@@ -1,0 +1,1 @@
+From the circuit, find the power dissipated by the resistor.

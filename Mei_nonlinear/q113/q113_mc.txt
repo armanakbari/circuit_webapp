@@ -1,0 +1,5 @@
+1. $V_{G S 2}+V_{G S 4}+V_{T H 4}$
+2. $V_{G S 4}+V_P+V_{T H 2}$
+3. V_{G S 2}+V_P+V_{T H 4}
+4. $V_{G S 2}-V_P-V_{T H 4}$
+5. None of the above

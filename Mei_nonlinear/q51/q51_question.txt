@@ -1,0 +1,1 @@
+Estimate the $-3-\mathrm{dB}$ bandwidth for a common-gate stage containing a gate resistance of R_G and a source resistance of R_S with small signal model in the provided circuit image. Assume $\lambda=\gamma=0$.

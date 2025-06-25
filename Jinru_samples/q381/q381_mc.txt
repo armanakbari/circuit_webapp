@@ -1,0 +1,5 @@
+1. $\frac{\alpha}{1+\alpha}$
+2. $\frac{1}{2-\alpha}$
+3. $\frac{1-\alpha}{2-\alpha}$
+4. $\frac{1-\alpha}{\alpha}$
+5. None of the above

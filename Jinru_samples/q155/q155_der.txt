@@ -1,0 +1,5 @@
+The maximum power delivered to $R_L$ is most easily determined using the Thévenin equivalent. From the circuit we have
+
+$$
+P_{\max }=\left(\frac{-210}{70}\right)^2(35)=315 \mathrm{~W} .
+$$

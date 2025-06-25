@@ -1,0 +1,1 @@
+Use current division to find the current $i_0$

@@ -1,0 +1,3 @@
+Design of analog CMOS integrated circuits
+P206
+Example6.19

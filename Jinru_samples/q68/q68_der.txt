@@ -1,0 +1,5 @@
+Because $v$ is the voltage across the terminals of a capacitor, we have
+
+$$
+v(0)=v\left(0^{+}\right)=V_0=0
+$$

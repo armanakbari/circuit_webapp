@@ -1,0 +1,20 @@
+\begin{aligned}
+&\text { Applying KVL to the circuit in Fig. } 2.9 \text { yields, }\\
+&-40-10+4+6+V_2=0\\
+&V_2=40 \mathrm{~V}
+\end{aligned}
+The value of the current in the circuit is determined as,
+
+$$
+\begin{gathered}
+V_2=I_s \times 4=40 \\
+I_s=10 \mathrm{~A}
+\end{gathered}
+$$
+
+
+The value of the resistance $R_3$ is determined as,
+
+$$
+R_3=\frac{V_3}{I_s}=\frac{6}{10}=0.6 \Omega
+$$

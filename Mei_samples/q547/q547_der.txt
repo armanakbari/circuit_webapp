@@ -1,0 +1,6 @@
+\begin{aligned}
+V_{C_2} & =\frac{(7 \Omega)(72 \mathrm{~V})}{7 \Omega+2 \Omega}=\mathbf{5 6} \mathbf{~ V} \\
+V_{C_1} & =\frac{(2 \Omega)(72 \mathrm{~V})}{2 \Omega+7 \Omega}=\mathbf{1 6} \mathbf{~ V} \\
+Q_1 & =C_1 V_{C_1}=\left(2 \times 10^{-6} \mathrm{~F}\right)(16 \mathrm{~V})=\mathbf{3 2} \boldsymbol{\mu} \mathbf{C} \\
+Q_2 & =C_2 V_{C_2}=\left(3 \times 10^{-6} \mathrm{~F}\right)(56 \mathrm{~V})=\mathbf{1 6 8} \boldsymbol{\mu} \mathbf{C}
+\end{aligned}

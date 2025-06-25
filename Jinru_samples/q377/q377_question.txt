@@ -1,0 +1,1 @@
+A voltmeter is used to measure $V_o$ in the circuit in the provided circuit image. The voltmeter model consists of an ideal voltmeter in parallel with a $100-\mathrm{k} \Omega$ resistor. I $V_s=40 \mathrm{~V}, R_s=10 \mathrm{k} \Omega$, and $R_1=20 \mathrm{k} \Omega$. Calculate $V_o$ without the voltmeter when $R_2=1 \mathrm{k} \Omega$

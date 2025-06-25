@@ -1,0 +1,1 @@
+22.5\left(1-\mathrm{e}^{-0.08 t}\right) \mathrm{V}

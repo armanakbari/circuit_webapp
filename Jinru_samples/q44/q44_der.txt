@@ -1,0 +1,11 @@
+For the circuit in in the provided circuit, the magnetically coupled coils can be replaced by a single inductor having an inductance of
+
+$$
+L_{\mathrm{eq}}=\frac{L_1 L_2-M^2}{L_1+L_2-2 M}=\frac{45-36}{18-12}=1.5 \mathrm{H} .
+$$
+
+By hypothesis the initial value of $i_0$ is zero.We see that the final value of $i_o$ will be $120 / 7.5$ or 16 A . The time constant of the circuit is $1.5 / 7.5$ or 0.2 s . It follows directly that
+
+$$
+i_o=16-16 e^{-5 t} \mathrm{~A}, \quad t \geq 0
+$$

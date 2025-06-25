@@ -1,0 +1,1 @@
+\text { What is the total output noise voltage of the common-source stage shown in the provided circuit image? Assume that } \lambda=0 \text {. }

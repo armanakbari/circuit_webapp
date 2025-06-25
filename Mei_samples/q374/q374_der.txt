@@ -1,0 +1,2 @@
+\begin{aligned}
+&R_T=\frac{R}{N}=\frac{12 \Omega}{3}=4 \Omega\\

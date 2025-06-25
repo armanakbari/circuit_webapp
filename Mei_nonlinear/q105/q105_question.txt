@@ -1,0 +1,1 @@
+The circuit of Fig. 9.2 is designed for a nominal gain of 10 , i.e., $1+R_1 / R_2=10$. Determine the minimum value of $A_1$ for a gain error of $1 \%$.

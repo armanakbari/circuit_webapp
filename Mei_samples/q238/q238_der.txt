@@ -1,0 +1,44 @@
+\begin{aligned}
+&\text { Applying KVL to node } 1 \text { of the circuit in Fig. } 7.3 \text { yields, }\\
+&V_1=2415^{\circ} \mathrm{V}
+\end{aligned}
+Applying KVL to node 2 of the circuit in Fig. 7.3 yields,
+
+$$
+\frac{V_1-V_2}{2}=\frac{V_2}{3-j 4}+\frac{V_2-V_3}{7}
+$$
+
+
+Substituting Eq. (7.15) into Eq. (7.16) yields,
+
+$$
+\begin{gathered}
+12 \mu 5^{\circ}+\frac{1}{7} V_3=\left(0.5+\frac{1}{3-j 4}+\frac{1}{7}\right) V_2 \\
+12 \mu 5^{\circ}+\frac{1}{7} V_3=0.78 \mu 1.85^{\circ} V_2 \\
+V_2=15.383 .15^{\circ}+0.18-11.85^{\circ} V_3
+\end{gathered}
+$$
+Applying KVL to node 3 of the circuit in Fig. 7.3 yields,
+
+$$
+\begin{gathered}
+\frac{V_2-V_3}{7}=\frac{V_3}{5+j 6}+\frac{V_3}{8-j 10} \\
+\frac{V_2}{7}=0.28-7.78^{\circ} V_3
+\end{gathered}
+$$
+Substituting Eq. (7.19) into Eq. (7.21) yields,
+
+$$
+\begin{gathered}
+\frac{15.38 \mathrm{~B} .15^{\circ}+0.18-11.85^{\circ} V_3}{7}=0.28-7.78^{\circ} V_3 \\
+1.78-7.37^{\circ} V_3=15.38 \mathrm{~B} .15^{\circ} \\
+V_3=\frac{15.38 \mathrm{~B} .15^{\circ}}{1.78-7.37^{\circ}}=8.64 \mu 0.52^{\circ} \mathrm{V}
+\end{gathered}
+$$
+
+
+Substituting Eq. (7.24) into Eq. (7.21) yields,
+
+$$
+V_2=7 \times 0.28-7.78^{\circ} \times 8.64 \mu 0.52^{\circ}=16.932 .74^{\circ} \mathrm{V}
+$$

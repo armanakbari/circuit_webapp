@@ -1,0 +1,12 @@
+The current supplied by the 250 V source equals the current in the $125 \Omega$ resistor plus the current in the $25 \Omega$ resistor. Thus
+
+$$
+i_s=\frac{250}{125}+\frac{250-20}{25}=11.2 \mathrm{~A}
+$$
+
+
+Therefore the power developed by the voltage source is
+
+$$
+p_{250 \mathrm{~V}}(\text { developed })=(250)(11.2)=2800 \mathrm{~W} .
+$$

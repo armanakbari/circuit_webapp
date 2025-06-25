@@ -1,0 +1,53 @@
+\begin{aligned}
+&\text { Applying KVL to the circuit in Fig. } 3.5 \text { yields, }\\
+&\begin{aligned}
+11 I_1-4 I_2 & =15 \\
+-4 I_1+13 I_2 & =2 V_x
+\end{aligned}
+\end{aligned}
+According to the given circuit,
+
+$$
+V_x=2 I_1
+$$
+
+
+Substituting Eq. (3.47) into Eq. (3.47) yields,
+
+$$
+\begin{aligned}
+& -4 I_1+13 I_2=4 I_1 \\
+& I_1=\frac{13 I_2}{8}=1.63 I_2
+\end{aligned}
+$$
+
+
+Substituting Eq. (3.49) into Eq. (3.45) yields,
+
+$$
+\begin{aligned}
+& 11\left(1.63 I_2\right)-4 I_2=15 \\
+& I_2=\frac{15}{13.93}=1.08 \mathrm{~A}
+\end{aligned}
+$$
+
+
+Substituting Eq. (3.51) into Eq. (3.49) yields,
+
+$$
+I_1=1.63 \times 1.08=1.76 \mathrm{~A}
+$$
+
+
+The power absorbed by the $6 \Omega$ resistor is,
+
+$$
+P_{6 \Omega}=I_2^2 \times 6=1.08^2 \times 6=7 \mathrm{~W}
+$$
+
+
+The voltage drop across the $4 \Omega$ resistor is,
+
+$$
+V_{4 \Omega}=4 \times\left(I_1-I_2\right)=4 \times(1.76-1.08)=2.72 \mathrm{~V}
+$$

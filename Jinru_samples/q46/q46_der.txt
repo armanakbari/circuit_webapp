@@ -1,0 +1,30 @@
+To find $i_1$ we first note that
+
+$$
+3 \frac{d i_1}{d t}+6 \frac{d i_2}{d t}=6 \frac{d i_1}{d t}+15 \frac{d i_2}{d t}
+$$
+
+or
+
+$$
+\frac{d i_1}{d t}=-3 \frac{d i_2}{d t}
+$$
+
+It also follows $i_o=i_1+i_2$,
+
+$$
+\frac{d i_o}{d t}=\frac{d i_1}{d t}+\frac{d i_2}{d t}
+$$
+
+
+Therefore
+
+$$
+80 e^{-5 t}=-2 \frac{d i_2}{d t}
+$$
+
+Using Kirchhoff's current law we get
+
+$$
+i_1=24-24 e^{-5 t} \mathrm{~A}, \quad t \geq 0
+$$

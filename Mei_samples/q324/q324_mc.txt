@@ -1,0 +1,5 @@
+1. 26.7 \mathrm{kHz} / \mathrm{s}
+2. 83.9 \mathrm{kHz} / \mathrm{s}
+3. 167.8 \mathrm{kHz} / \mathrm{s}
+4. 1054.3 \mathrm{kHz} / \mathrm{s}
+5. None of the above

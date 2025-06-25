@@ -1,0 +1,17 @@
+For critical damping, $\alpha^2=\omega_0^2$, so
+
+$$
+\left(\frac{1}{2 R C}\right)^2=\frac{1}{L C}=10^8
+$$
+
+or
+
+$$
+\frac{1}{2 R C}=10^4,
+$$
+
+and
+
+$$
+R=\frac{10^6}{\left(2 \times 10^4\right)(0.2)}=250 \Omega .
+$$

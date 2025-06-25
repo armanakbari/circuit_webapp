@@ -1,0 +1,5 @@
+The independent current source in the circuit shown in the provided circuit image generates zero current for $t<0$ and a pulse $10 t e^{-5 t} \mathrm{~A}$, for $t>0$.
+Evaluate the integrals
+$$
+\int_{0.2}^{\infty} p d t
+$$

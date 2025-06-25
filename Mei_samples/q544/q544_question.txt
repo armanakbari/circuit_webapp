@@ -1,0 +1,1 @@
+Find the voltage across capacitor C1 of the network in the provided circuit image after each has charged up to its final value.

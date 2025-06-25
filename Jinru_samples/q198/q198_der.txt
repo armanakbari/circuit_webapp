@@ -1,0 +1,8 @@
+We compute the bandwidth from the cutoff frequencies:
+
+$$
+\begin{aligned}
+\beta & =\omega_{c 2}-\omega_{c 1} \\
+& =\frac{1}{R C}
+\end{aligned}
+$$

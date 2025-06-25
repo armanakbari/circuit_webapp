@@ -1,0 +1,1 @@
+A three-wire system supplies two loads $A$ and $B$ as shown in the provided circuit image. Load $A$ consists of a motor drawing a current of 8 A , while load $B$ is a PC drawing 2 A . Assuming $10 \mathrm{~h} /$ day of use for 365 days and 6 cents $/ \mathrm{kWh}$, calculate the annual energy cost of the system.

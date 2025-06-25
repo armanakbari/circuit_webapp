@@ -1,0 +1,1 @@
+\text { Calculate the output impedances of the circuit shown in the provided circuit image. For simplicity, assume that } R_F \gg R_D \text {. }

@@ -1,0 +1,9 @@
+Solution
+In addition to the main path, the mirror path contributes gain as well. Since the mirror action amplifies the drain currents of $M_5$ and $M_6$ by a factor of $W_4 / W_8$, we approximate the gain in this path as $\left(W_4 / W_8\right) g_{m 5}\left(r_{O 3} \| r_{O 4}\right)$ and add it to that of the main path:
+
+$$
+\begin{aligned}
+\left|A_v\right| & \approx g_{m 1}\left(r_{O 3} \| r_{O 4}\right)+\left(W_4 / W_8\right) g_{m 5}\left(r_{O 3} \| r_{O 4}\right) \\
+& \approx\left[g_{m 1}+\left(W_4 / W_8\right) g_{m 5}\right]\left(r_{O 3} \| r_{O 4}\right)
+\end{aligned}
+$$

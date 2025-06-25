@@ -1,0 +1,15 @@
+We write the solution for $i_o$ directly  by noting that $I_s=-1.5 \mathrm{~mA}$ and $v_o / R=(30 / 40) \times 10^{-3}$, or 0.75 mA :
+
+$$
+i_o=-2.25 e^{-100 t} \mathrm{~mA}, \quad t \geq 0^{+}
+$$
+
+
+We check the consistency of the solutions for $v_o$ and $i_o$ by noting that
+
+$$
+\begin{aligned}
+i_o & =C \frac{d v_o}{d t}=\left(0.25 \times 10^{-6}\right)\left(-9000 e^{-100 t}\right) \\
+& =-2.25 e^{-100 t} \mathrm{~mA}
+\end{aligned}
+$$

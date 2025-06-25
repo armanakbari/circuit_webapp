@@ -1,0 +1,5 @@
+1. 5 \operatorname{sgn}(t)-10 e^{-4 t} u(t)
+2. $2.5 \operatorname{sgn}(t) - 5 e^{-4 t} u(t)$
+3. $5 \operatorname{sgn}(t) + 10 e^{-4 t} u(t)$
+4. $4 \operatorname{sgn}(t) - 8 e^{-5t} u(t)$
+5. None of the above

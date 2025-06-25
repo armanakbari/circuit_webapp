@@ -1,0 +1,1 @@
+Choose values for $R$ that yield a bandpass circuit able to select inputs within the $1-10 \mathrm{kHz}$ frequency band. Such a circuit might be used in a graphic equalizer to select this frequency band from the larger audio band (generally $0-20 \mathrm{kHz}$ ) prior to amplification.

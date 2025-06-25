@@ -1,0 +1,1 @@
+Calculate the voltage gain of a common-gate stage with a current-source load in the provided circuit image.

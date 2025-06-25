@@ -1,0 +1,5 @@
+1. \frac{R_S}{r_O+\left(A_1+1\right) g_m R_S+R_S} V_X
+2. \frac{R_S}{r_O-\left(A_1+1\right) g_m r_O R_S+R_S} V_X
+3. \frac{R_S}{r_O+\left(A_1+1\right) g_m r_O R_S+R_S} V_X
+4. \frac{R_S}{r_O+A_1 g_m r_O R_S+R_S} V_X
+5. None of the above

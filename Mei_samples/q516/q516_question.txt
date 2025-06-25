@@ -1,0 +1,1 @@
+Find the mathematical expression for the response of $v_C$ if the switch is thrown into position 2 at $t=1 \tau$ of the charging phase.

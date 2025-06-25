@@ -1,0 +1,17 @@
+In this case, the short-circuit replacement of the voltage source $E$ provides a direct connection between $c$ and $c^{\prime}$ of Fig. 9.46(a), permitting a "folding" of the network around the horizontal line of $a-b$ to produce the configuration of Fig. 9.46(b).
+
+
+
+$$
+
+\begin{aligned}
+
+R_{T h}=R_{a-b} & =R_1\left\|R_3+R_2\right\| R_4 \\
+
+& =6 \Omega\|3 \Omega+4 \Omega\| 12 \Omega \\
+
+& =2 \Omega+3 \Omega=\mathbf{5} \Omega
+
+\end{aligned}
+
+$$

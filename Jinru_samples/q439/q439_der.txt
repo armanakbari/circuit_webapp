@@ -1,0 +1,42 @@
+We find $R_N$ in the same way we find $R_{\mathrm{Th}}$ in the Thevenin equivalent circuit. Set the independent sources equal to zero. This leads to the circuit, from which we find $R_N$. Thus,
+
+$$
+R_N=5\|(8+4+8)=5\| 20=\frac{20 \times 5}{25}=4 \Omega
+$$
+
+
+To find $I_N$, we short-circuit terminals $a$ and $b$. We ignore the $5-\Omega$ resistor because it has been short-circuited. Applying mesh analysis, we obtain
+
+$$
+i_1=2 \mathrm{~A}, \quad 20 i_2-4 i_1-12=0
+$$
+
+
+From these equations, we obtain
+
+$$
+i_2=1 \mathrm{~A}=i_{s c}=I_N
+$$
+
+Alternatively, we may determine $I_N$ from $V_{\mathrm{Th}} / R_{\mathrm{Th}}$. We obtain $V_{\mathrm{Th}}$ as the open-circuit voltage across terminals $a$ and $b$. Using mesh analysis, we obtain
+
+$$
+\begin{gathered}
+i_3=2 \mathrm{~A} \\
+25 i_4-4 i_3-12=0 \quad \Rightarrow \quad i_4=0.8 \mathrm{~A}
+\end{gathered}
+$$
+
+and
+
+$$
+v_{o c}=V_{\mathrm{Th}}=5 i_4=4 \mathrm{~V}
+$$
+
+Hence,
+
+$$
+I_N=\frac{V_{\mathrm{Th}}}{R_{\mathrm{Th}}}=\frac{4}{4}=1 \mathrm{~A}
+$$
+
+as obtained previously. This also serves to confirm that $R_{\mathrm{Th}}=v_{o c} / i_{s c}=4 / 1=4 \Omega$.

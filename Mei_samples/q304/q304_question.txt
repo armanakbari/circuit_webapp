@@ -1,0 +1,1 @@
+A balanced three-phase wye-wye system is shown In the provided circuit image. For ABC phase sequence, calculate the power absorbed by each phase.

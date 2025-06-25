@@ -1,0 +1,5 @@
+1. \frac{V_{G S 7,8}-V_{T H 7,8}}{V_{D S 7,8}}
+2. \frac{V_{G S 7,8}-V_{T H 7,8}}{V_A}
+3. \frac{V_{G S 1,2}-V_{T H 1,2}}{V_{D S 1,2}}
+4. \frac{V_{D S 7,8}}{V_{G S 7,8}-V_{T H 7,8}}
+5. None of the above

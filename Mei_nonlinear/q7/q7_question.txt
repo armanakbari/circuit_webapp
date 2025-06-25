@@ -1,0 +1,2 @@
+Suppose that in the source follower , $(W / L)_1=20 / 0.5, I_1=200 \mu \mathrm{~A}, V_{T H 0}=0.6 \mathrm{~V}, 2 \Phi_F=0.7 \mathrm{~V}$, $V_{D D}=1.2 \mathrm{~V}, \mu_n C_{o x}=50 \mu \mathrm{~A} / \mathrm{V}^2$, and $\gamma=0.4 \mathrm{~V}^{1 / 2}$.
+ If $I_1$ is implemented as $M_2$ in the provided circuit image, find the minimum value of $(W / L)_2$ for which $M_2$ remains saturated when $V_{\text {in }}=1.2 \mathrm{~V}$.

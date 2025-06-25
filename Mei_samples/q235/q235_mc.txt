@@ -1,0 +1,5 @@
+1. 6.68 \angle -35.40^{\circ} \Omega
+2. 9.96 \angle 29.32^{\circ} \Omega
+3. 9.73 \angle-9.91^{\circ} \Omega
+4. 8.81 \angle 10.80^{\circ} \Omega
+5. None of the above

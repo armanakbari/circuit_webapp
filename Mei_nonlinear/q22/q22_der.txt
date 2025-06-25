@@ -1,0 +1,8 @@
+If the gates of $M_1$ and $M_2$ are at the same dc potential, then $V_{G S 1}=V_{G S 2}$ and $I_{D 2}=2 I_{D 1}=2 I_{S S} / 3$. Thus, $g_{m 1}=\sqrt{2 \mu_n C_{o x}(W / L) I_{S S} / 3}$ and $g_{m 2}=\sqrt{2 \mu_n C_{o x}(2 W / L)\left(2 I_{S S}\right) / 3}=2 g_{m 1}$. Following the same procedure as above, the reader can show that
+
+$$
+\begin{aligned}
+\left|A_v\right| & =\frac{2 R_D}{\frac{1}{g_{m 1}}+\frac{1}{2 g_{m 1}}} \\
+& =\frac{4}{3} g_{m 1} R_D
+\end{aligned}
+$$

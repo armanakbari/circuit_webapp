@@ -1,0 +1,1 @@
+For the circuit in the provided circuit image, $v\left(0^{+}\right)=12 \mathrm{~V}$, and $i_L\left(0^{+}\right)=30 \mathrm{~mA}$. Find the initial current i_L\left(0^{-}\right)

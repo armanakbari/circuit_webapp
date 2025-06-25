@@ -1,0 +1,1 @@
+Convert the voltage source in the provided circuit image to a current source, and calculate the current through the $4-\Omega$ load for each source.

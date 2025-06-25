@@ -1,0 +1,21 @@
+Substituting the short-circuit equivalent for the inductor will result in a final or steady-state current determined by Ohm's law:
+
+$$
+I_f=\frac{E}{R_1+R_2}=\frac{16 \mathrm{~V}}{2.2 \mathrm{k} \Omega+6.8 \mathrm{k} \Omega}=\frac{16 \mathrm{~V}}{9 \mathrm{k} \Omega}=1.78 \mathrm{~mA}
+$$
+
+
+The time constant is determined by
+
+$$
+\tau=\frac{L}{R_T}=\frac{100 \mathrm{mH}}{2.2 \mathrm{k} \Omega+6.8 \mathrm{k} \Omega}=\frac{100 \mathrm{mH}}{9 \mathrm{k} \Omega}=11.11 \mu \mathrm{~s}
+$$
+Applying Eq. (12.12):
+
+$$
+\begin{aligned}
+i_L & =I_f+\left(I_i-I_f\right) e^{-t / \tau} \\
+& =1.78 \mathrm{~mA}+(4 \mathrm{~mA}-1.78 \mathrm{~mA}) e^{-t / 11.11 \mu \mathrm{~s}} \\
+& =\mathbf{1 . 7 8} \mathbf{~ m A}+\mathbf{2 . 2 2} \mathbf{~ m A} e^{-t / 1 \mathbf{1} .1 \mathbf{1} \mu \mathrm{~s}}
+\end{aligned}
+$$

@@ -1,0 +1,1 @@
+$I_L=\frac{E}{R_s+R_L}=\frac{6 \mathrm{~V}}{2 \Omega+1 \mathrm{k} \Omega} \cong \mathbf{5 . 9 9} \mathbf{~ m A}$

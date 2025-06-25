@@ -1,0 +1,1 @@
+For the transistor circuit of the provided circuit image, find $I_B$. Take $\beta=200, V_{B E}=0.7 \mathrm{~V}$.

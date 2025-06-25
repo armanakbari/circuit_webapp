@@ -1,0 +1,6 @@
+$$
+\begin{aligned}
+\mathbf{Y}_R & =G \angle 0^{\circ}=\frac{1}{R} \angle 0^{\circ}=\frac{1}{20 \Omega} \angle 0^{\circ} \\
+& =\mathbf{0 . 0 5} \mathbf{S} \angle \mathbf{0}^{\circ}=\mathbf{0 . 0 5} \mathbf{S}+\boldsymbol{j} \mathbf{0}
+\end{aligned}
+$$

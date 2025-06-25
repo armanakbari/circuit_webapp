@@ -1,0 +1,3 @@
+Design of analog CMOS integrated circuits
+P293
+Example8.7

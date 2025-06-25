@@ -1,0 +1,17 @@
+$$
+V_2=V_B=2 \mathrm{~V}
+$$
+
+
+Writing Kirchhoff's voltage law around the lower loop yields
+or
+
+$$
+V_E=V_2-V_{B E}=2 \mathrm{~V}-0.7 \mathrm{~V}=1.3 \mathrm{~V}
+$$
+
+and
+
+$$
+I_E=\frac{V_E}{R_E}=\frac{1.3 \mathrm{~V}}{1000 \Omega}=\mathbf{1 . 3} \mathbf{~ m A}
+$$

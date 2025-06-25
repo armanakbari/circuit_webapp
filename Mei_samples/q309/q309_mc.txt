@@ -1,0 +1,5 @@
+1. 7.33\angle-130^{\circ} \mathrm{A}
+2. 7.33\angle-10^{\circ} \mathrm{A}
+3. 12.70\angle-130^{\circ} \mathrm{A}
+4. 12.70\angle-10^{\circ} \mathrm{A}
+5. None of the above

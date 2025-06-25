@@ -1,0 +1,1 @@
+Determine $R_3$ In the provided circuit image

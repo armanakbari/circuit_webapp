@@ -1,0 +1,10 @@
+$\mathbf{Z}=10 \Omega+j 4 \Omega+(-j 0.1 \Omega)=10 \Omega+j 3.9 \Omega$
+
+Eq. (15.27):
+
+$$
+\begin{aligned}
+\mathbf{Y} & =\frac{1}{\mathbf{Z}}=\frac{1}{10 \Omega+j 3.9 \Omega}=\frac{10}{(10)^2+(3.9)^2}-j \frac{3.9}{(10)^2+(3.9)^2} \\
+& =\frac{10}{115.21}-j \frac{3.9}{115.21}=\mathbf{0 . 0 8 7 S}-\boldsymbol{j} \mathbf{0 . 0 3 4 S}
+\end{aligned}
+$$

@@ -1,0 +1,11 @@
+Since $I_{D 1}=I_{D 2}=0.5 \mathrm{~mA}$, we have
+
+$$
+\begin{aligned}
+V_{G S 1}=V_{G S 2} & =\sqrt{\frac{2 I_{D 1}}{\mu_n C_{o x} \frac{W}{L}}}+V_{T H} \\
+& =1.23 \mathrm{~V}
+\end{aligned}
+$$
+
+
+Thus, $V_{\text {in,CM }}=V_{G S 1}+0.5 \mathrm{~V}=1.73 \mathrm{~V}$. Note that $R_{S S}=500 \Omega$.

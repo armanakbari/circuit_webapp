@@ -1,0 +1,5 @@
+1. -1.25 \mathrm{~A}
+2. 2.5 \mathrm{~A}
+3. 3.75 \mathrm{~A}
+4. -2.5 \mathrm{~A}
+5. None of the above

@@ -1,0 +1,4 @@
+From the solution, we know that $v\left(0^{+}\right)=0$ and $d v\left(0^{+}\right) / d t=98,000 \mathrm{~V} / \mathrm{s}$.  $D_2=0$ and $D_1=98,000 \mathrm{~V} / \mathrm{s}$.
+
+Substituting these values for $\mathrm{a}, D_1$, and $D_2$
+$v(t)=98,000 t e^{-1000 t} \mathrm{~V}, \quad t \geq 0$

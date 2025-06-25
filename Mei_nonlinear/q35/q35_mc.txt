@@ -1,0 +1,5 @@
+1. \frac{-A}{\left[(1+A) R_S C_F s+1\right]\left(\left(1+A^{-1}\right) C_F R_{\text {out }} s+1\right)}
+2. \frac{-A}{\left[(1+A) R_S C_F s+1\right]\left(\frac{1}{1+A^{-1}} C_F R_{\text {out }} s+1\right)}
+3. \frac{-A}{\left(A R_S C_F s+1\right)\left(C_F R_{\text {out }} s+1\right)}
+4. \frac{-A}{\left[(1-A) R_S C_F s+1\right]\left(\frac{1}{1-A^{-1}} C_F R_{\text {out }} s+1\right)}
+5. None of the above

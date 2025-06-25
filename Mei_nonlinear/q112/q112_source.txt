@@ -1,0 +1,3 @@
+Design of analog CMOS integrated circuits
+P367
+Example9.12

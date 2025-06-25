@@ -1,0 +1,5 @@
+1. \sqrt{\frac{L}{C}}
+2. \sqrt{L C}
+3. \frac{1}{L C}
+4. \sqrt{\frac{1}{L C}}
+5. None of the above

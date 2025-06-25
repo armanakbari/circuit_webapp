@@ -1,0 +1,6 @@
+$$
+\begin{aligned}
+C_T=C_1+C_2+C_3 & =800 \mu \mathrm{~F}+60 \mu \mathrm{~F}+1200 \mu \mathrm{~F} \\
+& =\mathbf{2 0 6 0} \boldsymbol{\mu} \mathbf{F}
+\end{aligned}
+$$

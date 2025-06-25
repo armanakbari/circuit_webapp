@@ -1,0 +1,1 @@
+Calculate the output resistance of the amplifier at relatively low frequencies in the provided circuit image

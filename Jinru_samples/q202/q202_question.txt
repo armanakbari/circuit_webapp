@@ -1,0 +1,1 @@
+Determine the transfer function for the circuit when $R_i=0, K=1$ in the provided circuit image

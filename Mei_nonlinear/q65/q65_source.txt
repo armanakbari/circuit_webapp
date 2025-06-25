@@ -1,0 +1,3 @@
+Design of analog CMOS integrated circuits
+P245
+Example7.16

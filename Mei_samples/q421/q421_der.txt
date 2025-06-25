@@ -1,0 +1,8 @@
+Note the similarities with Fig. 7.12, permitting the use of the voltage divider rule to determine $V_1$ and $V_3$ :
+
+$$
+\begin{aligned}
+& V_1=\frac{R_1 E}{R_1+R_2}=\frac{(5 \Omega)(12 \mathrm{~V})}{5 \Omega+3 \Omega}=\frac{60 \mathrm{~V}}{8}=7.5 \mathrm{~V} \\
+& V_3=\frac{R_3 E}{R_3+R_4}=\frac{(6 \Omega)(12 \mathrm{~V})}{6 \Omega+2 \Omega}=\frac{72 \mathrm{~V}}{8}=9 \mathrm{~V}
+\end{aligned}
+$$

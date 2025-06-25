@@ -1,0 +1,1 @@
+-\frac{g_{m 1}\left(g_{m 2}+g_{m b 2}\right) R_P R_D}{1+\left(g_{m 2}+g_{m b 2}\right) R_P}

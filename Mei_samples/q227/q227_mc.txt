@@ -1,0 +1,5 @@
+1. \frac{4}{7}\left(\mathrm{e}^{-0.25 t}-\mathrm{e}^{-2 t}\right) \mathrm{A}
+2. \frac{1}{14}\left(\mathrm{e}^{-0.5 t}-\mathrm{e}^{-4 t}\right) \mathrm{A}
+3. \frac{1}{7}\left(\mathrm{e}^{-0.25 t}-\mathrm{e}^{-2 t}\right) \mathrm{A}
+4. \frac{1}{7}\left(\mathrm{e}^{-2 t}-\mathrm{e}^{-0.25 t}\right) \mathrm{A}
+5. None of the above

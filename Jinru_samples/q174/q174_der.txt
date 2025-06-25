@@ -1,0 +1,8 @@
+The phase currents of the load may be calculated directly from the line currents:
+
+$$
+\begin{aligned}
+\mathbf{I}_{\mathrm{AB}} & =\left(\frac{1}{\sqrt{3}} \angle 30^{\circ}\right) \mathbf{I}_{\mathrm{aA}} \\
+& =1.39 \angle-6.87^{\circ} \mathrm{A} .
+\end{aligned}
+$$

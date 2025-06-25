@@ -1,0 +1,1 @@
+For the provided circuit image, find the value of $R_L$, that results in maximum power being transferred to $R_L$.

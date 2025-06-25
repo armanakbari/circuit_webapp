@@ -1,0 +1,7 @@
+\begin{aligned}
+&\text { Applying KVL to the circuit in Fig. } 2.9 \text { yields, }\\
+&\begin{gathered}
+-40-10+4+6+V_2=0 \\
+V_2=40 \mathrm{~V}
+\end{gathered}
+\end{aligned}

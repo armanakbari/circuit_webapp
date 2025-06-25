@@ -1,0 +1,12 @@
+We find the current in the $40 \Omega$ resistor most easily by using current division; that is,
+
+$$
+i_o=-i_l \frac{10}{10+40}
+$$
+
+
+Note that this expression is valid for $t \geq 0^{+}$ because $i_o=0$ at $t=0^{-}$. The inductor behaves as a short circuit prior to the switch being opened, producing an instantaneous change in the current $i_\rho$. Then,
+
+$$
+i_o(t)=-4 e^{-5 t} \mathrm{~A}, \quad t \geq 0^{+}
+$$

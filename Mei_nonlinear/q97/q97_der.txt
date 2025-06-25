@@ -1,0 +1,46 @@
+We calculate the $A-D$ coefficients with the aid of the conceptual diagram in Fig. 8.70. We can select either transistor as the device of interest. Setting $g_{m 1}$ to zero, we obtain
+
+$$
+\begin{aligned}
+A & =\frac{V_{\text {out }}}{I_{\text {in }}} \text { with } g_{m 1}=0 \\
+& =R_S
+\end{aligned}
+$$
+
+because, in the absence of $M_1, I_{\text {in }}$ simply flows through $R_S$, producing a feedthrough component at the output. For $C$, we note that $V_1=I_{i n} R_S\left(-g_{m 2} R_D\right)-I_{i n} R_S$, and hence
+
+$$
+\begin{aligned}
+C & =\frac{V_1}{I_{i n}} \text { with } g_{m 1}=0 \\
+& =-\left(1+g_{m 2} R_D\right) R_S
+\end{aligned}
+$$
+
+
+We now set $I_{\text {in }}$ to zero and inject an independent current source in place of $M_1$, as shown in Fig. 8.75(b). Since $V_{\text {out }}=I_1 R_S$,
+
+$$
+\begin{aligned}
+B & =\frac{V_{\text {out }}}{I_1} \text { with } I_{\text {in }}=0 \\
+& =R_S
+\end{aligned}
+$$
+Also, $V_1=I_1 R_S\left(-g_{m 2} R_D\right)-I_1 R_S=-I_1 R_S\left(1+g_{m 2} R_D\right)$ and
+
+$$
+\begin{aligned}
+D & =\frac{V_1}{I_1} \text { with } I_{i n}=0 \\
+& =-R_S\left(1+g_{m 2} R_D\right)
+\end{aligned}
+$$
+
+
+Equation (8.140) thus gives
+
+$$
+\begin{aligned}
+\frac{V_{\text {out }}}{I_{\text {in }}} & =A+\frac{g_{m 1} B C}{1-g_{m 1} D} \\
+& =R_S-\frac{g_{m 1}\left(1+g_{m 2} R_D\right) R_S^2}{1+g_{m 1} R_S\left(1+g_{m 2} R_D\right)} \\
+& =\frac{R_S}{1+g_{m 1} R_S\left(1+g_{m 2} R_D\right)}
+\end{aligned}
+$$

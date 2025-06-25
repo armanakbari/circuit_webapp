@@ -1,0 +1,5 @@
+1. $C_{G S} g_{m b} /\left(g_m+g_{m b}\right)$
+2. $C_{G S} g_{m b} /\left(g_{m}-g_{m b}\right)$
+3. $C_{G S} g_{m} /\left(g_m+g_{m b}\right)$
+4. $C_{G S} \left(g_m+g_{m b}\right)/g_m$
+5. None of the above

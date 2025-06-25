@@ -1,0 +1,9 @@
+In this circuit, the capacitive divider $C_1-C_2$ senses the output voltage, applying the result to the gate of $M_1$ and producing a current that is subtracted from $I_{i n}$. The open-loop transimpedance equals that of the core common-gate stage, $R_D$. The loop gain is obtained by setting $I_{i n}$ to zero and breaking the loop at the output [Fig. 8.36(b)]:
+
+$$
+-V_t \frac{C_1}{C_1+C_2} g_{m 1} R_D=V_F
+$$
+\begin{aligned}
+&\text { Thus, the overall transimpedance is equal to }\\
+&R_{t o t}=\frac{R_D}{1+\frac{C_1}{C_1+C_2} g_{m 1} R_D}
+\end{aligned}

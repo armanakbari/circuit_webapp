@@ -1,0 +1,1 @@
+Use the node-voltage method to find the power dissipated in the $5 \Omega$ resistor in the provided circuit image

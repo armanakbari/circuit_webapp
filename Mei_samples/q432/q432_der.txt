@@ -1,0 +1,18 @@
+$$
+I_5=\frac{E}{R_{(1,2,3) \| 4}+R_5}=\frac{72 \mathrm{~V}}{12 \mathrm{k} \Omega+12 \mathrm{k} \Omega}=\frac{72 \mathrm{~V}}{24 \mathrm{k} \Omega}=\mathbf{3} \mathbf{~ m A}
+$$
+
+with
+
+$$
+\begin{aligned}
+V_7 & =\frac{R_{7 \|(8,9)} E}{R_{7 \|(8,9)}+R_6}=\frac{(4.5 \mathrm{k} \Omega)(72 \mathrm{~V})}{4.5 \mathrm{k} \Omega+12 \mathrm{k} \Omega}=\frac{324 \mathrm{~V}}{16.5}=\mathbf{1 9 . 6 ~ V} \\
+I_6 & =\frac{V_7}{R_{7 \|(8,9)}}=\frac{19.6 \mathrm{~V}}{4.5 \mathrm{k} \Omega}=\mathbf{4 . 3 5} \mathbf{~ m A}
+\end{aligned}
+$$
+
+and
+
+$$
+I_s=I_5+I_6=3 \mathrm{~mA}+4.35 \mathrm{~mA}=\mathbf{7 . 3 5} \mathbf{~ m A}
+$$

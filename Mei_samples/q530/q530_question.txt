@@ -1,0 +1,1 @@
+Find the voltage across capacitor C3

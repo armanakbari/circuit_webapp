@@ -1,0 +1,1 @@
+Find the mathematical expressions for the transient behavior of $i_C$ for the circuit in the provided circuit image when the switch is moved to position 1.

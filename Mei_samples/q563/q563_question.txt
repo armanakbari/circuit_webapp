@@ -1,0 +1,1 @@
+Find the mathematical expression for the transient behavior of the current $i_L$ after the closing of the switch ( $I_i=$ $0 \mathrm{~mA})$ in the provided circuit image.

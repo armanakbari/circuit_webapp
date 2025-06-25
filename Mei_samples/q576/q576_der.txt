@@ -1,0 +1,15 @@
+Solution: Note Fig. 15.5:
+
+$$
+\begin{aligned}
+i & =4 \sin \left(\omega t+30^{\circ}\right) \Rightarrow \text { phasor form } \mathbf{I}=2.828 \mathrm{~A} \angle 30^{\circ} \\
+\mathbf{V} & =\mathbf{I Z}_R=(I \angle \theta)\left(R \angle 0^{\circ}\right)=\left(2.828 \mathrm{~A} \angle 30^{\circ}\right)\left(2 \Omega \angle 0^{\circ}\right) \\
+& =5.656 \mathrm{~V} \angle 30^{\circ}
+\end{aligned}
+$$
+
+and
+
+$$
+\boldsymbol{v}=\sqrt{2}(5.656) \sin \left(\omega t+30^{\circ}\right)=\mathbf{8 . 0} \sin \left(\omega t+30^{\circ}\right)
+$$

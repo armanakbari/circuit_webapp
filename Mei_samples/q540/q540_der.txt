@@ -1,0 +1,1 @@
+& Q_3=C_3 E=\left(1200 \times 10^{-6} \mathrm{~F}\right)(48 \mathrm{~V})=\mathbf{5 7 . 6} \mathbf{~ m C}

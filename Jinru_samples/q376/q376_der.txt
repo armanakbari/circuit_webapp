@@ -1,0 +1,18 @@
+With the voltmeter in place,
+
+$$
+\mathrm{V}_0=\frac{\mathrm{R}_2 \| \mathrm{R}_{\mathrm{m}}}{\mathrm{R}_1+\mathrm{R}_{\mathrm{S}}+\mathrm{R}_2 \| \mathrm{R}_{\mathrm{m}}} \mathrm{~V}_{\mathrm{S}}
+$$
+
+where $R_m=100 \mathrm{k} \Omega$ without the voltmeter,
+
+$$
+\mathrm{V}_0=\frac{\mathrm{R}_2}{\mathrm{R}_1+\mathrm{R}_2+\mathrm{R}_{\mathrm{S}}} \mathrm{~V}_{\mathrm{S}}
+$$
+
+$$
+\begin{aligned}
+& \text { When } R_2=1 \mathrm{k} \Omega, R_{\mathrm{m}} \| R_2=\frac{100}{101} \mathrm{k} \Omega \\
+& \mathrm{~V}_0=\frac{\frac{100}{101}}{\frac{100}{101}+30}(40)=1.278 \mathrm{~V} \text { (with) }
+\end{aligned}
+$$

@@ -1,0 +1,17 @@
+$$
+\begin{aligned}
+& i_{8 \Omega}=i_2, \quad i_2=\frac{v_1}{8}, \quad i_{8 \Omega}=\frac{v_1}{8} \\
+& \frac{v_1-5}{2}+\frac{v_1-0}{8}+\frac{v_1+3}{4}=0
+\end{aligned}
+$$
+
+
+Now we can solve for $v_1$.
+
+$$
+\begin{gathered}
+8\left[\frac{v_1-5}{2}+\frac{v_1-0}{8}+\frac{v_1+3}{4}\right]=0 \\
+\text { leads to }\left(4 v_1-20\right)+\left(v_1\right)+\left(2 v_1+6\right)=0 \\
+7 v_1=+14, \quad v_1=+2 \mathrm{~V}, \quad i_{8 \Omega}=\frac{v_1}{8}=\frac{2}{8}=\mathbf{0 . 2 5} \mathbf{~ A}
+\end{gathered}
+$$

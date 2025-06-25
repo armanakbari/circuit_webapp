@@ -1,0 +1,5 @@
+1. \mathbf{3 . 0} \sin \left(\omega \boldsymbol{t}-\mathbf{1 5 0}^{\circ}\right)
+2. \mathbf{3 . 0} \sin \left(\omega \boldsymbol{t}+\mathbf{1 5 0}^{\circ}\right)
+3. \mathbf{3 . 0} \sin \left(\omega \boldsymbol{t}-\mathbf{3 0}^{\circ}\right)
+4. \mathbf{2 . 12} \sin \left(\omega \boldsymbol{t}-\mathbf{1 5 0}^{\circ}\right)
+5. None of the above

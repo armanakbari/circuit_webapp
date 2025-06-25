@@ -1,0 +1,22 @@
+a. $R_T=\frac{R_1 R_2}{R_1+R_2}=\frac{(9 \Omega)(18 \Omega)}{9 \Omega+18 \Omega}=\frac{162 \Omega}{27}=6 \Omega$
+b. $I_s=\frac{E}{R_T}=\frac{27 \mathrm{~V}}{6 \Omega}=4.5 \mathrm{~A}$
+c.
+
+$$
+\begin{aligned}
+I_1 & =\frac{V_1}{R_1}=\frac{E}{R_1}=\frac{27 \mathrm{~V}}{9 \Omega}=\mathbf{3} \mathbf{A} \\
+I_2 & =\frac{V_2}{R_2}=\frac{E}{R_2}=\frac{27 \mathrm{~V}}{18 \Omega}=\mathbf{1 . 5} \mathbf{A} \\
+I_s & =I_1+I_2 \\
+4.5 \mathrm{~A} & =3 \mathrm{~A}+1.5 \mathrm{~A} \\
+\mathbf{4 . 5} \mathbf{A} & =\mathbf{4 . 5} \mathbf{A} \quad \text { (checks) }
+\end{aligned}
+$$
+
+d.
+
+$$
+\begin{aligned}
+& P_1=V_1 I_1=E I_1=(27 \mathrm{~V})(3 \mathrm{~A})=81 \mathrm{~W} \\
+& P_2=V_2 I_2=E I_2=(27 \mathrm{~V})(1.5 \mathrm{~A})=40.5 \mathrm{~W}
+\end{aligned}
+$$

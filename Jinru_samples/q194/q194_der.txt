@@ -1,0 +1,12 @@
+Begin by drawing the $s$-domain equivalent of the circuit. Using voltage division, we can compute the transfer function for the equivalent circuit if we first compute the equivalent impedance of the parallel combination of $L$ and $C$, identified as $Z_{\text {eq }}(s)$ :
+
+$$
+Z_{\mathrm{eq}}(s)=\frac{\frac{L}{C}}{s L+\frac{1}{s C}} .
+$$
+
+
+Now,
+
+$$
+H(s)=\frac{\frac{s}{R C}}{s^2+\frac{s}{R C}+\frac{1}{L C}}
+$$

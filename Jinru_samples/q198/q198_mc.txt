@@ -1,0 +1,5 @@
+1. \frac{1}{\sqrt{R C}}
+2. R C
+3. \frac{1}{R C}
+4. \frac{1}{2 R C}
+5. None of the above

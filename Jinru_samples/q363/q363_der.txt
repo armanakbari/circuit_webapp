@@ -1,0 +1,10 @@
+Let $R_0=$ combination of three $12 \Omega$ resistors in parallel
+
+$$
+\begin{aligned}
+& \frac{1}{R_o}=\frac{1}{12}+\frac{1}{12}+\frac{1}{12} \longrightarrow R_o=4 \\
+& R_{\text {eq }}=30+60\left\|\left(10+R_0+R\right)=30+60\right\|(14+R) \\
+& 50=30+\frac{60(14+R)}{74+R} \longrightarrow 74+R=42+3 R \\
+& \text { or } R=16 \Omega
+\end{aligned}
+$$

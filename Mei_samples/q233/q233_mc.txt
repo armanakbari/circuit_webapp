@@ -1,0 +1,5 @@
+1. 10.36 \angle-24.92^{\circ} \mathrm{A}
+2. 23.16 \angle-24.92^{\circ} \mathrm{A}
+3. 23.16 \angle24.92^{\circ} \mathrm{A}
+4. 21.94 \angle0^{\circ} \mathrm{A}
+5. None of the above

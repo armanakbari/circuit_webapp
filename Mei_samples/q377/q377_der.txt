@@ -1,0 +1,22 @@
+$$
+\begin{aligned}
+R_T & =\frac{R_1 R_2}{R_1+R_2} \\
+R_T\left(R_1+R_2\right) & =R_1 R_2 \\
+R_T R_1+R_T R_2 & =R_1 R_2 \\
+R_T R_1 & =R_1 R_2-R_T R_2 \\
+R_T R_1 & =\left(R_1-R_T\right) R_2
+\end{aligned}
+$$
+
+and
+
+$$
+R_2=\frac{R_T R_1}{R_1-R_T}
+$$
+\begin{aligned}
+&\text { Substituting values: }\\
+&\begin{aligned}
+R_2 & =\frac{(9 \mathrm{k} \Omega)(12 \mathrm{k} \Omega)}{12 \mathrm{k} \Omega-9 \mathrm{k} \Omega} \\
+& =\frac{108 \mathrm{k} \Omega}{3}=\mathbf{3 6} \mathbf{k} \Omega
+\end{aligned}
+\end{aligned}

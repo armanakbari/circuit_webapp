@@ -1,0 +1,3 @@
+Design of analog CMOS integrated circuits
+P400
+Example9.25

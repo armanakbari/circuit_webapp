@@ -1,0 +1,24 @@
+\begin{aligned}
+&\text { For abc phase sequence, the phase voltages are, }\\
+&\begin{aligned}
+V_{\mathrm{an}}=\frac{V_{\mathrm{L}}}{\sqrt{3}}\angle-30^{\circ} & =\frac{200}{\sqrt{3}}\angle-30^{\circ}=115.47\angle-30^{\circ} \mathrm{V} \\
+V_{\mathrm{bn}} & =115.47\angle-150^{\circ} \mathrm{V} \\
+V_{\mathrm{cn}} & =115.47\angle90^{\circ} \mathrm{V}
+\end{aligned}
+\end{aligned}
+The total impedance is,
+
+$$
+Z_t=0.03+j 5+5 \angle30^{\circ}}=8.68\angle59 .83^{\circ} \Omega
+$$
+
+
+The line currents are calculated as,
+
+$$
+\begin{gathered}
+I_{\mathrm{aA}}=\frac{V_{\mathrm{an}}}{Z_t}=\frac{115.47\angle-30^{\circ}}{8.68\angle{59.83^{\circ}}}=13.30 \angle{-89.83^{\circ}} \mathrm{A} \\
+I_{\mathrm{bB}}=\frac{V_{\mathrm{bn}}}{Z_t}=\frac{115.47\angle{150^{\circ}}}{8.68\angle{59.83^{\circ}}}=13.30 \angle{150.17^{\circ}} \mathrm{A} \\
+I_{\mathrm{cC}}=\frac{V_{\mathrm{cn}}}{Z_t}=\frac{115.47 \angle{90^{\circ}}}{8.68 \angle{59.83^{\circ}}}=13.30 \angle{30.17^{\circ}} \mathrm{A}
+\end{gathered}
+$$

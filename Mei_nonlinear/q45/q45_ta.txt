@@ -1,0 +1,1 @@
+\frac{1}{g_m+g_{m b}}+\frac{1}{C_L s} \cdot \frac{1}{\left(g_m+g_{m b}\right) r_O}

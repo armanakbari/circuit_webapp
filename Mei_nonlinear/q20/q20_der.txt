@@ -1,0 +1,15 @@
+cascoding reduces the effect of $V_X$ and $V_Y$ upon $I_{D 1}$ and $I_{D 2}$, respectively. As depicted in Fig. 3.30 and implied by Eq. (3.69), a difference $\Delta V$ between $V_X$ and $V_Y$ translates to a difference $\Delta V_{P Q}$ between $P$ and $Q$ equal to
+
+$$
+\begin{aligned}
+\Delta V_{P Q} & =\Delta V \frac{r_{O 1}}{\left[1+\left(g_{m 3}+g_{m b 3}\right) r_{O 3}\right] r_{O 1}+r_{O 3}} \\
+& \approx \frac{\Delta V}{\left(g_{m 3}+g_{m b 3}\right) r_{O 3}}
+\end{aligned}
+$$
+
+
+Thus,
+
+$$
+I_{D 1}-I_{D 2}=\frac{1}{2} \mu_n C_{o x} \frac{W}{L}\left(V_b-V_{T H}\right)^2 \frac{\lambda \Delta V}{\left(g_{m 3}+g_{m b 3}\right) r_{O 3}}
+$$

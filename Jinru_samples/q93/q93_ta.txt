@@ -1,0 +1,1 @@
+4 \cos \left(200,000 t-90^{\circ}\right) \mathrm{A}

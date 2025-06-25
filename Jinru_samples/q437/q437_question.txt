@@ -1,0 +1,1 @@
+Find $v_x$ in the provided circuit image using source transformation.

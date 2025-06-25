@@ -1,0 +1,66 @@
+Open the $6 \Omega$ resistor and redraw the circuit as shown in Fig. 4.66. Applying KCL at the node $a$ yields,
+
+$$
+\frac{20-V_{\mathrm{Th}}}{2}+0.5 V_x=0
+$$
+Again, applying KVL to the circuit in Fig. 4.66 yields,
+
+$$
+\begin{gathered}
+-20+V_x+V_{\mathrm{Th}}=0 \\
+V_x=20-V_{\mathrm{Th}}
+\end{gathered}
+$$
+
+
+Substituting Eq. (4.121) into Eq. (4.119) yields,
+
+$$
+\begin{gathered}
+\frac{20-V_{\mathrm{Th}}}{2}+0.5\left(20-V_{\mathrm{Th}}\right)=0 \\
+V_{\mathrm{Th}}=20 \mathrm{~V}
+\end{gathered}
+$$
+
+
+Again short circuit the open terminals as shown in Fig. 4.67. Applying KCL at the node $a$ yields,
+
+$$
+\frac{20-V_a}{2}+0.5 V_x=I_{\mathrm{sc}}=\frac{V_a}{4}
+$$
+
+
+According to the circuit, the following equation can be written:
+
+$$
+V_x=20-V_a
+$$
+Substituting Eq. (4.125) into Eq. (4.124) yields,
+
+$$
+\begin{gathered}
+\frac{20-V_a}{2}+10-0.5 V_a=\frac{V_a}{4} \\
+V_a=\frac{20}{1.25}=16 \mathrm{~V}
+\end{gathered}
+$$
+
+
+Then, the short-circuit current is,
+
+$$
+I_{\mathrm{sc}}=\frac{16}{4}=4 \mathrm{~A}
+$$
+
+
+The Norton's resistance is calculated as,
+
+$$
+R_N=\frac{V_{\mathrm{Th}}}{I_{\mathrm{sc}}}=\frac{20}{4}=5 \Omega
+$$
+
+
+The final Norton's equivalent circuit is shown in Fig. 4.68. The current in the $6 \Omega$ resistor is calculated as,
+
+$$
+I_{6 \Omega}=\frac{4 \times 5}{5+6}=1.82 \mathrm{~A}
+$$

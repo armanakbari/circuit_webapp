@@ -1,0 +1,5 @@
+1. \left(24-24 e^{-32.000 t} \cos 24,000 -32 e^{-32.000 t} \sin 24,000 t\right) \mathrm{mA}
+2. \left(24-24 e^{-32.000 t} \cos 24,000 t +32 e^{-32.000 t} \sin 24,000 t\right) \mathrm{mA}
+3. \left(24-24 e^{-24,000 t} \cos 32,000 t -18 e^{-24,000 t} \sin 32,000 t\right) \mathrm{mA}
+4. \left(24-32 e^{-32.000 t} \cos 24,000 t -24 e^{-32.000 t} \sin 24,000 t\right) \mathrm{mA}
+5. None of the above

@@ -1,0 +1,1 @@
+Use Kirchhoff's laws and Ohm's law to find the voltage $v_o$ as shown in the provided circuit image.

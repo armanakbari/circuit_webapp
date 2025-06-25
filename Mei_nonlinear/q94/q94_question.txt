@@ -1,0 +1,1 @@
+Determine the voltage gain of the feedback amplifier shown in the provided circuit image without breaking the loop.

@@ -1,0 +1,5 @@
+1. 11.2V
+2. 20V
+3. 18.8V
+4. 8.8V
+5. None of the above

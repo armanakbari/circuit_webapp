@@ -1,0 +1,1 @@
+Calculate the source current $I_s$ in the provided circuit image

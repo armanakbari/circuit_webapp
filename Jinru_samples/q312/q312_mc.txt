@@ -1,0 +1,5 @@
+1. 10 \mathrm{~A}
+2. -10 \mathrm{~A}
+3. 5 \mathrm{~A}
+4. 15 \mathrm{~A}
+5. None of the above

@@ -1,0 +1,8 @@
+We have already noted the initial and final values of $v_{o 1}$, along with the time constant $\tau_1$. Thus we write the solution in accordance with the technique developed:
+
+$$
+\begin{aligned}
+v_{o 1} & =-1.25+[0-(-1.25)] e^{-20 t} \\
+& =-1.25+1.25 e^{-20 t} \mathrm{~V}, \quad t \geq 0
+\end{aligned}
+$$

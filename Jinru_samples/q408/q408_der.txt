@@ -1,0 +1,20 @@
+At node 1. $\quad\left[\left(\mathrm{v}_1-0\right) / 8\right]+\left[\left(\mathrm{v}_1-\mathrm{v}_3\right) / 1\right]+4=0$
+At node 2. $-4+\left[\left(\mathrm{v}_2-0\right) / 2\right]+2 \mathrm{i}_{\mathrm{o}}=0$
+At node 3. $-2 \mathrm{i}_{\mathrm{o}}+\left[\left(\mathrm{v}_3-0\right) / 4\right]+\left[\left(\mathrm{v}_3-\mathrm{v}_1\right) / 1\right]=0$
+Finally, we need a constraint equation, $\quad \mathrm{i}_{\mathrm{o}}=\mathrm{v}_1 / 8$
+This produces,
+
+$$
+\begin{aligned}
+& 1.125 \mathrm{v}_1-\mathrm{v}_3=4 \\
+& 0.25 \mathrm{v}_1+0.5 \mathrm{v}_2=4 \\
+& -1.25 \mathrm{v}_1+1.25 \mathrm{v}_3=0 \text { or } \mathrm{v}_1=\mathrm{v}_3
+\end{aligned}
+$$
+
+
+so we get $(1.125-1) v_1=4$ or $v_1=4 / 0.125=32$ volts. This leads to,
+
+$$
+\mathrm{i}_{\mathrm{o}}=32 / 8=4 \mathrm{amps}
+$$

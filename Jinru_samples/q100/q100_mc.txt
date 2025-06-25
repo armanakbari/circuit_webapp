@@ -1,0 +1,5 @@
+1. $\frac{8}{3}+j 2 \mathrm{~A}$
+2. $2-j \frac{8}{3} \mathrm{~A}$
+3. 2+j \frac{8}{3} \mathrm{~A}
+4. $\frac{11}{2} + j\frac{25}{6} \mathrm{~A}$
+5. None of the above

@@ -1,0 +1,5 @@
+1. 12.89\angle-95^{\circ} \mathrm{A}
+2. 22.33\angle-115^{\circ} \mathrm{A}
+3. 22.33\angle-95^{\circ} \mathrm{A}
+4. 22.33\angle5^{\circ} \mathrm{A}
+5. None of the above

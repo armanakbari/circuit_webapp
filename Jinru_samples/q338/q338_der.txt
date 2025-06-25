@@ -1,0 +1,9 @@
+\begin{aligned}
+&V_0=5 \times 10^{-3} \times 10 \times 10^3=50 \mathrm{~V}\\
+&\text { Using current division, }\\
+&\begin{aligned}
+& \mathrm{I}_{20}=\frac{5}{5+20}(0.01 \times 50)=\mathbf{0 . 1 ~ A} \\
+& \mathrm{V}_{20}=20 \times 0.1 \mathrm{kV}=\mathbf{2} \mathbf{~ k V} \\
+& \mathrm{p}_{20}=\mathrm{I}_{20} \mathrm{~V}_{20}=\mathbf{0 . 2} \mathbf{~ k W}
+\end{aligned}
+\end{aligned}

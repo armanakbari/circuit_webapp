@@ -1,0 +1,2 @@
+R_t=12 \Omega;
+I_s=\frac{48}{12}=4 \mathrm{~A}

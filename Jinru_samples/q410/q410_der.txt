@@ -1,0 +1,16 @@
+At node 1,
+
+$$
+\left[\left(v_1-100\right) / 1\right]+\left[\left(v_1-v_o\right) / 2\right]+12.5=0 \text { or } 3 v_1-v_o=200-25=175
+$$
+
+
+At node o,
+
+$$
+\left[\left(\mathrm{v}_{\mathrm{o}}-\mathrm{v}_1\right) / 2\right]-12.5+\left[\left(\mathrm{v}_{\mathrm{o}}-0\right) / 4\right]+\left[\left(\mathrm{v}_{\mathrm{o}}+50\right) / 8\right]=0 \text { or }-4 \mathrm{v}_1+7 \mathrm{v}_{\mathrm{o}}=50
+$$
+
+
+Adding $4 x(1)$ to $3 x(2)$ yields,
+$\begin{gathered}4(1)+3(2)=-4 v_o+21 v_o=700+150 \text { or } 17 v_o=850 \text { or } \\ v_o=\mathbf{5 0 ~ V} .\end{gathered}$

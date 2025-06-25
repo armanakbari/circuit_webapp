@@ -1,0 +1,1 @@
+ provided circuit In the provided circuit image shows a delta-wye circuit. Determine the total circuit resistance.

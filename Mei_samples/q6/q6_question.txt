@@ -1,0 +1,1 @@
+An electrical circuit with a voltage-controlled voltage source is shown in In the provided circuit image. Find the power absorbed by the $6 \Omega$ resistor.

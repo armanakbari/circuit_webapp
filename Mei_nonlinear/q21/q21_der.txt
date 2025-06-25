@@ -1,0 +1,6 @@
+Solution
+Using the simplified model in Fig. 3.76(b) and Eq. (3.66), we have
+
+$$
+R_{o u t}=\left[1+\left(g_{m 2}+g_{m b 2}\right) r_{O 2}\right]\left(r_{O 1} \| r_{O 3}\right)+r_{O 2}
+$$

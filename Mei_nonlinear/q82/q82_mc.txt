@@ -1,0 +1,5 @@
+1. \frac{R_D}{1+g_m R_D}
+2. \frac{1+g_m R_D}{g_m}
+3. \frac{R_D}{1-g_m R_D}
+4. \frac{1}{g_m}
+5. None of the above

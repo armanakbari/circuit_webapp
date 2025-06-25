@@ -1,0 +1,5 @@
+1. I_1=\frac{8}{4}=2 \mathrm{~A};
+2. I_1=\frac{16}{4}=4 \mathrm{~A}
+3. I_1=\frac{8}{8}=1 \mathrm{~A}
+4. I_1=\frac{6}{4}=1.5 \mathrm{~A}
+5. None of the above

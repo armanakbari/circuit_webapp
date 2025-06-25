@@ -1,0 +1,15 @@
+At $t=0$, the capacitor will be open circuited. In this condition, the Thevenin resistance and voltage can be determined as,
+
+$$
+\begin{gathered}
+R_{\mathrm{Th}}=1+\left[4+\left(\frac{3 \times 6}{9}\right)\right] \| 2=1+\frac{2 \times 6}{2+6}=2.5 \Omega \\
+V_{\mathrm{Th}}=\frac{30}{4+2+2} \times(4+2)=22.5 \mathrm{~V}
+\end{gathered}
+$$
+
+
+The charging voltage is,
+
+$$
+v_c=V_{\mathrm{Th}}\left(1-\mathrm{e}^{-\frac{1}{R_{\mathrm{Th}} c^t}}\right)=22.5\left(1-\mathrm{e}^{-\frac{1}{2.5 \times 5} t}\right)=22.5\left(1-\mathrm{e}^{-0.08 t}\right) \mathrm{V}
+$$

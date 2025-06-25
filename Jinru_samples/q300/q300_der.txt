@@ -1,0 +1,5 @@
+The current through $R_1$ is
+
+$$
+I_1=\frac{p_1}{V_1}=\frac{20}{9}=2.222 \mathrm{~A}
+$$

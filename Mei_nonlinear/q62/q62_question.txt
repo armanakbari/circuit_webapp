@@ -1,0 +1,1 @@
+Calculate the input-referred thermal noise voltage of the amplifier shown in the provided circuit image, assuming both transistors are in saturation.

@@ -1,0 +1,1 @@
+For the circuit in the provided circuit image, $i_o=3 \mathrm{~A}$. Calculate $i_x$

@@ -1,0 +1,5 @@
+1. 50.39 \angle-15.85^{\circ} \mathrm{V}
+2. $50.39 \angle 15.85^{\circ} \mathrm{V}$
+3. $54.68 \angle 89.00^{\circ} \mathrm{V}$
+4. $12.60 \angle -15.85^{\circ} \mathrm{V}$
+5. None of the above

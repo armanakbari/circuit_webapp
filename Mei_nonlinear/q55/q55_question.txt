@@ -1,0 +1,1 @@
+Find the maximum noise voltage that a single MOSFET can generate in the provided circuit image.

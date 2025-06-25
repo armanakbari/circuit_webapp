@@ -1,0 +1,5 @@
+1. $0.121 e^{-5600 t} \sin 8285 t \mathrm{~A}$
+2. $0.1 e^{-2800 t} \sin 10000 t \mathrm{~A}$
+3. $0.1042 e^{-2800 t} \cos 9600 t \mathrm{~A}$
+4. 0.1042 e^{-2800 t} \sin 9600 t \mathrm{~A}
+5. None of the above

@@ -1,0 +1,24 @@
+$$
+\begin{aligned}
+C_T=C_1+C_2+C_3 & =800 \mu \mathrm{~F}+60 \mu \mathrm{~F}+1200 \mu \mathrm{~F} \\
+& =\mathbf{2 0 6 0} \boldsymbol{\mu} \mathbf{F}
+\end{aligned}
+$$
+
+b.
+
+$$
+\begin{aligned}
+& Q_1=C_1 E=\left(800 \times 10^{-6} \mathrm{~F}\right)(48 \mathrm{~V})=\mathbf{3 8 . 4} \mathbf{~ m C} \\
+& Q_2=C_2 E=\left(60 \times 10^{-6} \mathrm{~F}\right)(48 \mathrm{~V})=\mathbf{2 . 8 8} \mathbf{~ m C} \\
+& Q_3=C_3 E=\left(1200 \times 10^{-6} \mathrm{~F}\right)(48 \mathrm{~V})=\mathbf{5 7 . 6} \mathbf{~ m C}
+\end{aligned}
+$$
+
+c.
+
+$$
+\begin{aligned}
+Q_T & =Q_1+Q_2+Q_3=38.4 \mathrm{mC}+2.88 \mathrm{mC}+57.6 \mathrm{mC} \\
+& =\mathbf{9 8 . 8 8} \mathbf{~ m C}
+\end{aligned}

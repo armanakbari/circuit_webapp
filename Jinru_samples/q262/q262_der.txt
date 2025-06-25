@@ -1,0 +1,24 @@
+Because a negative feedback path exists from the op amp's output to its inverting input through the $100 \mathrm{k} \Omega$ resistor, let's assume the op amp is confined to its linear operating region. We can write a node-voltage equation at the inverting input terminal. The voltage at the inverting input terminal is 0 , as $v_p=v_{\mathrm{b}}=0$ from the connected voltage source, and $v_n=v_p$ from the voltage constraint. The node-voltage equation at $v_n$ is thus
+
+$$
+i_{25}=i_{100}=i_{10}
+$$
+
+From Ohm's law,
+
+$$
+\begin{aligned}
+i_{25} & =\left(v_{\mathrm{a}}-v_n\right) / 25=\frac{1}{25} \mathrm{~mA} \\
+i_{100} & =\left(v_o-v_n\right) / 100=v_o / 100 \mathrm{~mA}
+\end{aligned}
+$$
+
+
+The current constraint requires $i_n=0$. Substituting the values for the three currents into the node-voltage equation, we obtain
+
+$$
+\frac{1}{25}+\frac{v_o}{100}=0 .
+$$
+
+
+Hence, $v_o$ is -4 \mathrm{~V} . Note that because $v_o$ lies between $\pm 10 \mathrm{~V}$, the op amp is in its linear region of operation.

@@ -1,0 +1,5 @@
+1. -3900 \text { VAR }
+2. 6500 \text { VAR }
+3. 3900 \text { VAR }
+4. 5200 \text { VAR }
+5. None of the above

@@ -1,0 +1,24 @@
+Using superposition, we let
+
+$$
+v_o=v_{o 1}+v_{o 2}
+$$
+where $v_{o 1}$ is due to the $6-\mathrm{V}$ voltage source, and $v_{o 2}$ is due to the $4-\mathrm{V}$ input. To get $v_{o 1}$, we set the $4-\mathrm{V}$ source equal to zero. Under this condition, the circuit becomes an inverter. 
+
+$$
+v_{o 1}=-\frac{10}{4}(6)=-15 \mathrm{~V}
+$$
+
+
+To get $v_{o 2}$, we set the $6-\mathrm{V}$ source equal to zero. The circuit becomes a noninverting amplifier.
+
+$$
+v_{o 2}=\left(1+\frac{10}{4}\right) 4=14 \mathrm{~V}
+$$
+
+
+Thus,
+
+$$
+v_o=v_{o 1}+v_{o 2}=-15+14=-1 \mathrm{~V}
+$$

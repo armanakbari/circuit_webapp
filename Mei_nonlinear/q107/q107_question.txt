@@ -1,0 +1,1 @@
+Calculate the closed-loop output impedance of the unity-gain buffer depicted in the provided circuit image

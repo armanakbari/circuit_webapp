@@ -1,0 +1,5 @@
+1. 22.36 \mathrm{kVA}
+2. 29.73 \mathrm{kVA}
+3. 30.00 \mathrm{kVA}
+4. 21.54 \mathrm{kVA}
+5. None of the above

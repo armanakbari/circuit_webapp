@@ -1,0 +1,1 @@
+A short and open circuit is shown In the provided circuit image. Determine the equivalent circuit resistancewhen the terminals $a$ and $b$ are open circuited.

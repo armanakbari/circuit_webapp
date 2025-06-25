@@ -1,0 +1,14 @@
+\begin{aligned}
+That is
+
+$$
+\frac{V_{\text {out }}}{V_{\text {in }}}(s)=\frac{\left(C_{G D} s-g_m\right) R_D}{R_S R_D \xi s^2+\left[R_S\left(1+g_m R_D\right) C_{G D}+R_S C_{G S}+R_D\left(C_{G D}+C_{D B}\right)\right] s+1}
+$$
+
+where $\xi=C_{G S} C_{G D}+C_{G S} C_{D B}+C_{G D} C_{D B}$. 
+&\text { Using above equation and letting } R_D \text { approach infinity, we have }\\
+&\begin{aligned}
+\frac{V_{\text {out }}}{V_{\text {in }}}(s) & =\frac{C_{G D} s-g_m}{R_S \xi s^2+\left[g_m R_S C_{G D}+\left(C_{G D}+C_{D B}\right)\right] s} \\
+& =\frac{C_{G D} s-g_m}{s\left[R_S\left(C_{G S} C_{G D}+C_{G S} C_{D B}+C_{G D} C_{D B}\right) s+\left(g_m R_S+1\right) C_{G D}+C_{D B}\right]}
+\end{aligned}
+\end{aligned}

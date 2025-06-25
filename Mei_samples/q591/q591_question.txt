@@ -1,0 +1,1 @@
+Calculate V_L in phasor form in the provided circuit image

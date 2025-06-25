@@ -1,0 +1,1 @@
+A short and open circuit is shown In the provided circuit image. Determine the source current when the terminals $a$ and $b$ are short circuited.

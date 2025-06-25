@@ -1,0 +1,1 @@
+The initial voltages on capacitors $C_1$ and $C_2$ in the provided circuit image have been established by sources not shown. The switch is closed at $t=0$. Calculate the initial energy stored in the capacitors $C_2$.

@@ -1,0 +1,11 @@
+The total power at the sending end of the distribution line equals the total power delivered to the load plus the total power lost in the line; therefore
+
+$$
+\begin{aligned}
+P_{\text {input }} & =682.56+3(2.4)^2(0.3) \\
+& =687.74 \mathrm{~W}
+\end{aligned}
+$$
+
+
+The percentage of the average power reaching the load is $682.56 / 687.74$, or $99.25 \%$. Nearly $100 \%$ of the average power at the input is delivered to the load because the impedance of the line is quite small compared to the load impedance.

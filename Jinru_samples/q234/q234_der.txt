@@ -1,0 +1,5 @@
+The minimum value of $v_o$ occurs when $R_2$ is $10 \%$ low and $R_1$ is $10 \%$ high. Therefore
+
+$$
+v_o(\min )=\frac{(100)(90)}{90+27.5}=76.60 \mathrm{~V} .
+$$

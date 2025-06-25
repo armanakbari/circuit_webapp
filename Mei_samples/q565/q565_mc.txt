@@ -1,0 +1,5 @@
+1. -6.00 \mathrm{~mA}+8.54 \mathrm{mAe}^{-t /(65.39 \mu \mathrm{~s})}
+2. 2.54 \mathrm{~mA}+3.46 \mathrm{mAe}^{-t /(65.39 \mu \mathrm{~s})}
+3. 2.54 \mathrm{~mA}-8.54 \mathrm{mAe}^{-t /(83.33 \mu \mathrm{~s})}
+4. 2.54 \mathrm{~mA}-8.54 \mathrm{mAe}^{-t /(65.39 \mu \mathrm{~s})}
+5. None of the above

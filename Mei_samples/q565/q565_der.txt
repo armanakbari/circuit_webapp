@@ -1,0 +1,40 @@
+Using Ohm's law, the initial current through the coil is determined by
+
+$$
+I_i=-\frac{E}{R_3}=-\frac{6 \mathrm{~V}}{1 \mathrm{k} \Omega}=-6 \mathrm{~mA}
+$$
+
+b. Applying Thévenin's theorem:
+
+$$
+\begin{aligned}
+& R_{T h}=R_1+R_2=2.2 \mathrm{k} \Omega+8.2 \mathrm{k} \Omega=10.4 \mathrm{k} \Omega \\
+& E_{T h}=I R_1=(12 \mathrm{~mA})(2.2 \mathrm{k} \Omega)=26.4 \mathrm{~V}
+\end{aligned}
+$$
+
+
+The Thévenin equivalent network appears in Fig. 12.37.
+The steady-state current can then be determined by substituting the short-circuit equivalent for the inductor:
+
+$$
+I_f=\frac{E}{R_{T h}}=\frac{26.4 \mathrm{~V}}{10.4 \mathrm{k} \Omega}=2.54 \mathrm{~mA}
+$$
+
+
+The time constant:
+
+$$
+\tau=\frac{L}{R_{T h}}=\frac{680 \mathrm{mH}}{10.4 \mathrm{k} \Omega}=65.39 \mu \mathrm{~s}
+$$
+
+
+Applying Eq. (12.12):
+
+$$
+\begin{aligned}
+i_L & =I_f+\left(I_i-I_f\right) e^{-t / \tau} \\
+& =2.54 \mathrm{~mA}+(-6 \mathrm{~mA}-2.54 \mathrm{~mA}) e^{-t / 65.39 \mu \mathrm{~s}} \\
+& =2.54 \mathrm{~mA}-8.54 \mathrm{mAe}^{-t /(65.39 \mu \mathrm{~s})}
+\end{aligned}
+$$

@@ -1,0 +1,4 @@
+\begin{aligned}
+&\text { If } \mathrm{R}_1=\mathrm{R}_2=\mathrm{R}_3=\mathrm{R}_4=\mathrm{R},\\
+&\left|\frac{\mathrm{V}_0}{\mathrm{~V}_{\mathrm{S}}}\right|=\frac{\alpha}{2 \mathrm{R}} \cdot \frac{\mathrm{R}}{2}=\frac{\alpha}{4}=10 \longrightarrow \alpha=40
+\end{aligned}

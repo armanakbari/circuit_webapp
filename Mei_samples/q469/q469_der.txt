@@ -1,0 +1,27 @@
+Solution: Considering the effects of a 54-V source (Fig. 9.7):
+
+$$
+\begin{aligned}
+R_T & =R_1+R_2\left\|R_3=24 \Omega+12 \Omega\right\| 4 \Omega=24 \Omega+3 \Omega=27 \Omega \\
+I & =\frac{E_1}{R_T}=\frac{54 \mathrm{~V}}{27 \Omega}=2 \mathrm{~A}
+\end{aligned}
+$$
+Using the current divider rule,
+
+$$
+I_3^{\prime}=\frac{R_2 I}{R_2+R_3}=\frac{(12 \Omega)(2 \mathrm{~A})}{12 \Omega+4 \Omega}=\frac{24 \mathrm{~A}}{16}=1.5 \mathrm{~A}
+$$
+
+
+Considering the effects of the 48-V source (Fig. 9.8):
+
+$$
+\begin{aligned}
+& R_T=R_3+R_1\left\|R_2=4 \Omega+24 \Omega\right\| 12 \Omega=4 \Omega+8 \Omega=12 \Omega \\
+& I_3^{\prime \prime}=\frac{E_2}{R_T}=\frac{48 \mathrm{~V}}{12 \Omega}=4 \mathrm{~A}
+\end{aligned}
+$$
+\begin{aligned}
+&\text { The total current through the } 4-\Omega \text { resistor  is }\\
+&I_3=I_3^{\prime \prime}-I_3^{\prime}=4 \mathrm{~A}-1.5 \mathrm{~A}=2.5 \mathrm{~A} \quad\left(\text { direction of } I_3^{\prime \prime}\right)
+\end{aligned}

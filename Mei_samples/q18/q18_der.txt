@@ -1,0 +1,8 @@
+\begin{aligned}
+&\text { The voltage across } 2 \Omega \text { resistor is, }\\
+&\begin{aligned}
+& V_{2 \Omega}=\frac{R_1}{R_1+R_2+R_3} V_s=\frac{2}{16} \times 80=10 \mathrm{~V} \\
+& V_{6 \Omega}=\frac{R_2}{R_1+R_2+R_3} V_s=\frac{6}{16} \times 80=30 \mathrm{~V} \\
+& V_{8 \Omega}=\frac{R_3}{R_1+R_2+R_3} V_s=\frac{8}{16} \times 80=40 \mathrm{~V}
+\end{aligned}
+\end{aligned}

@@ -1,0 +1,19 @@
+Solution
+Setting $V_{i n}$ to zero and opening the loop at the gates of $M_7$ and $M_8$, we simplify the circuit as shown in Fig. 9.55. Note that $g_{m 7}$ and $g_{m 8}$ must be calculated in the triode region: $g_{m 7}=g_{m 8}=\mu_n C_{o x}(W / L)_{7,8} V_{D S 7,8}$, where $V_{D S 7,8}$ denotes the bias value of the drain-source voltage of $M_7$ and $M_8$. Since $M_7$ and $M_8$ operate in the deep triode region, $V_{D S 7,8}$ is typically less than 100 mV .
+
+In a well-designed circuit, the loop gain must be relatively high. We therefore surmise that the closed-loop gain is approximately equal to $1 / \beta$, where $\beta$ represents the feedback factor. We write from Chapter 8:
+
+$$
+\begin{aligned}
+\beta & =\left.\frac{V_2}{V_1}\right|_{I 2=0} \\
+& =-\left(g_{m 7}+g_{m 8}\right)\left(R_{o n 7} \| R_{o n 8}\right)
+\end{aligned}
+$$
+\begin{aligned}
+&\begin{aligned}
+& =-2 \mu_n C_{o x}\left(\frac{W}{L}\right)_{7,8} V_{D S 7,8} \cdot \frac{1}{2 \mu_n C_{o x}(W / L)_{7,8}\left(V_{G S 7,8}-V_{T H 7,8}\right)} \\
+& =-\frac{V_{D S 7,8}}{V_{G S 7,8}-V_{T H 7,8}}
+\end{aligned}\\
+&\text { where } V_{G S 7,8}-V_{T H 7,8} \text { denotes the overdrive voltage of } M_7 \text { and } M_8 \text {. Thus, }\\
+&\left|\frac{d V_{\text {out }, C M}}{d V_b}\right|_{\text {closed }} \approx \frac{V_{G S 7,8}-V_{T H 7,8}}{V_{D S 7,8}}
+\end{aligned}

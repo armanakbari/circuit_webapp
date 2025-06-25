@@ -1,0 +1,1 @@
+\frac{A_1 g_m}{1+A_1 g_m r_M} V_b

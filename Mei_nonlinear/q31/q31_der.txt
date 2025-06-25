@@ -1,0 +1,2 @@
+Solution
+The small-signal drain current of $M_1$ is equal to $g_{m 1} V_{i n}$. Since $I_{D 2}=I_{D 1}$ and $I_{D 3}=I_{D 2}(W / L)_3 /(W / L)_2$, the small-signal drain current of $M_3$ is equal to $g_{m 1} V_{i n}(W / L)_3 /(W / L)_2$, yielding a voltage gain of $g_{m 1} R_L(W / L)_3 /(W / L)_2$.

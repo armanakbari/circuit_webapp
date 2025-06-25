@@ -1,0 +1,1 @@
+There is no energy stored in the provided circuit image at the time the switch is closed. Find the solutions for $i_o$

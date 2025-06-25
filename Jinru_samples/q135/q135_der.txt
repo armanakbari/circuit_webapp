@@ -1,0 +1,5 @@
+The magnitude of the current that supplies this apparent power is
+
+$$
+\left|\mathbf{I}_{\mathrm{s}}\right|=\frac{20,000}{250}=80 \mathrm{~A} .
+$$

@@ -1,0 +1,7 @@
+We start by combining the 180 -ohm resistor with the 60 -ohm resistor which in turn is in parallel with the 60 -ohm resistor or $=[60(180+60) /(60+180+60)]=48$.
+
+Thus,
+
+$$
+\mathrm{R}_{\mathrm{eq}}=25+48=73 \Omega
+$$

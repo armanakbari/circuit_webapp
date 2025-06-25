@@ -1,0 +1,5 @@
+1. $5.44 e^{-t / 4.5 \mathrm{~ms}}$
+2. $12 e^{-t / 2 \mathrm{~ms}}$
+3. $2 + 3.44 e^{-t / 2 \mathrm{~ms}}$
+4. 5.44 e^{-t / 2 \mathrm{~ms}}
+5. None of the above

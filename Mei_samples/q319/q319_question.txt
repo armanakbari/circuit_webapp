@@ -1,0 +1,1 @@
+In the provided circuit image shows a high pass filter. Find the phase angle of the output voltage at 30 kHz .

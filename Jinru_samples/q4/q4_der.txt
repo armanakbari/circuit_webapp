@@ -1,0 +1,2 @@
+$\begin{aligned} & d i / d t=10\left(-5 t e^{-5 t}+e^{-5 t}\right)=10 e^{-5 t} \\ & (1-5 t) \mathrm{A} / \mathrm{s} ; 
+d i / d t=0 \text { when } t=\frac{1}{5} \mathrm{~s}\end{aligned}$

@@ -1,0 +1,1 @@
+The two switches in the provided circuit image have been closed for a long time. At $t=0$, switch 1 is opened. Then, 35 ms later, switch 2 is opened. Find $i_L(t)$ for $0 \leq t \leq 35 \mathrm{~ms}$.

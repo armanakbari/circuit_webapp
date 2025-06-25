@@ -1,0 +1,24 @@
+We need to find the Thevenin resistance $R_{\mathrm{Th}}$ and the Thevenin voltage $V_{\mathrm{Th}}$ across the terminals $a-b$. To get $R_{\mathrm{Th}}$, we use the circuit and obtain
+
+$$
+R_{\mathrm{Th}}=2+3+6 \| 12=5+\frac{6 \times 12}{18}=9 \Omega
+$$
+To get $V_{\mathrm{Th}}$, we consider the circuit. Applying mesh analysis gives
+
+$$
+-12+18 i_1-12 i_2=0, \quad i_2=-2 \mathrm{~A}
+$$
+
+
+Solving for $i_1$, we get $i_1=-2 / 3$. Applying KVL around the outer loop to get $V_{\mathrm{Th}}$ across terminals $a-b$, we obtain
+
+$$
+-12+6 i_1+3 i_2+2(0)+V_{\mathrm{Th}}=0 \quad \Rightarrow \quad V_{\mathrm{Th}}=22 \mathrm{~V}
+$$
+
+
+For maximum power transfer,
+
+$$
+R_L=R_{\mathrm{Th}}=9 \Omega
+$$

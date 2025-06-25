@@ -1,0 +1,1 @@
+For loop $2,-4+16+3 \mathrm{i}_{\mathrm{x}}=0, \quad \mathrm{i}_{\mathrm{x}}=\quad-4 \mathrm{~A}$

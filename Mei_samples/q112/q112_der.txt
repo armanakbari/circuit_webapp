@@ -1,0 +1,38 @@
+Applying KCL at the node $x$ yields,
+
+$$
+I_1=4+I_2
+$$
+
+
+The supermesh circuit is shown in Fig. 3.11. Applying KVL to the circuit in Fig. 3.11 yields,
+
+$$
+\begin{gathered}
+-12+3 I_1+10 I_2-16=0 \\
+3 I_1+10 I_2=28
+\end{gathered}
+$$
+Substituting Eq. (3.59) into Eq. (3.61) yields,
+
+$$
+\begin{gathered}
+3\left(4+I_2\right)+10 I_2=28 \\
+13 I_2=16 \\
+I_2=\frac{16}{13}=1.23 \mathrm{~A}
+\end{gathered}
+$$
+
+
+Substituting Eq. (3.63) into Eq. (3.59) yields,
+
+$$
+I_1=4+1.23=5.23 \mathrm{~A}
+$$
+
+
+The power absorbed by the $6 \Omega$ resistor is,
+
+$$
+P_{6 \Omega}=1.23^2 \times 6=9.08 \mathrm{~W}
+$$

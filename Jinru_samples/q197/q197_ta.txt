@@ -1,0 +1,1 @@
+\frac{1}{2 R C}+\sqrt{\left(\frac{1}{2 R C}\right)^2+\frac{1}{L C}}

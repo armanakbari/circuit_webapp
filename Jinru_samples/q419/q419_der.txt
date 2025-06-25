@@ -1,0 +1,24 @@
+Assume all currents are in mA and apply mesh analysis for mesh 1 .
+
+$$
+-56+12 \mathrm{i}_1-6 \mathrm{i}_2-4 \mathrm{i}_3=0 \text { or } 6 \mathrm{i}_1-3 \mathrm{i}_2-2 \mathrm{i}_3=28
+$$
+
+for mesh 2,
+
+$$
+-6 i_1+14 i_2-2 i_3=0 \text { or }-3 i_1+7 i_2-i_3 \quad=0
+$$
+
+for mesh 3,
+
+$$
+-4 \mathrm{i}_1-2 \mathrm{i}_2+10 \mathrm{i}_3=0 \text { or }-2 \mathrm{i}_1-\mathrm{i}_2+5 \mathrm{i}_3 \quad=0
+$$
+
+
+using MATLAB, we obtain,
+
+$$
+i_o=\mathrm{i}_1=8 \mathrm{~mA}
+$$

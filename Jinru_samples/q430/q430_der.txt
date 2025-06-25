@@ -1,0 +1,8 @@
+For the left loop, applying KVL gives
+
+$$
+\begin{gathered}
+-2.25-0.7+10^5 \mathrm{I}_{\mathrm{B}}+\mathrm{V}_{\mathrm{BE}}=0 \text { but } \mathrm{V}_{\mathrm{BE}}=0.7 \mathrm{~V} \text { means } 10^5 \mathrm{I}_{\mathrm{B}}=2.25 \text { or } \\
+\mathrm{I}_{\mathrm{B}}=\mathbf{2 2 . 5} \boldsymbol{\mu} \mathbf{A} .
+\end{gathered}
+$$

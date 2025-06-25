@@ -1,0 +1,1 @@
+Calculate the closed-loop gain of the amplifier at relatively low frequencies in the provided circuit image

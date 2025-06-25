@@ -1,0 +1,5 @@
+1. \gamma\left(g_{m 1}+g_{m 2}\right)\left(r_{O 1} \| r_{O 2}\right) \frac{k T}{C_L
+2. \gamma\left(g_{m 1}+g_{m 2}\right)\left(r_{O 1} \| r_{O 2}\right)^2 \frac{k T}{C_L}
+3. \frac{4}{3} g_m \frac{k T}{C_L}
+4. \gamma(g_{m1}+g_{m2})\frac{kT}{C_L}
+5. None of the above

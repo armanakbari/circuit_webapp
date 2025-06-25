@@ -1,0 +1,12 @@
+With a high loop gain, the output voltage of $A_1$ is approximately equal to $V_{\text {REF }}$, and hence $I_{\text {out }}=\left(V_{\text {REF }} / A_1\right) / r$. Using the circuit of Fig. 8.33(b) to determine the loop gain, we have
+
+$$
+\frac{V_F}{V_t} \approx-g_m r A_1
+$$
+
+
+Thus, the open-loop output impedance seen by $Z_L$ is multiplied by $1+g_m r A_1$, yielding
+
+$$
+R_{\text {out }, \text { closed }}=\left(1+g_m r A_1\right)\left(r_O+r\right)
+$$

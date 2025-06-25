@@ -1,0 +1,5 @@
+1. 2500 \Omega
+2. 4000 \Omega
+3. 8000 \Omega
+4. 16000 \Omega
+5. None of the above

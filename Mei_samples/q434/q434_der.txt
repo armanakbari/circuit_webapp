@@ -1,0 +1,6 @@
+$$
+\begin{gathered}
+E_1-V_1-E_3=0 \\
+V_1=E_1-E_3=20 \mathrm{~V}-8 \mathrm{~V}=\mathbf{1 2} \mathbf{V}
+\end{gathered}
+$$

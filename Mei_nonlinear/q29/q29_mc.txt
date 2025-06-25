@@ -1,0 +1,5 @@
+1. g_{m 1}\left(r_{O 1}\left\|R_1\right\| r_{O 3}\right)
+2. \frac{g_{m 1}}{2}\left(r_{O 1}\left\|R_1\right\| r_{O 3}\right)
+3. g_{m 1}\left(r_{O 1}\left\| r_{O 3}\right)\right)
+4. g_{m 1}\left(r_{O 1}\left\|R_1\right\| \frac{1}{g_{m 3}}\right)
+5. None of the above

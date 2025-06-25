@@ -1,0 +1,30 @@
+Representing the thermal noise of $M_1$ and $M_2$ by current sources [Fig. 7.42(b)] and noting that they are uncorrelated, we write
+
+$$
+\overline{V_{n, o u t}^2}=4 k T\left(\gamma g_{m 1}+\gamma g_{m 2}\right)\left(r_{O 1} \| r_{O 2}\right)^2
+$$
+(In reality, $\gamma$ may not be the same for NMOS and PMOS devices.) Since the voltage gain is equal to $g_{m 1}\left(r_{O 1} \| r_{O 2}\right)$, the total noise voltage referred to the gate of $M_1$ is
+
+$$
+\begin{aligned}
+\overline{V_{n, i n}^2} & =4 k T\left(\gamma g_{m 1}+\gamma g_{m 2}\right) \frac{1}{g_{m 1}^2} \\
+& =4 k T \gamma\left(\frac{1}{g_{m 1}}+\frac{g_{m 2}}{g_{m 1}^2}\right)
+\end{aligned}
+$$
+
+
+Equation (7.78) reveals the dependence of $\overline{V_{n, i n}^2}$ upon $g_{m 1}$ and $g_{m 2}$, confirming that $g_{m 2}$ must be minimized because $M_2$ serves as a current source rather than a transconductor. ${ }^{11}$
+
+The reader may wonder why $M_1$ and $M_2$ in Fig. 7.42 exhibit different noise effects. After all, if the noise currents of both transistors flow through $r_{O 1} \| r_{O 2}$, why should $g_{m 1}$ be maximized and $g_{m 2}$ minimized? This is simply because, as $g_{m 1}$ increases, the output noise voltage rises in proportion to $\sqrt{g_{m 1}}$ whereas the voltage gain of the stage increases in proportion to $g_{m 1}$. As a result, the input-referred noise voltage decreases. Such a trend does not apply to $M_2$.
+
+To compute the total output noise, we integrate (7.76) across the band:
+
+$$
+\overline{V_{n, \text { out }, \text { tot }}^2}=\int_0^{\infty} 4 k T \gamma\left(g_{m 1}+g_{m 2}\right)\left(r_{O 1} \| r_{O 2}\right)^2 \frac{d f}{1+\left(r_{O 1} \| r_{O 2}\right)^2 C_L^2(2 \pi f)^2}
+$$
+
+ we have
+
+$$
+\overline{V_{n, \text { out }, \text { tot }}^2}=\gamma\left(g_{m 1}+g_{m 2}\right)\left(r_{O 1} \| r_{O 2}\right) \frac{k T}{C_L}
+$$

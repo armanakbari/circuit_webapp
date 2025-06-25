@@ -1,0 +1,3 @@
+$$
+R_N=R_1\left\|R_2=3 \Omega\right\| 6 \Omega=\frac{(3 \Omega)(6 \Omega)}{3 \Omega+6 \Omega}=\frac{18 \Omega}{9}=\mathbf{2} \Omega
+$$

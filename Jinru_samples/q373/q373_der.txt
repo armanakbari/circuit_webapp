@@ -1,0 +1,1 @@
+$\begin{aligned} & 40=24 \| 60 \Omega \\ & \mathrm{i}=\frac{4}{16+24}=\mathbf{1 0 0 ~ m A}\end{aligned}$

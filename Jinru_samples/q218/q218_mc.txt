@@ -1,0 +1,5 @@
+1. 12 \mathrm{~V}
+2. 16 \mathrm{~V}
+3. 8 \mathrm{~V}
+4. 24 \mathrm{~V}
+5. None of the above

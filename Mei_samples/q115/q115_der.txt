@@ -1,0 +1,40 @@
+\text { Applying KCL at nodes } 1,2 \text { and } 3 \text { yields, }
+$$
+\begin{gathered}
+V_1=16 \mathrm{~V} \\
+\frac{V_1-V_2}{2}=\frac{V_2}{4}+\frac{V_2-V_3}{6} \\
+6 V_1-6 V_2=3 V_2+2 V_2-2 V_3 \\
+11 V_2-2 V_3=96 \\
+\frac{V_2-V_3}{6}=\frac{V_3}{5}+2 \\
+5 V_2-5 V_3=6 V_3+60 \\
+5 V_2-11 V_3=60
+\end{gathered}
+$$
+
+
+From Eqs. (3.84) and (3.87), the node voltage, $V_3$ can be determined as,
+
+$$
+V_3=\frac{-180}{111}=-1.62 \mathrm{~V}
+$$
+
+
+The value of the node voltage, $V_2$ can be determined as,
+
+$$
+V_2=\frac{60+11 \times(1.62)}{5}=8.44 \mathrm{~V}
+$$
+
+
+The current through the $6 \Omega$ resistor is calculated as,
+
+$$
+I_{6 \Omega}=\frac{8.44-(-1.62)}{6}=1.68 \mathrm{~A}
+$$
+
+
+The power absorbed by the $6 \Omega$ resistor is calculated as,
+
+$$
+P_{6 \Omega}=1.68^2 \times 6=16.93 \mathrm{~W}
+$$

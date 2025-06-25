@@ -1,0 +1,1 @@
+Find the current $I$ in the circuit

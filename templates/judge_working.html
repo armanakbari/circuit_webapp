@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Judge Evaluation Results</title>
+    
+    <!-- MathJax Configuration -->
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']],
+                processEscapes: true,
+                processEnvironments: true
+            },
+            options: {
+                skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+            },
+            startup: {
+                pageReady() {
+                    return MathJax.startup.defaultPageReady().then(function () {
+                        console.log('MathJax loaded successfully');
+                    });
+                }
+            }
+        };
+    </script>
+    <script async src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .question-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+            position: relative;
+        }
+        .comparison-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+            overflow: hidden;
+        }
+        .comparison-header {
+            padding: 1rem 1.5rem;
+            font-weight: 600;
+            border-bottom: 2px solid #f1f3f4;
+        }
+        .solver-header {
+            background-color: #e3f2fd;
+            color: #1976d2;
+        }
+        .judge-header {
+            background-color: #f3e5f5;
+            color: #7b1fa2;
+        }
+        .ground-truth-header {
+            background-color: #e8f5e8;
+            color: #388e3c;
+        }
+        .question-header-bg {
+            background-color: #fff3cd;
+            color: #856404;
+        }
+        .comparison-content {
+            padding: 1.5rem;
+        }
+        .correct-answer {
+            background-color: #d4edda;
+            border-left: 4px solid #28a745;
+            padding: 1rem;
+            border-radius: 0 5px 5px 0;
+        }
+        .incorrect-answer {
+            background-color: #f8d7da;
+            border-left: 4px solid #dc3545;
+            padding: 1rem;
+            border-radius: 0 5px 5px 0;
+        }
+        .navigation {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+        .btn {
+            display: inline-block;
+            padding: 0.375rem 0.75rem;
+            margin: 0.25rem;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #212529;
+            text-align: center;
+            text-decoration: none;
+            vertical-align: middle;
+            cursor: pointer;
+            border: 1px solid transparent;
+            border-radius: 0.375rem;
+            transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+        }
+        .btn-outline-secondary {
+            color: #6c757d;
+            border-color: #6c757d;
+        }
+        .btn-outline-secondary:hover {
+            color: #fff;
+            background-color: #6c757d;
+        }
+        .btn-outline-primary {
+            color: #0d6efd;
+            border-color: #0d6efd;
+        }
+        .btn-outline-primary:hover {
+            color: #fff;
+            background-color: #0d6efd;
+        }
+        .badge {
+            display: inline-block;
+            padding: 0.35em 0.65em;
+            font-size: 0.75em;
+            font-weight: 700;
+            line-height: 1;
+            color: #fff;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: baseline;
+            border-radius: 0.375rem;
+            margin-right: 0.5rem;
+        }
+        .bg-success { background-color: #198754; }
+        .bg-danger { background-color: #dc3545; }
+        .bg-light { background-color: #f8f9fa; color: #212529; }
+        .text-primary { color: #0d6efd; }
+        .text-success { color: #198754; }
+        .text-light { color: #f8f9fa; }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin-right: -0.75rem;
+            margin-left: -0.75rem;
+        }
+        .col-lg-4 {
+            flex: 0 0 auto;
+            width: 33.33333333%;
+            padding-right: 0.75rem;
+            padding-left: 0.75rem;
+        }
+        @media (max-width: 992px) {
+            .col-lg-4 {
+                width: 100%;
+                margin-bottom: 1rem;
+            }
+        }
+        .mb-2 { margin-bottom: 0.5rem; }
+        .mb-3 { margin-bottom: 1rem; }
+        .me-3 { margin-right: 1rem; }
+        .mt-4 { margin-top: 1.5rem; }
+        h2, h6 { margin: 0 0 0.5rem 0; }
+        .d-flex { display: flex; }
+        .align-items-center { align-items: center; }
+    </style>
+</head>
+<body>
+    <div class="navigation">
+        <div>
+            <a href="{{ url_for('index') }}" class="btn btn-outline-secondary">Home</a>
+            {% if idx > 0 %}
+                {% if view_type == 'correct' %}
+                    <a href="{{ url_for('view_judge_correct', idx=idx-1) }}" class="btn btn-outline-primary">Previous</a>
+                {% elif view_type == 'incorrect' %}
+                    <a href="{{ url_for('view_judge_incorrect', idx=idx-1) }}" class="btn btn-outline-primary">Previous</a>
+                {% else %}
+                    <a href="{{ url_for('view_judge', idx=idx-1) }}" class="btn btn-outline-primary">Previous</a>
+                {% endif %}
+            {% endif %}
+            {% if idx < total - 1 %}
+                {% if view_type == 'correct' %}
+                    <a href="{{ url_for('view_judge_correct', idx=idx+1) }}" class="btn btn-outline-primary">Next</a>
+                {% elif view_type == 'incorrect' %}
+                    <a href="{{ url_for('view_judge_incorrect', idx=idx+1) }}" class="btn btn-outline-primary">Next</a>
+                {% else %}
+                    <a href="{{ url_for('view_judge', idx=idx+1) }}" class="btn btn-outline-primary">Next</a>
+                {% endif %}
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <!-- Question Header -->
+        <div class="question-header">
+            <h2 class="mb-2">
+                Question {{ qid }} ({{ idx + 1 }} / {{ total }})
+                {% if view_type == 'correct' %}
+                    <small class="text-light">- Correct Only</small>
+                {% elif view_type == 'incorrect' %}
+                    <small class="text-light">- Incorrect Only</small>
+                {% endif %}
+            </h2>
+            <div class="d-flex align-items-center">
+                <span class="badge {% if row.judge_is_correct|lower == 'true' %}bg-success{% else %}bg-danger{% endif %} me-3">
+                    Judge: {{ row.judge_judgment|upper }}
+                </span>
+                <span class="badge bg-light">
+                    Source: {{ row.source_file.replace('.csv', '') }}
+                </span>
+                {% if source_info %}
+                <div class="mt-2">
+                    <small class="text-light">
+                        📚 {{ source_info.book }}
+                        {% if source_info.page %} | 📄 {{ source_info.page }}{% endif %}
+                        {% if source_info.problem %} | 🎯 {{ source_info.problem }}{% endif %}
+                    </small>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+
+                 <!-- Question Text -->
+         <div class="comparison-card">
+             <div class="comparison-header question-header-bg">
+                 Question
+             </div>
+             <div class="comparison-content">
+                 {{ row.question_text|safe }}
+                 
+                 <!-- Circuit Image -->
+                 {% if image_exists %}
+                 <div style="margin-top: 1rem; text-align: center;">
+                     <img src="{{ url_for('serve_question_image', folder='Mei_samples', qid=qid) }}" 
+                          alt="Circuit diagram for question {{ qid }}" 
+                          style="max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                 </div>
+                 {% endif %}
+             </div>
+         </div>
+
+        <div class="row">
+            <!-- Solver Response -->
+            <div class="col-lg-4">
+                <div class="comparison-card">
+                    <div class="comparison-header solver-header">
+                        Solver Response
+                    </div>
+                    <div class="comparison-content">
+                        <h6 class="text-primary">Final Answer:</h6>
+                        <div class="{% if row.judge_is_correct|lower == 'true' %}correct-answer{% else %}incorrect-answer{% endif %} mb-3">
+                            {{ row.solver_final_answer|safe }}
+                        </div>
+                        
+                        {% if row.solver_explanation %}
+                        <h6 class="text-primary">Explanation:</h6>
+                        <div class="mb-3">
+                            {{ row.solver_explanation|safe }}
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+
+            <!-- Judge Evaluation -->
+            <div class="col-lg-4">
+                <div class="comparison-card">
+                    <div class="comparison-header judge-header">
+                        Judge Evaluation
+                    </div>
+                    <div class="comparison-content">
+                        <h6 class="text-primary">Judgment:</h6>
+                        <div class="mb-3">
+                            <span class="badge {% if row.judge_judgment|upper == 'YES' %}bg-success{% else %}bg-danger{% endif %}">
+                                {{ row.judge_judgment|upper }}
+                            </span>
+                        </div>
+                        
+                        {% if row.judge_reasoning %}
+                        <h6 class="text-primary">Reasoning:</h6>
+                        <div class="mb-3">
+                            {{ row.judge_reasoning|safe }}
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ground Truth -->
+            <div class="col-lg-4">
+                <div class="comparison-card">
+                    <div class="comparison-header ground-truth-header">
+                        Ground Truth
+                    </div>
+                    <div class="comparison-content">
+                        {% if row.ground_truth_answer %}
+                        <h6 class="text-success">Correct Answer:</h6>
+                        <div class="correct-answer mb-3">
+                            {{ row.ground_truth_answer|safe }}
+                        </div>
+                        {% endif %}
+                        
+                        {% if row.ground_truth_explanation %}
+                        <h6 class="text-success">Explanation:</h6>
+                        <div>
+                            {{ row.ground_truth_explanation|safe }}
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Force MathJax to process the page content -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Wait for MathJax to be available
+            function waitForMathJax() {
+                if (typeof MathJax !== 'undefined' && MathJax.typesetPromise) {
+                    console.log('Processing math with MathJax...');
+                    MathJax.typesetPromise().then(function() {
+                        console.log('MathJax processing complete');
+                    }).catch(function(err) {
+                        console.error('MathJax error:', err);
+                    });
+                } else {
+                    setTimeout(waitForMathJax, 100);
+                }
+            }
+            waitForMathJax();
+        });
+    </script>
+</body>
+</html> 

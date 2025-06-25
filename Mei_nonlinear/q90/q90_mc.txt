@@ -1,0 +1,5 @@
+1. \frac{-g_m\left(R_F \| R_D\right)}{1+g_m\left(R_F \| R_D\right) R_S /\left(R_S+R_F\right)}
+2. \frac{1}{R_S} \cdot \frac{-\left(R_S \| R_F\right) g_m\left(R_F \| R_D\right)}{1+g_m\left(R_F \| R_D\right) R_S /\left(R_S+R_F\right)}
+3. \frac{1}{R_S} \cdot \frac{-\left(R_S \| R_F\right) g_m\left(R_F \| R_D\right)}{1-g_m\left(R_F \| R_D\right) R_S /\left(R_S+R_F\right)}
+4. \frac{1}{R_S} \cdot \frac{-\left(R_S \| R_F\right) g_m\left(R_S \| R_D\right)}{1+g_m\left(R_S \| R_D\right) R_F /\left(R_S+R_F\right)}
+5. None of the above

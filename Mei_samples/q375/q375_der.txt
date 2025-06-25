@@ -1,0 +1,1 @@
+R_T=\frac{R}{N}=\frac{2 \Omega}{4}=0.5 \Omega

@@ -1,0 +1,1 @@
+For the circuit in the provided circuit image, find the branch currents $I_3 using mesh analysis.

@@ -1,0 +1,5 @@
+1. \left(0.467 \times \mathbf{1 0}^{-\mathbf{3}}\right) e^{-t / 6 \mathrm{~ms}}
+2. \left(0.233 \times \mathbf{1 0}^{-\mathbf{3}}\right) e^{-t / 6 \mathrm{~ms}}
+3. \left(-0.233 \times \mathbf{1 0}^{-\mathbf{3}}\right) e^{-t / 6 \mathrm{~ms}}
+4. \left(0.233 \times \mathbf{1 0}^{-\mathbf{3}}\right) e^{-t / 4 \mathrm{~ms}}
+5. None of the above

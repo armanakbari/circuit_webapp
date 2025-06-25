@@ -1,0 +1,12 @@
+For the input loop, KVL gives
+
+$$
+-4+I_B\left(20 \times 10^3\right)+V_{B E}-0
+$$
+
+
+Since $V_{B E}=0.7 \mathrm{~V}$ in the active mode,
+
+$$
+I_B=\frac{4-0.7}{20 \times 10^3}=165 \mu \mathrm{~A}
+$$

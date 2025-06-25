@@ -1,0 +1,6 @@
+$$
+\begin{aligned}
+\text { Ideal (no load): } & V_1=\frac{4 \mathrm{k} \Omega(120 \mathrm{~V})}{10 \mathrm{k} \Omega}=48 \mathrm{~V} \\
+\text { Loaded: } & V_2=\frac{6 \mathrm{k} \Omega(120 \mathrm{~V})}{10 \mathrm{k} \Omega}=72 \mathrm{~V} \\
+R^{\prime \prime} & =4 \mathrm{k} \Omega \| 12 \mathrm{k} \Omega=3 \mathrm{k} \Omega \\
+V_1 & =\frac{3 \mathrm{k} \Omega(120 \mathrm{~V})}{8 \mathrm{k} \Omega}=45 \mathrm{~V} \\

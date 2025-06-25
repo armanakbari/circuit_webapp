@@ -1,0 +1,5 @@
+1. R_t=18.06 \Omega
+2. R_t=11.44 \Omega
+3. R_t=17.98 \Omega
+4. R_t=16.25 \Omega
+5. None of the above

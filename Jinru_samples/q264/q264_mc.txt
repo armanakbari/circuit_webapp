@@ -1,0 +1,5 @@
+1. -3.8 \mathrm{~V} \leq v_{\mathrm{b}} \leq 0.2 \mathrm{~V}
+2. -0.5 \mathrm{~V} \leq v_{\mathrm{b}} \leq 3.5 \mathrm{~V}
+3. -0.2 \mathrm{~V} \leq v_{\mathrm{b}} \leq 3.8 \mathrm{~V}
+4. -0.8 \mathrm{~V} \leq v_{\mathrm{b}} \leq 3.2 \mathrm{~V}
+5. None of the above

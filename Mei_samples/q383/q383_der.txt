@@ -1,0 +1,13 @@
+$$
+\begin{aligned}
+& \frac{1}{R_T}=\frac{1}{R_1}+\frac{1}{R_2}+\frac{1}{R_3} \\
+& \frac{1}{4 \Omega}=\frac{1}{10 \Omega}+\frac{1}{20 \Omega}+\frac{1}{R_3}
+\end{aligned}
+$$
+
+$$
+\begin{aligned}
+0.25 \mathrm{~S} & =0.1 \mathrm{~S}+0.05 \mathrm{~S}+\frac{1}{R_3} \\
+0.25 \mathrm{~S} & =0.15 \mathrm{~S}+\frac{1}{R_3} \\
+\frac{1}{R_3} & =0.1 \mathrm{~S} \\
+R_3 & =\frac{1}{0.1 \mathrm{~S}}=\mathbf{1 0} \boldsymbol{\Omega}

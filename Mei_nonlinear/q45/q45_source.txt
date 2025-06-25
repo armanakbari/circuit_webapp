@@ -1,0 +1,3 @@
+Design of analog CMOS integrated circuits
+P194
+Example6.15

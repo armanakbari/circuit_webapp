@@ -1,0 +1,1 @@
+$\begin{aligned} & -40-50+20+v_1=0 \text { or } v_1=40+50-20=\mathbf{7 0 ~ V} \\ & -20+30-v_2=0 \text { or } v_2=30-20=\mathbf{1 0 ~ V} \\ & -v_1+v_2+v_3=0 \text { or } v_3=70-10=\mathbf{6 0 ~ V}\end{aligned}$

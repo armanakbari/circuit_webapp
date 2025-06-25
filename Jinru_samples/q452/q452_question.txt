@@ -1,0 +1,1 @@
+If $v_1=1 \mathrm{~V}$ and $v_2=2 \mathrm{~V}$, find $v_o$ in the op amp circuit

@@ -1,0 +1,5 @@
+1. 1000+j 4400 \Omega
+2. 800+j 800 \Omega
+3. 3200+j 3200 \Omega
+4. 800-j 800 \Omega
+5. None of the above

@@ -1,0 +1,1 @@
+Determine $\mathbf{I}_s$ in the provided circuit image.

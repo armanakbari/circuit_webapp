@@ -1,0 +1,62 @@
+Solution: Applying Kirchhoff's current law, we obtain
+
+$$
+i_T=i_1+i_2 \quad \text { or } \quad i_2=i_T-i_1
+$$
+
+
+Converting from the time to the phasor domain yields
+
+$$
+\begin{aligned}
+& i_T=120 \times 10^{-3} \sin \left(\omega t+60^{\circ}\right) \Rightarrow 84.84 \mathrm{~mA} \angle 60^{\circ} \\
+& i_1=80 \times 10^{-3} \sin \omega t \Rightarrow 56.56 \mathrm{~mA} \angle 0^{\circ}
+\end{aligned}
+$$
+Converting from polar to rectangular form for subtraction yields
+
+$$
+\begin{aligned}
+& \mathbf{I}_T=84.84 \mathrm{~mA} \angle 60^{\circ}=42.42 \mathrm{~mA}+j 73.47 \mathrm{~mA} \\
+& \mathbf{I}_1=56.56 \mathrm{~mA} \angle 0^{\circ}=56.56 \mathrm{~mA}+j 0
+\end{aligned}
+$$
+
+
+Then
+
+$$
+\begin{aligned}
+\mathbf{I}_2 & =\mathbf{I}_T-\mathbf{I}_1 \\
+& =(42.42 \mathrm{~mA}+j 73.47 \mathrm{~mA})-(56.56 \mathrm{~mA}+j 0)
+\end{aligned}
+$$
+
+and
+
+$$
+\mathbf{I}_2=-14.14 \mathrm{~mA}+j 73.47 \mathrm{~mA}
+$$
+
+
+Converting from rectangular to polar form, we have
+
+$$
+\mathbf{I}_2=74.82 \mathrm{~mA} \angle 100.89^{\circ}
+$$
+
+
+Converting from the phasor to the time domain, we have
+
+$$
+\begin{aligned}
+\mathbf{I}_2 & =74.82 \mathrm{~mA} \angle 100.89^{\circ} \Rightarrow \\
+i_2 & =\sqrt{2}\left(74.82 \times 10^{-3}\right) \sin \left(\omega t+100.89^{\circ}\right)
+\end{aligned}
+$$
+
+and
+
+$$
+i_2=105.8 \times 10^{-3} \sin \left(\omega t+100.89^{\circ}\right)
+$$

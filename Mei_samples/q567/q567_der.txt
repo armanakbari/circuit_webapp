@@ -1,0 +1,4 @@
+\begin{aligned}
+I_L & =\frac{E}{R_1+R_2}=\frac{10 \mathrm{~V}}{5 \Omega}=\mathbf{2} \mathbf{A} \\
+
+\end{aligned}

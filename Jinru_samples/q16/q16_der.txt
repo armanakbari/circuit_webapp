@@ -1,0 +1,9 @@
+The key to finding currents $i_1, i_2$, and $i_3$ lies in knowing the voltage $v(t)$. We can easily find $v(t)$ if we reduce the circuit. The parallel inductors simplify to an equivalent inductance of 4 H , carrying an initial current of 12 A . The resistive network reduces to a single resistance of $8 \Omega$. Hence the initial value of $i(t)$ is 12 A and the time constant is $4 / 8$, or 0.5 s . Therefore:
+\begin{aligned}
+&i(t)=12 e^{-2 t} \mathrm{~A}, \quad t \geq 0\\
+&\text { Now } v(t) \text { is simply the product } 8 i \text {, so }\\
+&v(t)=96 e^{-2 t} \mathrm{~V}, \quad t \geq 0^{+}
+\end{aligned}
+
+The circuit shows that $v(t)=0$ at $t=0^{-}$, so the expression for $v(t)$ is valid for $t \geq 0^{+}$. After obtaining $v(t)$, we can calculate $i_3$ :
+i_3=\frac{v(t)}{10} \frac{15}{25}=5.76 e^{-2 t} \mathrm{~A}, \quad t \geq 0^{+}
