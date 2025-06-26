@@ -1,5 +1,0 @@
-1. 1 A
-2. -31 A
-3. -11 A
-4. 31 A
-5. None of the above

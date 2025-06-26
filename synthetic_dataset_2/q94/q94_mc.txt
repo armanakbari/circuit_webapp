@@ -1,5 +1,0 @@
-1. 2 A
-2. 4 A
-3. 0 A
-4. 6 A
-5. None of the above

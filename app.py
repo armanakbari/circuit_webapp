@@ -231,12 +231,13 @@ def create_sample_files(q_num, form_data, image_file):
             f.write(form_data['correct_choice'].strip())
 
 def get_question_assets(qid: str, results_folder: str):
-    """Return dict with paths for image, mc_choices, derivation, and source for a question id (e.g., 'q248') in the specified folder."""
+    """Return dict with paths for image, mc_choices, derivation, netlist, and source for a question id (e.g., 'q248') in the specified folder."""
     q_folder = os.path.join(results_folder, qid)
     image_path = None
     choices = []
     derivation = None
     source_info = None
+    netlist = None
     
     # Look for image in the results folder
     for ext in ('png', 'jpg', 'jpeg'):
@@ -296,6 +297,19 @@ def get_question_assets(qid: str, results_folder: str):
             with open(der_path, 'r', encoding='utf-8') as f:
                 derivation = f.read().strip()
     
+    # Look for netlist file (specifically for synthetic_dataset_2)
+    if results_folder == 'synthetic_dataset_2':
+        netlist_path = os.path.join(q_folder, f"{qid}_netlist.txt")
+        if os.path.exists(netlist_path):
+            with open(netlist_path, 'r', encoding='utf-8') as f:
+                netlist = f.read().strip()
+        else:
+            # Also try without the qid prefix (just netlist.txt)
+            netlist_path = os.path.join(q_folder, "netlist.txt")
+            if os.path.exists(netlist_path):
+                with open(netlist_path, 'r', encoding='utf-8') as f:
+                    netlist = f.read().strip()
+    
     # Look for source information
     source_path = os.path.join(q_folder, f"{qid}_source.txt")
     if os.path.exists(source_path):
@@ -323,7 +337,7 @@ def get_question_assets(qid: str, results_folder: str):
                     'raw': source_content
                 }
     
-    return {"image_path": image_path, "choices": choices, "derivation": derivation, "source_info": source_info}
+    return {"image_path": image_path, "choices": choices, "derivation": derivation, "netlist": netlist, "source_info": source_info}
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
@@ -705,6 +719,7 @@ def view_synthetic2(idx: int = 0):
         image_exists=bool(assets.get('image_path')),
         choices=assets.get('choices', []),
         ground_truth=ground_truth,
+        netlist=assets.get('netlist'),
         nav_route='view_synthetic2',
         nav_type='failed',
         dataset_name='Synthetic Dataset 2'
@@ -739,6 +754,7 @@ def view_synthetic2_success(idx: int = 0):
         image_exists=bool(assets.get('image_path')),
         choices=assets.get('choices', []),
         ground_truth=ground_truth,
+        netlist=assets.get('netlist'),
         nav_route='view_synthetic2_success',
         nav_type='success',
         dataset_name='Synthetic Dataset 2'

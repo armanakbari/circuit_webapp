@@ -1,5 +1,0 @@
-1. 32 A
-2. 48 A
-3. 96 A
-4. 64 A
-5. None of the above

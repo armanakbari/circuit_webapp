@@ -103,6 +103,16 @@
             </div>
         </div>
         
+        {% if netlist %}
+        <hr>
+        <h5 class="text-info">
+            <i class="bi bi-diagram-3"></i> Circuit Netlist
+        </h5>
+        <div class="explanation-section" style="border-left: 4px solid #0dcaf0;">
+            <pre style="font-family: 'Courier New', monospace; font-size: 0.9em; margin: 0;">{{ netlist }}</pre>
+        </div>
+        {% endif %}
+        
         {% if row.error and row.error.strip() %}
         <hr>
         <h6 class="text-warning">Error Information</h6>
