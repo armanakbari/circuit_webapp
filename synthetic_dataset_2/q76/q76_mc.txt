@@ -1,0 +1,5 @@
+1. 5 A
+2. 10 A
+3. -10 A
+4. -5 A
+5. None of the above

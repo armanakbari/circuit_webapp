@@ -189,6 +189,59 @@
                 </div>
                 {% endif %}
                 
+                <!-- Synthetic Dataset 2 Section -->
+                {% set synthetic2_failed = failed_stats.by_source.get('results_gemini25_synthetic_dataset_2.csv', 0) %}
+                {% set synthetic2_success = success_stats.by_source.get('results_gemini25_synthetic_dataset_2.csv', 0) %}
+                {% if synthetic2_failed > 0 or synthetic2_success > 0 %}
+                <div class="stats-container">
+                    <h3 class="mb-3"><i class="fas fa-microchip me-2"></i>Synthetic Dataset 2 Analysis</h3>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="stat-card">
+                                <div class="stat-number">{{ synthetic2_failed + synthetic2_success }}</div>
+                                <div class="stat-label">Total Cases</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="stat-card failure">
+                                <div class="stat-number">{{ synthetic2_failed }}</div>
+                                <div class="stat-label">Failed Cases</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="stat-card success">
+                                <div class="stat-number">{{ synthetic2_success }}</div>
+                                <div class="stat-label">Successful Cases</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="stat-card">
+                                <div class="stat-number">
+                                    {% if synthetic2_failed + synthetic2_success > 0 %}
+                                        {{ "%.1f"|format((synthetic2_success / (synthetic2_failed + synthetic2_success)) * 100) }}%
+                                    {% else %}
+                                        0%
+                                    {% endif %}
+                                </div>
+                                <div class="stat-label">Success Rate</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-3">
+                        {% if synthetic2_failed > 0 %}
+                            <a href="{{ url_for('view_synthetic2') }}" class="btn btn-outline-danger me-2">
+                                <i class="fas fa-times-circle me-1"></i>View Failed Cases
+                            </a>
+                        {% endif %}
+                        {% if synthetic2_success > 0 %}
+                            <a href="{{ url_for('view_synthetic2_success') }}" class="btn btn-outline-success">
+                                <i class="fas fa-check-circle me-1"></i>View Successful Cases
+                            </a>
+                        {% endif %}
+                    </div>
+                </div>
+                {% endif %}
+
                 <!-- Judge Evaluations Section -->
                 {% if judge_stats and judge_stats.total_judge > 0 %}
                 <div class="stats-container">

@@ -17,7 +17,8 @@ CSV_FILE_MAPPING = {
     'results_gemini25_Mei_nonlinear.csv': 'Mei_nonlinear',
     'results_gemini25_Mei_samples.csv': 'Mei_samples',
     'results_gemini25_Jinru_samples.csv': 'Jinru_samples',
-    'results_gemini25_synthetic_dataset.csv': 'synthetic_dataset'
+    'results_gemini25_synthetic_dataset.csv': 'synthetic_dataset',
+    'results_gemini25_synthetic_dataset_2.csv': 'synthetic_dataset_2'
 }
 
 # New CSV file for judge-based evaluations
@@ -659,8 +660,8 @@ def view_synthetic_success(idx: int = 0):
     assets = get_question_assets(qid, row.get('results_folder', ''))
     
     # Use derivation from file if available, otherwise fallback to CSV ground truth
-    ground_truth = assets.get('derivation') or row.get('ground_truth_explanation', '')
-
+    ground_truth = assets.get('derivation') or row.get('correct_answer', '')
+    
     return render_template(
         'success.html',
         row=row,
@@ -670,10 +671,77 @@ def view_synthetic_success(idx: int = 0):
         image_exists=bool(assets.get('image_path')),
         choices=assets.get('choices', []),
         ground_truth=ground_truth,
-        source_info=assets.get('source_info'),
-        dataset_name='Synthetic Dataset',
         nav_route='view_synthetic_success',
-        nav_type='success'
+        nav_type='success',
+        dataset_name='Synthetic Dataset'
+    )
+
+@app.route('/synthetic2/')
+@app.route('/synthetic2/<int:idx>')
+def view_synthetic2(idx: int = 0):
+    # Filter synthetic dataset 2 results
+    synthetic_results = [row for row in results_data if row.get('results_folder') == 'synthetic_dataset_2']
+    
+    if not synthetic_results:
+        flash('No synthetic dataset 2 results found.', 'info')
+        return redirect(url_for('index'))
+
+    total = len(synthetic_results)
+    idx = max(0, min(idx, total - 1))  # clamp
+    row = synthetic_results[idx]
+
+    qid = row.get('question_number', '').strip()
+    assets = get_question_assets(qid, row.get('results_folder', ''))
+    
+    # Use derivation from file if available, otherwise fallback to CSV ground truth
+    ground_truth = assets.get('derivation') or row.get('correct_answer', '')
+    
+    return render_template(
+        'result.html',
+        row=row,
+        idx=idx,
+        total=total,
+        qid=qid,
+        image_exists=bool(assets.get('image_path')),
+        choices=assets.get('choices', []),
+        ground_truth=ground_truth,
+        nav_route='view_synthetic2',
+        nav_type='failed',
+        dataset_name='Synthetic Dataset 2'
+    )
+
+@app.route('/synthetic2-success/')
+@app.route('/synthetic2-success/<int:idx>')
+def view_synthetic2_success(idx: int = 0):
+    # Filter synthetic dataset 2 successful results
+    synthetic_success = [row for row in success_data if row.get('results_folder') == 'synthetic_dataset_2']
+    
+    if not synthetic_success:
+        flash('No successful synthetic dataset 2 results found.', 'info')
+        return redirect(url_for('index'))
+
+    total = len(synthetic_success)
+    idx = max(0, min(idx, total - 1))  # clamp
+    row = synthetic_success[idx]
+
+    qid = row.get('question_number', '').strip()
+    assets = get_question_assets(qid, row.get('results_folder', ''))
+    
+    # Use derivation from file if available, otherwise fallback to CSV ground truth
+    ground_truth = assets.get('derivation') or row.get('correct_answer', '')
+    
+    return render_template(
+        'success.html',
+        row=row,
+        idx=idx,
+        total=total,
+        qid=qid,
+        image_exists=bool(assets.get('image_path')),
+        choices=assets.get('choices', []),
+        ground_truth=ground_truth,
+        nav_route='view_synthetic2_success',
+        nav_type='success',
+        dataset_name='Synthetic Dataset 2'
     )
 
 if __name__ == '__main__':
