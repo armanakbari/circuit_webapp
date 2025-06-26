@@ -300,15 +300,24 @@ def get_question_assets(qid: str, results_folder: str):
     # Look for netlist file (specifically for synthetic_dataset_2)
     if results_folder == 'synthetic_dataset_2':
         netlist_path = os.path.join(q_folder, f"{qid}_netlist.txt")
+        print(f"DEBUG: Looking for netlist at: {netlist_path}")
         if os.path.exists(netlist_path):
+            print(f"DEBUG: Found netlist file!")
             with open(netlist_path, 'r', encoding='utf-8') as f:
                 netlist = f.read().strip()
+                print(f"DEBUG: Netlist content length: {len(netlist)}")
         else:
             # Also try without the qid prefix (just netlist.txt)
             netlist_path = os.path.join(q_folder, "netlist.txt")
+            print(f"DEBUG: Trying alternative netlist path: {netlist_path}")
             if os.path.exists(netlist_path):
+                print(f"DEBUG: Found alternative netlist file!")
                 with open(netlist_path, 'r', encoding='utf-8') as f:
                     netlist = f.read().strip()
+            else:
+                print(f"DEBUG: No netlist file found")
+    else:
+        print(f"DEBUG: Not synthetic_dataset_2, results_folder is: {results_folder}")
     
     # Look for source information
     source_path = os.path.join(q_folder, f"{qid}_source.txt")
