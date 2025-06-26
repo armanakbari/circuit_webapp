@@ -75,14 +75,22 @@
                 </ol>
                 {% endif %}
                 
-                <div class="row">
-                    <div class="col-6">
-                        <strong>Model Answer:</strong> 
-                        <span class="badge bg-success">{{ row.model_answer }}</span>
-                    </div>
-                    <div class="col-6">
-                        <strong>Correct Answer:</strong> 
-                        <span class="badge bg-success">{{ row.correct_answer }}</span>
+                <!-- Prominent Answer Comparison -->
+                <div class="answer-badges-comparison mb-3 p-3" style="background-color: #f8f9fa; border-radius: 8px; border: 2px solid #dee2e6;">
+                    <h6 class="text-center mb-3 fw-bold">Answer Comparison</h6>
+                    <div class="row text-center">
+                        <div class="col-6">
+                            <div class="p-3" style="background-color: #d1e7dd; border-radius: 6px; border-left: 4px solid #198754;">
+                                <strong class="text-success">Model Answer</strong><br>
+                                <span class="badge bg-success fs-4 px-4 py-2 mt-2">{{ row.model_answer }}</span>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="p-3" style="background-color: #d1e7dd; border-radius: 6px; border-left: 4px solid #198754;">
+                                <strong class="text-success">Correct Answer</strong><br>
+                                <span class="badge bg-success fs-4 px-4 py-2 mt-2">{{ row.correct_answer }}</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
