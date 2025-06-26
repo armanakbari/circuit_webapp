@@ -264,8 +264,8 @@ def get_question_assets(qid: str, results_folder: str):
                     # Remove the leading number and period
                     cleaned_choice = re.sub(r'^\d+\.\s*', '', part.strip())
                     if cleaned_choice:
-                        # Wrap the entire choice in LaTeX delimiters for MathJax
-                        latex_choice = f"${cleaned_choice}$"
+                        # Apply auto_latex filter instead of wrapping everything
+                        latex_choice = auto_latex(cleaned_choice)
                         choices.append(latex_choice)
     else:
         # Also try without the qid prefix (just mc.txt)
@@ -281,8 +281,8 @@ def get_question_assets(qid: str, results_folder: str):
                         # Remove the leading number and period
                         cleaned_choice = re.sub(r'^\d+\.\s*', '', part.strip())
                         if cleaned_choice:
-                            # Wrap the entire choice in LaTeX delimiters for MathJax
-                            latex_choice = f"${cleaned_choice}$"
+                            # Apply auto_latex filter instead of wrapping everything
+                            latex_choice = auto_latex(cleaned_choice)
                             choices.append(latex_choice)
     
     # Look for derivation/solution
@@ -717,10 +717,10 @@ def view_synthetic2(idx: int = 0):
     assets = get_question_assets(qid, row.get('results_folder', ''))
     
     # Use derivation from file if available, otherwise fallback to CSV ground truth
-    ground_truth = assets.get('derivation') or row.get('correct_answer', '')
+    ground_truth = assets.get('derivation') or row.get('ground_truth_explanation', '') or row.get('correct_answer', '')
     
     return render_template(
-        'result.html',
+        'synthetic2_result.html',
         row=row,
         idx=idx,
         total=total,
@@ -729,6 +729,7 @@ def view_synthetic2(idx: int = 0):
         choices=assets.get('choices', []),
         ground_truth=ground_truth,
         netlist=assets.get('netlist'),
+        source_info=assets.get('source_info'),
         nav_route='view_synthetic2',
         nav_type='failed',
         dataset_name='Synthetic Dataset 2'
@@ -752,10 +753,10 @@ def view_synthetic2_success(idx: int = 0):
     assets = get_question_assets(qid, row.get('results_folder', ''))
     
     # Use derivation from file if available, otherwise fallback to CSV ground truth
-    ground_truth = assets.get('derivation') or row.get('correct_answer', '')
+    ground_truth = assets.get('derivation') or row.get('ground_truth_explanation', '') or row.get('correct_answer', '')
     
     return render_template(
-        'success.html',
+        'synthetic2_success.html',
         row=row,
         idx=idx,
         total=total,
@@ -764,6 +765,7 @@ def view_synthetic2_success(idx: int = 0):
         choices=assets.get('choices', []),
         ground_truth=ground_truth,
         netlist=assets.get('netlist'),
+        source_info=assets.get('source_info'),
         nav_route='view_synthetic2_success',
         nav_type='success',
         dataset_name='Synthetic Dataset 2'
