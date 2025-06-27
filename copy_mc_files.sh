@@ -4,7 +4,7 @@
 
 # Define source and destination directories
 SOURCE_DIR="../../synthetic_dataset_2"
-DEST_DIR="../../synthetic_dataset_2_3"
+DEST_DIR="../../syn"
 
 # Check if directories exist
 if [ ! -d "$SOURCE_DIR" ]; then
