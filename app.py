@@ -160,7 +160,10 @@ if os.path.exists(ANALYSIS_FOLDER):
                 continue
             qid = entry
 
+            # Some datasets use singular 'question' and others 'questions'
             question_path = os.path.join(q_dir, f"{qid}_questions.txt")
+            if not os.path.exists(question_path):
+                question_path = os.path.join(q_dir, f"{qid}_question.txt")
             gt_path = os.path.join(q_dir, f"{qid}_ta.txt")
             gemini_path = os.path.join(q_dir, f"{qid}_gemini.txt")
 
