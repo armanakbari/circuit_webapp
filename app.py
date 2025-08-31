@@ -26,6 +26,19 @@ JUDGE_CSV_FILES = [
     'results_gemini25_judge_Mei_samples.csv'
 ]
 
+# Judge samples CSV file
+JUDGE_SAMPLES_CSV_FILES = [
+    'results_gemini25_judge_samples.csv'
+]
+
+# Equation derivation CSV file
+EQUATION_DERIVATION_CSV_FILES = [
+    'results_gemini25_equation_derivation_full.csv'
+]
+
+# Analysis folder which contains question folders like q1, q2, ...
+ANALYSIS_FOLDER = 'Analysis'
+
 # Load and combine all CSV files, filtering for failed cases only
 results_data = []
 for csv_file, folder_name in CSV_FILE_MAPPING.items():
@@ -94,6 +107,107 @@ for csv_file in JUDGE_CSV_FILES:
 judge_correct_data = [row for row in judge_data if row.get('judge_is_correct', '').strip().lower() == 'true']
 judge_incorrect_data = [row for row in judge_data if row.get('judge_is_correct', '').strip().lower() == 'false']
 
+# Load judge samples evaluation data
+judge_samples_data = []
+for csv_file in JUDGE_SAMPLES_CSV_FILES:
+    if os.path.exists(csv_file):
+        try:
+            with open(csv_file, newline='', encoding='utf-8') as csvfile:
+                reader = csv.DictReader(csvfile)
+                for row in reader:
+                    # Add source file information
+                    row['source_file'] = csv_file
+                    judge_samples_data.append(row)
+        except Exception as e:
+            print(f"Error loading judge samples CSV file {csv_file}: {e}")
+    else:
+        print(f"Judge samples CSV file not found: {csv_file}")
+
+# Separate judge samples data into correct and incorrect cases
+judge_samples_correct_data = [row for row in judge_samples_data if row.get('judge_is_correct', '').strip().lower() == 'true']
+judge_samples_incorrect_data = [row for row in judge_samples_data if row.get('judge_is_correct', '').strip().lower() == 'false']
+
+# Load equation derivation evaluation data
+equation_derivation_data = []
+for csv_file in EQUATION_DERIVATION_CSV_FILES:
+    if os.path.exists(csv_file):
+        try:
+            with open(csv_file, newline='', encoding='utf-8') as csvfile:
+                reader = csv.DictReader(csvfile)
+                for row in reader:
+                    # Add source file information
+                    row['source_file'] = csv_file
+                    equation_derivation_data.append(row)
+        except Exception as e:
+            print(f"Error loading equation derivation CSV file {csv_file}: {e}")
+    else:
+        print(f"Equation derivation CSV file not found: {csv_file}")
+
+# Separate equation derivation data into correct and incorrect cases
+equation_derivation_correct_data = [row for row in equation_derivation_data if row.get('judge_is_correct', '').strip().lower() == 'true']
+equation_derivation_incorrect_data = [row for row in equation_derivation_data if row.get('judge_is_correct', '').strip().lower() == 'false']
+
+# Load Analysis questions (image, question, ground truth, gemini answer)
+analysis_data = []
+if os.path.exists(ANALYSIS_FOLDER):
+    try:
+        for entry in sorted(os.listdir(ANALYSIS_FOLDER)):
+            q_dir = os.path.join(ANALYSIS_FOLDER, entry)
+            if not os.path.isdir(q_dir):
+                continue
+            # Expect folders named like q1, q2, ...
+            if not re.match(r'^q\d+$', entry):
+                continue
+            qid = entry
+
+            question_path = os.path.join(q_dir, f"{qid}_questions.txt")
+            gt_path = os.path.join(q_dir, f"{qid}_ta.txt")
+            gemini_path = os.path.join(q_dir, f"{qid}_gemini.txt")
+
+            # Image could be png/jpg/jpeg
+            image_path = None
+            for ext in ('png', 'jpg', 'jpeg'):
+                candidate = os.path.join(q_dir, f"{qid}_image.{ext}")
+                if os.path.exists(candidate):
+                    image_path = candidate
+                    break
+
+            if not os.path.exists(question_path):
+                continue
+
+            try:
+                with open(question_path, 'r', encoding='utf-8') as f:
+                    question_text = f.read().strip()
+            except Exception:
+                question_text = ''
+
+            ground_truth = None
+            if os.path.exists(gt_path):
+                try:
+                    with open(gt_path, 'r', encoding='utf-8') as f:
+                        ground_truth = f.read().strip()
+                except Exception:
+                    ground_truth = None
+
+            gemini_answer = None
+            if os.path.exists(gemini_path):
+                try:
+                    with open(gemini_path, 'r', encoding='utf-8') as f:
+                        gemini_answer = f.read().strip()
+                except Exception:
+                    gemini_answer = None
+
+            analysis_data.append({
+                'qid': qid,
+                'question_text': question_text,
+                'ground_truth': ground_truth,
+                'gemini_answer': gemini_answer,
+                'image_exists': bool(image_path),
+                'results_folder': ANALYSIS_FOLDER
+            })
+    except Exception as e:
+        print(f"Error loading Analysis folder: {e}")
+
 def auto_latex(text):
     """Automatically wrap mathematical expressions with LaTeX delimiters for MathJax rendering."""
     if not text:
@@ -103,16 +217,49 @@ def auto_latex(text):
         # Convert text to string if it's not already
         text = str(text)
         
-        # Patterns to match mathematical expressions (simplified to avoid errors)
+        # Add proper formatting for better readability
+        # Add line breaks after major sections
+        text = re.sub(r'---\s*', '<hr class="my-3">\n', text)
+        text = re.sub(r'###\s+([^:]+):', r'<h5 class="text-primary mt-3">\1</h5>', text)
+        text = re.sub(r'\*\*([^*]+)\*\*', r'<strong>\1</strong>', text)
+        
+        # Format step markers
+        text = re.sub(r'\*\*Step (\d+):\s*([^*]+)\*\*', r'<h6 class="text-info mt-3">Step \1: \2</h6>', text)
+        
+        # Format bullet points (simpler approach)
+        text = re.sub(r'^\s*\*\s+([^\n]+)', r'• \1', text, flags=re.MULTILINE)
+        
+        # Add better line breaks for readability
+        text = re.sub(r'(\.\s+)([A-Z])', r'\1\n\n\2', text)  # Break after sentences
+        text = re.sub(r'(\s+where\s+)', r'\n\nwhere ', text)  # Break before "where" clauses
+        
+        # Enhanced patterns for mathematical expressions
         patterns = [
+            # Complex variables like V_top_0, V_bottom_0
+            (r'\b([VIR])_([a-zA-Z0-9_]+)\b', r'$\1_{\2}$'),
             # Variables like I9, I6, V1, U4, etc. (word boundaries)
-            (r'\b([IUVP][0-9]+)\b', r'$\1$'),
+            (r'\b([IUVPRCL][0-9]+)\b', r'$\1$'),
+            # Transfer function H(s)
+            (r'\bH\(s\)', r'$H(s)$'),
+            # Functions with variables like V(s), I(s)
+            (r'\b([VIZ])\(s\)', r'$\1(s)$'),
+            # Impedance notation Z_C1
+            (r'\bZ_([a-zA-Z0-9]+)', r'$Z_{\1}$'),
+            # Mathematical operations and equations (more selective)
+            (r'H\(s\)\s*=\s*([^=\n,;]+?)(?=\s*[,;\n]|where|$)', r'$H(s) = \1$'),
+            # Fractions and complex expressions
+            (r'\b([A-Za-z0-9_]+)\s*/\s*\(([^)]+)\)', r'$\\frac{\1}{\2}$'),
+            (r'\(([^()]+)\s*/\s*([^()]+)\)', r'$\\left(\\frac{\1}{\2}\\right)$'),
             # Units like Ω, A, V  
-            (r'\b([0-9]+(?:\.[0-9]+)?)\s*(Ω|A|V|μ|m|k|M)\b', r'$\1\,\mathrm{\2}$'),
+            (r'\b([0-9]+(?:\.[0-9]+)?)\s*(Ω|A|V|μ|m|k|M|F|H)\b', r'$\1\,\\mathrm{\2}$'),
             # Mathematical equations in backticks
             (r'`([^`]+)`', r'$\1$'),
             # Simple subscripts like I_25, R_AP
-            (r'\b([IUVPR])_([a-zA-Z0-9]+)\b', r'$\1_{\2}$'),
+            (r'\b([IUVPRCL])_([a-zA-Z0-9]+)\b', r'$\1_{\2}$'),
+            # Greek letters
+            (r'\b(alpha|beta|gamma|delta|epsilon|theta|lambda|mu|pi|rho|sigma|tau|phi|omega)\b', r'$\\\1$'),
+            # Clean up circuit node references
+            (r'\bnode\s+([0-9]+)', r'node $\1$'),
         ]
         
         # Apply patterns safely
@@ -126,6 +273,12 @@ def auto_latex(text):
         # Clean up duplicate $ signs
         text = re.sub(r'\$\$+', '$', text)
         text = re.sub(r'\$\s*\$', '', text)
+        
+        # Add proper paragraph breaks for long text
+        paragraphs = text.split('\n\n')
+        if len(paragraphs) > 1:
+            text = '</p><p>'.join(paragraphs)
+            text = '<p>' + text + '</p>'
         
         return text
     except Exception:
@@ -239,17 +392,27 @@ def get_question_assets(qid: str, results_folder: str):
     source_info = None
     netlist = None
     
-    # Look for image in the results folder
-    for ext in ('png', 'jpg', 'jpeg'):
-        candidate = os.path.join(q_folder, f"{qid}_image.{ext}")
-        if os.path.exists(candidate):
-            image_path = candidate
-            break
-        # Also try without the qid prefix (just image.png)
-        candidate = os.path.join(q_folder, f"image.{ext}")
-        if os.path.exists(candidate):
-            image_path = candidate
-            break
+    # Special handling for equations_2 folder with different structure
+    if results_folder == 'equations_2':
+        # Remove 'q' prefix and look for files like 1_39.jpg directly in equations_2 folder
+        clean_qid = qid.replace('q', '') if qid.startswith('q') else qid
+        for ext in ('jpg', 'png', 'jpeg'):
+            candidate = os.path.join(results_folder, f"{clean_qid}.{ext}")
+            if os.path.exists(candidate):
+                image_path = candidate
+                break
+    else:
+        # Look for image in the results folder (standard structure)
+        for ext in ('png', 'jpg', 'jpeg'):
+            candidate = os.path.join(q_folder, f"{qid}_image.{ext}")
+            if os.path.exists(candidate):
+                image_path = candidate
+                break
+            # Also try without the qid prefix (just image.png)
+            candidate = os.path.join(q_folder, f"image.{ext}")
+            if os.path.exists(candidate):
+                image_path = candidate
+                break
     
     # Look for multiple choice options
     mc_path = os.path.join(q_folder, f"{qid}_mc.txt")
@@ -401,8 +564,53 @@ def index():
             judge_stats['by_source'][source]['correct'] += 1
         else:
             judge_stats['by_source'][source]['incorrect'] += 1
+
+    # Calculate statistics for judge samples evaluations
+    judge_samples_stats = {
+        'total_judge_samples': len(judge_samples_data),
+        'total_correct': len(judge_samples_correct_data),
+        'total_incorrect': len(judge_samples_incorrect_data),
+        'by_source': {}
+    }
     
-    return render_template('index.html', form=form, failed_stats=failed_stats, success_stats=success_stats, judge_stats=judge_stats)
+    for row in judge_samples_data:
+        source = row.get('source_file', 'Unknown')
+        if source not in judge_samples_stats['by_source']:
+            judge_samples_stats['by_source'][source] = {'total': 0, 'correct': 0, 'incorrect': 0}
+        judge_samples_stats['by_source'][source]['total'] += 1
+        if row.get('judge_is_correct', '').strip().lower() == 'true':
+            judge_samples_stats['by_source'][source]['correct'] += 1
+        else:
+            judge_samples_stats['by_source'][source]['incorrect'] += 1
+
+    # Calculate statistics for equation derivation evaluations
+    equation_derivation_stats = {
+        'total_equation_derivation': len(equation_derivation_data),
+        'total_correct': len(equation_derivation_correct_data),
+        'total_incorrect': len(equation_derivation_incorrect_data),
+        'by_source': {}
+    }
+    
+    for row in equation_derivation_data:
+        source = row.get('source_file', 'Unknown')
+        if source not in equation_derivation_stats['by_source']:
+            equation_derivation_stats['by_source'][source] = {'total': 0, 'correct': 0, 'incorrect': 0}
+        equation_derivation_stats['by_source'][source]['total'] += 1
+        if row.get('judge_is_correct', '').strip().lower() == 'true':
+            equation_derivation_stats['by_source'][source]['correct'] += 1
+        else:
+            equation_derivation_stats['by_source'][source]['incorrect'] += 1
+    
+    return render_template(
+        'index.html',
+        form=form,
+        failed_stats=failed_stats,
+        success_stats=success_stats,
+        judge_stats=judge_stats,
+        judge_samples_stats=judge_samples_stats,
+        equation_derivation_stats=equation_derivation_stats,
+        analysis_count=len(analysis_data)
+    )
 
 @app.route('/image/<folder>/<qid>')
 def serve_question_image(folder, qid):
@@ -489,12 +697,13 @@ def test_judge():
     <head><title>Judge Test</title></head>
     <body style="font-family: Arial; margin: 20px;">
     <h1>Judge Test Page - Working Links</h1>
+    
+    <h3>Judge Mei Samples:</h3>
     <p>Total judge records: {len(judge_data)}</p>
     <p>Judge correct: {len(judge_correct_data)}</p>
     <p>Judge incorrect: {len(judge_incorrect_data)}</p>
     <p>First question: {judge_data[0].get('question_number', 'N/A') if judge_data else 'No data'}</p>
     
-    <h3>Test Links (Click these):</h3>
     <div style="margin: 10px 0;">
         <a href='/judge/' style="display: inline-block; padding: 10px 20px; background: blue; color: white; text-decoration: none; margin: 5px;">All Judge Results ({len(judge_data)})</a>
     </div>
@@ -505,11 +714,49 @@ def test_judge():
         <a href='/judge-incorrect/' style="display: inline-block; padding: 10px 20px; background: red; color: white; text-decoration: none; margin: 5px;">Incorrect Only ({len(judge_incorrect_data)})</a>
     </div>
     
+    <h3>Judge Samples:</h3>
+    <p>Total judge samples records: {len(judge_samples_data)}</p>
+    <p>Judge samples correct: {len(judge_samples_correct_data)}</p>
+    <p>Judge samples incorrect: {len(judge_samples_incorrect_data)}</p>
+    <p>First question: {judge_samples_data[0].get('question_number', 'N/A') if judge_samples_data else 'No data'}</p>
+    
+    <div style="margin: 10px 0;">
+        <a href='/judge-samples/' style="display: inline-block; padding: 10px 20px; background: purple; color: white; text-decoration: none; margin: 5px;">All Judge Samples Results ({len(judge_samples_data)})</a>
+    </div>
+    <div style="margin: 10px 0;">
+        <a href='/judge-samples-correct/' style="display: inline-block; padding: 10px 20px; background: darkgreen; color: white; text-decoration: none; margin: 5px;">Samples Correct Only ({len(judge_samples_correct_data)})</a>
+    </div>
+    <div style="margin: 10px 0;">
+        <a href='/judge-samples-incorrect/' style="display: inline-block; padding: 10px 20px; background: darkred; color: white; text-decoration: none; margin: 5px;">Samples Incorrect Only ({len(judge_samples_incorrect_data)})</a>
+    </div>
+    
+    <h3>Equation Derivation:</h3>
+    <p>Total equation derivation records: {len(equation_derivation_data)}</p>
+    <p>Equation derivation correct: {len(equation_derivation_correct_data)}</p>
+    <p>Equation derivation incorrect: {len(equation_derivation_incorrect_data)}</p>
+    <p>First question: {equation_derivation_data[0].get('question_number', 'N/A') if equation_derivation_data else 'No data'}</p>
+    
+    <div style="margin: 10px 0;">
+        <a href='/equation-derivation/' style="display: inline-block; padding: 10px 20px; background: orange; color: white; text-decoration: none; margin: 5px;">All Equation Derivation Results ({len(equation_derivation_data)})</a>
+    </div>
+    <div style="margin: 10px 0;">
+        <a href='/equation-derivation-correct/' style="display: inline-block; padding: 10px 20px; background: darkgreen; color: white; text-decoration: none; margin: 5px;">Derivation Correct Only ({len(equation_derivation_correct_data)})</a>
+    </div>
+    <div style="margin: 10px 0;">
+        <a href='/equation-derivation-incorrect/' style="display: inline-block; padding: 10px 20px; background: darkred; color: white; text-decoration: none; margin: 5px;">Derivation Incorrect Only ({len(equation_derivation_incorrect_data)})</a>
+    </div>
+    
     <h4>Direct Access:</h4>
     <ul>
         <li><a href='/judge/0'>First Judge Result</a></li>
         <li><a href='/judge-correct/0'>First Correct Result</a></li>
         <li><a href='/judge-incorrect/0'>First Incorrect Result</a></li>
+        <li><a href='/judge-samples/0'>First Judge Samples Result</a></li>
+        <li><a href='/judge-samples-correct/0'>First Samples Correct Result</a></li>
+        <li><a href='/judge-samples-incorrect/0'>First Samples Incorrect Result</a></li>
+        <li><a href='/equation-derivation/0'>First Equation Derivation Result</a></li>
+        <li><a href='/equation-derivation-correct/0'>First Derivation Correct Result</a></li>
+        <li><a href='/equation-derivation-incorrect/0'>First Derivation Incorrect Result</a></li>
     </ul>
     
     <p><a href='/'>← Back to Home</a></p>
@@ -572,6 +819,8 @@ def view_judge(idx: int = 0):
         choices=assets.get('choices', []),
         derivation=assets.get('derivation'),
         source_info=assets.get('source_info'),
+        nav_route='view_judge',
+        image_folder='Mei_samples'
     )
 
 @app.route('/judge-correct/')
@@ -599,7 +848,9 @@ def view_judge_correct(idx: int = 0):
         choices=assets.get('choices', []),
         derivation=assets.get('derivation'),
         source_info=assets.get('source_info'),
-        view_type='correct'
+        view_type='correct',
+        nav_route='view_judge_correct',
+        image_folder='Mei_samples'
     )
 
 @app.route('/judge-incorrect/')
@@ -627,7 +878,220 @@ def view_judge_incorrect(idx: int = 0):
         choices=assets.get('choices', []),
         derivation=assets.get('derivation'),
         source_info=assets.get('source_info'),
-        view_type='incorrect'
+        view_type='incorrect',
+        nav_route='view_judge_incorrect',
+        image_folder='Mei_samples'
+    )
+
+@app.route('/judge-samples/')
+@app.route('/judge-samples/<int:idx>')
+def view_judge_samples(idx: int = 0):
+    if not judge_samples_data:
+        flash('No judge samples evaluation results found.', 'info')
+        return redirect(url_for('index'))
+
+    total = len(judge_samples_data)
+    idx = max(0, min(idx, total - 1))  # clamp
+    row = judge_samples_data[idx]
+
+    qid = row.get('question_number', '').strip()
+    # Get image assets from judge_samples folder
+    assets = get_question_assets(qid, 'judge_samples')
+    
+    return render_template(
+        'judge_working.html',
+        row=row,
+        idx=idx,
+        total=total,
+        qid=qid,
+        image_exists=bool(assets.get('image_path')),
+        choices=assets.get('choices', []),
+        derivation=assets.get('derivation'),
+        source_info=assets.get('source_info'),
+        dataset_name='Judge Samples',
+        nav_route='view_judge_samples',
+        image_folder='judge_samples'
+    )
+
+@app.route('/judge-samples-correct/')
+@app.route('/judge-samples-correct/<int:idx>')
+def view_judge_samples_correct(idx: int = 0):
+    if not judge_samples_correct_data:
+        flash('No correct judge samples evaluation results found.', 'info')
+        return redirect(url_for('index'))
+
+    total = len(judge_samples_correct_data)
+    idx = max(0, min(idx, total - 1))  # clamp
+    row = judge_samples_correct_data[idx]
+
+    qid = row.get('question_number', '').strip()
+    # Get image assets from judge_samples folder
+    assets = get_question_assets(qid, 'judge_samples')
+    
+    return render_template(
+        'judge_working.html',
+        row=row,
+        idx=idx,
+        total=total,
+        qid=qid,
+        image_exists=bool(assets.get('image_path')),
+        choices=assets.get('choices', []),
+        derivation=assets.get('derivation'),
+        source_info=assets.get('source_info'),
+        view_type='correct',
+        dataset_name='Judge Samples',
+        nav_route='view_judge_samples_correct',
+        image_folder='judge_samples'
+    )
+
+@app.route('/judge-samples-incorrect/')
+@app.route('/judge-samples-incorrect/<int:idx>')
+def view_judge_samples_incorrect(idx: int = 0):
+    if not judge_samples_incorrect_data:
+        flash('No incorrect judge samples evaluation results found.', 'info')
+        return redirect(url_for('index'))
+
+    total = len(judge_samples_incorrect_data)
+    idx = max(0, min(idx, total - 1))  # clamp
+    row = judge_samples_incorrect_data[idx]
+
+    qid = row.get('question_number', '').strip()
+    # Get image assets from judge_samples folder
+    assets = get_question_assets(qid, 'judge_samples')
+    
+    return render_template(
+        'judge_working.html',
+        row=row,
+        idx=idx,
+        total=total,
+        qid=qid,
+        image_exists=bool(assets.get('image_path')),
+        choices=assets.get('choices', []),
+        derivation=assets.get('derivation'),
+        source_info=assets.get('source_info'),
+        view_type='incorrect',
+        dataset_name='Judge Samples',
+        nav_route='view_judge_samples_incorrect',
+        image_folder='judge_samples'
+    )
+
+@app.route('/equation-derivation/')
+@app.route('/equation-derivation/<int:idx>')
+def view_equation_derivation(idx: int = 0):
+    if not equation_derivation_data:
+        flash('No equation derivation evaluation results found.', 'info')
+        return redirect(url_for('index'))
+
+    total = len(equation_derivation_data)
+    idx = max(0, min(idx, total - 1))  # clamp
+    row = equation_derivation_data[idx]
+
+    qid = row.get('question_number', '').strip()
+    # Get image assets from equations_2 folder
+    assets = get_question_assets(qid, 'equations_2')
+    
+    return render_template(
+        'judge_working.html',
+        row=row,
+        idx=idx,
+        total=total,
+        qid=qid,
+        image_exists=bool(assets.get('image_path')),
+        choices=assets.get('choices', []),
+        derivation=assets.get('derivation'),
+        source_info=assets.get('source_info'),
+        dataset_name='Equation Derivation',
+        nav_route='view_equation_derivation',
+        image_folder='equations_2'
+    )
+
+@app.route('/equation-derivation-correct/')
+@app.route('/equation-derivation-correct/<int:idx>')
+def view_equation_derivation_correct(idx: int = 0):
+    if not equation_derivation_correct_data:
+        flash('No correct equation derivation evaluation results found.', 'info')
+        return redirect(url_for('index'))
+
+    total = len(equation_derivation_correct_data)
+    idx = max(0, min(idx, total - 1))  # clamp
+    row = equation_derivation_correct_data[idx]
+
+    qid = row.get('question_number', '').strip()
+    # Get image assets from equations_2 folder
+    assets = get_question_assets(qid, 'equations_2')
+    
+    return render_template(
+        'judge_working.html',
+        row=row,
+        idx=idx,
+        total=total,
+        qid=qid,
+        image_exists=bool(assets.get('image_path')),
+        choices=assets.get('choices', []),
+        derivation=assets.get('derivation'),
+        source_info=assets.get('source_info'),
+        view_type='correct',
+        dataset_name='Equation Derivation',
+        nav_route='view_equation_derivation_correct',
+        image_folder='equations_2'
+    )
+
+@app.route('/equation-derivation-incorrect/')
+@app.route('/equation-derivation-incorrect/<int:idx>')
+def view_equation_derivation_incorrect(idx: int = 0):
+    if not equation_derivation_incorrect_data:
+        flash('No incorrect equation derivation evaluation results found.', 'info')
+        return redirect(url_for('index'))
+
+    total = len(equation_derivation_incorrect_data)
+    idx = max(0, min(idx, total - 1))  # clamp
+    row = equation_derivation_incorrect_data[idx]
+
+    qid = row.get('question_number', '').strip()
+    # Get image assets from equations_2 folder
+    assets = get_question_assets(qid, 'equations_2')
+    
+    return render_template(
+        'judge_working.html',
+        row=row,
+        idx=idx,
+        total=total,
+        qid=qid,
+        image_exists=bool(assets.get('image_path')),
+        choices=assets.get('choices', []),
+        derivation=assets.get('derivation'),
+        source_info=assets.get('source_info'),
+        view_type='incorrect',
+        dataset_name='Equation Derivation',
+        nav_route='view_equation_derivation_incorrect',
+        image_folder='equations_2'
+    )
+
+@app.route('/analysis/')
+@app.route('/analysis/<int:idx>')
+def view_analysis(idx: int = 0):
+    if not analysis_data:
+        flash('No Analysis questions found.', 'info')
+        return redirect(url_for('index'))
+
+    total = len(analysis_data)
+    idx = max(0, min(idx, total - 1))
+    item = analysis_data[idx]
+    qid = item.get('qid', '')
+
+    # Use existing asset resolver to locate the image inside Analysis/q#
+    assets = get_question_assets(qid, ANALYSIS_FOLDER)
+
+    return render_template(
+        'analysis.html',
+        idx=idx,
+        total=total,
+        qid=qid,
+        question_text=item.get('question_text', ''),
+        ground_truth=item.get('ground_truth'),
+        gemini_answer=item.get('gemini_answer'),
+        image_exists=bool(assets.get('image_path')),
+        image_folder=ANALYSIS_FOLDER
     )
 
 @app.route('/synthetic/')
