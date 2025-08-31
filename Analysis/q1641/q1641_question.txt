@@ -1,0 +1,1 @@
+What is the transfer function from V1 to R1 in this circuit?
