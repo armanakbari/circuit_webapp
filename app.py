@@ -147,92 +147,100 @@ for csv_file in EQUATION_DERIVATION_CSV_FILES:
 equation_derivation_correct_data = [row for row in equation_derivation_data if row.get('judge_is_correct', '').strip().lower() == 'true']
 equation_derivation_incorrect_data = [row for row in equation_derivation_data if row.get('judge_is_correct', '').strip().lower() == 'false']
 
-analysis_data = None
+analysis_qids = None  # list of qids like 'q1', 'q2', ...
+analysis_cache = {}   # qid -> item dict
+ANALYSIS_CACHE_MAX = 16
 
-def count_analysis_questions() -> int:
-    if not os.path.exists(ANALYSIS_FOLDER):
-        return 0
-    try:
-        return sum(1 for entry in os.listdir(ANALYSIS_FOLDER)
-                   if os.path.isdir(os.path.join(ANALYSIS_FOLDER, entry)) and re.match(r'^q\d+$', entry))
-    except Exception:
-        return 0
-
-def load_analysis_data():
-    global analysis_data
-    if analysis_data is not None:
+def _build_analysis_index():
+    global analysis_qids
+    if analysis_qids is not None:
         return
-    analysis_data = []
+    analysis_qids = []
     if not os.path.exists(ANALYSIS_FOLDER):
         return
     try:
         for entry in sorted(os.listdir(ANALYSIS_FOLDER)):
             q_dir = os.path.join(ANALYSIS_FOLDER, entry)
-            if not os.path.isdir(q_dir):
-                continue
-            if not re.match(r'^q\d+$', entry):
-                continue
-            qid = entry
-
-            # Some datasets use singular 'question' and others 'questions'
-            question_path = os.path.join(q_dir, f"{qid}_questions.txt")
-            if not os.path.exists(question_path):
-                question_path = os.path.join(q_dir, f"{qid}_question.txt")
-            gt_path = os.path.join(q_dir, f"{qid}_ta.txt")
-            claude_path = os.path.join(q_dir, f"{qid}_claude.txt")
-            gemini_path = os.path.join(q_dir, f"{qid}_gemini.txt")
-
-            # Image could be png/jpg/jpeg
-            image_path = None
-            for ext in ('png', 'jpg', 'jpeg'):
-                candidate = os.path.join(q_dir, f"{qid}_image.{ext}")
-                if os.path.exists(candidate):
-                    image_path = candidate
-                    break
-
-            if not os.path.exists(question_path):
-                continue
-
-            try:
-                with open(question_path, 'r', encoding='utf-8') as f:
-                    question_text = f.read().strip()
-            except Exception:
-                question_text = ''
-
-            ground_truth = None
-            if os.path.exists(gt_path):
-                try:
-                    with open(gt_path, 'r', encoding='utf-8') as f:
-                        ground_truth = f.read().strip()
-                except Exception:
-                    ground_truth = None
-
-            # Prefer Claude answer; fallback to Gemini if Claude missing
-            gemini_answer = None
-            if os.path.exists(claude_path):
-                try:
-                    with open(claude_path, 'r', encoding='utf-8') as f:
-                        gemini_answer = f.read().strip()
-                except Exception:
-                    gemini_answer = None
-            elif os.path.exists(gemini_path):
-                try:
-                    with open(gemini_path, 'r', encoding='utf-8') as f:
-                        gemini_answer = f.read().strip()
-                except Exception:
-                    gemini_answer = None
-
-            analysis_data.append({
-                'qid': qid,
-                'question_text': question_text,
-                'ground_truth': ground_truth,
-                'gemini_answer': gemini_answer,
-                'image_exists': bool(image_path),
-                'results_folder': ANALYSIS_FOLDER
-            })
-        print(f"Loaded Analysis questions: {len(analysis_data)}")
+            if os.path.isdir(q_dir) and re.match(r'^q\d+$', entry):
+                analysis_qids.append(entry)
+        print(f"Indexed Analysis questions: {len(analysis_qids)}")
     except Exception as e:
-        print(f"Error loading Analysis folder: {e}")
+        print(f"Error indexing Analysis folder: {e}")
+
+def count_analysis_questions() -> int:
+    _build_analysis_index()
+    return len(analysis_qids or [])
+
+def get_analysis_item(qid: str):
+    if qid in analysis_cache:
+        return analysis_cache[qid]
+
+    q_dir = os.path.join(ANALYSIS_FOLDER, qid)
+    # Some datasets use singular 'question' and others 'questions'
+    question_path = os.path.join(q_dir, f"{qid}_questions.txt")
+    if not os.path.exists(question_path):
+        question_path = os.path.join(q_dir, f"{qid}_question.txt")
+    gt_path = os.path.join(q_dir, f"{qid}_ta.txt")
+    claude_path = os.path.join(q_dir, f"{qid}_claude.txt")
+    gemini_path = os.path.join(q_dir, f"{qid}_gemini.txt")
+
+    # Determine if an image exists
+    image_exists = False
+    for ext in ('png', 'jpg', 'jpeg'):
+        candidate = os.path.join(q_dir, f"{qid}_image.{ext}")
+        if os.path.exists(candidate):
+            image_exists = True
+            break
+
+    if not os.path.exists(question_path):
+        return None
+
+    try:
+        with open(question_path, 'r', encoding='utf-8') as f:
+            question_text = f.read().strip()
+    except Exception:
+        question_text = ''
+
+    ground_truth = None
+    if os.path.exists(gt_path):
+        try:
+            with open(gt_path, 'r', encoding='utf-8') as f:
+                ground_truth = f.read().strip()
+        except Exception:
+            ground_truth = None
+
+    # Prefer Claude answer; fallback to Gemini if Claude missing
+    model_answer = None
+    if os.path.exists(claude_path):
+        try:
+            with open(claude_path, 'r', encoding='utf-8') as f:
+                model_answer = f.read().strip()
+        except Exception:
+            model_answer = None
+    elif os.path.exists(gemini_path):
+        try:
+            with open(gemini_path, 'r', encoding='utf-8') as f:
+                model_answer = f.read().strip()
+        except Exception:
+            model_answer = None
+
+    item = {
+        'qid': qid,
+        'question_text': question_text,
+        'ground_truth': ground_truth,
+        'gemini_answer': model_answer,
+        'image_exists': image_exists,
+        'results_folder': ANALYSIS_FOLDER
+    }
+
+    try:
+        if len(analysis_cache) >= ANALYSIS_CACHE_MAX:
+            analysis_cache.pop(next(iter(analysis_cache)))
+        analysis_cache[qid] = item
+    except Exception:
+        pass
+
+    return item
 
 def auto_latex(text):
     """Automatically wrap mathematical expressions with LaTeX delimiters for MathJax rendering."""
@@ -1096,15 +1104,18 @@ def view_equation_derivation_incorrect(idx: int = 0):
 @app.route('/analysis/')
 @app.route('/analysis/<int:idx>')
 def view_analysis(idx: int = 0):
-    load_analysis_data()
-    if not analysis_data:
+    _build_analysis_index()
+    if not analysis_qids:
         flash('No Analysis questions found.', 'info')
         return redirect(url_for('index'))
 
-    total = len(analysis_data)
+    total = len(analysis_qids)
     idx = max(0, min(idx, total - 1))
-    item = analysis_data[idx]
-    qid = item.get('qid', '')
+    qid = analysis_qids[idx]
+    item = get_analysis_item(qid)
+    if not item:
+        flash(f'Question {qid} not found.', 'warning')
+        return redirect(url_for('index'))
 
     # Use existing asset resolver to locate the image inside Analysis/q#
     assets = get_question_assets(qid, ANALYSIS_FOLDER)
