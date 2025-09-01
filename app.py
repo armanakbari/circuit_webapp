@@ -147,15 +147,29 @@ for csv_file in EQUATION_DERIVATION_CSV_FILES:
 equation_derivation_correct_data = [row for row in equation_derivation_data if row.get('judge_is_correct', '').strip().lower() == 'true']
 equation_derivation_incorrect_data = [row for row in equation_derivation_data if row.get('judge_is_correct', '').strip().lower() == 'false']
 
-# Load Analysis questions (image, question, ground truth, gemini answer)
-analysis_data = []
-if os.path.exists(ANALYSIS_FOLDER):
+analysis_data = None
+
+def count_analysis_questions() -> int:
+    if not os.path.exists(ANALYSIS_FOLDER):
+        return 0
+    try:
+        return sum(1 for entry in os.listdir(ANALYSIS_FOLDER)
+                   if os.path.isdir(os.path.join(ANALYSIS_FOLDER, entry)) and re.match(r'^q\d+$', entry))
+    except Exception:
+        return 0
+
+def load_analysis_data():
+    global analysis_data
+    if analysis_data is not None:
+        return
+    analysis_data = []
+    if not os.path.exists(ANALYSIS_FOLDER):
+        return
     try:
         for entry in sorted(os.listdir(ANALYSIS_FOLDER)):
             q_dir = os.path.join(ANALYSIS_FOLDER, entry)
             if not os.path.isdir(q_dir):
                 continue
-            # Expect folders named like q1, q2, ...
             if not re.match(r'^q\d+$', entry):
                 continue
             qid = entry
@@ -208,6 +222,7 @@ if os.path.exists(ANALYSIS_FOLDER):
                 'image_exists': bool(image_path),
                 'results_folder': ANALYSIS_FOLDER
             })
+        print(f"Loaded Analysis questions: {len(analysis_data)}")
     except Exception as e:
         print(f"Error loading Analysis folder: {e}")
 
@@ -612,7 +627,7 @@ def index():
         judge_stats=judge_stats,
         judge_samples_stats=judge_samples_stats,
         equation_derivation_stats=equation_derivation_stats,
-        analysis_count=len(analysis_data)
+        analysis_count=count_analysis_questions()
     )
 
 @app.route('/image/<folder>/<qid>')
@@ -1073,6 +1088,7 @@ def view_equation_derivation_incorrect(idx: int = 0):
 @app.route('/analysis/')
 @app.route('/analysis/<int:idx>')
 def view_analysis(idx: int = 0):
+    load_analysis_data()
     if not analysis_data:
         flash('No Analysis questions found.', 'info')
         return redirect(url_for('index'))
