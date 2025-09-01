@@ -1,4 +1,5 @@
 import os
+import hashlib
 from flask import Flask, render_template, request, flash, redirect, url_for, send_from_directory, abort
 from werkzeug.utils import secure_filename
 from forms import SampleForm
@@ -250,6 +251,15 @@ def auto_latex(text):
     try:
         # Convert text to string if it's not already
         text = str(text)
+
+        # Memoization cache to avoid heavy regex on repeated content
+        global _AUTO_LATEX_CACHE
+        if '_AUTO_LATEX_CACHE' not in globals():
+            _AUTO_LATEX_CACHE = {}
+        cache_key = hashlib.md5(text.encode('utf-8')).hexdigest()
+        cached = _AUTO_LATEX_CACHE.get(cache_key)
+        if cached is not None:
+            return cached
         
         # Add proper formatting for better readability
         # Add line breaks after major sections
@@ -314,6 +324,14 @@ def auto_latex(text):
             text = '</p><p>'.join(paragraphs)
             text = '<p>' + text + '</p>'
         
+        # Store in cache with simple FIFO eviction
+        try:
+            if len(_AUTO_LATEX_CACHE) >= 256:
+                _AUTO_LATEX_CACHE.pop(next(iter(_AUTO_LATEX_CACHE)))
+            _AUTO_LATEX_CACHE[cache_key] = text
+        except Exception:
+            pass
+
         return text
     except Exception:
         # If anything goes wrong, return the original text
