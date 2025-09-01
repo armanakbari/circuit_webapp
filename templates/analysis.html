@@ -48,7 +48,7 @@
         <div class="card-like">
             <div class="section-header" style="background-color:#fff3cd; color:#856404;">Question</div>
             <div class="section-content">
-                <div class="mb-3">{{ question_text|auto_latex|safe }}</div>
+                <div class="mb-3">{{ question_text|safe }}</div>
                 {% if image_exists %}
                 <div class="text-center">
                     <img src="{{ url_for('serve_question_image', folder=image_folder, qid=qid) }}" alt="Circuit image for {{ qid }}" style="max-width:100%; height:auto; border:1px solid #ddd; border-radius:5px;">
@@ -63,9 +63,12 @@
                     <div class="section-header" style="background-color:#e8f5e8; color:#388e3c;">Ground Truth</div>
                     <div class="section-content">
                         {% if ground_truth %}
-                        <div class="explanation-content">
-                            {{ ground_truth|auto_latex|safe }}
-                        </div>
+                        <details open>
+                            <summary class="text-success">Show/Hide Ground Truth</summary>
+                            <div class="explanation-content mt-2">
+                                {{ ground_truth|safe }}
+                            </div>
+                        </details>
                         {% else %}
                         <div class="text-muted">No ground truth provided.</div>
                         {% endif %}
@@ -77,9 +80,12 @@
                     <div class="section-header" style="background-color:#e3f2fd; color:#1976d2;">Gemini Answer</div>
                     <div class="section-content">
                         {% if gemini_answer %}
-                        <div class="explanation-content">
-                            {{ gemini_answer|auto_latex|safe }}
-                        </div>
+                        <details open>
+                            <summary class="text-primary">Show/Hide Gemini Answer</summary>
+                            <div class="explanation-content mt-2">
+                                {{ gemini_answer|safe }}
+                            </div>
+                        </details>
                         {% else %}
                         <div class="text-muted">No Gemini answer provided.</div>
                         {% endif %}
