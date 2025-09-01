@@ -51,7 +51,11 @@
         <div class="card-like">
             <div class="section-header" style="background-color:#fff3cd; color:#856404;">Question</div>
             <div class="section-content">
+                {% if question_html %}
+                <div class="mb-3">{{ question_html|safe }}</div>
+                {% else %}
                 <div class="mb-3">{{ question_text|auto_latex|safe }}</div>
+                {% endif %}
                 {% if image_exists %}
                 <div class="text-center">
                     <img src="{{ url_for('serve_question_image', folder=image_folder, qid=qid) }}" alt="Circuit image for {{ qid }}" style="max-width:100%; height:auto; border:1px solid #ddd; border-radius:5px;">
@@ -65,11 +69,15 @@
                 <div class="card-like">
                     <div class="section-header" style="background-color:#e8f5e8; color:#388e3c;">Ground Truth</div>
                     <div class="section-content">
-                        {% if ground_truth %}
+                        {% if ground_truth_html or ground_truth %}
                         <details open>
                             <summary class="text-success">Show/Hide Ground Truth</summary>
                             <div class="explanation-content mt-2">
+                                {% if ground_truth_html %}
+                                {{ ground_truth_html|safe }}
+                                {% else %}
                                 {{ ground_truth|auto_latex|safe }}
+                                {% endif %}
                             </div>
                         </details>
                         {% else %}
@@ -82,11 +90,15 @@
                 <div class="card-like">
                     <div class="section-header" style="background-color:#e3f2fd; color:#1976d2;">Claude Answer</div>
                     <div class="section-content">
-                        {% if gemini_answer %}
+                        {% if answer_html or gemini_answer %}
                         <details open>
                             <summary class="text-primary">Show/Hide Claude Answer</summary>
                             <div class="explanation-content mt-2">
+                                {% if answer_html %}
+                                {{ answer_html|safe }}
+                                {% else %}
                                 {{ gemini_answer|auto_latex|safe }}
+                                {% endif %}
                             </div>
                         </details>
                         {% else %}

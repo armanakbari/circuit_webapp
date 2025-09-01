@@ -10,6 +10,7 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = os.urandom(24)
 app.config['UPLOAD_FOLDER'] = 'samples'
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16MB max file size
+app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 43200  # cache static/image responses for 12 hours
 
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg'}
 
@@ -230,6 +231,10 @@ def get_analysis_item(qid: str):
         'question_text': question_text,
         'ground_truth': ground_truth,
         'gemini_answer': model_answer,
+        # Preprocess to LaTeX-once to avoid repeated filter work
+        'question_html': auto_latex(question_text) if question_text else '',
+        'ground_truth_html': auto_latex(ground_truth) if ground_truth else None,
+        'answer_html': auto_latex(model_answer) if model_answer else None,
         'image_exists': image_exists,
         'results_folder': ANALYSIS_FOLDER
     }
