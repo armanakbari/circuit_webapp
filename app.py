@@ -1,6 +1,10 @@
 import os
 import hashlib
 from flask import Flask, render_template, request, flash, redirect, url_for, send_from_directory, abort, jsonify
+try:
+    from flask_compress import Compress
+except Exception:
+    Compress = None
 from werkzeug.utils import secure_filename
 from forms import SampleForm
 import re
@@ -11,6 +15,11 @@ app.config['SECRET_KEY'] = os.urandom(24)
 app.config['UPLOAD_FOLDER'] = 'samples'
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16MB max file size
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 43200  # cache static/image responses for 12 hours
+if Compress:
+    try:
+        Compress(app)
+    except Exception:
+        pass
 
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg'}
 
