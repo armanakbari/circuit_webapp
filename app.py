@@ -179,6 +179,7 @@ def load_analysis_data():
             if not os.path.exists(question_path):
                 question_path = os.path.join(q_dir, f"{qid}_question.txt")
             gt_path = os.path.join(q_dir, f"{qid}_ta.txt")
+            claude_path = os.path.join(q_dir, f"{qid}_claude.txt")
             gemini_path = os.path.join(q_dir, f"{qid}_gemini.txt")
 
             # Image could be png/jpg/jpeg
@@ -206,8 +207,15 @@ def load_analysis_data():
                 except Exception:
                     ground_truth = None
 
+            # Prefer Claude answer; fallback to Gemini if Claude missing
             gemini_answer = None
-            if os.path.exists(gemini_path):
+            if os.path.exists(claude_path):
+                try:
+                    with open(claude_path, 'r', encoding='utf-8') as f:
+                        gemini_answer = f.read().strip()
+                except Exception:
+                    gemini_answer = None
+            elif os.path.exists(gemini_path):
                 try:
                     with open(gemini_path, 'r', encoding='utf-8') as f:
                         gemini_answer = f.read().strip()
