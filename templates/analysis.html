@@ -33,18 +33,14 @@
     <div class="navigation">
         <div class="btn-group" role="group">
             <a href="{{ url_for('index') }}" class="btn btn-outline-secondary">Home</a>
-            {% if idx > 0 %}
-            <a href="{{ url_for('view_analysis', idx=idx-1) }}" class="btn btn-outline-primary">Previous</a>
-            {% endif %}
-            {% if idx < total - 1 %}
-            <a href="{{ url_for('view_analysis', idx=idx+1) }}" class="btn btn-outline-primary">Next</a>
-            {% endif %}
+            <button id="prevBtn" class="btn btn-outline-primary" disabled>Previous</button>
+            <button id="nextBtn" class="btn btn-outline-primary" disabled>Next</button>
         </div>
     </div>
 
     <div class="container mt-4">
         <div class="question-header">
-            <h2 class="mb-0">Question {{ qid }} <small class="text-light">({{ idx + 1 }} / {{ total }})</small></h2>
+            <h2 class="mb-0">Question <span id="qidSpan">{{ qid }}</span> <small class="text-light">(<span id="posSpan">{{ idx + 1 }}</span> / <span id="totalSpan">{{ total }}</span>)</small></h2>
         </div>
 
         <!-- Question + Image -->
@@ -56,11 +52,7 @@
                 {% else %}
                 <div class="mb-3">{{ question_text|auto_latex|safe }}</div>
                 {% endif %}
-                {% if image_exists %}
-                <div class="text-center">
-                    <img src="{{ url_for('serve_question_image', folder=image_folder, qid=qid) }}" alt="Circuit image for {{ qid }}" style="max-width:100%; height:auto; border:1px solid #ddd; border-radius:5px;">
-                </div>
-                {% endif %}
+                <div id="imgHolder" class="text-center"></div>
             </div>
         </div>
 
@@ -72,13 +64,7 @@
                         {% if ground_truth_html or ground_truth %}
                         <details open>
                             <summary class="text-success">Show/Hide Ground Truth</summary>
-                            <div class="explanation-content mt-2">
-                                {% if ground_truth_html %}
-                                {{ ground_truth_html|safe }}
-                                {% else %}
-                                {{ ground_truth|auto_latex|safe }}
-                                {% endif %}
-                            </div>
+                            <div id="gtHolder" class="explanation-content mt-2">{% if ground_truth_html %}{{ ground_truth_html|safe }}{% else %}{{ ground_truth|auto_latex|safe }}{% endif %}</div>
                         </details>
                         {% else %}
                         <div class="text-muted">No ground truth provided.</div>
@@ -93,13 +79,7 @@
                         {% if answer_html or gemini_answer %}
                         <details open>
                             <summary class="text-primary">Show/Hide Claude Answer</summary>
-                            <div class="explanation-content mt-2">
-                                {% if answer_html %}
-                                {{ answer_html|safe }}
-                                {% else %}
-                                {{ gemini_answer|auto_latex|safe }}
-                                {% endif %}
-                            </div>
+                            <div id="ansHolder" class="explanation-content mt-2">{% if answer_html %}{{ answer_html|safe }}{% else %}{{ gemini_answer|auto_latex|safe }}{% endif %}</div>
                         </details>
                         {% else %}
                         <div class="text-muted">No Gemini answer provided.</div>
@@ -112,12 +92,55 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-        window.addEventListener('load', function() {
-            const targets = document.querySelectorAll('.explanation-content, .section-content');
-            if (window.MathJax && MathJax.typesetPromise && targets.length) {
-                MathJax.typesetPromise(Array.from(targets)).catch(function(err){ console.error('MathJax error', err); });
+        (function(){
+            const total = parseInt(document.getElementById('totalSpan').textContent, 10);
+            let idx = parseInt(document.getElementById('posSpan').textContent, 10) - 1;
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            function updateNavButtons(){
+                prevBtn.disabled = idx <= 0;
+                nextBtn.disabled = idx >= total - 1;
             }
-        });
+            function renderData(data){
+                document.getElementById('qidSpan').textContent = data.qid;
+                document.getElementById('posSpan').textContent = (data.idx + 1);
+                document.getElementById('totalSpan').textContent = data.total;
+                const section = document.querySelector('.section-content');
+                section.querySelector('.mb-3').innerHTML = data.question_html || '';
+                const imgHolder = document.getElementById('imgHolder');
+                imgHolder.innerHTML = '';
+                if (data.image_exists && data.image_url){
+                    const img = document.createElement('img');
+                    img.src = data.image_url;
+                    img.alt = `Circuit image for ${data.qid}`;
+                    img.style.maxWidth = '100%';
+                    img.style.height = 'auto';
+                    img.style.border = '1px solid #ddd';
+                    img.style.borderRadius = '5px';
+                    imgHolder.appendChild(img);
+                }
+                const gtHolder = document.getElementById('gtHolder');
+                if (gtHolder) gtHolder.innerHTML = data.ground_truth_html || '';
+                const ansHolder = document.getElementById('ansHolder');
+                if (ansHolder) ansHolder.innerHTML = data.answer_html || '';
+                if (window.MathJax && MathJax.typesetPromise){
+                    MathJax.typesetPromise([section, gtHolder, ansHolder].filter(Boolean)).catch(()=>{});
+                }
+                idx = data.idx;
+                updateNavButtons();
+                history.replaceState(null, '', `/analysis/${idx}`);
+            }
+            async function fetchData(newIdx){
+                try{
+                    const res = await fetch(`/analysis-data/${newIdx}`);
+                    const data = await res.json();
+                    renderData(data);
+                }catch(e){ console.error(e); }
+            }
+            prevBtn.addEventListener('click', ()=>{ if(idx>0) fetchData(idx-1); });
+            nextBtn.addEventListener('click', ()=>{ if(idx<total-1) fetchData(idx+1); });
+            updateNavButtons();
+        })();
     </script>
 </body>
 </html>

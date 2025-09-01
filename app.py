@@ -1,6 +1,6 @@
 import os
 import hashlib
-from flask import Flask, render_template, request, flash, redirect, url_for, send_from_directory, abort
+from flask import Flask, render_template, request, flash, redirect, url_for, send_from_directory, abort, jsonify
 from werkzeug.utils import secure_filename
 from forms import SampleForm
 import re
@@ -1154,6 +1154,46 @@ def view_analysis(idx: int = 0):
         image_exists=bool(assets.get('image_path')),
         image_folder=ANALYSIS_FOLDER
     )
+
+@app.route('/analysis-data/<int:idx>')
+def analysis_data(idx: int):
+    _build_analysis_index()
+    if not analysis_qids:
+        return jsonify({"error": "No Analysis questions found."}), 404
+
+    total = len(analysis_qids)
+    idx = max(0, min(idx, total - 1))
+    qid = analysis_qids[idx]
+    item = get_analysis_item(qid)
+    if not item:
+        return jsonify({"error": f"Question {qid} not found."}), 404
+
+    # Ensure assets resolved for image url
+    assets = get_question_assets(qid, ANALYSIS_FOLDER)
+    image_path = assets.get('image_path')
+    image_url = url_for('serve_question_image', folder=ANALYSIS_FOLDER, qid=qid) if image_path else None
+
+    # Preload neighbors into cache to speed nav
+    try:
+        if idx + 1 < total:
+            _ = get_analysis_item(analysis_qids[idx + 1])
+        if idx - 1 >= 0:
+            _ = get_analysis_item(analysis_qids[idx - 1])
+    except Exception:
+        pass
+
+    return jsonify({
+        "idx": idx,
+        "total": total,
+        "qid": qid,
+        "question_html": item.get('question_html') or auto_latex(item.get('question_text', '')),
+        "ground_truth_html": item.get('ground_truth_html') or (auto_latex(item.get('ground_truth')) if item.get('ground_truth') else None),
+        "answer_html": item.get('answer_html') or (auto_latex(item.get('gemini_answer')) if item.get('gemini_answer') else None),
+        "image_exists": bool(image_path),
+        "image_url": image_url,
+        "prev_idx": idx - 1 if idx > 0 else None,
+        "next_idx": idx + 1 if idx < total - 1 else None
+    })
 
 @app.route('/synthetic/')
 @app.route('/synthetic/<int:idx>')
