@@ -526,27 +526,17 @@ def get_question_assets(qid: str, results_folder: str):
             with open(der_path, 'r', encoding='utf-8') as f:
                 derivation = f.read().strip()
     
-    # Look for netlist file (specifically for synthetic_dataset_2)
-    if results_folder == 'synthetic_dataset_2':
-        netlist_path = os.path.join(q_folder, f"{qid}_netlist.txt")
-        print(f"DEBUG: Looking for netlist at: {netlist_path}")
+    # Look for netlist file (available in some datasets including Analysis)
+    netlist_path = os.path.join(q_folder, f"{qid}_netlist.txt")
+    if os.path.exists(netlist_path):
+        with open(netlist_path, 'r', encoding='utf-8') as f:
+            netlist = f.read().strip()
+    else:
+        # Also try without the qid prefix (just netlist.txt)
+        netlist_path = os.path.join(q_folder, "netlist.txt")
         if os.path.exists(netlist_path):
-            print(f"DEBUG: Found netlist file!")
             with open(netlist_path, 'r', encoding='utf-8') as f:
                 netlist = f.read().strip()
-                print(f"DEBUG: Netlist content length: {len(netlist)}")
-        else:
-            # Also try without the qid prefix (just netlist.txt)
-            netlist_path = os.path.join(q_folder, "netlist.txt")
-            print(f"DEBUG: Trying alternative netlist path: {netlist_path}")
-            if os.path.exists(netlist_path):
-                print(f"DEBUG: Found alternative netlist file!")
-                with open(netlist_path, 'r', encoding='utf-8') as f:
-                    netlist = f.read().strip()
-            else:
-                print(f"DEBUG: No netlist file found")
-    else:
-        print(f"DEBUG: Not synthetic_dataset_2, results_folder is: {results_folder}")
     
     # Look for source information
     source_path = os.path.join(q_folder, f"{qid}_source.txt")
@@ -1161,7 +1151,8 @@ def view_analysis(idx: int = 0):
         ground_truth=item.get('ground_truth'),
         gemini_answer=item.get('gemini_answer'),
         image_exists=bool(assets.get('image_path')),
-        image_folder=ANALYSIS_FOLDER
+        image_folder=ANALYSIS_FOLDER,
+        netlist=assets.get('netlist')
     )
 
 @app.route('/analysis-data/<int:idx>')
@@ -1200,6 +1191,7 @@ def analysis_data(idx: int):
         "answer_html": item.get('answer_html') or (auto_latex(item.get('gemini_answer')) if item.get('gemini_answer') else None),
         "image_exists": bool(image_path),
         "image_url": image_url,
+        "netlist": assets.get('netlist'),
         "prev_idx": idx - 1 if idx > 0 else None,
         "next_idx": idx + 1 if idx < total - 1 else None
     })
